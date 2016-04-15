@@ -1,0 +1,53 @@
+<%= form_for(@menu) do |f| %>
+  <% if @menu.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@menu.errors.count, "error") %> prohibited this menu from being saved:</h2>
+
+      <ul>
+      <% @menu.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :user_id %><br>
+    <%= f.number_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :cuisine %><br>
+    <%= f.text_field :cuisine %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :pricePP %><br>
+    <%= f.text_field :pricePP %>
+  </div>
+  <div class="field">
+    <%= f.label :dietry %><br>
+    <%= f.text_area :dietry %>
+  </div>
+  <div class="field">
+    <%= f.label :gluten_free %><br>
+    <%= f.check_box :gluten_free %>
+  </div>
+  <div class="field">
+    <%= f.label :vego %><br>
+    <%= f.check_box :vego %>
+  </div>
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :image %><br>
+    <%= f.text_area :image %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

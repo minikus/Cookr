@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @menu.user_id %>
+</p>
+
+<p>
+  <strong>Cuisine:</strong>
+  <%= @menu.cuisine %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @menu.description %>
+</p>
+
+<p>
+  <strong>Pricepp:</strong>
+  <%= @menu.pricePP %>
+</p>
+
+<p>
+  <strong>Dietry:</strong>
+  <%= @menu.dietry %>
+</p>
+
+<p>
+  <strong>Gluten free:</strong>
+  <%= @menu.gluten_free %>
+</p>
+
+<p>
+  <strong>Vego:</strong>
+  <%= @menu.vego %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @menu.title %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @menu.image %>
+</p>
+
+<%= link_to 'Edit', edit_menu_path(@menu) %> |
+<%= link_to 'Back', menus_path %>
