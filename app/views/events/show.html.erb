@@ -1,4 +1,11 @@
+<div class="main">
+
 <p id="notice"><%= notice %></p>
+
+
+  <h2><%= @event.description %></h2>
+
+
 
 <p>
   <strong>Time:</strong>
@@ -31,11 +38,6 @@
 </p>
 
 <p>
-  <strong>Description:</strong>
-  <%= @event.description %>
-</p>
-
-<p>
   <strong>Guests:</strong>
   <%= @event.guests %>
 </p>
@@ -49,6 +51,7 @@
   <strong>Price:</strong>
   <%= @event.price %>
 </p>
-
+<%= link_to 'Destroy', @event, method: :delete, data: { confirm: 'Are you sure?' } %> |
 <%= link_to 'Edit', edit_event_path(@event) %> |
 <%= link_to 'Back', events_path %>
+</div>
