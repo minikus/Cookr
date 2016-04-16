@@ -26,7 +26,7 @@
             <li><%= link_to "Menus", menus_path%></li>
             <% if @current_user.present? %>
             <li><%= link_to "Events", events_path%></li>
-            <li><%= link_to "Messages", message_path%></li>
+            <li><%= link_to "Messages", messages_path%></li>
             <li><a href="/users/<%=@current_user.id%>">Profile</a></li>
             <li><%= link_to "Logout #{@current_user.first_name.capitalize}", login_path, :method => :delete%></li>
             <li class="dropdown">
