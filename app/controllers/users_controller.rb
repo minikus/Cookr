@@ -24,17 +24,26 @@ class UsersController < ApplicationController
   # POST /users
   # POST /users.json
   def create
+    req = Cloudinary::Uploader.upload(params[:user]["image"])
     @user = User.new(user_params)
+    @user.update :image => req["url"]
 
-    respond_to do |format|
-      if @user.save
-        format.html { redirect_to @user, notice: 'User was successfully created.' }
-        format.json { render :show, status: :created, location: @user }
-      else
-        format.html { render :new }
-        format.json { render json: @user.errors, status: :unprocessable_entity }
-      end
+    if @user.save
+      session[:user_id] = @user.id
+      redirect_to root_path
+    else
+      render :new
     end
+
+    # respond_to do |format|
+    #   if @user.save
+    #     format.html { redirect_to @user, notice: 'User was successfully created.' }
+    #     format.json { render :show, status: :created, location: @user }
+    #   else
+    #     format.html { render :new }
+    #     format.json { render json: @user.errors, status: :unprocessable_entity }
+    #   end
+    # end
   end
 
   # PATCH/PUT /users/1
@@ -69,6 +78,6 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:first_name, :last_name, :password_digest, :email, :chef, :phone, :image, :bio, :rate)
+      params.require(:user).permit(:first_name, :last_name, :password, :email, :chef, :phone, :image, :bio, :rate)
     end
 end

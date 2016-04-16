@@ -7,7 +7,6 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
   <nav>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -26,7 +25,7 @@
             <li><%= link_to "Menus", menus_path%></li>
             <% if @current_user.present? %>
             <li><%= link_to "Events", events_path%></li>
-            <li><%= link_to "Messages", message_path%></li>
+            <li><%= link_to "Messages", messages_path%></li>
             <li><a href="/users/<%=@current_user.id%>">Profile</a></li>
             <li><%= link_to "Logout #{@current_user.first_name.capitalize}", login_path, :method => :delete%></li>
             <li class="dropdown">
@@ -40,7 +39,7 @@
             </li>
             <% else %>
               <li><%= link_to "Signup", new_user_path %></li>
-              <li><%= link_to "Login" %></li>
+              <li><%= link_to "Login", login_path %></li>
             <% end %>
           </ul>
         </ul>
@@ -48,8 +47,9 @@
     </div>
   </div>
 </nav>
+  <div class="chefContainer">
 
       <%= yield %>
-
+  </div>
 </body>
 </html>

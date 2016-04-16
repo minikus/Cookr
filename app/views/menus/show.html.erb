@@ -1,49 +1,47 @@
+
+<div class="main">
+
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>User:</strong>
-  <%= @menu.user_id %>
-</p>
+<div class="menuShow">
 
-<p>
-  <strong>Cuisine:</strong>
-  <%= @menu.cuisine %>
-</p>
+<h1><%= @menu.title %></h1>
 
-<p>
-  <strong>Description:</strong>
-  <%= @menu.description %>
-</p>
+  <%= image_tag @menu.image, :class => 'menuImage' %>
 
-<p>
-  <strong>Pricepp:</strong>
-  <%= @menu.pricePP %>
-</p>
 
-<p>
-  <strong>Dietry:</strong>
-  <%= @menu.dietry %>
-</p>
+  <h3>Description:</h3>
+  <p><%= @menu.description %></p>
 
-<p>
-  <strong>Gluten free:</strong>
-  <%= @menu.gluten_free %>
-</p>
 
-<p>
-  <strong>Vego:</strong>
-  <%= @menu.vego %>
-</p>
+  <h3>Chef:</h3>
+  <p><%= @menu.user_id %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @menu.title %>
-</p>
 
-<p>
-  <strong>Image:</strong>
-  <%= @menu.image %>
-</p>
+  <h3>Cuisine:</h3>
+  <p><%= @menu.cuisine %></p>
+
+
+  <h3>Price Per Person:</h3>
+  <p><%= number_to_currency(@menu.pricePP) %></p>
+
+  <h3>Dietry:</h3>
+  <p><%= @menu.dietry %></p>
+
+<% if @menu.gluten_free.present? %>
+  <h3>Gluten free</h3>
+<% end %>
+
+<% if @menu.vego.present? %>
+  <h3>Vego</h3>
+<% end %>
+
+
+
+
 
 <%= link_to 'Edit', edit_menu_path(@menu) %> |
 <%= link_to 'Back', menus_path %>
+</div>
+
+</div>

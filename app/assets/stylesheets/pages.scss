@@ -1,6 +1,101 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+// .chefContainer{
+//  // width: 1000px;
+//  overflow: hidden;
+//  margin: 50px auto;
+//  background: white;
+// }
+
+
+/*keyframe animations*/
+.first {
+ -webkit-animation: bannermove 30s linear infinite;
+    -moz-animation: bannermove 30s linear infinite;
+     -ms-animation: bannermove 30s linear infinite;
+      -o-animation: bannermove 30s linear infinite;
+         animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+}
+
+.photobanner {
+	height: 233px;
+	width: 3550px;
+	margin-bottom: 80px;
+}
+
+.photobanner img {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.photobanner img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+
+
 
 .pages_thumbDiv{
   height: 200px;
@@ -18,4 +113,43 @@
   display: block;
   height: 200px;
   width: 200px;
+}
+
+.background {
+  background-attachment: fixed;
+  background-image: url(http://ww1.prweb.com/prfiles/2012/05/22/9531901/Moevenpick_Hotels_and_Resorts_Chef_preparing_food_for_thought.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  padding-top: 10%;
+  padding-bottom: 50%;
+  margin: 0 auto;
+  opacity: 0.6;
+}
+
+.about {
+  background-color: gainsboro;
+  padding: 5% ;
+  color: gray;
+}
+
+
+.menus {
+  min-height: 60px;
+  background: white;
+  padding: 5%;
+
+}
+
+.chefs {
+  min-height: 60px;
+  background: gainsboro;
+  padding: 5%;
+
+}
+
+.footer{
+  background-color: black;
+  padding: 5%;
 }
