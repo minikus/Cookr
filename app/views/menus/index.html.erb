@@ -5,18 +5,20 @@
 
 <h1>Menus</h1>
 
-<p>Looking for something specific? </p>
-<input type="text" id="search" placeholder="Search">
-<table id="table">
+<input class="search-query form-control" type="search" results="5" id="search" placeholder="Looking for any type of cuisine? ">
 
   <div class="menu">
     <% @menus.each do |menu| %>
      <tr>
        <td>
-          <%= link_to (image_tag menu.image, :class => "thumb"), menu %>
-          <%= link_to menu.title, menu %>
+         <div class="thumb">
+          <%= link_to (image_tag menu.image), menu %>
+          <p><%= link_to (truncate(menu.title, :length => 25)), menu %><p>
+        </div>
+
       <td>
     </tr>
-  </div>
    <% end %>
+ </div>
+
 </div>
