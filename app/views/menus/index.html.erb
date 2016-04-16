@@ -1,16 +1,24 @@
 <p id="notice"><%= notice %></p>
 
+
+<div class="main">
+
 <h1>Menus</h1>
+
+<input class="search-query form-control" type="search" results="5" id="search" placeholder="Looking for any type of cuisine? ">
 
   <div class="menu">
     <% @menus.each do |menu| %>
-       <div class="thumb">
-         <%= link_to (image_tag menu.image, :class => "thumb"), menu %>
-         <p><%= link_to menu.title, menu %></p>
-      <% if @current_user.present? && @current_user.admin? %>
-        <p><%= link_to 'Edit', edit_menu_path(menu) %></p>
-        <p><%= link_to 'Destroy', menu, method: :delete, data: { confirm: 'Are you sure?' } %></p>
-      </div>
-    </div>
-      <% end %>
-    <% end %>
+     <tr>
+       <td>
+         <div class="thumb">
+          <%= link_to (image_tag menu.image), menu %>
+          <p><%= link_to (truncate(menu.title, :length => 25)), menu %><p>
+        </div>
+
+      <td>
+    </tr>
+   <% end %>
+ </div>
+
+</div>
