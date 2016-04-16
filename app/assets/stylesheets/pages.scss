@@ -146,10 +146,19 @@
   min-height: 60px;
   background: gainsboro;
   padding: 5%;
-
 }
 
 .footer{
   background-color: black;
   padding: 5%;
+}
+
+.displayMenus {
+  display: inline;
+  margin: 20px;
+}
+
+.displayMenus img {
+width: 150px;
+height: 150px;
 }

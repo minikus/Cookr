@@ -1,7 +1,8 @@
 class PagesController < ApplicationController
   def welcome
-    @users = User.where(:chef => true)
 
-  end
+    @users = User.where(:chef => true)
+    @menus = Menu.all
+
 
 end
