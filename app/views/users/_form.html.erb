@@ -12,46 +12,56 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :first_name %><br>
-    <%= f.text_field :first_name %>
+    <%= f.label :email %><br>
+    <%= f.text_field :email, :required => true, :autofocus => true %>
   </div>
+
+  <div class="field">
+    <%= f.label :first_name %><br>
+    <%= f.text_field :first_name, :required => true %>
+  </div>
+
   <div class="field">
     <%= f.label :last_name %><br>
-    <%= f.text_field :last_name %>
+    <%= f.text_field :last_name, :required => true %>
   </div>
+
   <div class="field">
-    <%= f.label :password_digest %><br>
-    <%= f.text_area :password_digest %>
+    <%= f.label :password %><br>
+    <%= f.password_field :password, :required => true %>
   </div>
-  <div class="field">
-    <%= f.label :email %><br>
-    <%= f.text_field :email %>
+
+  <div>
+    <%= f.label :password_confirmation %><br>
+    <%= f.password_field :password_confirmation, :required => true %>
   </div>
-  <div class="field">
-    <%= f.label :admin %><br>
-    <%= f.check_box :admin %>
-  </div>
-  <div class="field">
-    <%= f.label :chef %><br>
-    <%= f.check_box :chef %>
-  </div>
+
   <div class="field">
     <%= f.label :phone %><br>
     <%= f.text_field :phone %>
   </div>
+
+  <div class="field">
+    <%= f.label :chef, "Are you a chef for hire?" %><br>
+    <%= f.check_box :chef %>
+  </div>
+
   <div class="field">
     <%= f.label :image %><br>
     <%= f.text_area :image %>
   </div>
+
   <div class="field">
     <%= f.label :bio %><br>
     <%= f.text_area :bio %>
   </div>
+
   <div class="field">
     <%= f.label :rate %><br>
     <%= f.text_field :rate %>
   </div>
+
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit 'Sign up!' %>
   </div>
 <% end %>
