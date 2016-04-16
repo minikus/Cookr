@@ -4,7 +4,7 @@
 <div class="background">  </div>
 
 <div class="about">
-  <h1>Cookr</h1>
+  <h2>ABOUT</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -16,7 +16,7 @@
 </div>
 
 <div class="menus">
-  <h2>Menus</h2>
+  <h2>MENUS</h2>
 
 <div class="displayMenus">
   <% @menus.each do |menu| %>
@@ -31,10 +31,10 @@
   <h2>CHEFS</h2>
   <div class="row-fluid">
     <div class="col-lg-12 col-md-10 ">
-      <div class="cover-container cf">
+      <div class="autoplay cf">
         <% @users.each do |user| %>
           <%= user.first_name%>
-          <div class="col-lg-12 col-md-2 cover-item cf">
+          <div class="pages_thumbDiv cf">
             <img src="<%=user.image %>"/>
           </div>
         <% end %>
