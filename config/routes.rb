@@ -1,9 +1,16 @@
 Rails.application.routes.draw do
+
+  root :to => 'pages#welcome'
+
+  get 'pages/welcome'
+
   resources :messages
   resources :reviews
   resources :menus
   resources :events
   resources :users
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
