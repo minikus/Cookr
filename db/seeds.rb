@@ -22,7 +22,6 @@ m5 = Menu.create :title => 'Asian dinner with 5 variations of fried Rice', :cuis
 m6 = Menu.create :title => 'Italian 5 course menu', :cuisine => "Italian", :pricePP => 5, :description => 'I have a huge box of canned bake beans. Come eat them with me, or feel free to take some home.', :vego => true, :gluten_free => true, :image => "http://i.dailymail.co.uk/i/pix/2015/09/13/23/2C480A5700000578-0-image-m-3_1442182728997.jpg"
 
 
-
 dates = [" 2011-06-11T21:20:44+09:00",
   " 2016-06-06-11T21:20:44+09:00",
   " 2016-03-11T19:20:44+09:00",
@@ -36,13 +35,13 @@ guests = [4,6,8,9,12,20,35]
 confirm = [true, false]
 
 Event.destroy_all
-(1..30).to_a.each do |i|
+(1..40).to_a.each do |i|
   Event.create :suburb => suburb.sample, :address => address.sample, :time => dates.sample, :user_id => User.all.pluck(:id).sample, :menu_id => Menu.all.pluck(:id).sample, :description => description.sample, :guests => guests.sample, :confirm => confirm.sample
 end
 
 rating = [2,3,4,5]
 review = ["Amazing!!!", "Could be better", "Best Dinner party ever becase the food was awesome", "Very weird but pleasant", "FABULOUS!!"]
 Review.destroy_all
-(1..10).each do |i|
+(1..20).each do |i|
   Review.create :user_id => User.all.pluck(:id).sample, :target => User.all.pluck(:id).sample, :rating => rating.sample, :review => review.sample
 end
