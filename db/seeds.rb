@@ -14,12 +14,12 @@ u8 = User.create :first_name => 'Badger', :last_name => 'Barnaby', :email => 'ba
 
 Menu.destroy_all
 
-m1 = Menu.create :title => 'Japanese 8 course dinner', :cuisine => "Japanese", :pricePP => 45, :description => 'spicy mango chicken curry, has bits of peas and carrots inside', :location => 'Australia Street, Newtown', :vego => false, :gluten_free => false, :image => "http://www.bobturf.org/jeannie/images/JaipurPalace_MangoChickenCurry.jpg"
-m2 = Menu.create :title => 'Asian dinner with 5 variations of fried Rice', :cuisine => "Chinese", :pricePP => 8.50, :description => 'epic chili Taiwanese fried rice, there is baby shrimps, brocolo, mince beef, shallots, 2 whole garlics, and egg in the mix. Very tasty. Must pickup before 10pm' , :location => 'Harris Street, Ultimo', :vego => false, :gluten_free => false, :image => "http://f.tqn.com/y/chinesefood/1/W/x/T/1/ground-beef-fried-rice-resized.jpg"
-m3 = Menu.create :title => 'Italian 5 course menu', :cuisine => "Italian", :pricePP => 5, :description => 'I have a huge box of canned bake beans. Come eat them with me, or feel free to take some home.' , :location => 'near Marrickville station', :vego => true, :gluten_free => true, :image => "http://i.dailymail.co.uk/i/pix/2015/09/13/23/2C480A5700000578-0-image-m-3_1442182728997.jpg"
-m4 = Menu.create :title => 'Japanese 8 course dinner', :cuisine => "Japanese", :pricePP => 45, :description => 'spicy mango chicken curry, has bits of peas and carrots inside', :location => 'Australia Street, Newtown', :vego => false, :gluten_free => false, :image => "http://www.bobturf.org/jeannie/images/JaipurPalace_MangoChickenCurry.jpg"
-m5 = Menu.create :title => 'Asian dinner with 5 variations of fried Rice', :cuisine => "Chinese", :pricePP => 8.50, :description => 'epic chili Taiwanese fried rice, there is baby shrimps, brocolo, mince beef, shallots, 2 whole garlics, and egg in the mix. Very tasty. Must pickup before 10pm' , :location => 'Harris Street, Ultimo', :vego => false, :gluten_free => false, :image => "http://f.tqn.com/y/chinesefood/1/W/x/T/1/ground-beef-fried-rice-resized.jpg"
-m6 = Menu.create :title => 'Italian 5 course menu', :cuisine => "Italian", :pricePP => 5, :description => 'I have a huge box of canned bake beans. Come eat them with me, or feel free to take some home.' , :location => 'near Marrickville station', :vego => true, :gluten_free => true, :image => "http://i.dailymail.co.uk/i/pix/2015/09/13/23/2C480A5700000578-0-image-m-3_1442182728997.jpg"
+m1 = Menu.create :title => 'Japanese 8 course dinner', :cuisine => "Japanese", :pricePP => 45, :description => 'spicy mango chicken curry, has bits of peas and carrots inside', :vego => false, :gluten_free => false, :image => "http://www.bobturf.org/jeannie/images/JaipurPalace_MangoChickenCurry.jpg"
+m2 = Menu.create :title => 'Asian dinner with 5 variations of fried Rice', :cuisine => "Chinese", :pricePP => 8.50, :description => 'epic chili Taiwanese fried rice, there is baby shrimps, brocolo, mince beef, shallots, 2 whole garlics, and egg in the mix. Very tasty. Must pickup before 10pm' , :vego => false, :gluten_free => false, :image => "http://f.tqn.com/y/chinesefood/1/W/x/T/1/ground-beef-fried-rice-resized.jpg"
+m3 = Menu.create :title => 'Italian 5 course menu', :cuisine => "Italian", :pricePP => 5, :description => 'I have a huge box of canned bake beans. Come eat them with me, or feel free to take some home.', :vego => true, :gluten_free => true, :image => "http://i.dailymail.co.uk/i/pix/2015/09/13/23/2C480A5700000578-0-image-m-3_1442182728997.jpg"
+m4 = Menu.create :title => 'Japanese 8 course dinner', :cuisine => "Japanese", :pricePP => 45, :description => 'spicy mango chicken curry, has bits of peas and carrots inside', :vego => false, :gluten_free => false, :image => "http://www.bobturf.org/jeannie/images/JaipurPalace_MangoChickenCurry.jpg"
+m5 = Menu.create :title => 'Asian dinner with 5 variations of fried Rice', :cuisine => "Chinese", :pricePP => 8.50, :description => 'epic chili Taiwanese fried rice, there is baby shrimps, brocolo, mince beef, shallots, 2 whole garlics, and egg in the mix. Very tasty. Must pickup before 10pm' , :vego => false, :gluten_free => false, :image => "http://f.tqn.com/y/chinesefood/1/W/x/T/1/ground-beef-fried-rice-resized.jpg"
+m6 = Menu.create :title => 'Italian 5 course menu', :cuisine => "Italian", :pricePP => 5, :description => 'I have a huge box of canned bake beans. Come eat them with me, or feel free to take some home.', :vego => true, :gluten_free => true, :image => "http://i.dailymail.co.uk/i/pix/2015/09/13/23/2C480A5700000578-0-image-m-3_1442182728997.jpg"
 
 
 
@@ -28,20 +28,21 @@ dates = [" 2011-06-11T21:20:44+09:00",
   " 2016-03-11T19:20:44+09:00",
   " 2011-03-11T18:20:44+09:00",
   " 2011-03-11T17:20:44+09:00"]
+
 suburb = ["Sydney", "Pyrmont", "Marickville", "Newtown", "Darlinghurst", "Surry Hills", "Glebe", "Hornsby", "Redfern"]
 address = ["22 Saunders St", "54 George St.", "102 Happy Road", "95 Elizabeth Road", "5 Thread Ln"]
 description = ["House Party at Sydney Penthouse", "Garage Dinner Party with Local doggie owners", "Parkside Luncheon", "Birthday Lunch at my house", "Happy Dinner get together"]
 guests = [4,6,8,9,12,20,35]
 confirm = [true, false]
 
-# Events.destroy_all
-# (1..30).each do |i|
-#   Event.create :suburb => suburb.sample, :address => address.sample, :datetime => dates.sample, :user_id => User.all.pluck(:id).sample, :menu_id => Menu.all.pluck(:id).sample, :description => description.sample, :guests => guests.sample, :confirm => confirm.sample
-# end
+Event.destroy_all
+(1..30).to_a.each do |i|
+  Event.create :suburb => suburb.sample, :address => address.sample, :time => dates.sample, :user_id => User.all.pluck(:id).sample, :menu_id => Menu.all.pluck(:id).sample, :description => description.sample, :guests => guests.sample, :confirm => confirm.sample
+end
 
 rating = [2,3,4,5]
 review = ["Amazing!!!", "Could be better", "Best Dinner party ever becase the food was awesome", "Very weird but pleasant", "FABULOUS!!"]
-Reviews.destroy_all
+Review.destroy_all
 (1..10).each do |i|
   Review.create :user_id => User.all.pluck(:id).sample, :target => User.all.pluck(:id).sample, :rating => rating.sample, :review => review.sample
 end
