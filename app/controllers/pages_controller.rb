@@ -4,5 +4,5 @@ class PagesController < ApplicationController
     @users = User.where(:chef => true)
     @menus = Menu.all
 
-
+  end
 end
