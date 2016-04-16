@@ -1,13 +1,13 @@
 body {
   background-color: #fff;
   color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
 
-p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+p, ol, ul, td, a {
+  font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
@@ -25,6 +25,25 @@ a {
     color: #666;
   }
 
+  &:hover {
+    color: gray;
+  }
+}
+
+nav a{
+  color: white;
+
+  &:visited {
+    color: white;
+  }
+
+  &:hover {
+    color: pink;
+  }
+
+}
+.navbar-inverse .navbar-nav li a{
+  color: white;
   &:hover {
     color: gray;
   }
@@ -74,4 +93,8 @@ div {
 
 .main{
   padding: 60px;
+}
+
+td, tr{
+  display: inline-block;
 }
