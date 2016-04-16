@@ -29,6 +29,14 @@ m4 = Menu.create :title => 'Japanese 8 course dinner', :cuisine => "Japanese", :
 m5 = Menu.create :title => 'Asian dinner with 5 variations of fried Rice', :cuisine => "Chinese", :pricePP => 8.50, :description => 'epic chili Taiwanese fried rice, there is baby shrimps, brocolo, mince beef, shallots, 2 whole garlics, and egg in the mix. Very tasty. Must pickup before 10pm' , :vego => false, :gluten_free => false, :image => "http://f.tqn.com/y/chinesefood/1/W/x/T/1/ground-beef-fried-rice-resized.jpg"
 m6 = Menu.create :title => 'Italian 5 course menu', :cuisine => "Italian", :pricePP => 5, :description => 'I have a huge box of canned bake beans. Come eat them with me, or feel free to take some home.', :vego => true, :gluten_free => true, :image => "http://i.dailymail.co.uk/i/pix/2015/09/13/23/2C480A5700000578-0-image-m-3_1442182728997.jpg"
 
+u10.menus << m1
+u11.menus << m2
+u12.menus << m3
+u13.menus << m4
+u14.menus << m5
+u15.menus << m6
+
+
 
 dates = [" 2011-06-11T21:20:44+09:00",
   " 2016-06-06-11T21:20:44+09:00",
