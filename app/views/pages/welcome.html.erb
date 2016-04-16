@@ -18,6 +18,12 @@
 <div class="menus">
   <h2>MENUS</h2>
 
+<div class="displayMenus">
+  <% @menus.each do |menu| %>
+    <%= link_to (image_tag menu.image), menu %>
+  <%end %>
+</div>
+
 
 </div>
 
