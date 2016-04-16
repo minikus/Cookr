@@ -21,10 +21,17 @@
 
 </div>
 
-<div class="chefs">
+<div class="chefs cf">
   <h2>CHEFS</h2>
-
-
+  <div class="photoBanner cf">
+      <img src="<%= @users.last.image %>" class="pages_thumbDiv cf" />
+    <% @users.each do |user| %>
+      <%= user.first_name%>
+      <div class="pages_thumbDiv cf">
+        <img src="<%=user.image %>"/>
+      </div>
+    <% end %>
+  </div>
 </div>
 
 <div class="footer">

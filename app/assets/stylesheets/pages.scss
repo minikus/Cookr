@@ -1,3 +1,21 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.pages_thumbDiv{
+  height: 200px;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  background: 50% 50% no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.pages_thumbDiv img {
+  display: block;
+  height: 200px;
+  width: 200px;
+}

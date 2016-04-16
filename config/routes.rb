@@ -11,8 +11,11 @@ Rails.application.routes.draw do
   post '/login' => 'session#create'
   delete '/login' => 'session#destroy'
 
+  resources :users do
+    resources :reviews
+  end
+
   resources :messages
-  resources :reviews
   resources :menus
   resources :events
   resources :users
