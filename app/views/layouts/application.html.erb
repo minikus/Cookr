@@ -26,7 +26,7 @@
             <li><%= link_to "Menus", menus_path%></li>
             <% if @current_user.present? %>
             <li><%= link_to "Events", events_path%></li>
-            <li><%= link_to "Messages"%></li>
+            <li><%= link_to "Messages", message_path%></li>
             <li><a href="/users/<%=@current_user.id%>">Profile</a></li>
             <li><%= link_to "Logout #{@current_user.first_name.capitalize}", login_path, :method => :delete%></li>
             <li class="dropdown">
@@ -35,12 +35,11 @@
               <ul class="dropdown-menu">
                 <li class="dropdown-header">Admin</li>
                 <li><%= link_to "All Users" %></li>
-                <li><%= link_to "All Users" %></li>
               <% end %>
               </ul>
             </li>
             <% else %>
-              <li><%= link_to "Signup" %></li>
+              <li><%= link_to "Signup", new_user_path %></li>
               <li><%= link_to "Login" %></li>
             <% end %>
           </ul>
@@ -50,7 +49,7 @@
   </div>
 </nav>
 
-<%= yield %>
+      <%= yield %>
 
 </body>
 </html>
