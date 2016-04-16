@@ -29,14 +29,17 @@
 
 <div class="chefs cf">
   <h2>CHEFS</h2>
-  <div class="photoBanner cf">
-      <img src="<%= @users.last.image %>" class="first pages_thumbDiv cf" />
-    <% @users.each do |user| %>
-      <%= user.first_name%>
-      <div class="pages_thumbDiv cf">
-        <img src="<%=user.image %>"/>
+  <div class="row-fluid">
+    <div class="col-lg-12 col-md-10 ">
+      <div class="cover-container cf">
+        <% @users.each do |user| %>
+          <%= user.first_name%>
+          <div class="col-lg-12 col-md-2 cover-item cf">
+            <img src="<%=user.image %>"/>
+          </div>
+        <% end %>
       </div>
-    <% end %>
+    </div>
   </div>
 </div>
 
