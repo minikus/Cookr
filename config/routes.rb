@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get '/chefs' => 'chefs#display'
+
   root :to => 'pages#welcome'
 
   get 'pages/welcome'
