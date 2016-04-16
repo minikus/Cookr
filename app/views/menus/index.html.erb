@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Menus</h1>
+<h1>Menus</h1>
 
 <table>
   <thead>
@@ -30,14 +30,15 @@
         <td><%= menu.vego %></td>
         <td><%= menu.title %></td>
         <td><%= menu.image %></td>
+        <% if @current_user.present? && @current_user.admin? %>
         <td><%= link_to 'Show', menu %></td>
         <td><%= link_to 'Edit', edit_menu_path(menu) %></td>
         <td><%= link_to 'Destroy', menu, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
+      <% end %>
     <% end %>
   </tbody>
 </table>
 
 <br>
-
 <%= link_to 'New Menu', new_menu_path %>
