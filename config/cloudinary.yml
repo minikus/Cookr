@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: iamasamwich
+  api_key: '633289625452212'
+  api_secret: U8Na1Bff1iJ_EU5FgtRtFDHWlN0
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: iamasamwich
+  api_key: '633289625452212'
+  api_secret: U8Na1Bff1iJ_EU5FgtRtFDHWlN0
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: iamasamwich
+  api_key: '633289625452212'
+  api_secret: U8Na1Bff1iJ_EU5FgtRtFDHWlN0
+  enhance_image_tag: true
+  static_image_support: false

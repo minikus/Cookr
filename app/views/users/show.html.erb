@@ -13,11 +13,6 @@
 </p>
 
 <p>
-  <strong>Password digest:</strong>
-  <%= @user.password_digest %>
-</p>
-
-<p>
   <strong>Email:</strong>
   <%= @user.email %>
 </p>
@@ -39,7 +34,7 @@
 
 <p>
   <strong>Image:</strong>
-  <%= @user.image %>
+  <%= image_tag @user.image %>
 </p>
 
 <p>
