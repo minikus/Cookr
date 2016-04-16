@@ -4,23 +4,22 @@
 <p id="notice"><%= notice %></p>
 
 <div class="menuShow">
+  <h1><%= @menu.title %></h1>
+<hr>
+  <div class="menuShowImage">
+    <%= image_tag @menu.image, :class => 'menuImage' %>
+  </div>
 
-<h1><%= @menu.title %></h1>
-
-  <%= image_tag @menu.image, :class => 'menuImage' %>
-
+  <div class="menuShowText">
 
   <h3>Description:</h3>
   <p><%= @menu.description %></p>
 
-<% if (@menu.user_id).present? %>
   <h3>Chef:</h3>
   <p><%= link_to @menu.user.first_name, user_path(@menu.user)%></p>
-<% end %>
 
   <h3>Cuisine:</h3>
   <p><%= @menu.cuisine %></p>
-
 
   <h3>Price Per Person:</h3>
   <p><%= number_to_currency(@menu.pricePP) %></p>
@@ -36,12 +35,14 @@
   <h3>Vego</h3>
 <% end %>
 
-
-
-
-
-<%= link_to 'Edit', edit_menu_path(@menu) %> |
-<%= link_to 'Back', menus_path %>
 </div>
 
+<hr>
+
+<% if @current_user.present? && (@current_user.chef? || @current_user.admin?) %>
+<%= link_to 'Destroy', @menu, method: :delete, data: { confirm: 'Are you sure?' } %> |
+<%= link_to 'Edit', edit_menu_path(@menu) %> |
+<%= link_to 'Back', menus_path %>
+<% end %>
+</div>
 </div>

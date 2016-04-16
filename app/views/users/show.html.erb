@@ -1,7 +1,11 @@
+<div class="main">
+
 <p id="notice"><%= notice %></p>
 
 
 <h1>Hello <%= @user.first_name %></h1>
+<%= image_tag @user.image, :class => "thumb"%>
+
 <p>
   <strong>First name:</strong>
   <%= @user.first_name %>
@@ -33,11 +37,6 @@
 </p>
 
 <p>
-  <strong>Image:</strong>
-  <%= image_tag @user.image %>
-</p>
-
-<p>
   <strong>Bio:</strong>
   <%= @user.bio %>
 </p>
@@ -47,5 +46,11 @@
   <%= @user.rate %>
 </p>
 
+<strong>Menus:</strong>
+<% @user.menus.each do |menu| %>
+<li><%= link_to menu.title, menu %></li>
+  <% end %>
+<br>
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
+</div>

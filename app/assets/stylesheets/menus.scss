@@ -45,9 +45,21 @@ input[type=search] {
 }
 
 .menuImage{
-  width: 200px;
+  height: 400px;
+  margin-right: 60px;
+  vertical-align: center;
+  max-width: 100%;
+
 }
 
-.menuShow{
-  text-align: center;
+.menuShowImage{
+  display: inline-block;
+}
+
+.menuShowText{
+  display: inline-block;
+  vertical-align: top;
+  max-width: 40%;
+  text-align: left;
+
 }

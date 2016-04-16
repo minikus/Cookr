@@ -15,7 +15,6 @@ Rails.application.routes.draw do
   end
   resources :menus
 
-
   resources :messages
   resources :events
   resources :users

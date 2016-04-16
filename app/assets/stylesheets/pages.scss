@@ -38,8 +38,13 @@
   min-height: 60px;
   background: white;
   padding: 5%;
-
 }
+
+.menus img{
+  max-width: 100%;
+}
+
+
 
 .chefs {
   min-height: 60px;
@@ -79,3 +84,15 @@ height: 150px;
 .slick-prev, .slick-next {
   color: black;
 }
+
+
+
+
+
+.cls
+
+
+.slick-prev:before {
+    content: '←';
+    color: black;
+  }

@@ -1,5 +1,6 @@
 class MenusController < ApplicationController
   before_action :set_menu, only: [:show, :edit, :update, :destroy]
+  before_action :authorise, :only => [:new, :create, :edit, :update, :destroy]
 
   # GET /menus
   # GET /menus.json
@@ -11,6 +12,8 @@ class MenusController < ApplicationController
   # GET /menus/1.json
   def show
   end
+
+
 
   # GET /menus/new
   def new
@@ -27,7 +30,7 @@ class MenusController < ApplicationController
     @menu = Menu.new(menu_params)
     @current_user.menus << @menu
     @menu.save
-    
+
     respond_to do |format|
       if @menu.save
         format.html { redirect_to @menu, notice: 'Menu was successfully created.' }
@@ -73,4 +76,8 @@ class MenusController < ApplicationController
     def menu_params
       params.require(:menu).permit(:user_id, :cuisine, :description, :pricePP, :dietry, :gluten_free, :vego, :title, :image)
     end
+
+    def authorise
+    redirect_to root_path unless (@current_user.present? && (@current_user.admin? || @current_user.chef?))
+  end
 end
