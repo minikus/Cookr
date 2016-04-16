@@ -13,10 +13,10 @@
   <h3>Description:</h3>
   <p><%= @menu.description %></p>
 
-
+<% if (@menu.user_id).present? %>
   <h3>Chef:</h3>
-  <p><%= @menu.user_id %></p>
-
+  <p><%= link_to @menu.user.first_name, user_path(@menu.user)%></p>
+<% end %>
 
   <h3>Cuisine:</h3>
   <p><%= @menu.cuisine %></p>

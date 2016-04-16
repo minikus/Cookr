@@ -25,7 +25,9 @@ class MenusController < ApplicationController
   # POST /menus.json
   def create
     @menu = Menu.new(menu_params)
-
+    @current_user.menus << @menu
+    @menu.save
+    
     respond_to do |format|
       if @menu.save
         format.html { redirect_to @menu, notice: 'Menu was successfully created.' }
@@ -56,7 +58,7 @@ class MenusController < ApplicationController
   def destroy
     @menu.destroy
     respond_to do |format|
-      format.html { redirect_to menus_url, notice: 'Menu was successfully destroyed.' }
+      format.html { redirect_to menus_path, notice: 'Menu was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
