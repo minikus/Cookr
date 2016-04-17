@@ -1,56 +1,37 @@
 <div class="main">
 
-<p id="notice"><%= notice %></p>
+<p id="notice"><%= notice %>
 
 
   <h2><%= @event.description %></h2>
 
 
+  <h4>Time:</h4>
+  <li><%= @event.time %></li>
 
-<p>
-  <strong>Time:</strong>
-  <%= @event.time %>
-</p>
+  <h4>Suburb:</h4>
+  <li><%= @event.suburb %></li>
 
-<p>
-  <strong>Suburb:</strong>
-  <%= @event.suburb %>
-</p>
+  <h4>Address:</h4>
+  <li><%= @event.address %></li>
 
-<p>
-  <strong>Address:</strong>
-  <%= @event.address %>
-</p>
+  <h4>Chef:</h4>
+  <li><%= @event.chef_id %></li>
 
-<p>
-  <strong>User:</strong>
-  <%= @event.user_id %>
-</p>
+  <h4>Menu:</h4>
+  <li><%= @event.menu_id %></li>
 
-<p>
-  <strong>Chef:</strong>
-  <%= @event.chef_id %>
-</p>
+  <h4>Guests:</h4>
+  <li><%= @event.guests %></li>
 
-<p>
-  <strong>Menu:</strong>
-  <%= @event.menu_id %>
-</p>
+  <h4>Confirm:</h4>
+  <li><%= @event.confirm %></li>
 
-<p>
-  <strong>Guests:</strong>
-  <%= @event.guests %>
-</p>
+  <h4>Price:</h4>
+  <li><%= @event.price %></li>
 
-<p>
-  <strong>Confirm:</strong>
-  <%= @event.confirm %>
-</p>
 
-<p>
-  <strong>Price:</strong>
-  <%= @event.price %>
-</p>
+  <hr>
 <%= link_to 'Destroy', @event, method: :delete, data: { confirm: 'Are you sure?' } %> |
 <%= link_to 'Edit', edit_event_path(@event) %> |
 <%= link_to 'Back', events_path %>

@@ -79,5 +79,5 @@ class MenusController < ApplicationController
 
     def authorise
     redirect_to root_path unless (@current_user.present? && (@current_user.admin? || @current_user.chef?))
-  end
+    end
 end

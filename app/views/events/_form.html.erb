@@ -24,24 +24,20 @@
     <%= f.text_field :address %>
   </div>
   <div class="field">
-    <%= f.label :user_id %><br>
-    <%= f.number_field :user_id %>
-  </div>
-  <div class="field">
-    <%= f.label :chef_id %><br>
-    <%= f.number_field :chef_id %>
+    <%= f.label :chef_id %>
+    <%= f.select :chef_id, User.pluck(:first_name,:id), :include_blank => true %>
   </div>
   <div class="field">
     <%= f.label :menu_id %><br>
-    <%= f.number_field :menu_id %>
+    <%= f.select :menu_id, Menu.pluck(:title,:id), :include_blank => true %>
   </div>
   <div class="field">
     <%= f.label :description %><br>
-    <%= f.text_area :description %>
+    <%= f.text_field :description %>
   </div>
   <div class="field">
     <%= f.label :guests %><br>
-    <%= f.number_field :guests %>
+    <%= f.number_field :guests%>
   </div>
   <div class="field">
     <%= f.label :confirm %><br>

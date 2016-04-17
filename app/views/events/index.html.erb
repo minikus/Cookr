@@ -2,8 +2,8 @@
   <p id="notice"><%= notice %></p>
 
 <h1>Listing Events</h1>
-    <% @events.each do |event| %>
-        <p><%= link_to event.description, event %></p>
+    <% @current_user.events.each do |event| %>
+        <li><%= link_to event.description, event %></li>
     <% end %>
 
 <br>
