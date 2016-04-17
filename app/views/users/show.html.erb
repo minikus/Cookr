@@ -2,8 +2,13 @@
 
 <p id="notice"><%= notice %></p>
 
-
+<% if @current_user == @user %>
 <h1>Hello <%= @user.first_name %></h1>
+<% else %>
+<h1><%= @user.first_name %> </h1>
+<% end %>
+
+
 <%= image_tag @user.image, :class => "thumb"%>
 
 <p>

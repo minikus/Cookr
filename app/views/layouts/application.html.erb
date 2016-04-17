@@ -37,7 +37,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">ADMIN<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li class="dropdown-header">Admin</li>
-                <li><%= link_to "All Users" %></li>
+                <li><%= link_to "All Users", users_path %></li>
               <% end %>
               </ul>
             </li>
@@ -51,10 +51,7 @@
     </div>
   </div>
 </nav>
-  <div class="chefContainer">
-
-      <%= yield %>
-  </div>
+  <%= yield %>
 
 </body>
 </html>

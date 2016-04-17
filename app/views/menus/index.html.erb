@@ -1,43 +1,35 @@
 <p id="notice"><%= notice %></p>
 
-
 <div class="main">
 
-<h1>Menus</h1>
+  <h1>Menus</h1>
 
+  <input class="search-query form-control" type="search" results="5" id="search" placeholder="Looking for any type of cuisine? ">
+  <table id="table">
 
-<input class="search-query form-control" type="search" results="5" id="search" placeholder="Looking for any type of cuisine? ">
-<table id="table">
+    <% if @current_user.present? && (@current_user.chef? || @current_user.admin?) %>
+    <h2>My Menus</h2>
+    <% @current_user.menus.each do |mymenu| %>
+    <div class="thumb">
+      <%= link_to (image_tag mymenu.image), mymenu %>
+    </div>
+    <% end %>
+    <br>
+    <%= link_to "Add Menu", new_menu_path %>
+    <hr>
+    <h2>All Menus</h2>
+    <% end %>
 
-  <% if @current_user.present? && ((@current_user.menus).present? || @current_user.admin?) %>
-  <h2>My Menus</h2>
-     <% @current_user.menus.each do |mymenu| %>
-       <div class="thumb">
-         <%= link_to (image_tag mymenu.image), mymenu %>
+    <div class="menu">
+      <% @menus.each do |menu| %>
+      <tr>
+        <td>
+          <div class="thumb">
+            <%= link_to (image_tag menu.image), menu %>
+            <%= link_to truncate(menu.title, length: 23) %>
+          </div>
+          <td></tr>
+          <% end %>
+        </table>
       </div>
-     <% end %>
-  <br>
-  <%= link_to "Add Menu", new_menu_path %>
-  <hr>
-  <h2>All Menus</h2>
-     <% end %>
-
-
-  <div class="menu">
-    <% @menus.each do |menu| %>
-     <tr>
-       <td>
-        <div class="thumb">
-          <%= link_to (image_tag menu.image), menu %>
-          <%= link_to truncate(menu.title, length: 23) %>
-        </div>
-      <td>
-    </tr>
-   <% end %>
-</table>
-
-
-
- </div>
-
-</div>
+    </div>

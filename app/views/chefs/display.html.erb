@@ -1,4 +1,9 @@
-<h1>Chefs</h1>
-<button class="chefs_newMenuButton">
-  <%= link_to 'Create New Menu', new_menu_path(@users) %>
-</button>
+<div class="main">
+  <h1>Chefs</h1>
+  <% @users.each do |user| %>
+    <div class="thumb">
+      <%=link_to (image_tag user.image), user %>
+      <%= link_to (user.first_name), user%>
+    </div>
+  <% end %>
+</div>

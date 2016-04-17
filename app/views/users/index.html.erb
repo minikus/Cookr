@@ -7,7 +7,6 @@
     <tr>
       <th>First name</th>
       <th>Last name</th>
-      <th>Password digest</th>
       <th>Email</th>
       <th>Admin</th>
       <th>Chef</th>
@@ -24,12 +23,11 @@
       <tr>
         <td><%= user.first_name %></td>
         <td><%= user.last_name %></td>
-        <td><%= user.password_digest %></td>
         <td><%= user.email %></td>
         <td><%= user.admin %></td>
         <td><%= user.chef %></td>
         <td><%= user.phone %></td>
-        <td><%= user.image %></td>
+        <td><%= image_tag user.image, :class => "thumb" %></td>
         <td><%= user.bio %></td>
         <td><%= user.rate %></td>
         <td><%= link_to 'Show', user %></td>
