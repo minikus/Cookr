@@ -64,6 +64,13 @@ class EventsController < ApplicationController
     end
   end
 
+  def get_menus
+    @menus = Menu.all
+    render :json => {
+      :menus => @menus
+    }
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_event

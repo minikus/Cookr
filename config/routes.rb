@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   post '/login' => 'session#create'
   delete '/login' => 'session#destroy'
 
+  get '/treefrogs' => 'events#get_menus'
+
   resources :users do
     resources :reviews
   end
