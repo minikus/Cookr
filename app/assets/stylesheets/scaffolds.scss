@@ -24,10 +24,12 @@ pre {
 }
 
 a {
-  color: #000;
+  color: #BEEEEF;
+  text-decoration: none;
+
 
   &:visited {
-    color: #666;
+    color: #BEEEEF;
   }
 
   &:hover {
@@ -43,14 +45,14 @@ nav a{
   }
 
   &:hover {
-    color: pink;
+    color: #BEEEEF;
   }
 
 }
 .navbar-inverse .navbar-nav li a{
   color: #9E9E9E;
   &:hover {
-    color: #77AFE0;
+    color: #BEEEEF;
   }
 }
 
@@ -90,20 +92,14 @@ div {
   }
 
 
-  ul li {
+  ul, li {
     font-size: 12px;
     list-style: square;
-  }
+   }
 }
-
 
 .main{
-  padding-top: 60px;
+  padding: 60px;
   padding-bottom: 60px;
-
   margin: 0 auto;
-}
-
-td, tr{
-  display: inline-block;
 }

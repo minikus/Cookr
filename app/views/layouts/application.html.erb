@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Cookr</title>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
-  <%= csrf_meta_tags %>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-  <%= favicon_link_tag %>
-</head>
-<body>
-  <div class="container">
-    <nav>
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <head>
+    <title>Cookr</title>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= csrf_meta_tags %>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <%= favicon_link_tag %>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
@@ -30,27 +30,31 @@
               <li><%= link_to "Events", events_path%></li>
               <li><%= link_to "Messages", messages_path%></li>
 
-              <li><a href="/users/<%=@current_user.id%>">Profile</a></li>
+              <li>
+                <a href="/users/<%=@current_user.id%>">Profile</a>
+              </li>
               <li><%= link_to "Logout #{@current_user.first_name.capitalize}", login_path, :method => :delete%></li>
               <li class="dropdown">
                 <% if @current_user.admin? %>
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">ADMIN<b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">ADMIN<b class="caret"></b>
+                </a>
                 <ul class="dropdown-menu">
                   <li class="dropdown-header">Admin</li>
                   <li><%= link_to "All Users", users_path %></li>
-                <% end %>
+                  <% end %>
                 </ul>
               </li>
-              <% else %>
-                <li><%= link_to "Signup", new_user_path %></li>
-                <li><%= link_to "Login", login_path %></li>
+            <% else %>
+              <li><%= link_to "Signup", new_user_path %></li>
+              <li><%= link_to "Login", login_path %></li>
               <% end %>
             </ul>
+          </div>
         </div>
-      </div>
-  </nav>
-    <%= yield %>
+      </nav>
 
-  </body>
-</div>
+      <%= yield %>
+
+    </body>
+  </div>
 </html>

@@ -1,30 +1,25 @@
-<!-- <h1>Cooker</h1> -->
+<div class="homePage">
 
-
-<div class="background">  </div>
+<div class="background"></div>
 
 <div class="about">
   <h2>ABOUT</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-      culpa qui officia deserunt mollit anim id est laborum.
-    </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
 </div>
 
 <div class="menus cf">
   <h2>MENUS</h2>
-
   <div class="row-fluid">
     <div class="col-lg-12 col-md-10 ">
       <div class="autoplay cf">
         <% @menus.each do |menu| %>
-          <div class="pages_thumbDiv cf">
-            <%= link_to(image_tag(menu.image, :class => 'thumb'), menu) %>
-          </div>
+        <div class="pages_thumbDiv cf">
+          <%= link_to(image_tag(menu.image, :class => 'thumb'), menu) %>
+          <%= link_to(menu.cuisine, menu, :class => "textImage") %>
+        </div>
         <%end %>
       </div>
     </div>
@@ -36,27 +31,22 @@
   <h2>CHEFS</h2>
   <div class="row-fluid">
     <div class="col-lg-12 col-md-10">
-
       <div class="autoplay cf">
         <% @users.each do |user| %>
-          <div class="pages_thumbDiv cf">
-            <%= link_to(user.first_name, user, :class => "chefName") %>
-            <%= link_to(image_tag(user.image, :class => 'thumb'), user) %>
-          </div>
+        <div class="pages_thumbDiv cf">
+          <%= link_to(image_tag(user.image, :class => 'thumb'), user) %>
+          <%= link_to(user.first_name, user, :class => "textImage") %>
+        </div>
         <% end %>
       </div>
-
     </div>
   </div>
 </div>
 
 <div class="footer">
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-    culpa qui officia deserunt mollit anim id est laborum.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </p>
+</div>
 </div>

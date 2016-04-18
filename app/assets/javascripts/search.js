@@ -18,6 +18,11 @@ $(document).ready(function() {
 
 
   //Events Form
+  $('#calculatePrice').on('click', function() {
+    event.preventDefault();
+  });
+  $("#createEventButton").hide();
+
   $("#chefField").change(function() {
     var chefID = $("#event_chef_id").val();
     $('#menuField').show();
@@ -41,6 +46,7 @@ $(document).ready(function() {
       $('#event_price').val("");
       $('#priceField').html("");
       $('#event_guests').val("");
+      $("#createEventButton").hide();
 
       var firstItem = '<option selected disabled>Choose here</option>';
 
@@ -60,8 +66,8 @@ $(document).ready(function() {
   $('#menuField').change(function() {
     $('#priceField').html("");
     $('#event_guests').val("");
+    $("#createEventButton").hide();
     $('#calculatePrice').on('click', function() {
-      event.preventDefault();
       $.ajax('/treefrogs').done(function(result) {
         allMenus = result.menus;
       }).done(function() {
@@ -75,7 +81,17 @@ $(document).ready(function() {
             var guest = Number($('#event_guests').val());
             var finalPrice = menuPrice * guests;
             console.log(finalPrice);
-            $('#priceField').html('<p>' + finalPrice + '</p>');
+            if (finalPrice === 0) {
+              $('#priceField').html('<p>' + "You did not enter Guests" + '</p>');
+              $("#createEventButton").hide();
+            } else if (finalPrice < 0) {
+              $('#priceField').html('<p>' + 'This is not valid!' + '</p>');
+              $("#createEventButton").hide();
+            } else {
+              $('#priceField').html('<p>' + finalPrice + '</p>');
+              $("#createEventButton").show();
+
+            }
           }
         }
       });

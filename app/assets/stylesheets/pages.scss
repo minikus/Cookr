@@ -7,10 +7,6 @@
 //  margin: 50px auto;
 //  background: white;
 // }
-
-h2{
-  margin-left: 5%;
-}
 .pages_thumbDiv{
   height: 250px;
   width: 250px;
@@ -31,7 +27,6 @@ h2{
   width: 250px;
   border: 3px solid rgb(227, 227, 227);
 }
-
 
 .thumb {
   margin: 0;
@@ -93,7 +88,6 @@ h2{
   height: 150px;
 }
 
-
 .background {
  background-attachment: fixed;
  background-image: url(http://ww1.prweb.com/prfiles/2012/05/22/9531901/Moevenpick_Hotels_and_Resorts_Chef_preparing_food_for_thought.jpg);
@@ -114,9 +108,45 @@ h2{
 
 .pages_thumbDiv a:visited {
   text-decoration: none!important;
-  color: black;
+  color: #607D8B;
 }
 
 .pages_thumbDiv a:hover {
-color: rgb(233, 233, 233);
+color: black;
+}
+
+
+.pages_thumbDiv {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+.pages_thumbDiv img {
+    display: block;
+}
+.pages_thumbDiv .textImage {
+  font-size: 30px;
+    opacity: 0;
+    position: absolute;
+    bottom: 80px;
+    left: 3px;
+    right: 0px;
+    padding: 30px 0px;
+    color: #ffffff;
+    background: #BEEEEF;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+
+}
+.pages_thumbDiv:hover .textImage {
+    opacity: 0.8;
+}
+
+
+.pages_thumbDiv:hover img{
+  opacity: 0.4;
 }

@@ -2,7 +2,6 @@
 
 <p id="notice"><%= notice %>
 
-
   <h2><%= @event.description %></h2>
 
 
@@ -15,11 +14,12 @@
   <h4>Address:</h4>
   <li><%= @event.address %></li>
 
+<% if @event.chef_id.present? %>
   <h4>Chef:</h4>
-  <li><%= @event.chef_id %></li>
-
+  <li><%= link_to @event.chef_id, user_path(@event.chef_id) %></li>
+<% end %>
   <h4>Menu:</h4>
-  <li><%= @event.menu_id %></li>
+  <li><%= link_to @event.menu_id, menu_path(@event.menu_id) %></li>
 
   <h4>Guests:</h4>
   <li><%= @event.guests %></li>
@@ -32,7 +32,7 @@
 
 
   <hr>
-<%= link_to 'Destroy', @event, method: :delete, data: { confirm: 'Are you sure?' } %> |
+<%= link_to 'Remove Event', @event, method: :delete, data: { confirm: 'Are you sure?' } %> |
 <%= link_to 'Edit', edit_event_path(@event) %> |
 <%= link_to 'Back', events_path %>
 </div>

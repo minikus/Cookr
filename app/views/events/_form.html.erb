@@ -13,30 +13,32 @@
 
 <div class="field">
   <%= f.label :description %><br>
-  <%= f.text_field :description %>
+  <%= f.text_field :description, :required => true%>
 </div>
 <div class="field">
   <%= f.label :time %><br>
-  <%= f.datetime_select :time %>
+  <%= f.datetime_select :time, :required => true %>
 </div>
 <div class="field">
   <%= f.label :suburb %><br>
-  <%= f.text_field :suburb %>
+  <%= f.text_field :suburb, :required => true %>
 </div>
 <div class="field">
   <%= f.label :address %><br>
-  <%= f.text_field :address %>
+  <%= f.text_field :address, :required => true %>
 </div>
 <div class="field" id="chefField">
   <%= f.label :chef_id %>
-  <%= f.select :chef_id, (User.where(:chef => true)).pluck(:first_name,:id)%>
+  <%= f.select :chef_id, (User.where(:chef => true)).pluck(:first_name,:id), {:prompt => 'Choose Chef'} %>
 </div>
 <div class="field" id="menuField">
   <%= f.label :menu_availables %><br>
   <%= f.select :menu_id, Menu.pluck(:title,:id), :include_blank => true %>
 </div>
 <div class="chefMenuField">
-  <p>  This chef has no menus </p>
+  <p>
+    This chef has no menus
+  </p>
 </div>
 
 <div class="field">
@@ -49,10 +51,9 @@
 </div>
 <button id="calculatePrice">Show Price</button>
 <br><br>
-<div id="priceField">
-</div>
+<div id="priceField"></div>
 
-<div class="actions">
+<div id="createEventButton" class="actions">
   <%= f.submit %>
 </div>
 <% end %>
