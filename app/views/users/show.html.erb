@@ -67,6 +67,8 @@
     <% @user.menus.each do |menu| %>
       <li><%= link_to menu.title, menu %></li>
     <% end %>
+
+    <%= link_to 'Add Menu', new_menu_path %>
   <% end %>
 
   <br>
