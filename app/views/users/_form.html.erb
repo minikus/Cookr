@@ -34,7 +34,6 @@
   <% #show current profile picture, or none if not present %>
   <% #if no profile picture say "upload picture", otherwise say "update...." %>
   <% if @user.image.present? %>
-    <strong>Current Profile Picture: </strong>
     <%= image_tag @user.image, :class => 'thumb' %>
     <div class="field">
       <%= f.label :image, 'Update profile picture' %><br>
@@ -51,14 +50,25 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :password %><br>
-    <%= f.password_field :password, :required => true %>
-  </div>
+  <% #if no user is logged in it will show the password, otherwise it will ask if you want to update your password and then reveal the password fields %>
 
-  <div>
-    <%= f.label :password_confirmation %><br>
-    <%= f.password_field :password_confirmation, :required => true %>
+  <% if @current_user.present? %>
+    <%= button_tag 'Click here to update your password?', :id => 'password-button' %>
+  <% end %>
+
+  <div id="password-update"
+  <% if @current_user.present? %>
+    style="display:none;">
+  <% end %>
+    <div class="field">
+      <%= f.label :password %><br>
+      <%= f.password_field :password, :required => (true unless @current_user.present?) %>
+    </div>
+
+    <div>
+      <%= f.label :password_confirmation %><br>
+      <%= f.password_field :password_confirmation, :required => (true unless @current_user.present?) %>
+    </div>
   </div>
 
   <div class="field">
@@ -68,7 +78,7 @@
 
   <% #hide chef specific details unless chef button is ticked %>
 
-  <div class="chef-details">
+  <div id="chef-details" style="hidden">
     <div class="field">
       <%= f.label :bio %><br>
       <%= f.text_area :bio %>
