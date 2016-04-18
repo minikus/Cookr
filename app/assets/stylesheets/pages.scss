@@ -39,10 +39,10 @@ h2{
 
 .chefName {
   position: absolute;
-  top: 20px;
+  bottom: 25px;
   z-index: 10;
-  color: black;
-  font-size: 2em;
+  color: rgba(100, 100, 100, 0.6);
+  font-size: 3em;
   font-weight: bold;
   text-decoration: none;
   display: block;
@@ -118,5 +118,5 @@ h2{
 }
 
 .pages_thumbDiv a:hover {
-color: red;
+color: rgb(233, 233, 233);
 }

@@ -1,3 +1,31 @@
 // Place all the styles related to the Chefs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.chefsViewIcon {
+  border-radius: 5px;
+  width: 23%;
+  float: left;
+  margin: 0 2% 0 16%;
+  padding: 3% 0 4% 3%;
+  background-color: gainsboro;
+
+}
+
+.userInfo {
+  width: 45%;
+  float: left;
+  background-color: #beeeef;
+  padding: 3%;
+  border-radius: 5px;
+}
+.return {
+  display: block;
+  margin-top: 10%;
+}
+
+.chefsViewIcon h2{
+  margin: 0 0 5% 0;
+  padding: 0;
+}
