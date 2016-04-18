@@ -10,7 +10,6 @@
   display: none;
 }
 
-
 #chefConfirm{
   display: none;
 }
@@ -26,5 +25,20 @@
   margin-left: auto;
   padding: 0;
   max-width: 100%;
+}
 
+.events{
+  background-color: rgba(46, 42, 42, 0.3);
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 5%;
+  box-shadow: 3px 5px 10px grey;
+  min-width: 300px;
+  max-width: 50%;
+  text-align: center
+}
+
+.events li {
+  text-align: left;
+  margin-bottom: 20px;
 }
