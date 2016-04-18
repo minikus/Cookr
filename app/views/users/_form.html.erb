@@ -56,7 +56,7 @@
   <% #if no user is logged in it will show the password, otherwise it will ask if you want to update your password and then reveal the password fields %>
 
   <% if @current_user.present? %>
-    <%= button_tag 'Click here to update your password?', :id => 'password-button' %>
+    <%= button_tag 'Click here to update your password', :id => 'password-button' %>
   <% end %>
 
   <div id="password-update"
@@ -97,6 +97,5 @@
     <%= f.submit %>
   </div>
   <% end %>
-  <%= link_to 'Show', @user %> |
   <%= link_to 'Back', users_path %>
 </div>
