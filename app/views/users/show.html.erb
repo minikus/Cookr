@@ -26,36 +26,56 @@
   <%= @user.email %>
 </p>
 
-<p>
-  <strong>Admin:</strong>
-  <%= @user.admin %>
-</p>
+<% #only show the admin status if the current user is an admin %>
+<% if @current_user.admin? %>
+  <p>
+    <strong>Admin:</strong>
+    <%= @user.admin %>
+  </p>
+<% end %>
 
-<p>
-  <strong>Chef:</strong>
-  <%= @user.chef %>
-</p>
+<% #only show the phone number if @user is a chef or current user is admin %>
+<% if @user.chef? || @current_user.admin? %>
+  <p>
+    <strong>Phone:</strong>
+    <%= @user.phone %>
+  </p>
+<% end %>
 
-<p>
-  <strong>Phone:</strong>
-  <%= @user.phone %>
-</p>
+<% #show host or chef depending on @user.chef status %>
+<% if @user.chef? %>
+  <p>
+    <strong>User type: </strong>
+    Chef
+  </p>
+<% elsif !@user.chef? %>
+  <p>
+    <strong>User type: </strong>
+    Host
+  </p>
+<% end %>
 
-<p>
-  <strong>Bio:</strong>
-  <%= @user.bio %>
-</p>
-
-<p>
-  <strong>Rate:</strong>
-  <%= @user.rate %>
-</p>
-
-<strong>Menus:</strong>
-<% @user.menus.each do |menu| %>
-<li><%= link_to menu.title, menu %></li>
+<% #only show the chef bio, rate, and menus if they are a chef %>
+<% if @user.chef? %>
+  <p>
+    <strong>Bio:</strong>
+    <%= @user.bio %>
+  </p>
+  <p>
+    <strong>Rate:</strong>
+    <%= @user.rate %>
+  </p>
+  <strong>Menus:</strong>
+  <% @user.menus.each do |menu| %>
+    <li><%= link_to menu.title, menu %></li>
   <% end %>
+<% end %>
+
 <br>
-<%= link_to 'Edit', edit_user_path(@user) %> |
+<% #only show the edit button if the current user is @user or admin %>
+<% if @current_user.admin? || @current_user.id === @user.id %>
+  <%= link_to 'Edit', edit_user_path(@user) %> |
+<% end %>
+
 <%= link_to 'Back', users_path %>
 </div>
