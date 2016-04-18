@@ -11,6 +11,28 @@
     </div>
   <% end %>
 
+<div class="usersViewIcon">
+  <% #show current profile picture, or none if not present %>
+  <% #if no profile picture say "upload picture", otherwise say "update...." %>
+  <% if @user.image.present? %>
+    <%= image_tag @user.image, :class => 'thumb' %>
+    <div class="field">
+      <%= f.label :image, 'Update profile picture' %><br>
+      <%= f.file_field :image %>
+    </div>
+  <% else %>
+    <% #checks if there is no current user ie new signup and ignores the "no profile loaded" %>
+    <% if @current_user.present? %>
+      <strong>No Profile Image Loaded</strong>
+    <% end %>
+    <div class="field">
+      <%= f.label :image, 'Upload profile picture' %><br>
+      <%= f.file_field :image %>
+    </div>
+  <% end %>
+</div>
+
+<div class="userInfo">
   <div class="field">
     <%= f.label :email %><br>
     <%= f.text_field :email, :required => true, :autofocus => true %>
@@ -30,25 +52,6 @@
     <%= f.label :phone %><br>
     <%= f.text_field :phone %>
   </div>
-
-  <% #show current profile picture, or none if not present %>
-  <% #if no profile picture say "upload picture", otherwise say "update...." %>
-  <% if @user.image.present? %>
-    <%= image_tag @user.image, :class => 'thumb' %>
-    <div class="field">
-      <%= f.label :image, 'Update profile picture' %><br>
-      <%= f.file_field :image %>
-    </div>
-  <% else %>
-    <% #checks if there is no current user ie new signup and ignores the "no profile loaded" %>
-    <% if @current_user.present? %>
-      <strong>No Profile Image Loaded</strong>
-    <% end %>
-    <div class="field">
-      <%= f.label :image, 'Upload profile picture' %><br>
-      <%= f.file_field :image %>
-    </div>
-  <% end %>
 
   <% #if no user is logged in it will show the password, otherwise it will ask if you want to update your password and then reveal the password fields %>
 
@@ -93,4 +96,7 @@
   <div class="actions">
     <%= f.submit %>
   </div>
-<% end %>
+  <% end %>
+  <%= link_to 'Show', @user %> |
+  <%= link_to 'Back', users_path %>
+</div>
