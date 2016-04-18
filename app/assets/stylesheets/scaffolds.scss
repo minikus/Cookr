@@ -24,16 +24,16 @@ pre {
 }
 
 a {
-  color: #BEEEEF;
+  color: gray;
   text-decoration: none;
 
 
   &:visited {
-    color: #BEEEEF;
+    color: gray;
   }
 
   &:hover {
-    color: gray;
+    color: #BEEEEF;
   }
 }
 
