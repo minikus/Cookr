@@ -1,52 +1,53 @@
 <%= form_for(@event) do |f| %>
-  <% if @event.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@event.errors.count, "error") %> prohibited this event from being saved:</h2>
-      <ul>
-      <% @event.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
+<% if @event.errors.any? %>
+<div id="error_explanation">
+  <h2><%= pluralize(@event.errors.count, "error") %>
+    prohibited this event from being saved:</h2>
+  <ul>
+    <% @event.errors.full_messages.each do |message| %>
+    <li><%= message %></li>
+    <% end %>
+  </ul>
+</div>
+<% end %>
 
-  <div class="field">
-    <%= f.label :description %><br>
-    <%= f.text_field :description %>
-  </div>
-  <div class="field">
-     <%= f.label :time %><br>
-     <%= f.datetime_select :time %>
-   </div>
-  <div class="field">
-    <%= f.label :suburb %><br>
-    <%= f.text_field :suburb %>
-  </div>
-  <div class="field">
-    <%= f.label :address %><br>
-    <%= f.text_field :address %>
-  </div>
-  <div class="field">
-    <%= f.label :chef_id %>
-    <%= f.select :chef_id, (User.where(:chef => true)).pluck(:first_name,:id)%>
-  </div>
-  <div class="field">
-    <%= f.label :menu_id %><br>
-    <%= f.select :menu_id, Menu.pluck(:title,:id), :include_blank => true %>
-  </div>
-  <div class="field">
-    <%= f.label :guests %><br>
-    <%= f.number_field :guests%>
-  </div>
-  <div class="field">
-    <%= f.label :confirm %><br>
-    <%= f.check_box :confirm %>
-  </div>
-  <div class="field">
-    <%= f.label :price %><br>
-    <%= f.text_field :price %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+<div class="field">
+  <%= f.label :description %><br>
+  <%= f.text_field :description %>
+</div>
+<div class="field">
+  <%= f.label :time %><br>
+  <%= f.datetime_select :time %>
+</div>
+<div class="field">
+  <%= f.label :suburb %><br>
+  <%= f.text_field :suburb %>
+</div>
+<div class="field">
+  <%= f.label :address %><br>
+  <%= f.text_field :address %>
+</div>
+<div class="field" id="chefField">
+  <%= f.label :chef_id %>
+  <%= f.select :chef_id, (User.where(:chef => true)).pluck(:first_name,:id)%>
+</div>
+<div class="field" id="menuField">
+  <%= f.label :menu_id %><br>
+  <%= f.select :menu_id, Menu.pluck(:title,:id), :include_blank => true %>
+</div>
+<div class="field">
+  <%= f.label :guests %><br>
+  <%= f.number_field :guests%>
+</div>
+<div class="field">
+  <%= f.label :confirm %><br>
+  <%= f.check_box :confirm %>
+</div>
+<div class="field">
+  <%= f.label :price %><br>
+  <%= f.text_field :price %>
+</div>
+<div class="actions">
+  <%= f.submit %>
+</div>
 <% end %>

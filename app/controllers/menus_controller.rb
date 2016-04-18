@@ -1,7 +1,7 @@
 class MenusController < ApplicationController
   before_action :set_menu, only: [:show, :edit, :update, :destroy]
-  before_action :authorise, :only => [:edit, :update, :destroy]
-  before_action :authoriseMenu, :only => [:new, :create]
+  before_action :authorise, only: [:edit, :update, :destroy]
+  before_action :authoriseMenu, only: [:new, :create]
 
   # GET /menus
   # GET /menus.json
@@ -67,22 +67,22 @@ class MenusController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_menu
-      @menu = Menu.find(params[:id])
-    end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def menu_params
-      params.require(:menu).permit(:user_id, :cuisine, :description, :pricePP, :dietry, :gluten_free, :vego, :title, :image)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_menu
+    @menu = Menu.find(params[:id])
+  end
 
-    def authorise
-      redirect_to root_path unless @current_user.present? && (@current_user.admin? || @menu.user_id === @current_user.id)
-    end
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def menu_params
+    params.require(:menu).permit(:user_id, :cuisine, :description, :pricePP, :dietry, :gluten_free, :vego, :title, :image)
+  end
 
-    def authoriseMenu
-      redirect_to root_path unless @current_user.present? && (@current_user.admin? || @current_user.chef?)
-    end
+  def authorise
+    redirect_to root_path unless @current_user.present? && (@current_user.admin? || @menu.user_id === @current_user.id)
+  end
 
+  def authoriseMenu
+    redirect_to root_path unless @current_user.present? && (@current_user.admin? || @current_user.chef?)
+  end
 end
