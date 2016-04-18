@@ -8,10 +8,12 @@
 //  background: white;
 // }
 
-
+h2{
+  margin-left: 5%;
+}
 .pages_thumbDiv{
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   margin: 0;
   padding: 0;
   float: left;
@@ -19,13 +21,36 @@
   background-position: center center;
   background-repeat: no-repeat;
   overflow: hidden;
+  position: relative;
+
 }
 
 .pages_thumbDiv img {
   display: block;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
+  border: 3px solid rgb(227, 227, 227);
 }
+
+
+.thumb {
+  margin: 0;
+}
+
+.chefName {
+  position: absolute;
+  top: 20px;
+  z-index: 10;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none!important
+}
+
 
 .about {
   background-color: gainsboro;
@@ -34,22 +59,23 @@
 }
 
 
-.menus {
-  min-height: 60px;
-  background: white;
-  padding: 5%;
-}
-
-.menus img{
-  max-width: 100%;
-}
+// .menus {
+//   min-height: 60px;
+//   background: white;
+//     // padding: 2%;
+// }
+//
+// .menus img{
+//   max-width: 100%;
+//   padding: 2%
+//
+// }
 
 
 
 .chefs {
   min-height: 60px;
   background: gainsboro;
-  padding: 5%;
 }
 
 .footer{
@@ -63,8 +89,8 @@
 }
 
 .displayMenus img {
-width: 150px;
-height: 150px;
+  width: 150px;
+  height: 150px;
 }
 
 
@@ -81,18 +107,16 @@ height: 150px;
  opacity: 0.6;
 }
 
-.slick-prev, .slick-next {
+.col-lg-12, .col-md-10 {
+  padding: 0;
+  margin: 0;
+}
+
+.pages_thumbDiv a:visited {
+  text-decoration: none!important;
   color: black;
 }
 
-
-
-
-
-.cls
-
-
-.slick-prev:before {
-    content: '←';
-    color: black;
-  }
+.pages_thumbDiv a:hover {
+color: red;
+}
