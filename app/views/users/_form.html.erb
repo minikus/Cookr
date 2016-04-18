@@ -11,82 +11,92 @@
     </div>
   <% end %>
 
-  <div class="usersViewIcon">
-    <% #show current profile picture, or none if not present %>
-    <% #if no profile picture say "upload picture", otherwise say "update...." %>
-    <% if @user.image.present? %>
-      <strong>Current Profile Picture: </strong>
-      <%= image_tag @user.image, :class => 'thumb' %>
-      <div class="field">
-        <%= f.label :image, 'Update profile picture' %><br>
-        <%= f.file_field :image %>
-      </div>
-    <% else %>
-      <% #checks if there is no current user ie new signup and ignores the "no profile loaded" %>
-      <% if @current_user.present? %>
-        <strong>No Profile Image Loaded</strong>
-      <% end %>
-      <div class="field">
-        <%= f.label :image, 'Upload profile picture' %><br>
-        <%= f.file_field :image %>
-      </div>
+<div class="usersViewIcon">
+  <% #show current profile picture, or none if not present %>
+  <% #if no profile picture say "upload picture", otherwise say "update...." %>
+  <% if @user.image.present? %>
+    <%= image_tag @user.image, :class => 'thumb' %>
+    <div class="field">
+      <%= f.label :image, 'Update profile picture' %><br>
+      <%= f.file_field :image %>
+    </div>
+  <% else %>
+    <% #checks if there is no current user ie new signup and ignores the "no profile loaded" %>
+    <% if @current_user.present? %>
+      <strong>No Profile Image Loaded</strong>
     <% end %>
+    <div class="field">
+      <%= f.label :image, 'Upload profile picture' %><br>
+      <%= f.file_field :image %>
+    </div>
+  <% end %>
+</div>
+
+<div class="userInfo">
+  <div class="field">
+    <%= f.label :email %><br>
+    <%= f.text_field :email, :required => true, :autofocus => true %>
   </div>
 
-  <div class="userInfo">
-    <div class="field">
-      <%= f.label :email %><br>
-      <%= f.text_field :email, :required => true, :autofocus => true %>
-    </div>
-    <div class="field">
-      <%= f.label :first_name %><br>
-      <%= f.text_field :first_name, :required => true %>
-    </div>
+  <div class="field">
+    <%= f.label :first_name %><br>
+    <%= f.text_field :first_name, :required => true %>
+  </div>
 
-    <div class="field">
-      <%= f.label :last_name %><br>
-      <%= f.text_field :last_name, :required => true %>
-    </div>
+  <div class="field">
+    <%= f.label :last_name %><br>
+    <%= f.text_field :last_name, :required => true %>
+  </div>
 
-    <div class="field">
-      <%= f.label :phone %><br>
-      <%= f.text_field :phone %>
-    </div>
+  <div class="field">
+    <%= f.label :phone %><br>
+    <%= f.text_field :phone %>
+  </div>
+
+  <% #if no user is logged in it will show the password, otherwise it will ask if you want to update your password and then reveal the password fields %>
+
+  <% if @current_user.present? %>
+    <%= button_tag 'Click here to update your password?', :id => 'password-button' %>
+  <% end %>
+
+  <div id="password-update"
+  <% if @current_user.present? %>
+    style="display:none;">
+  <% end %>
     <div class="field">
       <%= f.label :password %><br>
-      <%= f.password_field :password, :required => true %>
+      <%= f.password_field :password, :required => (true unless @current_user.present?) %>
     </div>
 
     <div>
       <%= f.label :password_confirmation %><br>
-      <%= f.password_field :password_confirmation, :required => true %>
+      <%= f.password_field :password_confirmation, :required => (true unless @current_user.present?) %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= f.label :chef, "Are you a chef for hire?" %><br>
+    <%= f.check_box :chef, :id => 'chef-box'%>
+  </div>
+
+  <% #hide chef specific details unless chef button is ticked %>
+
+  <div id="chef-details" style="hidden">
+    <div class="field">
+      <%= f.label :bio %><br>
+      <%= f.text_area :bio %>
     </div>
 
     <div class="field">
-      <%= f.label :chef, "Are you a chef for hire?" %><br>
-      <%= f.check_box :chef, :id => 'chef-box'%>
+      <%= f.label :rate %><br>
+      <%= f.text_field :rate %>
     </div>
-
-    <% #hide chef specific details unless chef button is ticked %>
-
-    <div class="chef-details">
-      <div class="field">
-        <%= f.label :bio %><br>
-        <%= f.text_area :bio %>
-      </div>
-
-      <div class="field">
-        <%= f.label :rate %><br>
-        <%= f.text_field :rate %>
-      </div>
-    </div>
-
-    <div class="actions">
-      <%= f.submit %>
-    </div>
-  <% end %>
-
-
-  <%= link_to 'Back', users_path %>
-
   </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+  <% end %>
+  <%= link_to 'Show', @user %> |
+  <%= link_to 'Back', users_path %>
+</div>
