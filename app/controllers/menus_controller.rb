@@ -27,7 +27,11 @@ class MenusController < ApplicationController
   # POST /menus
   # POST /menus.json
   def create
+
+    req = Cloudinary::Uploader.upload(params[:menu]["image"])
+
     @menu = Menu.new(menu_params)
+    @menu.update :image => req['url']
     @current_user.menus << @menu
     @menu.save
 
