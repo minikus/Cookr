@@ -1,6 +1,7 @@
 class EventsController < ApplicationController
   before_action :set_event, only: [:show, :edit, :update, :destroy]
   before_action :authorise, :only => [:index, :show, :new, :create, :edit, :update, :destroy]
+  before_action :authorisePerson, :only => [:show, :edit, :update, :destroy]
 
   # GET /events
   # GET /events.json
@@ -84,5 +85,9 @@ class EventsController < ApplicationController
 
     def authorise
     redirect_to root_path unless (@current_user.present?)
+    end
+
+    def authorisePerson
+      redirect_to root_path unless (@current_user.id === @event.user_id)
     end
 end
