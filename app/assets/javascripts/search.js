@@ -44,7 +44,9 @@ $(document).ready(function() {
       $('.chefMenuField').hide();
       $('#event_menu_id').html('');
       $('#event_price').val("");
-      $('#priceField').html("");
+      // $('#priceField').html("");
+      $('#event_price').val("");
+
       $('#event_guests').val("");
       $("#createEventButton").hide();
 
@@ -64,7 +66,8 @@ $(document).ready(function() {
   });
 
   $('#menuField').change(function() {
-    $('#priceField').html("");
+    // $('#priceField').html("");
+    $('#event_price').val("");
     $('#event_guests').val("");
     $("#createEventButton").hide();
     $('#calculatePrice').on('click', function() {
@@ -88,7 +91,7 @@ $(document).ready(function() {
               $('#priceField').html('<p>' + 'This is not valid!' + '</p>');
               $("#createEventButton").hide();
             } else {
-              $('#priceField').html('<p>' + finalPrice + '</p>');
+              $('#event_price').val(finalPrice);
               $("#createEventButton").show();
 
             }

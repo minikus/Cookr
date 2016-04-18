@@ -11,20 +11,21 @@
 </div>
 <% end %>
 
+
 <div class="field">
-  <%= f.label :description %><br>
+  <%= f.label :description %>
   <%= f.text_field :description, :required => true%>
 </div>
 <div class="field">
-  <%= f.label :time %><br>
+  <%= f.label :time %>
   <%= f.datetime_select :time, :required => true %>
 </div>
 <div class="field">
-  <%= f.label :suburb %><br>
+  <%= f.label :suburb %>
   <%= f.text_field :suburb, :required => true %>
 </div>
 <div class="field">
-  <%= f.label :address %><br>
+  <%= f.label :address %>
   <%= f.text_field :address, :required => true %>
 </div>
 <div class="field" id="chefField">
@@ -32,7 +33,7 @@
   <%= f.select :chef_id, (User.where(:chef => true)).pluck(:first_name,:id), {:prompt => 'Choose Chef'} %>
 </div>
 <div class="field" id="menuField">
-  <%= f.label :menu_availables %><br>
+  <%= f.label :menu_availables %>
   <%= f.select :menu_id, Menu.pluck(:title,:id), :include_blank => true %>
 </div>
 <div class="chefMenuField">
@@ -42,16 +43,19 @@
 </div>
 
 <div class="field">
-  <%= f.label :guests %><br>
+  <%= f.label :guests %>
   <%= f.number_field :guests%>
 </div>
 <div class="field" id="chefConfirm">
-  <%= f.label :confirm %><br>
+  <%= f.label :confirm %>
   <%= f.check_box :confirm %>
 </div>
-<button id="calculatePrice">Show Price</button>
+<button class="btn btn-default" id="calculatePrice">Show Price</button>
 <br><br>
-<div id="priceField"></div>
+<div class="field" id="priceField">
+  <%= f.label :price %>
+  <%= f.text_field :price, :readonly => true %>
+</div>
 
 <div id="createEventButton" class="actions">
   <%= f.submit %>
