@@ -1,6 +1,7 @@
 class MenusController < ApplicationController
   before_action :set_menu, only: [:show, :edit, :update, :destroy]
-  before_action :authorise, :only => [:new, :create, :edit, :update, :destroy]
+  before_action :authorise, :only => [:edit, :update, :destroy]
+  before_action :authoriseMenu, :only => [:new, :create]
 
   # GET /menus
   # GET /menus.json
@@ -13,8 +14,6 @@ class MenusController < ApplicationController
   def show
   end
 
-
-
   # GET /menus/new
   def new
     @menu = Menu.new
@@ -22,6 +21,7 @@ class MenusController < ApplicationController
 
   # GET /menus/1/edit
   def edit
+    @menu = Menu.find params[:id]
   end
 
   # POST /menus
@@ -78,6 +78,11 @@ class MenusController < ApplicationController
     end
 
     def authorise
-    redirect_to root_path unless (@current_user.present? && (@current_user.admin? || @current_user.chef?))
+      redirect_to root_path unless @current_user.present? && (@current_user.admin? || @menu.user_id === @current_user.id)
     end
+
+    def authoriseMenu
+      redirect_to root_path unless @current_user.present? && (@current_user.admin? || @current_user.chef?)
+    end
+
 end
