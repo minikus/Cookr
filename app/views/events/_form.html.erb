@@ -32,9 +32,13 @@
   <%= f.select :chef_id, (User.where(:chef => true)).pluck(:first_name,:id)%>
 </div>
 <div class="field" id="menuField">
-  <%= f.label :menu_id %><br>
+  <%= f.label :menu_availables %><br>
   <%= f.select :menu_id, Menu.pluck(:title,:id), :include_blank => true %>
 </div>
+<div class="chefMenuField">
+  <p>  This chef has no menus </p>
+</div>
+
 <div class="field">
   <%= f.label :guests %><br>
   <%= f.number_field :guests%>
