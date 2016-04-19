@@ -23,6 +23,7 @@
   background-color: #beeeef;
   border-radius: 5px;
   margin: 2% 0.5% 2% 0.5%;
+  text-align: left;
 }
 .return {
   display: block;
@@ -32,4 +33,13 @@
 .chefsViewIcon h2{
   margin: 0 0 5% 0;
   padding: 0;
+}
+
+.displayChefs {
+  margin: 30px;
+  display: inline-block;
+}
+
+a{
+  font-size: 20px;
 }

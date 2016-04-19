@@ -24,16 +24,16 @@ pre {
 }
 
 a {
-  color: #BEEEEF;
+  color: gray;
   text-decoration: none;
 
 
   &:visited {
-    color: #BEEEEF;
+    color: gray;
   }
 
   &:hover {
-    color: gray;
+    color: #BEEEEF;
   }
 }
 
@@ -54,6 +54,11 @@ nav a{
   &:hover {
     color: #BEEEEF;
   }
+}
+
+.navbar-nav {
+  margin-left: 5%;
+  margin-top: 14px;
 }
 
 div {
@@ -102,4 +107,5 @@ div {
   padding: 60px;
   padding-bottom: 60px;
   margin: 0 auto;
+  text-align: center;
 }

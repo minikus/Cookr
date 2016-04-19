@@ -2,14 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#menuField{
-  display: none;
-}
 
 .chefMenuField{
   display: none;
 }
-
 
 #chefConfirm{
   display: none;
@@ -26,5 +22,20 @@
   margin-left: auto;
   padding: 0;
   max-width: 100%;
+}
 
+.events{
+  background-color: rgba(46,42,42,0.05);
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 5%;
+  box-shadow: 3px 5px 10px grey;
+  min-width: 300px;
+  max-width: 50%;
+  text-align: center
+}
+
+.events li {
+  text-align: left;
+  margin-bottom: 20px;
 }
