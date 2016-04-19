@@ -16,10 +16,10 @@
 
 <% if @event.chef_id.present? %>
   <h4>Chef:</h4>
-  <li><%= link_to @event.chef_id, user_path(@event.chef_id) %></li>
+  <li><%= link_to @event.chef.first_name, user_path(@event.chef_id) %></li>
 <% end %>
   <h4>Menu:</h4>
-  <li><%= link_to @event.menu_id, menu_path(@event.menu_id) %></li>
+  <li><%= link_to @event.menu.title, menu_path(@event.menu_id) %></li>
 
   <h4>Guests:</h4>
   <li><%= @event.guests %></li>
@@ -28,7 +28,7 @@
   <li><%= @event.confirm %></li>
 
   <h4>Price:</h4>
-  <li><%= @event.price %></li>
+  <li><%= number_to_currency(@event.price) %></li>
 
 
   <hr>
