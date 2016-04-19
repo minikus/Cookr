@@ -17,17 +17,18 @@ u11 = User.create :first_name => 'Fifi', :last_name => 'Turnbull', :email => 'fi
 u12 = User.create :first_name => 'Billy', :last_name => 'Idol', :email => 'billy@ga.com', :password => 'chicken', :password_confirmation => 'chicken', :chef => true, :phone => "0423 009 884", :image => 'http://www.profitableplantsdigest.com/wp-content/uploads/2012/08/SYH-Chef.jpg', :bio => "Famous for cooking rabbits, horses, camels, and donkeys. Grey up with a pack of wolves. Foundation of cooking was from hunting wild rabbits and sourcing raw herbs.", :rate => 50
 u13 = User.create :first_name => 'Gigi', :last_name => 'Barnaby', :email => 'gigi@ga.com', :password => 'chicken', :password_confirmation => 'chicken', :chef => true, :phone => "0423 009 884", :image => 'http://www.gatewaygourmet.com/blog/wp-content/uploads/2014/11/f_pastry_chef_1.jpg', :bio => '10+ years experience washing dishes in an underground Thai resteraunt in Chinatown', :rate => 50
 u14 = User.create :first_name => 'Greg', :last_name => 'Tchinkins', :email => 'gerg@ga.com', :password => 'chicken', :password_confirmation => 'chicken', :chef => true, :phone => "0423 009 884", :image => 'http://www.chaine.co.uk/media/static/young_chefs_competition.jpg', :bio => "Famous for cooking rabbits, horses, camels, and donkeys. Grey up with a pack of wolves. Foundation of cooking was from hunting wild rabbits and sourcing raw herbs.", :rate => 50
-u15 = User.create :first_name => 'Gloria', :last_name => 'Barnaby', :email => 'gigi@ga.com', :password => 'chicken', :password_confirmation => 'chicken', :chef => true, :phone => "0423 009 884", :image => 'http://finedininglovers.cdn.crosscast-system.com/BlogPost/xl_7361_TP-LANSHU-CHEN-finedininglovers.jpg', :bio => '40 years experience at a vietnamese family resteraunt', :rate => 40
+u15 = User.create :first_name => 'Gloria', :last_name => 'Barnaby', :email => 'gigi2@ga.com', :password => 'chicken', :password_confirmation => 'chicken', :chef => true, :phone => "0423 009 884", :image => 'http://finedininglovers.cdn.crosscast-system.com/BlogPost/xl_7361_TP-LANSHU-CHEN-finedininglovers.jpg', :bio => '40 years experience at a vietnamese family resteraunt', :rate => 40
 
 
 Menu.destroy_all
 
-m1 = Menu.create :title => 'Japanese 8 course dinner', :cuisine => "Japanese", :pricePP => 45, :description => 'spicy mango chicken curry, has bits of peas and carrots inside', :vego => false, :gluten_free => false, :image => "http://www.bobturf.org/jeannie/images/JaipurPalace_MangoChickenCurry.jpg"
-m2 = Menu.create :title => 'Asian dinner with 5 variations of fried Rice', :cuisine => "Chinese", :pricePP => 8.50, :description => 'epic chili Taiwanese fried rice, there is baby shrimps, brocolo, mince beef, shallots, 2 whole garlics, and egg in the mix. Very tasty. Must pickup before 10pm' , :vego => false, :gluten_free => false, :image => "http://f.tqn.com/y/chinesefood/1/W/x/T/1/ground-beef-fried-rice-resized.jpg"
-m3 = Menu.create :title => 'Italian 5 course menu', :cuisine => "Italian", :pricePP => 5, :description => 'I have a huge box of canned bake beans. Come eat them with me, or feel free to take some home.', :vego => true, :gluten_free => true, :image => "http://i.dailymail.co.uk/i/pix/2015/09/13/23/2C480A5700000578-0-image-m-3_1442182728997.jpg"
-m4 = Menu.create :title => 'Japanese 8 course dinner', :cuisine => "Japanese", :pricePP => 45, :description => 'spicy mango chicken curry, has bits of peas and carrots inside', :vego => false, :gluten_free => false, :image => "http://www.bobturf.org/jeannie/images/JaipurPalace_MangoChickenCurry.jpg"
-m5 = Menu.create :title => 'Asian dinner with 5 variations of fried Rice', :cuisine => "Chinese", :pricePP => 8.50, :description => 'epic chili Taiwanese fried rice, there is baby shrimps, brocolo, mince beef, shallots, 2 whole garlics, and egg in the mix. Very tasty. Must pickup before 10pm' , :vego => false, :gluten_free => false, :image => "http://f.tqn.com/y/chinesefood/1/W/x/T/1/ground-beef-fried-rice-resized.jpg"
-m6 = Menu.create :title => 'Italian 5 course menu', :cuisine => "Italian", :pricePP => 5, :description => 'I have a huge box of canned bake beans. Come eat them with me, or feel free to take some home.', :vego => true, :gluten_free => true, :image => "http://i.dailymail.co.uk/i/pix/2015/09/13/23/2C480A5700000578-0-image-m-3_1442182728997.jpg"
+m1 = Menu.create :title => 'Japanese 8 course dinner', :cuisine => "Japanese", :pricePP => 45, :description => 'spicy mango chicken curry, has bits of peas and carrots inside', :vego => false, :gluten_free => false, :image => "http://bandnewsfmcuritiba.com/wp-content/uploads/2013/08/08-16-kandoo-1.jpg"
+m2 = Menu.create :title => 'Asian dinner with 5 variations of fried Rice', :cuisine => "Chinese", :pricePP => 8.50, :description => 'epic chili Taiwanese fried rice, there is baby shrimps, brocolo, mince beef, shallots, 2 whole garlics, and egg in the mix. Very tasty. Must pickup before 10pm' , :vego => false, :gluten_free => false, :image => "https://bitememad.files.wordpress.com/2015/10/dsc_0001.jpg?w=672&h=372&crop=1"
+m3 = Menu.create :title => 'Italian 5 course menu', :cuisine => "Italian", :pricePP => 30, :description => 'I have a huge box of canned bake beans. Come eat them with me, or feel free to take some home.', :vego => true, :gluten_free => true, :image => "http://blog.dbandeja.com.br/wp-content/uploads/2013/07/1107-Festa-Italiana1-600x360.jpg"
+m4 = Menu.create :title => 'Brazilian Dinner', :cuisine => "Brazilian", :pricePP => 45, :description => 'Brazilian Barbecue ', :vego => false, :gluten_free => false, :image => "https://media.timeout.com/images/103086319/617/347/image.jpg"
+m5 = Menu.create :title => 'French Menu', :cuisine => "French", :pricePP => 45, :description => 'French Crepes' , :vego => false, :gluten_free => false, :image => "http://previews.123rf.com/images/dmykhailov/dmykhailov1112/dmykhailov111200098/11770860-French-style-crepes-with-banana-chocolate-sauce-and-sugar-powder-Stock-Photo.jpg"
+m6 = Menu.create :title => 'Tradidional Mexican Dinner', :cuisine => "Mexican", :pricePP => 25, :description => 'NAchos, Chili, Burritos...', :vego => true, :gluten_free => true, :image => "http://elcharrorestaurantac.com/wp-content/uploads/2014/08/DeluxeNachos.jpg"
+m7 = Menu.create :title => 'Tradidional Spanish Dinner', :cuisine => "Spanish", :pricePP => 45, :description => 'All tapas', :vego => false, :gluten_free => true, :image => "http://blog.descubraomundo.com/wp-content/uploads/2014/05/madri_tapas.jpg"
 
 u10.menus << m1
 u11.menus << m2
@@ -35,6 +36,7 @@ u12.menus << m3
 u13.menus << m4
 u14.menus << m5
 u15.menus << m6
+u15.menus << m7
 
 
 
@@ -50,10 +52,10 @@ description = ["House Party at Sydney Penthouse", "Garage Dinner Party with Loca
 guests = [4,6,8,9,12,20,35]
 confirm = [true, false]
 
-Event.destroy_all
-(1..40).to_a.each do |i|
-  Event.create :suburb => suburb.sample, :address => address.sample, :time => dates.sample, :user_id => User.all.pluck(:id).sample, :menu_id => Menu.all.pluck(:id).sample, :chef_id => User.where(:chef => true).pluck(:id).sample, :description => description.sample, :guests => guests.sample, :confirm => confirm.sample
-end
+# Event.destroy_all
+# (1..40).to_a.each do |i|
+#   Event.create :suburb => suburb.sample, :address => address.sample, :time => dates.sample, :user_id => User.all.pluck(:id).sample, :menu_id => Menu.all.pluck(:id).sample, :chef_id => User.where(:chef => true).pluck(:id).sample, :description => description.sample, :guests => guests.sample, :confirm => confirm.sample
+# end
 
 rating = [2,3,4,5]
 review = ["Amazing!!!", "Could be better", "Best Dinner party ever becase the food was awesome", "Very weird but pleasant", "FABULOUS!!"]

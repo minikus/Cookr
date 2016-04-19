@@ -27,14 +27,16 @@ class MenusController < ApplicationController
   # POST /menus
   # POST /menus.json
   def create
-
-    req = Cloudinary::Uploader.upload(params[:menu]["image"])
-
     @menu = Menu.new(menu_params)
-    @menu.update :image => req['url']
+    if params[:menu]["image"].present?
+      req = Cloudinary::Uploader.upload(params[:menu]["image"])
+      @menu.update :image => req['url']
+    else
+      @menu.image = "http://mealbucket.com/images/63pd17_C9jfUPR4hFimF631hN.jpg"
+    end
+
     @current_user.menus << @menu
     @menu.save
-
     respond_to do |format|
       if @menu.save
         format.html { redirect_to @menu, notice: 'Menu was successfully created.' }
@@ -42,7 +44,7 @@ class MenusController < ApplicationController
       else
         format.html { render :new }
         format.json { render json: @menu.errors, status: :unprocessable_entity }
-      end
+        end
     end
   end
 

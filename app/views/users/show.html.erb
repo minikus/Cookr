@@ -14,6 +14,7 @@
     </div>
 
     <div class="userInfo col col-lg-6 col-md-6 col-sm-12 cf">
+      <h2>Contact <%= @user.first_name %></h2>
         <p>
           <strong>Email:</strong>
           <%= @user.email %>
@@ -57,24 +58,25 @@
 
         <% #only show the chef bio, rate, and menus if they are a chef %>
         <% if @user.chef? %>
-        <p>
-          <strong>Bio:</strong>
-          <%= @user.bio %>
-        </p>
-        <p>
-          <strong>Rate:</strong>
-          <%= @user.rate %> $ per hour
-        </p>
-        <strong>Menus:</strong>
-        <% @user.menus.each do |menu| %>
-          <li><%= link_to menu.title, menu %></li>
-        <% end %>
-        <%= link_to 'Add Menu', new_menu_path %>
+          <p>
+            <strong>Bio:</strong>
+            <%= @user.bio %>
+          </p>
+          <p>
+            <strong>Rate:</strong>
+            <%= @user.rate %> $ per hour
+          </p>
+          <strong>Menus:</strong>
+          <% @user.menus.each do |menu| %>
+            <li><%= link_to menu.title, menu %></li>
+          <% end %>
+          <% if @user === @current_user || @current_user.admin? %>
+            <%= link_to 'Add Menu', new_menu_path %>
+          <% end %>
         <% end %>
         <br>
           <div class="return">
           <% if @current_user.present? %>
-
             <% #only show the edit button if the current user is @user or admin %>
             <% if @current_user.admin? || @current_user.id === @user.id %>
               <%= link_to 'Edit', edit_user_path(@user) %> |
@@ -83,5 +85,43 @@
             <%= link_to 'Back', users_path %>
           </div>
         </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-2 col-md-2"></div>
+    <div class="reviewsContainer row col-lg-8 col-md-8 cold-sm-12">
+      <h2><%= @user.first_name %>'s Reviews</h2>
+      <h4>Create a new review for <%= @user.first_name %> </h4>
+      <div class="chefReviews">
+        <%= form_for ([@user, Review.new]), remote: true, html: {multipart: true} do |f| %>
+        <div><strong>Ratings from 1 - 10:</strong>
+          <br> 1 = Bad Cooking, 10 = Masterchef!!</div>
+          <fieldset class="label reviewRating">
+            <h4><%= f.label :rating %> </h4>
+            <%= f.number_field :rating %>
+          </fieldset>
+
+          <fieldset class="label reviewComments" >
+            <h4><%= f.label :comments %></h4>
+            <%= f.text_area :review, size: "60x12" %>
+          </fieldset>
+          <fieldset id="submitReview">
+            <%= f.submit %>
+          </fieldset>
+        <% end %>
+      </div>
+      <h2 id="prevReviews">Previous Reviews</h2>
+      <% @user.reviews.reverse.each do |review| %>
+        <div class="individual_reviews">
+          <span class="rating"><%= review.rating %> / 10 :</span>
+          <span class="review_comments"><%= review.review %></span>
+          <br>
+          <br>
+          <div class="light-orange">
+          Review by: <%= link_to review.reviewer.first_name, review.reviewer %>
+          </div>
+        </div>
+      <% end %>
+
+    </div>
   </div>
 </div>

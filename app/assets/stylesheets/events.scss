@@ -35,7 +35,43 @@
   text-align: center
 }
 
+.events a{
+  font-size: 18px;
+}
+
 .events li {
   text-align: left;
   margin-bottom: 20px;
+}
+
+h5{
+  color: black;
+  size: 30px;
+  font-size: 20px;
+}
+
+.eventDescription{
+  text-align: left;
+  display: inline-block;
+}
+
+.eventResults{
+  display: inline-block;
+}
+
+.eventResults h5{
+  text-align: center;
+  color: gray;
+}
+
+.eventResults a{
+  text-align: center;
+  color: gainsboro;
+  font-size: 20px;
+  &:visited{
+    color: gainsboro;
+  }
+  &:hover{
+    color: #BEEEEF;
+  }
 }
