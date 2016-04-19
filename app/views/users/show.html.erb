@@ -92,7 +92,7 @@
       <h2><%= @user.first_name %>'s Reviews</h2>
       <h4>Create a new review for <%= @user.first_name %> </h4>
       <div class="chefReviews">
-        <%= form_for ([@user, Review.new]), html: {multipart: true} do |f| %>
+        <%= form_for ([@user, Review.new]), remote: true, html: {multipart: true} do |f| %>
         <div><strong>Ratings from 1 - 10:</strong>
           <br> 1 = Bad Cooking, 10 = Masterchef!!</div>
           <fieldset class="label reviewRating">
@@ -104,16 +104,13 @@
             <h4><%= f.label :comments %></h4>
             <%= f.text_area :review, size: "60x12" %>
           </fieldset>
-
-
-
-          <fieldset>
+          <fieldset id="submitReview">
             <%= f.submit %>
           </fieldset>
         <% end %>
       </div>
-      <h2>Previous Reviews</h2>
-      <% @user.reviews.each do |review| %>
+      <h2 id="prevReviews">Previous Reviews</h2>
+      <% @user.reviews.reverse.each do |review| %>
         <div class="individual_reviews">
           <span class="rating"><%= review.rating %> / 10 :</span>
           <span class="review_comments"><%= review.review %></span>

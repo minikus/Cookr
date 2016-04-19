@@ -22,16 +22,14 @@ class ReviewsController < ApplicationController
   # POST /reviews
   # POST /reviews.json
   def create
-  ## scaffold code
-  ## My Code
       @review = Review.create review_params
       @review.update :user_id => params[:user_id]
       # Who we're reviewing
       @review.update :reviewer_id => @current_user.id
    respond_to do |format|
       if @review.save
-        format.html { redirect_to user_path(@review.user_id), notice: 'Review was successfully created.' }
-        format.json { render :show, status: :created, location: @review }
+        format.html { render :review, :layout => false } #layout false will not render the entire layouts page, we onyl want the reviews here.
+        #format.json { render :show, status: :created, location: @review }
       else
         format.html { render :new }
         format.json { render json: @review.errors, status: :unprocessable_entity }

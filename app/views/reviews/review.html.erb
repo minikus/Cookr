@@ -1,0 +1,9 @@
+<div class="individual_reviews">
+  <span class="rating"><%= @review.rating %> / 10 :</span>
+  <span class="review_comments"><%= @review.review %></span>
+  <br>
+  <br>
+  <div class="light-orange">
+  Review by: <%= link_to @review.reviewer.first_name, @review.reviewer %>
+  </div>
+</div>
