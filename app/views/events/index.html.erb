@@ -1,16 +1,28 @@
-<div class="background2">
-</div>
-
+<div class="background2"></div>
 
 <div class="main">
   <p id="notice"><%= notice %></p>
 
   <h1>My Events</h1>
   <div class="events">
-      <% @current_user.events.each do |event| %>
+
+    <% if @current_user.events.present? %>
+    <h3>Next Events</h3>
+    <% @current_user.events.each do |event| %>
+    <% if Time.now < event.time %>
   <li><%= link_to event.description, event %></li>
   <% end %>
-<br><br>
-<%= link_to 'New Event', new_event_path, :class => "btn btn-default" %>
-  </div>
+<% end %>
+
+  <h3>Past</h3>
+  <% @current_user.events.each do |event| %>
+    <% if Time.now > event.time %>
+      <li><%= link_to event.description, event %></li>
+    <% end %>
+  <% end %>
+<% end %>
+
+  <br><br>
+  <%= link_to 'New Event', new_event_path, :class => "btn btn-default" %>
+</div>
 </div>
