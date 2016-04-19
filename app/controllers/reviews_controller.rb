@@ -19,9 +19,8 @@ class ReviewsController < ApplicationController
     @review = @current_review
   end
 
-  # POST /reviews
-  # POST /reviews.json
   def create
+    
       @review = Review.create review_params
       @review.update :user_id => params[:user_id]
       # Who we're reviewing
