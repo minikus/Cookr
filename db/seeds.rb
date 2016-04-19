@@ -52,9 +52,6 @@ description = ["House Party at Sydney Penthouse", "Garage Dinner Party with Loca
 guests = [4,6,8,9,12,20,35]
 confirm = [true, false]
 
-# Event.destroy_all
-# (1..40).to_a.each do |i|
-#   Event.create :suburb => suburb.sample, :address => address.sample, :time => dates.sample, :user_id => User.all.pluck(:id).sample, :menu_id => Menu.all.pluck(:id).sample, :chef_id => User.where(:chef => true).pluck(:id).sample, :description => description.sample, :guests => guests.sample, :confirm => confirm.sample
-# end
+Event.destroy_all
 
 Review.destroy_all

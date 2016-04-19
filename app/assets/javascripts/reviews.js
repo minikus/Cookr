@@ -1,7 +1,13 @@
 $(document).ready(function() {
-  return $("#new_article").on("ajax:success", function(e, data, status, xhr) {
-    return $("#new_article").append(xhr.responseText);
+
+   $(".new_review").on("ajax:success", function(e, data, status, xhr) {
+     $("#prevReviews").after(data);
   }).on("ajax:error", function(e, xhr, status, error) {
-    return $("#new_article").append("<p>ERROR</p>");
+     $(".new_review").append("<p>ERROR</p>");
   });
+
+
+
+
+
 });

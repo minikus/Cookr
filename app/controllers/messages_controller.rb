@@ -12,6 +12,13 @@ class MessagesController < ApplicationController
     end
   end
 
+  def get_messages
+    messages = Message.all
+    render :json => {
+      :messages => messages
+    }
+  end
+
   # GET /messages/1
   # GET /messages/1.json
   def show
