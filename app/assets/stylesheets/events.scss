@@ -2,9 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#menuField{
-  display: none;
-}
 
 .chefMenuField{
   display: none;
@@ -28,7 +25,7 @@
 }
 
 .events{
-  background-color: rgba(46, 42, 42, 0.3);
+  background-color: rgba(46,42,42,0.05);
   padding: 40px;
   margin: 0 auto;
   border-radius: 5%;

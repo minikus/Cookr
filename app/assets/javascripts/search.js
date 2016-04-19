@@ -18,15 +18,8 @@ $(document).ready(function() {
 
 
   //Events Form
-  $('#calculatePrice').on('click', function() {
-    event.preventDefault();
-  });
-  $("#createEventButton").hide();
-
-  $("#chefField").change(function() {
+  var getMenus = function () {
     var chefID = $("#event_chef_id").val();
-    $('#menuField').show();
-
     var allMenus = [];
     $.ajax('/treefrogs').done(function(result) {
       allMenus = result.menus;
@@ -44,11 +37,7 @@ $(document).ready(function() {
       $('.chefMenuField').hide();
       $('#event_menu_id').html('');
       $('#event_price').val("");
-      // $('#priceField').html("");
-      $('#event_price').val("");
-
       $('#event_guests').val("");
-      $("#createEventButton").hide();
 
       var firstItem = '<option selected disabled>Choose here</option>';
 
@@ -63,40 +52,48 @@ $(document).ready(function() {
         $('.chefMenuField').show();
       }
     });
+  };
+
+  $("#chefField").change(function() {
+    var chefID = $("#event_chef_id").val();
+    $('#menuField').show();
+    getMenus();
   });
+
 
   $('#menuField').change(function() {
-    // $('#priceField').html("");
     $('#event_price').val("");
-    $("#createEventButton").hide();
-    $('#event_guests').on('keyup', function() {
-      $.ajax('/treefrogs').done(function(result) {
-        allMenus = result.menus;
-      }).done(function() {
-        var menuID = $('#event_menu_id').val();
-        var menuPrice = 0;
-        var guests = Number($('#event_guests').val());
-        for (var i = 0; i < allMenus.length; i++) {
-          if (allMenus[i].id === Number(menuID)) {
-            menuPrice = allMenus[i].pricePP;
-            console.log(menuPrice);
-            var guest = Number($('#event_guests').val());
-            var finalPrice = menuPrice * guests;
-            console.log(finalPrice);
-            if (finalPrice === 0) {
-              $('#priceField').html('<p>' + "You did not enter Guests" + '</p>');
-              $("#createEventButton").hide();
-            } else if (finalPrice < 0) {
-              $('#priceField').html('<p>' + 'This is not valid!' + '</p>');
-              $("#createEventButton").hide();
-            } else {
-              $('#event_price').val(finalPrice);
-              $("#createEventButton").show();
+    $('#event_guests').val("");
+  });
 
-            }
+  $('#event_guests').on('keyup', function() {
+    console.log('event_guests keyup');
+    $('#event_price').val("");
+
+    $.ajax('/treefrogs').done(function(result) {
+      allMenus = result.menus;
+    }).done(function() {
+      var menuID = $('#event_menu_id').val();
+      var menuPrice = 0;
+      var guests = Number($('#event_guests').val());
+      for (var i = 0; i < allMenus.length; i++) {
+        if (allMenus[i].id === Number(menuID)) {
+          menuPrice = allMenus[i].pricePP;
+          console.log(menuPrice);
+          var guest = Number($('#event_guests').val());
+          var finalPrice = menuPrice * guests;
+          console.log(finalPrice);
+          if (finalPrice === 0) {
+            $('#event_price').val("How many guests?");
+          } else if (finalPrice < 0) {
+            $('#event_price').val("This is not valid!");
+          } else {
+            $('#event_price').val(finalPrice);
           }
         }
-      });
+      }
     });
   });
+
+
 });
