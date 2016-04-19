@@ -35,22 +35,36 @@ $(document).ready(function () {
   };
 
   var displayMessages = function (messages) {
-    $('table').remove();
-    $('#show-messages').val('');
+    $('#messages').val('');
     _.each(messages, function (message) {
+      var messageFrom = _.find(users, function (user){
+        return user.id === message.user_id;
+      });
+      var messageTo = _.find(users, function (user) {
+        return user.id === message.target;
+      });
       var $newMessage = $('<div/>');
+      var $messageHeader = $('<p/>');
       if (message.user_id === current_user) {
         $newMessage.addClass('outgoing-message');
+        $messageHeader.text('To ' + messageTo.first_name + ':');
       } else {
         $newMessage.addClass('incoming-message');
+        $messageHeader.text('From ' + messageFrom.first_name + ':');
       };
       var $messageText = $('<p/>').text(message.message);
+      $newMessage.append($messageHeader);
       $newMessage.append($messageText);
-      $('#show-messages').append($newMessage);
+      $('#messages').append($newMessage);
     });
+    var $messageInput = $('<textarea/>').attr({'id': 'message-content', 'placeholder': 'Enter message here'});
+    $messageInput.appendTo('#messages');
+    var $submitMessage = $('<button/>').attr({'id': 'create-message', 'value': messageTo.id});
+    $submitMessage.appendTo('#messages');
   };
 
   //calling getUserId to kick off the chain of functions
   getUserId();
+
 
 });

@@ -1,3 +1,34 @@
-// Place all the styles related to the Messages controller here.
+// Place all the styles related to the Reviews controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+//
+// .chefReviews {
+//   max-width: 500px;
+//   background-color: grey;
+//   margin: 0 auto;
+//   text-align: left;
+// }
+#messages {
+  background-color: #beeeef;
+  padding: 5%;
+  text-align: left;
+  padding: 5% 10% 5% 10%;
+}
+
+.incoming-message {
+  background-color: papayawhip;
+  width: 60%;
+  align: left;
+  margin-right: 40%;
+}
+
+.outgoing-message {
+  background-color: salmon;
+  width: 60%;
+  align: right;
+  margin-left: 40%;
+}
+
+#message-content {
+  width: 100%;
+}
