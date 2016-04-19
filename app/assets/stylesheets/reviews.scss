@@ -1,3 +1,46 @@
 // Place all the styles related to the Reviews controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+//
+// .chefReviews {
+//   max-width: 500px;
+//   background-color: grey;
+//   margin: 0 auto;
+//   text-align: left;
+// }
+.reviewsContainer {
+  background-color: #beeeef;
+  padding: 5%;
+  text-align: left;
+  padding: 5% 20% 5% 20%;
+}
+
+fieldset.label{
+  color: black;
+  text-align: left;
+  max-width: 100%;
+}
+
+.label {
+  padding: 0;
+}
+.ratings {
+  margin-bottom: 20px;
+}
+
+h4 {
+  text-align: left;
+}
+.reviewRating{
+  max-width: 100%;
+}
+
+.reviewComments{
+  width: 100%;
+}
+
+.individual_reviews {
+  border: 1px solid white;
+  padding: 3%;
+  margin: 2%;
+}

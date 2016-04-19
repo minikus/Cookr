@@ -4,37 +4,40 @@ class ReviewsController < ApplicationController
   # GET /reviews
   # GET /reviews.json
   def index
-    @reviews = Review.all
-  end
+    @reviews = Review.find params[:id]
 
-  # GET /reviews/1
-  # GET /reviews/1.json
-  def show
-  end
-
-  # GET /reviews/new
-  def new
+    @user = User.find(params[user:id])
     @review = Review.new
+  end
+
+  # new reviews is inside index
+  def new
   end
 
   # GET /reviews/1/edit
   def edit
+    @review = @current_review
   end
 
   # POST /reviews
   # POST /reviews.json
   def create
-    @review = Review.new(review_params)
-
-    respond_to do |format|
+  ## scaffold code
+  ## My Code
+      @review = Review.create review_params
+      @review.update :user_id => params[:user_id]
+      # Who we're reviewing
+      @review.update :reviewer_id => @current_user.id
+   respond_to do |format|
       if @review.save
-        format.html { redirect_to @review, notice: 'Review was successfully created.' }
+        format.html { redirect_to user_path(@review.user_id), notice: 'Review was successfully created.' }
         format.json { render :show, status: :created, location: @review }
       else
         format.html { render :new }
         format.json { render json: @review.errors, status: :unprocessable_entity }
       end
-    end
+  end
+
   end
 
   # PATCH/PUT /reviews/1
