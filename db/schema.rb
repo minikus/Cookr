@@ -32,7 +32,6 @@ ActiveRecord::Schema.define(version: 20160419022840) do
   end
 
   create_table "menus", force: :cascade do |t|
-    t.integer  "user_id"
     t.string   "cuisine"
     t.text     "description"
     t.float    "pricePP"
@@ -43,6 +42,7 @@ ActiveRecord::Schema.define(version: 20160419022840) do
     t.text     "image"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.integer  "user_id"
   end
 
   create_table "messages", force: :cascade do |t|

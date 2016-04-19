@@ -2,39 +2,12 @@
 
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Messages</h1>
+<h1>Your Messages</h1>
 
-<div id="show-messages"></div>
+<div class="row">
+  <div class="col-lg-2 col-md-2"></div>
+  <div id="messages" class="col-lg-8 col-sm-12"></div>
 
-<table>
-  <thead>
-    <tr>
-      <th>User</th>
-      <th>Target</th>
-      <th>Message</th>
-      <th>Seen</th>
-      <th>Archive</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+</div>
 
-  <tbody>
-    <% @messages.each do |message| %>
-      <tr>
-        <td><%= message.user_id %></td>
-        <td><%= message.target %></td>
-        <td><%= message.message %></td>
-        <td><%= message.seen %></td>
-        <td><%= message.archive %></td>
-        <td><%= link_to 'Show', message %></td>
-        <td><%= link_to 'Edit', edit_message_path(message) %></td>
-        <td><%= link_to 'Destroy', message, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Message', new_message_path %>
 </div>
