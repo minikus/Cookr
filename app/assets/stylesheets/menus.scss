@@ -3,6 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+
+
 .thumb{
   width: 150px;
   height: 150px;
@@ -50,12 +52,12 @@ input[type=search] {
 }
 
 .menuImage{
-  height: 400px;
+  width: 400px;
   margin-right: 60px;
   vertical-align: center;
   max-width: 100%;
   box-shadow: 2px 4px 10px black;
-
+  margin-top: 50px;
 }
 
 .menuShowImage{
