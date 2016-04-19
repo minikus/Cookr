@@ -68,9 +68,8 @@ $(document).ready(function() {
   $('#menuField').change(function() {
     // $('#priceField').html("");
     $('#event_price').val("");
-    $('#event_guests').val("");
     $("#createEventButton").hide();
-    $('#calculatePrice').on('click', function() {
+    $('#event_guests').on('keyup', function() {
       $.ajax('/treefrogs').done(function(result) {
         allMenus = result.menus;
       }).done(function() {

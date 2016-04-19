@@ -1,90 +1,87 @@
 <div class="main cf">
+
   <p id="notice"><%= notice %></p>
+  <% if @current_user == @user %>
+  <h1>Hello <%= @user.first_name %></h1>
+  <% end %>
+  <div class="row">
+    <div class="col-lg-2 col-md-1 cold-sm-0"></div>
+    <div class="usersViewIcon col col-lg-3 col-md-3 cold-sm-12 cf">
+      <h2>
+        <%= @user.first_name %> <br> <%= @user.last_name %>
+      </h2>
+      <%= image_tag @user.image, :class => "thumb cf"%>
+    </div>
 
-    <% if @current_user == @user %>
-    <h1>Hello<%= @user.first_name %></h1>
-    <% else %>
-    <h2><%= @user.first_name%> <%= + @user.last_name %></h2>
-    <% end %>
-    <div class="row">
-      <div class="col-lg-2 col-md-1 cold-sm-0"></div>
-      <div class="usersViewIcon col col-lg-3 col-md-3 cold-sm-12 cf">
-        <%= image_tag @user.image, :class => "thumb cf"%>
-        <% if @user.chef? %>
-        <br>
-        <p><%= @user.bio %></p>
-      </div>
-
-      <div class="userInfo col col-lg-6 col-md-6 col-sm-12 cf">
+    <div class="userInfo col col-lg-6 col-md-6 col-sm-12 cf">
         <p>
           <strong>Email:</strong>
           <%= @user.email %>
         </p>
 
-        <% #only show the admin status if the current user is an admin %>
-        <% if @current_user.present? %>
+      <% #only show the admin status if the current user is an admin %>
+      <% if @current_user.present? %>
         <% if @current_user.admin? %>
-        <% if @user.admin? %>
-        <p>
-          <strong>Admin:
-          </strong><%= @user.first_name %>
-          is also an admin
-          <%= @user.admin %>
-        </p>
-        <% end %>
-        <p>
-          <strong>Admin:
-          </strong>
-          <%= @user.first_name %>
-          is not an admin
-        </p>
-        <% end %>
+          <% if @user.admin? %>
+          <p>
+            <strong>Admin: </strong><%= @user.first_name %> is also an admin
+            <%= @user.admin %>
+          </p>
+            <% end %>
+          <p>
+            <strong>Admin: </strong> <%= @user.first_name %> is not an admin
+          </p>
+          <% end %>
         <% end %>
 
         <% #only show the phone number if @user is a chef or current user is admin %>
         <% if @user.chef? || @current_user.admin? %>
-        <p>
-          <strong>Phone:</strong>
-          <%= @user.phone %>
-        </p>
+          <p>
+            <strong>Phone:</strong>
+            <%= @user.phone %>
+          </p>
         <% end %>
 
         <% #show host or chef depending on @user.chef status %>
         <% if @user.chef? %>
-        <p>
-          <strong>User type:</strong>
-          Chef
-        </p>
+          <p>
+            <strong>User type: </strong>
+            Chef
+          </p>
         <% elsif !@user.chef? %>
-        <p>
-          <strong>User type:</strong>
-          Host
-        </p>
+          <p>
+            <strong>User type: </strong>
+            Host
+          </p>
         <% end %>
 
         <% #only show the chef bio, rate, and menus if they are a chef %>
-
+        <% if @user.chef? %>
+        <p>
+          <strong>Bio:</strong>
+          <%= @user.bio %>
+        </p>
         <p>
           <strong>Rate:</strong>
-          <%= number_to_currency(@user.rate) %> per hour
+          <%= @user.rate %> $ per hour
         </p>
         <strong>Menus:</strong>
         <% @user.menus.each do |menu| %>
-      <li><%= link_to menu.title, menu %></li>
-      <% end %>
-      <%= link_to 'Add Menu', new_menu_path %>
-      <% end %>
-      <br>
-      <div class="return">
-        <% if @current_user.present? %>
+          <li><%= link_to menu.title, menu %></li>
+        <% end %>
+        <%= link_to 'Add Menu', new_menu_path %>
+        <% end %>
+        <br>
+          <div class="return">
+          <% if @current_user.present? %>
 
-        <% #only show the edit button if the current user is @user or admin %>
-        <% if @current_user.admin? || @current_user.id === @user.id %>
-        <%= link_to 'Edit', edit_user_path(@user) %>|
-        <% end %>
-        <% end %>
-        <%= link_to 'Back', users_path %>
-      </div>
-    </div>
+            <% #only show the edit button if the current user is @user or admin %>
+            <% if @current_user.admin? || @current_user.id === @user.id %>
+              <%= link_to 'Edit', edit_user_path(@user) %> |
+            <% end %>
+          <% end %>
+            <%= link_to 'Back', users_path %>
+          </div>
+        </div>
   </div>
 </div>
