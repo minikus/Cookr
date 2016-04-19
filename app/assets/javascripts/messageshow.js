@@ -47,7 +47,7 @@ $(document).ready(function () {
       var $messageHeader = $('<p/>');
       if (message.user_id === current_user) {
         $newMessage.addClass('outgoing-message');
-        $messageHeader.text('To ' + messageTo.first_name + ':');
+        $messageHeader.text('From you:');
       } else {
         $newMessage.addClass('incoming-message');
         $messageHeader.text('From ' + messageFrom.first_name + ':');
