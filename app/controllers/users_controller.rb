@@ -7,6 +7,13 @@ class UsersController < ApplicationController
     }
   end
 
+  def get_users
+    users = User.all
+    render :json => {
+      :users => users
+    }
+  end
+
   # GET /users
   # GET /users.json
   def index

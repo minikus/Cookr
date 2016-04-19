@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   get '/treefrogs' => 'events#get_menus'
 
   get '/current_user' => 'users#get_user'
+  get '/get_users' => 'users#get_users'
+  get '/getmessages' => 'messages#get_messages'
 
   resources :users do
     resources :reviews
