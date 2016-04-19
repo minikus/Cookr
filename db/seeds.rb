@@ -57,9 +57,4 @@ confirm = [true, false]
 #   Event.create :suburb => suburb.sample, :address => address.sample, :time => dates.sample, :user_id => User.all.pluck(:id).sample, :menu_id => Menu.all.pluck(:id).sample, :chef_id => User.where(:chef => true).pluck(:id).sample, :description => description.sample, :guests => guests.sample, :confirm => confirm.sample
 # end
 
-rating = [2,3,4,5]
-review = ["Amazing!!!", "Could be better", "Best Dinner party ever becase the food was awesome", "Very weird but pleasant", "FABULOUS!!"]
 Review.destroy_all
-(1..20).each do |i|
-  Review.create :user_id => User.all.pluck(:id).sample, :target => User.all.pluck(:id).sample, :rating => rating.sample, :review => review.sample
-end
