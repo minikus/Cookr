@@ -27,7 +27,6 @@ $(document).ready(function () {
         $messageError.remove();
       },2000);
     };
-    console.log(errors);
     if (errors === 0) {
 
 
