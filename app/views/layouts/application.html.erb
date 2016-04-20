@@ -58,20 +58,21 @@
       <%= yield %>
 
       <div class="footer">
-        <h3>Made by</h3>
-        <div class="us">
-          <%= image_tag("https://avatars.slack-edge.com/2016-02-01/19978362099_6bf9a9f5a5a24c4b1984_512.jpg", :class => "profileUS") %>
-        </div>
-        <div class="us">
-          <%= image_tag("https://scontent-syd1-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10259697_10154837861315284_4629627545294386790_n.jpg?oh=dc38d0314feac0f30e9d2b79f528ca1f&oe=57AEAD87", :class => "profileUS") %>
-        </div>
-        <div class="us">
-          <img src="https://avatars.slack-edge.com/2016-01-18/18750769953_1f2731af6aae4adf0588_512.jpg" alt="" class="profileUS" />
+
+        <div class="imageFooter">
+          <%= link_to image_tag('CookrLogo_white.png', :class => "logo"), root_path %>
         </div>
 
-        <div class="">
+        <div class="textFooter">
+          <p> About Cookr</p>
+          <p> How it Works?<p>
+          <p>Terms & Privacy</p>
+          <p> <%= link_to "Chefs", chefs_path%></p>
+          <p> <%= link_to "Menus", menus_path%></p>
 
-        </div>
+
+      </div>
+
       </div>
 
     </body>

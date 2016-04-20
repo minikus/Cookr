@@ -171,11 +171,22 @@ color: black;
 }
 
 
-.profileUS{
-  width: 100px;
+.imageFooter{
+  // width: 200px;
   border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 300px;
 }
 
-.us{
+.textFooter{
   display: inline-block;
+}
+
+.footer p, a{
+  color: white
+}
+
+.footer a:visited{
+  color: white;
 }
