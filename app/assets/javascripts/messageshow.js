@@ -3,6 +3,7 @@ $(document).ready(function () {
   var users = [];
   var messages = [];
   var relevantMessages = [];
+  var conversations = [];
 
   //get current user id, call this function to kick it off
   var getUserId = function () {
@@ -30,6 +31,26 @@ $(document).ready(function () {
       relevantMessages = _.filter(messages, function (message){
         return (message.user_id === current_user || message.target === current_user);
       });
+      // write a function which puts all of the conversation counterparts in an array
+      _.each(relevantMessages, function (message) {
+        if (message.user_id === current_user) {
+          conversations.push(message.target);
+        } else if (message.target === current_user) {
+          conversations.push(message.user_id);
+        };
+      });
+      conversations = _.uniq(conversations).sort();
+
+      // creates "chat heads" for each conversation
+      var width = 95/conversations.length;
+      for (var i = 0; i< conversations.length; i++) {
+        var user = _.find(users, function(user) {
+          return user.id === conversations[i];
+        });
+        $chatHead = $('<div/>').width(width + '%').addClass('chat-head');
+        $chatHead.html('<p>' + user.first_name + '</p>')
+        $chatHead.appendTo($('#conversations'));
+      }
       displayMessages(relevantMessages);
     });
   };
