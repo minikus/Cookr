@@ -1,0 +1,2134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="msapplication-config" content="none"/>
+<link rel="shortcut icon" href="https://media005.flaticon.com/img/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://media005.flaticon.com/img/apple-icon-57x57-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://media005.flaticon.com/img/apple-icon-60x60-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://media005.flaticon.com/img/apple-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://media005.flaticon.com/img/apple-icon-76x76-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://media005.flaticon.com/img/apple-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://media005.flaticon.com/img/apple-icon-120x120-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://media005.flaticon.com/img/apple-icon-144x144-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://media005.flaticon.com/img/apple-icon-152x152-precomposed.png" />
+<title>Chef outline - Free people icons</title>
+
+<meta name="description" content="Free vector icon. Download thousands of free icons of people in SVG, PSD, PNG, EPS format or as ICON FONT">
+<meta name="keywords" content="vector icons, free icons, free vector icons, icon font, icons">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name='twitter:site' content='@theflaticon'>
+<meta name='twitter:creator' content='@theflaticon'>
+<meta name='twitter:title' content='Chef outline free vector icon'>
+<meta name='twitter:description' content='Download now this free icon in SVG, PSD, PNG, EPS format or as webfonts'>
+<meta name='twitter:image' content='http://imageog.flaticon.com/1/png/512/62/62673.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF'>
+<meta name='twitter:domain' content='www.flaticon.com'>
+
+
+<meta property='og:title' content='Chef outline free vector icon' data-dynamic='true' />
+<meta property='og:site_name' content='Flaticon' data-dynamic='true' />
+<meta property='og:url' content='http://www.flaticon.com/free-icon/chef-outline_62673' />
+<meta property='og:description' content='Download now this free icon in SVG, PSD, PNG, EPS format or as webfonts'  data-dynamic='true' />
+<meta property='og:type' content='article'  data-dynamic='true' />
+<meta property='og:image' content='http://imageog.flaticon.com/1/png/512/62/62673.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF' />
+<meta property='og:image:type' content='image/png' data-dynamic='true'>
+<meta property='og:image:width' content='1200'  data-dynamic='true' />
+<meta property='og:image:height' content='630'  data-dynamic='true' />
+<meta property='fb:app_id' content='579360525479711'  data-dynamic='true' />
+<meta property='article:author' content='https://www.facebook.com/theflaticon'  data-dynamic='true' />
+<meta property='article:publisher' content='https://www.facebook.com/theflaticon'  data-dynamic='true' />
+<meta property='og:locale' content='en_US' />
+
+
+<link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css" />
+
+<link href='https://media005.flaticon.com/min/css/base.css?key=2016-04-12.01' rel='stylesheet' type='text/css'/>
+<!--[if lt IE 10]>
+<link rel="stylesheet" type="text/css" href="https://media005.flaticon.com/css/ie.css">
+<script>var ie = true;</script>
+<![endif]-->
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-42742855-1', 'auto', {'allowLinker': true});
+
+    // Sending ClientId to Shutterstock iframes
+    var clientId = undefined;
+    var iframeQueue = [];
+    function sendClientId() {
+        while (iframeQueue.length>0) {
+            var iframe = iframeQueue.pop();
+            // Extract domain from iframe src
+            var parser = document.createElement('a');
+            parser.href = iframe.src;
+            var target = parser.protocol+'//'+parser.hostname;
+            iframe.contentWindow.postMessage(clientId, target);
+        }
+    }
+    function askForClientId(element) {
+        iframeQueue.push(element);
+        if (clientId) {
+            sendClientId();
+        }
+    }
+    ga(function (tracker) {
+        clientId = tracker.get('clientId');
+        sendClientId();
+    });
+
+    if (window.performance && document.addEventListener) {
+        document.addEventListener('load', function () {
+            ga('send', 'timing', 'performance', 'documentLoad', performance.now() /* TODO: 'Highwinds CDN' | 'Edgecast CDN' | 'OVH' */);
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            ga('send', 'timing', 'performance', 'DOMContentLoaded', performance.now() /* TODO: 'Highwinds CDN' | 'Edgecast CDN' | 'OVH' */);
+        });
+    }
+
+    function ga_logged_in_callback(data) {
+        ga('set', 'dimension1', !data.status ? 'guest' : (data.premium ? 'premium' : 'registered'));
+        if (data.id) {
+            ga('set', 'userId', data.id);
+        }
+        ga('send', 'pageview');
+    }
+
+    function logged_in_callback(data) {
+        ga_logged_in_callback(data);
+    }
+</script>
+</head>
+<body class="">
+	<section id="viewport" class="viewport">
+		
+<header id="header" class="body-header">
+	<div class="popover popover-right main-menu">
+		<div class="popover-container">
+			<button class="popover-button nostyle" onclick="ga('send', 'event', 'Navbar', 'Click' ,'Menu')">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<ul class="popover-content">
+				<li><a title="Home" href="http://www.flaticon.com">Home</a></li>
+				<li><a title="Browse our packs to get a consistent style in your designs" href="http://www.flaticon.com/packs" title="Packs">Packs</a></li>
+				<li><a title="Know the artists who make your life easier" href="http://www.flaticon.com/authors" title="Authors">Authors</a></li>
+				<li><a title="Surf around our categories" href="http://www.flaticon.com/categories" title="Categories">Categories</a></li>
+				<li><a title="Convert between font formats with our Font-face generator" href="http://www.flaticon.com/font-face" title="Font-face">Font-face</a></li>
+				<li><a title="Flaticon Apps for Adobe and Mac OSx" href="http://www.flaticon.com/apps" title="Apps">Apps</a></li>
+				<li><a title="Flaticon Collections" href="http://www.flaticon.com/collections"><i class="flaticon-collections pull-left"></i>Flaticon Collections</a></li>
+				<li><a title="Join premium" href="https://profile.flaticon.com/plans" title="Premium plans" onclick="ga('send', 'event', 'Navbar', 'Click', 'Premium Plans')"><i class="flaticon-selection pull-left"></i>Premium plans</a></li>
+				<li><a title="Top icons last 24h" href="http://www.flaticon.com/most-downloaded"><i class="flaticon-flame pull-left"></i>Top icons</a></li>
+				<li><a title="Browser the latest icons added to our database" href="http://www.flaticon.com/latest-icons" title="Latest icons"><i class="flaticon-clock pull-left"></i>Latest icons</a></li>
+			</ul>
+		</div>
+	</div>
+	<a href="http://www.flaticon.com/" class="logo pull-left" id="logo" title="Flaticon - The largest database of free icons" onclick="ga('send', 'event', 'Navbar', 'Click', 'Home')">
+		<i class="logo-wrapper">
+			<img src="https://media005.flaticon.com/img/flaticon-logo.svg" title="Flaticon logo" width="187" height="34">
+		</i>
+	</a>
+	<section class="search-holder">
+		<form action="http://www.flaticon.com/search" method="get">
+			<input type="search" name="word" placeholder="Search icons" class="autocomplete" value="">
+			<button type="submit" class="flaticon-magnifier nostyle"></button>
+		</form>
+	</section>
+
+	
+	<button class="collections-toggle pull-right nostyle loading" id="collections-toggle">
+		<i class="flaticon-collections"></i>
+		<span class="badge badge-error"></span>
+	</button>
+	
+	<div id="gr_user_menu">
+
+		<span id="gr_not-connected" class="login-link gr_not-connected pull-right">
+			<a href="https://profile.flaticon.com/login"><i class="flaticon-user"></i></a>
+			<div class="dropdown-login gr_not-connected">
+				<p>
+					<a title="Login and enjoy all we have for you!" href="https://profile.flaticon.com/login" onclick="ga('send', 'event', 'Navbar', 'Click', 'Login')">Login</a>
+					<span>or</span>
+					<a title="Register and be part of us!" href="https://profile.flaticon.com/register" onclick="ga('send', 'event', 'Navbar', 'Click', 'Register')">register</a>
+				</p>
+			</div>
+		</span>
+
+		<div id="gr_connected" class="popover popover-user pull-right gr_connected">
+			<div class="popover-container">
+				<button class="avatar popover-button nostyle" id="gr_user_menu_avatar">
+					<img src="" alt="You look great!" onerror="set_default_avatar(this)">
+				</button>
+				<ul class="popover-content">
+					<li><a title="See and edit your profile" href="https://profile.flaticon.com/me"><i class="flaticon-user pull-right"></i>Profile</a></li>
+					<li><a title="See your download history" href="https://profile.flaticon.com/my_downloads"><i class="flaticon-download pull-right"></i>My Downloads</a></li>
+					<li><a title="See your collections" href="https://profile.flaticon.com/my_collections"><i class="flaticon-heart pull-right"></i>My collections</a></li>
+					<li><a title="Logout, we will miss you!" href="javascript:gr.auth.logout()" id="logout_link"><i class="flaticon-cancel pull-right gr_logout_button"></i>Logout</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</header>
+<script>
+	var DEFAULT_AVATAR    = 'https://media005.flaticon.com/img/default_avatar.png';
+	function set_default_avatar(elem)
+	{
+		elem.src = DEFAULT_AVATAR;
+	}
+
+	if (parseInt(localStorage.pageview || 0, 10) < 3){
+		var login_link = document.getElementById("gr_not-connected");
+		login_link.classList.add("dropdown-active");
+		localStorage.pageview = parseInt(localStorage.pageview || 0, 10) + 1;
+		setTimeout(function() {
+			var login_link = document.getElementById("gr_not-connected");
+			if (login_link) {
+				login_link.classList.remove('dropdown-active');
+			}
+		}, 4000);
+	}
+
+	</script>
+		<aside id="collections" class="collections loading">
+	<header class="collection-section-header">
+		<button onclick="Widget.toggle()" class="hide-collections nostyle"><i class="flaticon-arrow_right"></i></button>
+		<span>Collections</span>
+		<span class="badge badge-gray collections-number"></span>
+		<button disabled id="list_collections_btn" class="btn-pill btn-small show-collections simptip-position-bottom simptip-movable" onclick="Collection.list()" data-tooltip="Show collections"><i class="flaticon-list"></i></button>
+		<button disabled id="new_collection_btn" class="btn-pill btn-small add-collection simptip-position-bottom simptip-movable" onclick="Collection.new()" data-tooltip="Add a new collection"><i class="flaticon-add"></i></button>
+		<div class="dropdown-upgrade upgrade">
+			<p>You have reached your collections limit. Upgrade to get unlimited collections</p>
+			<a href="https://profile.flaticon.com/plans" class="btn fullwidth">Upgrade</a>
+		</div>
+		<div class="dropdown-upgrade register">
+			<p>You have reached your collections limit. Register and get up to 3 collections</p>
+			<a href="https://profile.flaticon.com/register" class="btn fullwidth">Register</a>
+		</div>
+	</header>
+
+	<section id="collections-holder" class="collections-holder overflow"></section>
+</aside>
+<div class="collections-overlay"></div>
+
+<section id="max-collections" class="max-collections">
+	<div class="overlay"></div>
+	<div class="max-collections-container">
+		<header>
+			<p>You have more collections than your plan allows. Click <b class='danger deleteCounter'></b> collections to delete them.</p>
+
+			<p>You can always <a href="https://profile.flaticon.com/plans">upgrade</a> to get unlimited collections and more.				<a href="https://profile.flaticon.com/plans"><i class="flaticon-info"></i> More info about Premium Plans</a>.
+			</p>
+
+		</header>
+		<div id="max-collections-content" class="max-collections-content"></div>
+	</div>
+</section>
+
+<div class="modal modal-bool">
+	<input class="modal-state" id="modal-delete-collection" type="checkbox">
+	<div class="modal-fade-screen">
+		<div class="modal-inner">
+			<label class="modal-close" for="modal-delete-collection"></label>
+			<p class="text-center">Are you sure you want to delete this collection?</p>
+			<button class="btn-danger" onclick="closeModal(this); Collection.del();">Yes, delete it</button>
+			<button onclick="closeModal(this);">No, go back</button>
+		</div>
+	</div>
+</div>
+
+<script>
+
+	if (localStorage.widget_active == '1'){
+		document.getElementById("collections").classList.add('visible');
+		document.getElementById("viewport").classList.add('collections-visible');
+	}
+	/*
+	if (localStorage.widget_state){
+		document.getElementById("collections-holder").innerHTML = localStorage.widget_state;
+		document.getElementById("collections").classList.remove('loading');
+		[].forEach.call(document.querySelectorAll(".popover-content, .popover-button"), function(popover) {
+			popover.classList.remove('show-menu','active');
+		});
+		[].forEach.call(document.querySelectorAll('.collection .collection-content, .collection .header-edit'), function(elem){
+			elem.classList.remove('edit-mode', 'visible');
+		});
+	}
+	*/
+</script>
+
+<div class="modal modal-download modal-collection">
+	<input class="modal-state" id="modal-collection" type="checkbox">
+	<div class="modal-fade-screen">
+		<div class="modal-inner">
+			<header>
+				<label class="modal-close" for="modal-collection"></label>
+				<h3>Download collection "<span class="collection_name"></span>"</h3>
+			</header>
+			<section class="modal-body">
+				<div class="column-premium">
+					<h3>Don't want to credit the author?</h3>
+					<a class="btn btn-premium" id="download-premium" href="https://profile.flaticon.com/plans" target="_blank" onclick="ga('send', 'event', 'Collection', 'Premium Download')">
+						<i class="flaticon-rocket"></i>
+						<b>Premium download</b>
+						<p>+103,500 icons from <span>$20</span> $9,99</p>
+					</a>
+					<p><a href="http://support.flaticon.com/hc/en-us/articles/202798201-How-can-I-use-Flaticon-s-resources-without-attribution-" title="Avoid atribbution on Flaticon Selection icons" target="_blank">Avoid atribbution on Flaticon Selection icons</a><br>
+						<a href="http://www.flaticon.com/apps" title="Full use of Adobe Extension and Mac OS X App" target="_blank">Adobe Extension + Mac OS X App</a><br>
+						<a href="http://support.flaticon.com/hc/en-us/articles/202798261-Can-I-cancel-my-plan-and-get-back-my-money-" title="Money back guaranteed" target="_blank">Money back guaranteed</a></p>
+						<a href="https://profile.flaticon.com/plans" target="_blank">Learn more</a>
+					</div>
+					<div class="column-free">
+						<p></p>
+						<h3><a href="http://support.flaticon.com/hc/en-us/articles/202798381-How-to-attribute-the-icons-to-their-authors" target="_blank">How to credit the author?</a></h3>
+						<button id="download-collection-free">
+							<b>Free download</b>
+							<span>You must credit the author</span>
+						</button>
+						<br>
+						<small>
+							<input type="checkbox" id="give-break_1" name="give-break_1" class="give_break" onclick="ga('send', 'event', 'licenses', 'take_break');">
+							<label for="give-break_1">Give me a break, please don't show me this screen in a while.</label>
+						</small>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+<div class="modal modal-report">
+	<input class="modal-state" id="modal-report-collection" type="checkbox">
+	<div class="modal-fade-screen">
+		<div class="modal-inner dark-scheme">
+			<header>
+				<h3 class="text-center">Report download</h3>
+				<label class="modal-close" for="modal-report-collection"></label>
+			</header>
+			<section class="modal-body<">
+				<form id="report-form-collection">
+					<p class="text-center">Please, indicate what problem has been found. Thanks!</p>
+					<div class="radio-holder">
+						<div class="col-6">
+							<span class="radio-group">
+								<input type="radio" name="reason" value="other-collection" id="other-collection" selected>
+								<label for="other-collection" class="radio fake-radio"></label>
+								<label for="other-collection">Other</label>
+							</span>
+						</div>						
+						<div class="col-6 omega">
+							<span class="radio-group">
+								<input type="radio" name="reason" value="not-working-collection" id="not-working-collection">
+								<label for="not-working-collection" class="radio fake-radio"></label>
+								<label for="not-working-collection">The download is not working</label>
+							</span>
+						</div>
+
+						<div class="col-6">
+							<span class="radio-group">
+								<input type="radio" name="reason" value="format-error" id="format-error" selected>
+								<label for="format-error" class="radio fake-radio"></label>
+								<label for="format-error">The format of some files is incorrect</label>
+							</span>
+						</div>	
+						<div class="col-6 omega">
+							<span class="radio-group">
+								<input type="radio" name="reason" value="long-time" id="long-time">
+								<label for="long-time" class="radio fake-radio"></label>
+								<label for="long-time">The download is taking too long</label>
+							</span>
+						</div>
+											
+					</div><!-- .radio-holder -->
+					<span class="textarea-group">
+						<textarea id="description-collection" class="noresize" name="description-collection"></textarea>
+						<label for="description-collection">Describe the problem</label>
+						<button href="#" class="reset-textarea">×</button>
+					</span>
+					<button type="submit" class="fullwidth">Send</button>
+				</form>
+			</section>
+		</div>
+	</div>
+</div>
+
+		<section id="detail" class="detail">
+
+	<section class="detail-header">
+
+		<ul class="share">
+			<li><a href="#" onclick="fbpopup();return false;" class="flaticon-facebook bg-facebook" title="Share in Facebook"></a></li>
+			<li><a href="#" onclick="tweet(event);return false;" class="flaticon-twitter bg-twitter" title="Share in Twitter"></a></li>
+			<li><a href="#" onclick="glpopup();return false;" class="flaticon-google bg-google" title="Share in Google"></a></li>
+			<li><a href="#" onclick="pinpopup();return false;" class="flaticon-pinterest bg-pinterest" title="Share in Pinterest"></a></li>
+		</ul>
+
+		<h1><span>Chef outline</span> free icon</h1>
+
+		<div class="author">
+						<a href="http://www.flaticon.com/authors/freepik" class="avatar avatar-60 pull-left" title="Freepik">
+				<img src="http://image005.flaticon.com/teams/1-freepik.jpg" alt="Freepik">
+			</a>
+						<p>
+				<span>by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> in <a class="category-icon" href="http://www.flaticon.com/categories/people">people</a>.</span>
+								<span>Pack: <a href="http://www.flaticon.com/packs/employees" title="Employees">Employees</a></span>
+							</p>
+		</div>
+
+	</section>
+
+
+	<section class="detail-content">
+
+				<img src="http://image005.flaticon.com/1/png/512/62/62673.png" alt="Chef outline free icon" style="display:none;"/>
+		
+				<div class="img-loader"></div>
+		<div class="img-loader"></div>
+
+		<a href="#" class="prev" title="Previous icon">
+			<span></span>
+			<i class="flaticon-arrow_left"></i>
+		</a>
+		
+		<div class="svg-version">
+			<div class="prev-icon prev-icon-2" data-type="svg"></div>
+			<div class="prev-icon prev-icon-1" data-type="svg"></div>
+			<div class="main-icon" data-type="svg" ></div>
+			<div class="next-icon next-icon-1" data-type="svg"></div>
+			<div class="next-icon next-icon-2" data-type="svg"></div>
+		</div>
+
+		<div class="img-version">
+
+			<div class="prev-icon prev-icon-2" data-type="img" data-slug="http://www.flaticon.com/free-icon/businessman-outline_62652">
+				<img src="http://image005.flaticon.com/1/svg/62/62652.svg" alt="" />
+			</div>
+			<div class="prev-icon prev-icon-1" data-type="img" data-slug="http://www.flaticon.com/free-icon/school-boy-outline_62692">
+				<img src="http://image005.flaticon.com/1/svg/62/62692.svg" alt="" />
+
+			</div>
+			<div class="main-icon" data-type="img">
+				<img src="http://image005.flaticon.com/1/svg/62/62673.svg" width="224" height="224" alt="Chef outline free icon"  title="Chef outline free icon"/>
+			</div>
+
+			<div class="next-icon next-icon-1" data-type="img" data-slug="http://www.flaticon.com/free-icon/school-boy-outline_62654">
+				<img src="http://image005.flaticon.com/1/svg/62/62654.svg" alt="" />
+			</div>
+			<div class="next-icon next-icon-2" data-type="img" data-slug="http://www.flaticon.com/free-icon/woman-with-dress-outline_62664">
+				<img src="http://image005.flaticon.com/1/svg/62/62664.svg" alt="" />
+
+			</div>
+		</div>
+
+		<button id="detail-icon-button" class="btn btn-gray" onclick="Widget.addIcon(62673, 'people', 1, 1)"><i class="flaticon-collections_add"></i> <span>Add to collection</span></button>
+		<img id="img-icon"  src="" class="" style="display:none;">
+
+				<a href="#" class="next" title="Next icon">
+			<i class="flaticon-arrow_right"></i>
+			<span></span>
+		</a>
+		
+	</section>
+
+	<section class="detail-footer">
+
+		<ul class="download">
+			<li><a href="#" class="btn" data-format="png" title="Download free icon in PNG format" >PNG</a></li>
+			<li><a href="#" class="btn" data-format="svg" title="Download free icon in SVG format" >SVG</a></li>
+			<li><a href="#" class="btn" data-format="eps" title="Download free icon in EPS format" >EPS</a></li>
+			<li><a href="#" class="btn" data-format="psd" title="Download free icon in PSD format" >PSD</a></li>
+			<li><a href="#" class="btn btn-outline" data-format="base64" title="Download free icon in base64 format">&lt;/&gt; BASE 64</a></li>
+		</ul>
+
+		<section class="customize">
+
+			<p>Customize your icon:</p>
+
+			<ul class="color-selector">
+										<li><button class="green color" data-color="#91DC5A"></button></li>
+						<li><button class="blue color" data-color="#006DF0"></button></li>
+						<li><button class="purple color" data-color="#933EC5"></button></li>
+						<li><button class="yellow color" data-color="#FFDA44"></button></li>
+						<li><button class="red color" data-color="#D80027"></button></li>
+						<li><button class="white color" data-color="#FFFFFF"></button></li>
+						<li><button class="black color" data-color="#000000"></button></li>
+						<li>
+							<div class="popover popover-top popover-colorpicker">
+								<div class="popover-container">
+									<button class="popover-button"><img src="https://media005.flaticon.com/img/colorwheel.png"></button>
+									<div class="popover-content">
+										<div id="detail_picker"></div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+
+					<span>Select a size (in pixels).</span>
+
+					<ul class="size">
+						<li><button class="btn btn-small" data-size="16">16</button></li>
+						<li><button class="btn btn-small" data-size="24">24</button></li>
+						<li><button class="btn btn-small" data-size="32">32</button></li>
+						<li><button class="btn btn-small" data-size="64">64</button></li>
+						<li><button class="btn btn-small" data-size="128">128</button></li>
+						<li><button class="btn btn-small" data-size="256">256</button></li>
+						<li><button class="btn btn-small" data-size="512">512</button></li>
+						<li><button class="btn btn-big hidden" data-size="512">Download</button></li>
+					</ul>
+				</section><!-- .customize -->
+
+				<ul class="stats">
+					<li class="simptip-position-top simptip-movable" data-tooltip="Downloads">
+						<i class="flaticon-download"></i>
+						<span id="stats-downloads">6,368</span>
+					</li>
+				</ul>
+
+				<label class="report btn btn-warning warning btn-small btn-outline" for="modal-report"><i class="flaticon-exclamation"></i> Report this icon</label>
+
+								<p class="license">
+					<a class="text-link" href="http://file005.flaticon.com/downloads/license/license.pdf" title="Flaticon Basic License" onclick="ga('send', 'event', 'Detail View', 'Flaticon Basic License')">
+						Flaticon Basic License.
+					</a>
+					It's necessary to credit the author.
+					<br>
+					<a class="text-link" href="http://support.flaticon.com/hc/en-us/articles/207248209-How-I-must-insert-the-attribution-" title="How to credit the authorship of the icons?" onclick="ga('send', 'event', 'Detail View', 'How to credit the authorship of the icons?')">How to credit the authorship of the icons?</a>
+				</p>
+
+				<ul class="tags">
+
+										<li><a href="http://www.flaticon.com/free-icons/people_112" title="people">people</a></li>
+										<li><a href="http://www.flaticon.com/free-icons/cook_438" title="cook">cook</a></li>
+										<li><a href="http://www.flaticon.com/free-icons/chef_439" title="chef">chef</a></li>
+										<li><a href="http://www.flaticon.com/free-icons/head-cook_191836" title="head cook">head cook</a></li>
+					
+				</ul>
+
+
+				<div class="modal modal-report">
+					<input class="modal-state" id="modal-report" type="checkbox">
+					<div class="modal-fade-screen">
+						<div class="modal-inner dark-scheme">
+							<header>
+								<h3 class="text-center">Report this icon</h3>
+								<label class="modal-close" for="modal-report"></label>
+							</header>
+							<section class="modal-body<">
+								<form id="report-form">
+									<p class="text-center">Please indicate what problem has been found. Thanks!</p>
+									<div class="radio-holder">
+										<div class="col-6">
+											<span class="radio-group">
+												<input type="radio" name="reason" value="not-working" id="not-working">
+												<label for="not-working" class="radio fake-radio"></label>
+												<label for="not-working">The download is not working</label>
+											</span>
+										</div>
+										<div class="col-6 omega">
+											<span class="radio-group">
+												<input type="radio" name="reason" value="copyright" id="copyright">
+												<label for="copyright" class="radio fake-radio"></label>
+												<label for="copyright">I am the owner of this icon</label>
+											</span>
+										</div>
+										<div class="col-6">
+											<span class="radio-group">
+												<input type="radio" name="reason" value="download-link" id="download-link">
+												<label for="download-link" class="radio fake-radio"></label>
+												<label for="download-link">I can't find the download link</label>
+											</span>
+										</div>
+										<div class="col-6 omega">
+											<span class="radio-group">
+												<input type="radio" name="reason" value="other" id="other" selected>
+												<label for="other" class="radio fake-radio"></label>
+												<label for="other">Other</label>
+											</span>
+										</div>
+									</div><!-- .radio-holder -->
+									<span class="textarea-group">
+										<textarea id="description" class="noresize" name="description"></textarea>
+										<label for="description">Describe the problem</label>
+										<button href="#" class="reset-textarea">×</button>
+									</span>
+									<button type="submit" class="fullwidth">Send</button>
+								</form>
+							</section>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<section class="shortcuts">
+				<span>Keyboard shortcuts:</span>
+				<span class="shortcut simptip-position-top simptip-movable" data-tooltip="Previous Icon">←</span>
+				<span class="shortcut simptip-position-top simptip-movable" data-tooltip="Next Icon">→</span>
+				<span class="shortcut simptip-position-top simptip-movable" data-tooltip="Add to collection">+</span>
+				<span class="shortcut simptip-position-top simptip-movable" data-tooltip="Delete from collection">-</span>
+			</section>
+
+			<form id="download-form" method="post" action="/download-icon">
+				<input type="hidden" id="icon_id" name="icon_id" value="62673" />
+				<input type="hidden" id="author" name="author" value="1" />
+				<input type="hidden" id="team" name="team" value="1" />
+				<input type="hidden" id="keyword" name="keyword" value="people" />
+				<input type="hidden" id="pack" name="pack" value="111274" />
+				<input type="hidden" id="style" name="style" value="3" />
+				<input type="hidden" id="format" name="format" />
+				<input type="hidden" id="color" name="color" />
+				<input type="hidden" id="colored" name="colored" value="1" />
+				<input type="hidden" id="size" name="size" />
+				<input type="hidden" id="selection" name="selection" value="1" />
+				<!--<input type="hidden" id="svg_content" name="svg_content" />-->
+			</form>
+
+		</section><!-- #detail -->
+
+		<section class="related">
+			<header class="related-header"></header>
+			<iframe class="sponsor-iframe" width="100%" height="182" scrolling="no" frameborder="0" marginwidth="0" src="http://adscdn.flaticon.com/banner2/search?sponsor=freepik&searchText=people&utm=flaticon&lang=english&cache=2016042001&page=1&body_class=flaticon_v2_it&show_header=1&preload_size=110&img_size=img_small&min_size=110&max_size=112&min_margin=5&top_margin=7&num_rows=1" onload="askForClientId(this)" style="box-sizing: inherit;"></iframe>		</section>
+
+				<section class="related related-packs">
+			<header class="related-header">
+					
+	<div class="breadcrumb">
+				<a href="http://www.flaticon.com/packs" title="Packs">Packs</a>
+				<a href="http://www.flaticon.com/packs/employees" title="Employees">Employees</a>
+			</div>
+	
+	
+	
+
+				<a href="http://www.flaticon.com/packs/employees" class="badge pull-right" title="">View all - 16 icons</a>
+			</header>
+			<ul class="icons">
+	<a name="1" title="Page "></a>
+	
+<li class="icon "
+	data-id="62650"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62650.png" alt="Office worker outline"  title="Office worker outline"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/office-worker-outline_62650" class="flaticon-eye" title="Office worker outline"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="62572"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62572.png" alt="Office worker "  title="Office worker "  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/office-worker_62572" class="flaticon-eye" title="Office worker "></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="62667"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62667.png" alt="Telephone operator"  title="Telephone operator"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/telephone-operator_62667" class="flaticon-eye" title="Telephone operator"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="62439"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62439.png" alt="Worker silhouette "  title="Worker silhouette "  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/worker-silhouette_62439" class="flaticon-eye" title="Worker silhouette "></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="62652"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62652.png" alt="Businessman outline"  title="Businessman outline"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/businessman-outline_62652" class="flaticon-eye" title="Businessman outline"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="62692"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62692.png" alt="School boy outline"  title="School boy outline"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/school-boy-outline_62692" class="flaticon-eye" title="School boy outline"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="62673"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62673.png" alt="Chef outline"  title="Chef outline"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/chef-outline_62673" class="flaticon-eye" title="Chef outline"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="62654"
+	data-name="school"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62654.png" alt="School boy outline"  title="School boy outline"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/school-boy-outline_62654" class="flaticon-eye" title="School boy outline"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="62664"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62664.png" alt="Woman with dress outline"  title="Woman with dress outline"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/woman-with-dress-outline_62664" class="flaticon-eye" title="Woman with dress outline"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="62649"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62649.png" alt="Servant outline"  title="Servant outline"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/servant-outline_62649" class="flaticon-eye" title="Servant outline"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="62426"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62426.png" alt="Man with sunglasses"  title="Man with sunglasses"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/man-with-sunglasses_62426" class="flaticon-eye" title="Man with sunglasses"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="62503"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62503.png" alt="Office worker silhouette"  title="Office worker silhouette"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/office-worker-silhouette_62503" class="flaticon-eye" title="Office worker silhouette"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="62414"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62414.png" alt="Employee profile"  title="Employee profile"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/employee-profile_62414" class="flaticon-eye" title="Employee profile"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="62441"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62441.png" alt="Butler silhouette"  title="Butler silhouette"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/butler-silhouette_62441" class="flaticon-eye" title="Butler silhouette"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="62716"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62716.png" alt="Waiter outline"  title="Waiter outline"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/waiter-outline_62716" class="flaticon-eye" title="Waiter outline"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="62659"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/62/62659.png" alt="Punk outline"  title="Punk outline"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/punk-outline_62659" class="flaticon-eye" title="Punk outline"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+</ul>
+
+		</section>
+		
+				<section class="related related-tags">
+			<header class="related-header">
+					
+	<div class="breadcrumb">
+				<a href="http://www.flaticon.com/tags" title="Tags">Tags</a>
+				<a href="Http://www.flaticon.com/free-icons/people_112" title="people">People</a>
+			</div>
+	
+	
+	
+				<a href="http://www.flaticon.com/free-icons/people_112" class="badge pull-right">View all - <span>5,938</span> icons</a>
+			</header>
+			<ul class="icons">
+	<a name="1" title="Page "></a>
+	
+<li class="icon "
+	data-id="33308"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/33/33308.png" alt="Multiple users silhouette"  title="Multiple users silhouette"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/multiple-users-silhouette_33308" class="flaticon-eye" title="Multiple users silhouette"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114334"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114334.png" alt="Avatar"  title="Avatar"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/avatar_114334" class="flaticon-eye" title="Avatar"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="123415"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/123/123415.png" alt="Team"  title="Team"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/team_123415" class="flaticon-eye" title="Team"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="109718"
+	data-name="circle"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/109/109718.png" alt="User"  title="User"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/user_109718" class="flaticon-eye" title="User"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114819"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114819.png" alt="Command"  title="Command"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/command_114819" class="flaticon-eye" title="Command"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="122488"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/122/122488.png" alt="Businessman"  title="Businessman"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/businessman_122488" class="flaticon-eye" title="Businessman"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="115893"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/115/115893.png" alt="Manager"  title="Manager"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/manager_115893" class="flaticon-eye" title="Manager"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="32441"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/32/32441.png" alt="Users group"  title="Users group"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/users-group_32441" class="flaticon-eye" title="Users group"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="123417"
+	data-name="computer"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/123/123417.png" alt="Employee"  title="Employee"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/employee_123417" class="flaticon-eye" title="Employee"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114323"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114323.png" alt="Woman"  title="Woman"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/woman_114323" class="flaticon-eye" title="Woman"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="122491"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/122/122491.png" alt="Manager"  title="Manager"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/manager_122491" class="flaticon-eye" title="Manager"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="123418"
+	data-name="computer"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/123/123418.png" alt="Employees"  title="Employees"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/employees_123418" class="flaticon-eye" title="Employees"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="123416"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/123/123416.png" alt="Organization"  title="Organization"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/organization_123416" class="flaticon-eye" title="Organization"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="123391"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/123/123391.png" alt="Brain"  title="Brain"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/brain_123391" class="flaticon-eye" title="Brain"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="64096"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/64/64096.png" alt="User silhouette"  title="User silhouette"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/user-silhouette_64096" class="flaticon-eye" title="User silhouette"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="122454"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/122/122454.png" alt="Doctor"  title="Doctor"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/doctor_122454" class="flaticon-eye" title="Doctor"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="122483"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/122/122483.png" alt="Judge"  title="Judge"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/judge_122483" class="flaticon-eye" title="Judge"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="122461"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/122/122461.png" alt="Surgeon"  title="Surgeon"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/surgeon_122461" class="flaticon-eye" title="Surgeon"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="122466"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/122/122466.png" alt="Teacher"  title="Teacher"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/teacher_122466" class="flaticon-eye" title="Teacher"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon external-icon"
+	data-id="118781"
+	data-name="social"
+	data-author=""
+	data-team="122"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/122/png/128/118/118781.png" alt="Profile"  title="Profile"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/profile_118781" class="flaticon-eye" title="Profile"></a>
+	</div><!-- .overlay -->
+	</li>
+
+
+<li class="icon "
+	data-id="122464"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/122/122464.png" alt="Journalist"  title="Journalist"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/journalist_122464" class="flaticon-eye" title="Journalist"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="122453"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/122/122453.png" alt="DJ"  title="DJ"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/dj_122453" class="flaticon-eye" title="DJ"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="115921"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/115/115921.png" alt="Group"  title="Group"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/group_115921" class="flaticon-eye" title="Group"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="122462"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/122/122462.png" alt="Engineer"  title="Engineer"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/engineer_122462" class="flaticon-eye" title="Engineer"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="122452"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/122/122452.png" alt="Doctor"  title="Doctor"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/doctor_122452" class="flaticon-eye" title="Doctor"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114341"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114341.png" alt="Productivity"  title="Productivity"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/productivity_114341" class="flaticon-eye" title="Productivity"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="122476"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/122/122476.png" alt="Maid"  title="Maid"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/maid_122476" class="flaticon-eye" title="Maid"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="122463"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/122/122463.png" alt="Showman"  title="Showman"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/showman_122463" class="flaticon-eye" title="Showman"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+</ul>
+
+
+		</section>
+		
+		<section class="related">
+			<header class="related-header"></header>
+			<iframe class="sponsor-iframe sponsor-iframe-shutterstock" width="100%" height="182" scrolling="no" frameborder="0" marginwidth="0" src="http://adscdn.flaticon.com/banner2/search?searchText=people+icon&search_group=all&page=1&lang=english&cache=2016042001&body_class=flaticon_v2_it&show_header=1&preload_size=110&img_size=img_small&min_size=110&max_size=112&min_margin=5&top_margin=7&num_rows=1" onload="askForClientId(this)" style="box-sizing: inherit;"></iframe>		</section>
+
+		<div class="modal modal-base64">
+			<input class="modal-state" id="modal-base64" type="checkbox">
+			<div class="modal-fade-screen">
+				<div class="modal-inner">
+					<header>
+						<label class="modal-close" for="modal-base64"></label>
+						<h3>Base 64 encoded image</h3>
+					</header>
+					<section class="modal-body">
+						<p>HTML image</p>
+						<textarea id="b64Image" class="b64textarea" onclick="this.select()"></textarea>
+						<p>CSS background</p>
+						<textarea id="b64css" class="b64textarea" onclick="this.select()"></textarea>
+						<p class="text-center">Copy the base64 encoded data and insert it in your document.</p>
+						<small class="block text-center">
+							Need help? Maybe this link can help you ;)
+							<a href="http://css-tricks.com/data-uris/" target="_blank" title="CSS Tricks">http://css-tricks.com/data-uris/</a>
+						</small>
+					</section>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="modal modal-download modal-single-icon">
+			<input class="modal-state" id="modal-download" type="checkbox">
+			<div class="modal-fade-screen">
+				<div class="modal-inner">
+					<header>
+						<label class="modal-close" for="modal-download"></label>
+						<h3>Download options</h3>
+						<p class="filename">
+							<span class="icon-holder">
+								<img src="http://image005.flaticon.com/1/svg/62/62673.svg" alt="Chef outline" class="replaced-svg" >
+							</span>
+							<span>
+								<span class="description">Chef outline</span>
+							</span>
+						</p>
+						<p class="author">
+							<img src="http://image005.flaticon.com/teams/1-freepik.jpg" alt="Freepik" class="avatar">
+							<span>By Freepik</span>
+						</p>
+					</header>
+					<section class="modal-body">
+						<div class="column-premium" style="display : block">
+							<h3>Don't want to credit the author?</h3>
+							<a class="btn btn-premium" id="download-premium" href="https://profile.flaticon.com/plans" target="_blank" onclick="ga('send', 'event', 'Detail View', 'Premium Download')">
+								<i class="flaticon-rocket"></i>
+								<b>Premium download</b>
+								<p>+103,500 icons from <span>$20</span> $9,99</p>
+							</a>
+							<p><a href="http://support.flaticon.com/hc/en-us/articles/202798201-How-can-I-use-Flaticon-s-resources-without-attribution-" title="Avoid atribbution on Flaticon Selection icons" target="_blank">Avoid atribbution on Flaticon Selection icons</a><br>
+								<a href="http://www.flaticon.com/apps" title="Full use of Adobe Extension and Mac OS X App" target="_blank">Adobe Extension + Mac OS X App</a><br>
+								<a href="http://support.flaticon.com/hc/en-us/articles/202798261-Can-I-cancel-my-plan-and-get-back-my-money-" title="Money back guaranteed" target="_blank">Money back guaranteed</a></p>
+								<a href="https://profile.flaticon.com/plans" target="_blank">Learn more</a>
+							</div>
+							<div class="column-free">
+								<p><b>License</b>: Flaticon Basic License.</p>
+								<h3><a href="http://support.flaticon.com/hc/en-us/articles/207248209-How-I-must-insert-the-attribution-" target="_blank">How to credit the author?</a></h3>
+								<button id="download-free">
+									<b>Free download</b>
+									<span>You must credit the author</span>
+								</button>
+								<p class="copy">Copy this link (right-click + 'copy') on your web:</p>
+								<input onclick="this.select(); ga('send', 'event', 'Detail View', 'Select Attribution Link');" type="text" value='<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>'>
+								<small>
+									<input type="checkbox" id="give-break_2" name="give-break_2" class="give_break" onclick="ga('send', 'event', 'licenses', 'take_break');" name="give-break" id="give-break">
+									<label for="give-break_2">Give me a break, please don't show me this screen in a while.</label>
+								</small>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+			<script>
+
+				icon_id      = 62673;
+				icon_color      = 1;
+				icon_team    = 1;
+				icon_name    = '';
+				bottomPage   = 1;
+				topPage      = 1;
+				topDown      = 'down';
+				css_selector = 'section.related-tags ul.icons';
+				templateTag  = 'icon';
+
+				current      = 6;
+				total_pack   = 1,710;
+				pack         = 111274;
+
+				pack_items = [{"id":62650,"priority":633.500977,"selection":1,"description":"Office worker outline","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/office-worker-outline_62650","added":"1414743661","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":34106,"views":20380,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/user_1649","tag":"user","tag_id":1649},{"slug":"http:\/\/www.flaticon.com\/free-icons\/businessman_21515","tag":"businessman","tag_id":21515},{"slug":"http:\/\/www.flaticon.com\/free-icons\/office-worker_191794","tag":"office worker","tag_id":191794}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62650.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62650.png"},{"id":62572,"priority":339.553986,"selection":1,"description":"Office worker ","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/office-worker_62572","added":"1414661207","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":18306,"views":10997,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/businessman_21515","tag":"businessman","tag_id":21515},{"slug":"http:\/\/www.flaticon.com\/free-icons\/office-worker_191794","tag":"office worker","tag_id":191794},{"slug":"http:\/\/www.flaticon.com\/free-icons\/clerk_191815","tag":"clerk","tag_id":191815}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62572.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62572.png"},{"id":62667,"priority":237.373993,"selection":1,"description":"Telephone operator","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/telephone-operator_62667","added":"1414746255","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":12774,"views":6501,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/phone-operator_667","tag":"phone operator","tag_id":667},{"slug":"http:\/\/www.flaticon.com\/free-icons\/operator_1099","tag":"operator","tag_id":1099},{"slug":"http:\/\/www.flaticon.com\/free-icons\/telephone-operator_191834","tag":"telephone operator","tag_id":191834}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62667.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62667.png"},{"id":62439,"priority":135.25,"selection":1,"description":"Worker silhouette ","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/worker-silhouette_62439","added":"1414572044","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":7316,"views":3252,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/silhouette_113","tag":"silhouette","tag_id":113},{"slug":"http:\/\/www.flaticon.com\/free-icons\/man_115","tag":"man","tag_id":115},{"slug":"http:\/\/www.flaticon.com\/free-icons\/worker_22204","tag":"worker","tag_id":22204},{"slug":"http:\/\/www.flaticon.com\/free-icons\/builder_191778","tag":"builder","tag_id":191778}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62439.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62439.png"},{"id":62652,"priority":126.889999,"selection":1,"description":"Businessman outline","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/businessman-outline_62652","added":"1414743918","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":6835,"views":3176,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/office_319","tag":"office","tag_id":319},{"slug":"http:\/\/www.flaticon.com\/free-icons\/businessman_21515","tag":"businessman","tag_id":21515},{"slug":"http:\/\/www.flaticon.com\/free-icons\/office-worker_191794","tag":"office worker","tag_id":191794}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62652.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62652.png"},{"id":62692,"priority":124.543999,"selection":1,"description":"School boy outline","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/school-boy-outline_62692","added":"1414751671","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":6708,"views":2971,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/man_115","tag":"man","tag_id":115},{"slug":"http:\/\/www.flaticon.com\/free-icons\/boy_1629","tag":"boy","tag_id":1629},{"slug":"http:\/\/www.flaticon.com\/free-icons\/schoolboy_24589","tag":"schoolboy","tag_id":24589}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62692.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62692.png"},{"id":62673,"priority":118.175003,"selection":1,"description":"Chef outline","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/chef-outline_62673","added":"1414748098","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":6368,"views":2704,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/cook_438","tag":"cook","tag_id":438},{"slug":"http:\/\/www.flaticon.com\/free-icons\/chef_439","tag":"chef","tag_id":439},{"slug":"http:\/\/www.flaticon.com\/free-icons\/head-cook_191836","tag":"head cook","tag_id":191836}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62673.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62673.png"},{"id":62654,"priority":108.751999,"selection":1,"description":"School boy outline","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/school-boy-outline_62654","added":"1414744128","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":5862,"views":2131,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/school_64","tag":"school","tag_id":64},{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/student_696","tag":"student","tag_id":696},{"slug":"http:\/\/www.flaticon.com\/free-icons\/boy_1629","tag":"boy","tag_id":1629},{"slug":"http:\/\/www.flaticon.com\/free-icons\/schoolboy_24589","tag":"schoolboy","tag_id":24589}],"category_id":33,"category":"people","keyword":"school","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62654.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62654.png"},{"id":62664,"priority":93.258797,"selection":1,"description":"Woman with dress outline","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/woman-with-dress-outline_62664","added":"1414745799","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":5028,"views":1899,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/woman_335","tag":"woman","tag_id":335},{"slug":"http:\/\/www.flaticon.com\/free-icons\/girl_336","tag":"girl","tag_id":336},{"slug":"http:\/\/www.flaticon.com\/free-icons\/dress_35244","tag":"dress","tag_id":35244}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62664.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62664.png"},{"id":62649,"priority":86.9646,"selection":1,"description":"Servant outline","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/servant-outline_62649","added":"1414743499","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":4695,"views":1504,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/waiter_32438","tag":"waiter","tag_id":32438},{"slug":"http:\/\/www.flaticon.com\/free-icons\/butler_80751","tag":"butler","tag_id":80751},{"slug":"http:\/\/www.flaticon.com\/free-icons\/servant_191779","tag":"servant","tag_id":191779}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62649.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62649.png"},{"id":62426,"priority":82.022301,"selection":1,"description":"Man with sunglasses","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/man-with-sunglasses_62426","added":"1414570159","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":4437,"views":1662,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/silhouette_113","tag":"silhouette","tag_id":113},{"slug":"http:\/\/www.flaticon.com\/free-icons\/person_114","tag":"person","tag_id":114},{"slug":"http:\/\/www.flaticon.com\/free-icons\/man_115","tag":"man","tag_id":115},{"slug":"http:\/\/www.flaticon.com\/free-icons\/sunglasses_851","tag":"sunglasses","tag_id":851}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62426.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62426.png"},{"id":62503,"priority":77.773697,"selection":1,"description":"Office worker silhouette","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/office-worker-silhouette_62503","added":"1414580586","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":4208,"views":1225,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/silhouette_113","tag":"silhouette","tag_id":113},{"slug":"http:\/\/www.flaticon.com\/free-icons\/person_114","tag":"person","tag_id":114},{"slug":"http:\/\/www.flaticon.com\/free-icons\/man_115","tag":"man","tag_id":115},{"slug":"http:\/\/www.flaticon.com\/free-icons\/office-worker_191794","tag":"office worker","tag_id":191794}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62503.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62503.png"},{"id":62414,"priority":72.296303,"selection":1,"description":"Employee profile","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/employee-profile_62414","added":"1414494168","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3917,"views":1157,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/profile_129","tag":"profile","tag_id":129},{"slug":"http:\/\/www.flaticon.com\/free-icons\/avatar_273","tag":"avatar","tag_id":273},{"slug":"http:\/\/www.flaticon.com\/free-icons\/user_1649","tag":"user","tag_id":1649},{"slug":"http:\/\/www.flaticon.com\/free-icons\/employee_24125","tag":"employee","tag_id":24125}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62414.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62414.png"},{"id":62441,"priority":70.797798,"selection":1,"description":"Butler silhouette","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/butler-silhouette_62441","added":"1414572312","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3833,"views":1178,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/silhouette_113","tag":"silhouette","tag_id":113},{"slug":"http:\/\/www.flaticon.com\/free-icons\/waiter_32438","tag":"waiter","tag_id":32438},{"slug":"http:\/\/www.flaticon.com\/free-icons\/butler_80751","tag":"butler","tag_id":80751},{"slug":"http:\/\/www.flaticon.com\/free-icons\/servant_191779","tag":"servant","tag_id":191779}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62441.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62441.png"},{"id":62716,"priority":58.2309,"selection":1,"description":"Waiter outline","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/waiter-outline_62716","added":"1414754583","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3141,"views":701,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/waiter_32438","tag":"waiter","tag_id":32438},{"slug":"http:\/\/www.flaticon.com\/free-icons\/butler_80751","tag":"butler","tag_id":80751},{"slug":"http:\/\/www.flaticon.com\/free-icons\/servant_191779","tag":"servant","tag_id":191779}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62716.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62716.png"},{"id":62659,"priority":51.340801,"selection":1,"description":"Punk outline","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/punk-outline_62659","added":"1414744829","pack_id":111274,"pack_name":"Employees","pack_slug":"packs\/employees","pack_background":"sun-flower","pack_priority":"151.044998","pack_items":16,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":2772,"views":632,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/hairstyle_27252","tag":"hairstyle","tag_id":27252},{"slug":"http:\/\/www.flaticon.com\/free-icons\/punk_181149","tag":"punk","tag_id":181149},{"slug":"http:\/\/www.flaticon.com\/free-icons\/crest_191201","tag":"crest","tag_id":191201}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/62\/62659.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/62\/62659.png"}];
+
+									var arrIds = [ 62673 ];
+					
+					/* DESCARGA POR IFRAME PARA PODER DETECTAR EL FIN DE LA DESCARGA Y QUITAR EL SPINNER */
+					function download(){
+						var url = 'http://example.com/dload.py';
+						var htm = '<iframe id="iframe-download-icon" src="' + url +'" onload="downloadComplete()"></iframe>';
+						document.getElementById('frameDiv').innerHTML = htm;
+					}
+				</script>
+
+		
+<footer id="footer" class="body-footer" style="width: 100%;">
+	<div class="wrapper">
+		<div class="col-12 omega">
+			<a href="http://www.flaticon.com" class="logo" title="Flaticon - The largest database of free icons"><img src="https://media005.flaticon.com/img/flaticon-logo-footer.svg" title="Flaticon logo"></a>
+
+			<div class="links-terms">
+				<a href="http://www.flaticon.com/terms-of-use" title="Terms & conditions">Terms &amp; conditions</a>
+				<a href="http://www.flaticon.com/privacy-policy" title="Privacy policy">Privacy policy</a>
+				<a href="http://www.flaticon.com/copyright" title="Copyrights Notification">Copyrights Notification</a>
+			</div>
+			<ul class="share">
+				<li><a href="https://www.facebook.com/theflaticon" class="flaticon-facebook bg-facebook" title="Facebook" target="_blank"></a></li>
+				<li><a href="https://twitter.com/theflaticon" class="flaticon-twitter bg-twitter" title="Twitter" target="_blank"></a></li>
+				<li><a href="https://plus.google.com/+Flaticon" class="flaticon-google bg-google" title="Google+" target="_blank"></a></li>
+				<li><a href="http://www.pinterest.com/flaticon" class="flaticon-pinterest bg-pinterest" title="Pinterest" target="_blank"></a></li>
+			</ul>
+		</div><!-- .col-12 -->
+		<nav>
+			<div class="col-4">
+				<ul>
+					<li><span>Help</span></li>
+					<li><a href="http://www.flaticon.com/collections" title="Flaticon Collections">Flaticon Collections</a></li>
+					<li><a href="http://support.flaticon.com/hc/en-us/categories/200466151-General-questions" title="Support">Support</a></li>
+					<li><a href="https://profile.flaticon.com/support" title="Contact">Contact</a></li>
+					<li><a href="http://www.flaticon.com/about" title="About us">About us</a></li>
+					<li><a href="http://www.flaticon.com/join-the-team" title="Become a creator">Become a creator</a></li>
+					<li><a href="https://profile.flaticon.com/plans" title="Premium plans">Premium plans</a></li>
+										<li><a href="javascript:tour.show(null, true)" title="Collections tour">Collections tour</a></li>
+									</ul>
+			</div><!-- .col-4 -->
+
+			<div class="col-4">
+				<ul>
+					<li><span>APPs</span></li>
+					<li><a title="Mac OS X app" href="http://www.flaticon.com/apps/mac-osx-app">Mac OS X</a></li>
+					<li><a title="Adobe Photoshop, Illustrator and After Effects extension" href="http://www.flaticon.com/apps/adobe-extension">Adobe extension</a></li>
+					<li><a title="Font-face generator" href="http://www.flaticon.com/font-face">@font-face generator</a></li>
+				</ul>
+			</div><!-- .col-4 -->
+
+			<div class="col-4 omega">
+				<ul>
+					<li><span>Content</span></li>
+					<li><a href="http://www.flaticon.com/categories" title="Categories">Categories</a></li>
+					<li><a href="http://www.flaticon.com/packs" title="Packs">Packs</a></li>
+					<li><a href="http://www.flaticon.com/authors" title="Authors">Authors</a></li>
+					<li><a href="http://www.flaticon.com/most-downloaded" title="Top icons">Top icons</a></li>
+					<li><a href="http://www.flaticon.com/latest-icons" title="Latest icons">Latest icons</a></li>
+					<li><a href="http://www.flaticon.com/tags" title="Most searched tags">Tags</a></li>
+				</ul>
+			</div><!-- .col-4 -->
+		</nav>
+
+		<p class="copyright">
+			Flaticon is a project by <a href="http://www.freepik.com/" target="_blank">Freepik</a><br>
+			&copy; 2013-2016 Graphic Resources S.L. All rights reserved.
+		</p>
+
+	</div><!-- .wrapper -->
+	</footer>
+		<script id="tpl-icon" type="text/x-handlebars-template">
+	<li class="icon{{#if page}} init page-handler{{/if}}" {{#if page}} data-page="{{page}}"{{/if}} data-id="{{id}}" data-name="{{keyword}}" data-team="{{team_id}}" data-search="{{dataSearch}}" data-color="{{color}}" aria-haspopup="true">
+		<img src="{{png}}">
+		<div class="overlay" aria-hidden="true">
+			<button class="flaticon-collections_add"></button>
+			<a href="{{slug}}" class="flaticon-eye" title="{{description}}"></a>
+		</div>
+		{{#if selection}}
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank"></a>
+		<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank">What is this?</a>
+		{{/if}}
+	</li>
+</script>
+<script id="tpl-collection" type="text/x-handlebars-template">
+	<section class="collection{{#if active}} expanded {{setHeight}}{{/if}}" data-order="{{order}}" data-id="{{ID}}" data-color="{{color}}" data-bookmark="{{bookmark_id}}">
+		<header class="collection-header">
+			<span class="collection-name">{{name}}</span>
+			<span class="badge badge-gray">{{icons}}</span>
+			<button class="flaticon-pencil nostyle"></button>
+			<div class="edit-name">
+				<input type="text" class="collection-name-input" value="{{name}}" data-original="{{name}}" maxlength="100">
+				<button class="flaticon-disk nostyle"></button>
+			</div>
+		</header>
+		<div class="collection-content">
+			<nav class="collection-options">
+				<ul>
+					<li>
+						<div class="popover">
+							<div class="popover-container">
+								<button class="collection_color_button popover-button">
+									<i class="flaticon-paint"></i>
+								</button>
+								<div class="popover-content">
+									<span class="checkbox-group simptip-position-top simptip-movable" data-tooltip="If checked, all icons color,&#10;including the customized ones, will change.">
+										<input type="checkbox" id="color-lock">
+										<label for="color-lock" class="fake-checkbox"></label>
+										<label for="color-lock" class="text">Recolor all the icons</label>
+									</span>
+									<ul class="color-selector">
+										<li><button class="green" data-color="91DC5A"></button></li>
+										<li><button class="blue" data-color="006DF0"></button></li>
+										<li><button class="purple" data-color="933EC5"></button></li>
+										<li><button class="yellow" data-color="FFDA44"></button></li>
+										<li><button class="red" data-color="D80027"></button></li>
+										<li><button class="white" data-color="FFFFFF"></button></li>
+										<li><button class="black" data-color="000000"></button></li>
+									</ul>
+									<div class="col-cpicker" onload="Widget.createCollectionCPicker"></div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li><button class="flaticon-pencil"></button></li>
+					<li><button class="flaticon-bin"></button></li>
+					
+				</ul>
+			</nav>
+			<header class="header-edit">
+				<b>Edit mode</b>
+				<button class="btn-small btn-pill pull-right btn-back"><i class="flaticon-arrow_left"></i> Back</button>
+			</header>
+
+			<span class="icons-limit icons-collection-noregister"><a href="https://profile.flaticon.com/register">Register to get up to 256 icons</a></span>
+			<span class="icons-limit max-icons-collection" data-message="You have reach the limit of 256 icons, get premium and get unlimited collections">Max limit reached: 256 icon per collection</span>
+
+			<ul class="collection_icons_list icons"></ul>
+			<div class="empty-collection">
+				<img src="https://media005.flaticon.com/img/cactus.svg" class="cactus" alt="Empty collection">
+				<div class="bola-container">
+					<img src="https://media005.flaticon.com/img/tumble.svg" class="bola">
+				</div>
+				<p>Hey cowboy! This looks like a desert. Add some icons to start using this collection.</p>
+
+			</div>
+			<div class="download-holder">
+				<button class="fullwidth" disabled>Download collection <i class="flaticon-download"></i></button>
+			</div>
+			<div class="collection-download">
+				<header class="header-download">
+					<b>Download:<br>Choose a format</b>
+					<button class="nostyle">×</button>
+				</header>
+				<div class="download-files">
+					<ul class="download">
+						<li class="simptip-position-top simptip-movable" data-tooltip="Download in PNG and use the icons
+in websites, Powerpoint, Word,
+Keynote and all commons apps.">
+							<a class="btn fullwidth">PNG</a>
+						</li>
+						<li class="customize">
+							<span>Select a size (in pixels).</span>
+							<ul class="size">
+								<li><button class="btn btn-small download-button" data-format="png" data-size="16">16</button></li>
+								<li><button class="btn btn-small download-button" data-format="png" data-size="24">24</button></li>
+								<li><button class="btn btn-small download-button" data-format="png" data-size="32">32</button></li>
+								<li><button class="btn btn-small download-button" data-format="png" data-size="64">64</button></li>
+								<li><button class="btn btn-small download-button" data-format="png" data-size="128">128</button></li>
+								<li><button class="btn btn-small download-button" data-format="png" data-size="256">256</button></li>
+								<li><button class="btn btn-small download-button" data-format="png" data-size="512">512</button></li>
+							</ul>
+						</li>
+						<li class="simptip-position-top simptip-movable" data-tooltip="Download in SVG and use the icons
+in websites, Adobe Illustrator, Sketch,
+Corel draw and all Vector design apps.">
+							<button class="btn fullwidth download-button" data-format="svg">SVG</button>
+						</li>
+						<li class="simptip-position-top simptip-movable" data-tooltip="Download in EPS and use the icons
+in websites, Adobe Illustrator, Sketch,
+Corel draw and all Vector design apps.">
+							<button class="btn fullwidth download-button" data-format="eps">EPS</button>
+						</li>
+						<li class="simptip-position-top simptip-movable" data-tooltip="Download in PSD and use the icons
+with Adobe Photoshop.">
+							<button class="btn fullwidth download-button" data-format="psd">PSD</button>
+						</li>
+						<li class="simptip-position-top simptip-movable" data-tooltip="Download as Iconfont and use
+the icons in your web,
+which is fully customizable with only CSS.">
+							<button class="btn fullwidth btn-outline download-button" data-format="iconfont">Iconfont</button>
+						</li>
+						<li class="simptip-position-top simptip-movable" data-tooltip="Download your collection
+in all available formats
+PNG, EPS, SVG, PSD and Iconfont.">
+							<button class="btn fullwidth btn-gray download-button" data-format="all">All formats</button>
+						</li>
+						<li>
+							<label class="report btn btn-warning warning btn-small btn-outline" for="modal-report-collection"><i class="flaticon-exclamation"></i> Problems downloading?</label>
+						</li>
+					</ul>
+					<form id="download-collection-form" name="download-collection-form" method="post" >
+						<input type="hidden" name="downC_type" id="downC_type" />
+						<input type="hidden" name="downC_bookmark_id" id="downC_bookmark_id" />
+						<input type="hidden" name="downC_bookmark_name" id="downC_bookmark_name" />
+						<input type="hidden" name="downC_user_id" id="downC_user_id" />
+						<input type="hidden" name="downC_format" id="downC_format" />
+						<input type="hidden" name="downC_size" id="downC_size" />
+						<input type="hidden" name="downC_color" id="downC_color" />
+						<input type="hidden" name="downC_icons" id="downC_icons" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+</script>
+<script id="tpl-collection-icon" type="text/x-handlebars-template">
+	<li class="icon collectionIcon selected" data-id="{{id}}" data-name="{{name}}" data-color="{{color}}" aria-haspopup="true">
+		<img src="https://media005.flaticon.com/img/loader.gif" data-src="{{icoImg}}" class="collectionIconImage" onload="Widget.renderSVG(this)">
+		<div class="overlay" aria-hidden="true">
+			<button class="flaticon-collections_remove"></button>
+			<a href="http://www.flaticon.com/icon/{{id}}" class="flaticon-eye" title="{{name}}"></a>
+		</div>
+		<div class="edit">
+			<input class="collection-icon-rename" type="text" value="{{name}}" data-original="{{name}}">
+			{{#isColor color}}
+			<button class="popover-button nostyle icon-color-button"><i class="flaticon-paint"></i></button>
+			{{/isColor}}
+			<button class="nostyle danger flaticon-bin collection-icon-delete"></button>
+			{{#isColor color}}
+			<div class="popover">
+				<div class="popover-container">
+					<div class="popover-content">
+						<ul class="color-selector">
+							<li><button class="green" data-color="91DC5A"></button></li>
+							<li><button class="blue" data-color="006DF0"></button></li>
+							<li><button class="purple" data-color="933EC5"></button></li>
+							<li><button class="yellow" data-color="FFDA44"></button></li>
+							<li><button class="red" data-color="D80027"></button></li>
+							<li><button class="white" data-color="FFFFFF"></button></li>
+							<li><button class="black" data-color="000000"></button></li>
+						</ul>
+						<div class="icon-cpicker"></div>
+					</div>
+				</div>
+			</div>
+			{{/isColor}}
+		</div>
+	</li>
+</script>
+<script id="tpl-author-box" type="text/x-handlebars-template">
+	<article class="box{{#if page}} init page-handler{{/if}}" {{#if page}} data-page="{{page}}"{{/if}} data-id="{{id}}" data-name="{{name}}">
+		<div class="popover popover-top author-links">
+			<div class="popover-container">
+				<button class="popover-button nostyle"><i class="flaticon-link"></i></button>
+				<ul class="popover-content">
+					{{#if website}} <li><a href="{{website}}" target="_blank"><i class="flaticon-link"></i></a></li>{{/if}}
+					{{#if facebook}} <li><a href="{{facebook}}" target="_blank"><i class="flaticon-facebook facebook"></i></a></li>{{/if}}
+					{{#if twitter}} <li><a href="{{twitter}}" target="_blank"><i class="flaticon-twitter twitter"></i></a></li>{{/if}}
+					{{#if gplus}} <li><a href="{{gplus}}" target="_blank"><i class="flaticon-google google"></i></a></li>{{/if}}
+				</ul>
+			</div>
+		</div>
+		<a href="{{link}}">
+			<div class="img-holder">
+				<img src="{{background}}" alt="{{name}}" title="{{name}}" class="img-bg" width="298" height="182">
+				<img src="{{image}}" alt="{{name}}" title="{{name}}" class="img-author" width="100" height="100">
+			</div>
+			<footer>
+				<span class="name">{{name}}</span>
+				<span class="badge pull-right">{{icons}} icons</span>
+			</footer>
+		</a>
+	</article>
+</script>
+<script id="tpl-pack-box" type="text/x-handlebars-template">
+	<article class="box{{#if page}} init page-handler{{/if}}" {{#if page}} data-page="{{page}}"{{/if}}data-id="{{id}}" data-name="{{description}}">
+		<a href="{{link}}" title="{{description}}">
+			<div class="img-holder">
+				<img src="{{image}}" alt="{{description}}" class="img-bg" width="298" height="255">
+			</div>
+
+			<footer class="bg-{{colors}}">
+				{{#if selection}}
+				<span class="simptip-position-top simptip-movable" data-tooltip="Flaticon Selection">
+					<i class="flaticon-selection"></i>
+				</span>
+				{{/if}}
+				<span class="name">{{description}}</span>
+				<span class="badge pull-right">{{pack_items}} icons</span>
+			</footer>
+		</a>
+	</article>
+</script>
+<script id="tpl-collection-limit-box" type="text/x-handlebars-template">
+	<article class="box" data-bookmark="{{bookmark_id}}">
+		<span>
+			<i class="flaticon-bin"></i>
+		</span>
+		<div class="img-holder">
+			{{{collectionLimitIcons}}}
+		</div>
+		<footer>
+			<span class="name">{{name}}</span>
+			<span class="badge pull-right">{{count}} icons</span>
+		</footer>
+	</article>
+</script>
+		
+<script type="text/javascript">
+
+	var STATIC_URL        = 'http://image005.flaticon.com/';
+	var ACCOUNTS_BASE_URL = 'https://profile.flaticon.com/';
+	var ACCOUNTS_API_KEY  = 'aHR0cDovL3d3dy5mbGF0aWNvbi5jb20=';
+	var FACEBOOK_APP_ID   = '579360525479711';
+	var GOOGLE_CLIENT_ID  = '544984668822-l66ipmg9o5lpalcntjckr651vbo72tcv.apps.googleusercontent.com';
+	var GOOGLE_API_KEY    = 'AIzaSyCkyUw3UxCwg618Bknm9vdoWnYWji4lQSM';
+	var LANGUAGE          = 'english';
+	var language          = 'english';
+	var LANGUAGE_SHORT    = 'en';
+	var URL_LOG           = 'URL_LOG';
+	var RE_CAPTCHA_KEY    = '6LdrxggTAAAAAEsVEMxap24sSkGS1nI3SsOigFyF';
+	var RE_CAPTCHA_SECRET = '6LdrxggTAAAAANBFArNBHFs8wDnZL5q51hkRPpls';
+	var SPONSOR_BASE_URL  = 'http://go.flaticon.com/';
+	var APP_URL			  = 'http://www.flaticon.com/';
+
+	
+	</script>
+
+<script id="tpl-notification" type="text/x-handlebars-template">
+	<div class="user-alert {{type}}" id="notify-{{time}}"{{#if sticky}} style="z-index: 500"{{/if}}>
+		<i class="flaticon-{{type}}"></i>
+		<p><b>{{title}}: </b>{{{body}}}.{{#if sticky}} <button class="nostyle" onclick="Notifier.close(this)" data-time="{{time}}">×</button>{{/if}}</p>
+	</div>
+</script>
+
+	<script type="text/javascript" src="https://media005.flaticon.com/js/jquery-2.2.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+	<script type="text/javascript" src="https://media005.flaticon.com/js/handlebars.min.js"></script>
+
+<!--[if lte IE 9]>
+<script src="https://media005.flaticon.com/js/jquery.placeholder.min.js" charset="utf-8"></script>
+<script>
+	$(function(){
+		$('input, textarea').placeholder();
+	});
+</script>
+<![endif]-->
+
+<script type='text/javascript' src='http://media.freepik.com/min/?g=auth_js&key=2016-04-12.01'></script>
+<script type='text/javascript' src='http://media.freepik.com/sponsor/js/gr.sponsor.js?key=2016-04-12.01'></script>
+<script type='text/javascript' src='https://media005.flaticon.com/min/js/polyfill.min.js,common.js,localstoragedb.js,Auth.js,colpick.min.js,collections.js,awesomplete.js,fi_download.js,functions.js,autocomplete.js,social_share.js,tour.js,sponsor.js,svg.js,slider_icons.js,waypoints.js,infinity.js?key=2016-04-12.01'></script>
+<script>
+// Start of StatCounter Code for Default Guide -->
+
+var sc_project=9275887;
+var sc_invisible=1;
+var sc_security="3b1b1bb7";
+var sc_https=1;
+var scJsHost = (("https:" == document.location.protocol) ?
+	"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+	scJsHost+
+	"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript>
+	<div class="statcounter">
+		<a title="web analytics" href="http://statcounter.com/" target="_blank">
+			<img class="statcounter" src="http://c.statcounter.com/9275887/0/3b1b1bb7/1/" alt="web analytics">
+		</a>
+	</div>
+</noscript>
+		<section class="tour" id="tour">
+
+	<span class="tour-marker"></span>
+
+	<div class="tour-box">
+		<button class="nostyle close-tour">&times;</button>
+		<ul class="steps">
+			<li class="step active">
+				<h2>Introducing collections</h2>
+				<p>Collections are the core of our web app, do you want to know how to use them? Press next to watch the guide.</p>
+				<span class="total">
+					<b>1</b> of 9
+				</span>
+			</li><!-- .step -->
+
+			<li class="step">
+				<img src="https://media005.flaticon.com/img/tour/step2@2x.jpg" alt="Collections list">
+				<h2>Collections list</h2>
+				<p>This is a list of your collections. You can change their names and they are sorted by use. Click on one of them to start using it.</p>
+				<span class="total">
+					<b>2</b> of 9
+				</span>
+			</li><!-- .step -->
+
+			<li class="step">
+				<img src="https://media005.flaticon.com/img/tour/step3@2x.jpg" alt="Create a collection">
+				<h2>Create a collection</h2>
+				<p>Click on this button to create a collection.</p>
+				<span class="total">
+					<b>3</b> of 9
+				</span>
+			</li><!-- .step -->
+
+			<li class="step">
+				<img src="https://media005.flaticon.com/img/tour/step4@2x.jpg" alt="Change name">
+				<h2>Change name</h2>
+				<p>Click here to change the name of the collection </p>
+				<span class="total">
+					<b>4</b> of 9
+				</span>
+			</li><!-- .step -->
+
+			<li class="step">
+				<img src="https://media005.flaticon.com/img/tour/step5@2x.jpg" alt="Active collection">
+				<h2>Active collection</h2>
+				<p>This is your active collection. One collection can have up to 256 icons if you are a registered user or 50 if you are not registered.</p>
+				<span class="total">
+					<b>5</b> of 9
+				</span>
+			</li><!-- .step -->
+
+			<li class="step">
+				<img src="https://media005.flaticon.com/img/tour/step6@2x.jpg" alt="Color">
+				<h2>Color</h2>
+				<p>Add color to all the icons in your collection.</p>
+				<span class="total">
+					<b>6</b> of 9
+				</span>
+			</li><!-- .step -->
+
+			<li class="step">
+				<img src="https://media005.flaticon.com/img/tour/step7@2x.jpg" alt="Edit mode">
+				<h2>Edit mode</h2>
+				<p>Enter the edit mode by clicking the pencil icon to edit the name and color of each icon separately.</p>
+				<span class="total">
+					<b>7</b> of 9
+				</span>
+			</li><!-- .step -->
+			<li class="step">
+				<img src="https://media005.flaticon.com/img/tour/step8@2x.jpg" alt="Delete">
+				<h2>Delete</h2>
+				<p>Have you finished with this collection? Delete it and create a new one here.</p>
+				<span class="total">
+					<b>8</b> of 9
+				</span>
+			</li><!-- .step -->
+
+			<li class="step">
+				<h2>Enjoy!</h2>
+				<p>And that is all, if you have any question you can contact our support team <a href="http://support.flaticon.com/hc/en-us/categories/200466151-General-questions" target="_blank" class="text-link">here</a>.</p>
+				<p><br>Thank you for using Flaticon, we hope you enjoy our service</p>
+								<span class="total">
+					<b>9</b> of 9
+				</span>
+			</li><!-- .step -->
+
+		</ul>
+		<div class="tour-nav">
+			<button class="nostyle prev" disabled>&lt; Prev</button>
+			<button class="nostyle next">Next &gt;</button>
+		</div>
+	</div><!-- .tour-box -->
+
+</section><!-- .tour -->
+
+<div class="tour-overlay"></div>	</section>
+
+	<form id="form_valuation" class="form_valuation_cl bg-light-gray" style="left: -200px">
+	<div id="open_panel" class="open_panel_cl bg-light-gray">
+		<span id="button_panel">-</span>
+	</div>
+	<div id="valuation_panel" class="valuation_panel_cl">
+		<span class="fllft">Have you found what you want?</span>
+		<input id="valuation_question_id" type="hidden" value="3">
+		<br>
+		<div id="calification_panel">
+			<a id="val_check_2" class="valuation_response flaticon-happy btn-small btn-pill" data-value="2" title="Flaticon rocks!"></a>
+			<a id="val_check_0" class="valuation_response flaticon-neutral btn-small btn-pill" data-value="0" title="Flaticon is a good service!"></a>
+			<a id="val_check_1" class="valuation_response flaticon-sad btn-small btn-pill" data-value="1" title="Flaticon is awful!"></a>
+		</div>
+
+	</div>
+	<div id="valuation_comment_panel" class="valuation_panel_cl" style="display: none;">
+		<div id="valuation_panel_txt" class="valuation_panel_cl">
+			<textarea id="valuation_text" cols="40" rows="3" class="valuation_text_cl" placeholder="Thank you very much! Would you improve something?" maxlength="255"></textarea>
+
+			<input type="hidden" id="id_last_valuation" value="">
+			<div class="cmd_clear">
+				<input type="submit" value="Send" class="bton_valuation_cl">
+				<a href="#" class="text-link" id="no_thanks">No thanks</a>
+			</div>
+			<div id="valuation_message" class="valuation_message_cl" style="display:none">* Write us a comment</div>
+		</div>
+	</div>
+	<div id="valuation_congrat" class="valuation_congrat_cl" style="display:none;">
+		<span>Thank you so much for helping us!</span>
+	</div>
+</form>
+
+<section class="cookies-alert" id="cookies-alert" style="display: none;">
+	<p>
+		<i class="flaticon-cookies"></i> We use own and third party cookies to improve our services and show ads related to your preferences by analyzing your browser habits . If you continue browsing , we consider you accept its use. You can switch the configuration or learn more <a href="/privacy-policy" title="Privacy policy">here</a>
+	</p>
+	<button class="close-cookies nostyle" id="close-cookies">×</button>
+</section>
+
+<div class="modal modal-selection">
+	<input class="modal-state" id="modal-selection" type="checkbox">
+	<div class="modal-fade-screen">
+		<div class="modal-inner modal-inner-big text-center">
+			<header>
+				<label class="modal-close" for="modal-selection"></label>
+				<p>
+					With your <span>Premium Plan</span> you can use more than 103,500 icons from <i class="flaticon-selection"></i> Flaticon Selection without crediting the author.				</p>
+				<a class="btn btn-premium" id="download-premium" href="https://profile.flaticon.com/plans" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?', 'Join Premium')">
+					<i class="flaticon-rocket"></i>
+					<b>Join Premium</b>
+					<p>+103,500 icons from <span>$20</span> $9,99</p>
+				</a>
+			</header>
+			<section class="modal-body text-center">
+				<h5>What is <i class="flaticon-selection"></i> Flaticon Selection?</h5>
+				<p>
+					<i class="flaticon-selection"></i> Flaticon Selection are all those icons which are designed exclusively by us.				</p>
+				<h5>How can I find those icons?</h5>
+
+				<div class="modal-split">
+					<div class="modal-left">
+						<img src="https://media005.flaticon.com/img/selection/selection.svg" alt="Flaticon Selection" width="320" height="126"/>
+						<p>
+							Look for the <a class="text-link" target="_blank" href="http://support.flaticon.com/hc/en-us/articles/202724132-What-is-Flaticon-Selection-" target="_blank"><i class="flaticon-selection"></i> Flaticon Selection</a> symbol and take full advantage of our Premium plan. 
+						</p>
+					</div>
+					<div class="modal-right">
+						<img src="https://media005.flaticon.com/img/selection/filter.svg" alt="Flaticon Selection" width="380" height="106"/>
+
+						<p>
+							Filter your results to only show our <a class="text-link" target="_blank" href="http://support.flaticon.com/hc/en-us/articles/202724132-What-is-Flaticon-Selection-" target="_blank"><i class="flaticon-selection"></i> Flaticon Selection</a> icons, you can find the <strong>filters bar</strong> above the icon results.						</p>
+					</div>
+				</div>
+
+			</section>
+			<footer>
+				<h5>Any more questions?</h5>
+				<span>Contact our </span>
+				<a href="http://support.flaticon.com/hc/en-us/categories/200466151-General-questions" class="btn" target="_blank" title="Support team"><i class="flaticon-help"></i> Support team</a>
+			</footer>
+		</div>
+	</div>
+</div>
+<button id="toTop" class="toTop-arrow"></button>
+	<script type="text/javascript">
+
+var messages = {
+	limit : {
+		registered : 'You have reach the icons limit <a href="https://profile.flaticon.com/plans" title="Get unlimited collections!">Become premium</a> and get unlimited collections',
+		guest : 'You have reach your limit of icons. <a href="https://profile.flaticon.com/register" title="Register and get up to 256 icons">Register</a> and get up to 256 icons'
+	},
+    external_icon : {
+    	title: 'Icon added',
+		message: 'This icon is not part of Flaticon Selection. Please add the attribution of the author in order to use it'
+	},
+	report : {
+		message: 'This icon is not part of Flaticon Selection. Please add the attribution of the author in order to use it.'
+	},
+	search : {
+		search : 'Search',
+		minimal_characters : 'Please type a minimum of two characters in order to search for a icon'
+	},
+	filters : {
+		order_by : 	'Order by',
+		style : 	'Style',
+		stroke : 	'Stroke',
+		detail : 	'Detail level',
+		date:		'Latest',
+		popularity:	'Popularity',
+		downloads:	'Most Downloaded',
+		all:		'All',
+		detailed:	'Detailed',
+		simple:		'Simple',
+		mixed:		'Mixed',
+		rounded:	'Rounded',
+		handmade:	'Handmade',
+		filled:		'Filled',
+		linear:		'Linear',
+		angular:	'Angular',
+		'3d':		'3D',
+	},
+	errors : {
+		connectivity : 'We cannot establish connection with flaticon servers, please check your network settings.'
+	},
+	collection: {
+		add_icon: 		'Add to collection',
+		delete_icon: 'Remove from collection',
+		aware: 'Be aware',
+		iconfont_colors: 'For technical reasons, the multicoloured icons wont be included in Iconfont'
+	},
+	fonts: {
+		error_svg : 'This SVG file isn\'t a font file',
+	}
+};
+
+</script>
+	<div class="loader" id="loader" style="display: none;">
+		<div class="circle-spinner"><img src="https://media005.flaticon.com/img/loader-logo.svg" title="Flaticon logo"></div>
+	</div>
+</body>
+</html>
+<!-- 46ms <==> 20-04-2016 15:24:45 -->
