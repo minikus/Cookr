@@ -51,15 +51,13 @@ class MenusController < ApplicationController
   # PATCH/PUT /menus/1
   # PATCH/PUT /menus/1.json
   def update
-    respond_to do |format|
-      if @menu.update(menu_params)
-        format.html { redirect_to @menu, notice: 'Menu was successfully updated.' }
-        format.json { render :show, status: :ok, location: @menu }
-      else
-        format.html { render :edit }
-        format.json { render json: @menu.errors, status: :unprocessable_entity }
-      end
+    menu = Menu.find params[:id]
+    menu.update menu_params
+    if params[:menu]["image"].present?
+      req = Cloudinary::Uploader.upload(params[:menu]["image"])
+      menu.update(:image => req["url"])
     end
+    redirect_to menu_path(menu.id)
   end
 
   # DELETE /menus/1

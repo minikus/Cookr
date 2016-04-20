@@ -1,5 +1,4 @@
 <div class="main cf">
-
   <p id="notice"><%= notice %></p>
   <% if @current_user == @user %>
   <h1>Hello <%= @user.first_name %></h1>
@@ -12,14 +11,12 @@
       </h2>
       <%= image_tag @user.image, :class => "thumb cf"%>
     </div>
-
     <div class="userInfo col col-lg-6 col-md-6 col-sm-12 cf">
       <h2>Contact <%= @user.first_name %></h2>
         <p>
           <strong>Email:</strong>
           <%= @user.email %>
         </p>
-
       <% #only show the admin status if the current user is an admin %>
       <% if @current_user.present? %>
         <% if @current_user.admin? %>
@@ -34,7 +31,6 @@
           </p>
           <% end %>
         <% end %>
-
         <% #only show the phone number if @user is a chef or current user is admin %>
         <% if @user.chef? || @current_user.admin? %>
           <p>
@@ -42,7 +38,6 @@
             <%= @user.phone %>
           </p>
         <% end %>
-
         <% #show host or chef depending on @user.chef status %>
         <% if @user.chef? %>
           <p>
@@ -55,7 +50,6 @@
             Host
           </p>
         <% end %>
-
         <% #only show the chef bio, rate, and menus if they are a chef %>
         <% if @user.chef? %>
           <p>
@@ -99,7 +93,6 @@
             <h4><%= f.label :rating %> </h4>
             <%= f.number_field :rating, :min => 1, :max => 10 %>
           </fieldset>
-
           <fieldset class="label reviewComments" >
             <h4><%= f.label :comments %></h4>
             <%= f.text_area :review, size: "60x12" %>
@@ -122,7 +115,6 @@
           </div>
         </div>
       <% end %>
-
     </div>
   </div>
 </div>
