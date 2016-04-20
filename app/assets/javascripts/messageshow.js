@@ -76,6 +76,7 @@ $(document).ready(function () {
       var person = Number($(this).attr('data'));
       messageFocus = person;
       displayMessages(person, messages);
+      createMessageInput();
     });
   };
 
@@ -109,7 +110,6 @@ $(document).ready(function () {
         $('#messages-display').append($newMessage);
       };
     });
-    createMessageInput();
   };
 
   var createMessageInput = function () {
@@ -166,5 +166,11 @@ $(document).ready(function () {
   //calling getUserId to kick off the chain of functions
   getUserId();
 
+  setInterval(function () {
+    if (messageFocus !== 0) {
+      getMessages();
+    }
+    console.log('ding');
+  }, 2000);
 
 });
