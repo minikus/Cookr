@@ -28,6 +28,7 @@
 </div>
 <br>
 <% #Hosts view %>
+
   <% if @event.confirm === false && @current_user.id != @event.chef_id%>
     <h5 class="textConfirmation"><%= "Waiting for Chef"%></h5>
   <% elsif @event.confirm === true && @current_user.id != @event.chef_id  %>

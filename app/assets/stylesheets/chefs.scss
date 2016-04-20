@@ -2,28 +2,32 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-.usersViewIcon {
-  // box-sizing: border-box;
-  border-radius: 5px;
-  // margin: 20px;
-  padding: 20px;
-  background-color: gainsboro;
-  margin: 2% 0.5% 2% 0.5%;
-  h2 {
-      text-align: center
-  }
-}
-
-.userInfo {
-  box-sizing: border-box;
-  padding: 20px;
-  margin-top: 20px;
-  background-color: #beeeef;
-  border-radius: 5px;
-  margin: 2% 0.5% 2% 0.5%;
-  text-align: left;
-}
+//
+// .usersViewIcon {
+//   // box-sizing: border-box;
+//   border-radius: 5px;
+//   // margin: 20px;
+//   padding: 20px;
+//   margin: 2% 0.5% 2% 0.5%;
+//   z-index: 10;
+//   p{
+//     margin-left: 50px;
+//   }
+//   h2 {
+//       text-align: center
+//   }
+// }
+//
+// .userInfo {
+//   box-sizing: border-box;
+//   padding: 20px;
+//   margin-top: 20px;
+//   background-color: gainsboro;
+//   border-radius: 5px;
+//   margin: 2% 0.5% 2% 0.5%;
+//   text-align: center;
+//   // padding-left: 110px;
+// }
 .return {
   display: block;
   margin-top: 10%;
