@@ -22,12 +22,13 @@ class User < ActiveRecord::Base
   validates :email, :presence => true, :uniqueness => true
 
   has_many :events, :dependent => :destroy
+  has_many :user_events, :class_name => 'Event', :foreign_key => 'user_id'
+  has_many :chef_events, :class_name => 'Event', :foreign_key => 'chef_id'
+
   has_many :menus, :dependent => :destroy
   has_many :reviews, :dependent => :destroy
   has_many :messages, :dependent => :destroy
 
-  has_many :user_events, :class_name => 'Event', :foreign_key => 'user_id'
-  has_many :chef_events, :class_name => 'Event', :foreign_key => 'chef_id'
 
   def name
     "#{self.first_name} #{self.last_name}"

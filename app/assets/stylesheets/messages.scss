@@ -32,3 +32,19 @@
 #message-content {
   width: 100%;
 }
+
+#conversations {
+  width: 100%;
+  text-align: center;
+}
+
+.chat-head {
+  display: inline-block;
+  background-color: gainsboro;
+  text-align: center;
+  border: 1px solid salmon;
+}
+
+.chat-head:hover {
+  cursor: pointer;
+}
