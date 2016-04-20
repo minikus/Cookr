@@ -1,33 +1,44 @@
 <div class="main">
 
-<p id="notice"><%= notice %>
+<p id="notice"><%= notice %></p>
 
 
   <h2><%= @event.description %></h2>
 <hr>
 
 <div class="eventDescription">
+  <h5>Host?</h5>
   <h5>Where?</h5>
   <h5>When?</h5>
   <h5>Chef?</h5>
   <h5>Menu?</h5>
   <h5>Guests?</h5>
-  <h5>Confirm?</h5>
   <h5>Price?</h5>
+  <h5>Confirm?</h5>
 </div>
 
 <div class="eventResults">
+  <h5><%= link_to @event.user.first_name, @event.user %></h5>
   <h5><%= @event.address %> <%= " - " + @event.suburb %></h5>
   <h5><%= @event.time %></h5>
   <h5><%= link_to @event.chef.first_name, user_path(@event.chef_id) %></h5>
   <h5><%= link_to @event.menu.title, menu_path(@event.menu_id) %></h5>
   <h5><%= @event.guests %></h5>
-  <h5><% if @event.confirm === false %></h5>
-  <h5><%= "Waiting for Chef"%></h5>
-  <h5><% else %>
-  <h5><%= "Good to go" %></h5>
-  <h5><% end %>
   <h5><%= number_to_currency(@event.price) %></h5>
+
+
+  <% if @event.confirm === false && @current_user.id != @event.chef_id%>
+    <h5><%= "Waiting for Chef"%></h5>
+    <% elsif  @event.confirm === false && @current_user.id == @event.chef_id %>
+      <button type="button" id="eventConfirm" data="<%= @event.id %>"> Confirm Event</button>
+      <% elsif  @event.confirm === true && @current_user.id == @event.chef_id %>
+        <button type="button" id="eventCancel" data="<%= @event.id %>"> Cancel Event</button>
+  <% elsif @event.confirm === true && @current_user.id != @event.chef_id  %>
+    <h5><%= "Good to go" %></h5>
+  <% end %>
+
+
+
 </div>
 
 <hr>
