@@ -3,18 +3,19 @@
 <div class="main">
   <p id="notice"><%= notice %></p>
 
-  <h1>My Events</h1>
+  <h1>Events</h1>
   <div class="events">
 
 <% if @current_user.user_events.present? %>
-  <h3>Next Events</h3>
+<h3>Bookings</h3>
+  <h4>Next</h4>
   <% @current_user.user_events.each do |event| %>
     <% if Time.now < event.time %>
       <li><%= link_to event.description, event %></li>
     <% end %>
   <% end %>
 
-  <h3>Past</h3>
+  <h4>Past</h4>
   <% @current_user.user_events.each do |event| %>
     <% if Time.now > event.time %>
       <li><%= link_to event.description, event %></li>
@@ -22,12 +23,10 @@
   <% end %>
 <% end %>
 
-<% if @current_user.chef?  %>
-<h3>Next Events as Chef</h3>
-  <% if @current_user.chef_events.present? %>
+<% if @current_user.chef? && @current_user.chef_events.present?  %>
+<h3>Events as Chef</h3>
     <% @current_user.chef_events.each do |event| %>
     <li><%= link_to event.description, event %></li>
-    <% end %>
   <% end %>
 <% end %>
 
