@@ -57,13 +57,6 @@
       <p><strong>Phone:</strong><%= @user.phone %></p>
     <% end %>
 
-<% #show host or chef depending on @user.chef status %>
-      <% if @user.chef? %>
-        <p> <strong>User type: </strong> Chef </p>
-      <% elsif !@user.chef? %>
-        <p><strong>User type: </strong> Host </p>
-      <% end %>
-
 <% #only show the chef bio, rate, and menus if they are a chef %>
       <% if @user.chef? %>
         <p><strong>Rate:</strong><%= number_to_currency(@user.rate) %> per people</p>
@@ -75,7 +68,7 @@
 
 <% #Add Menu Button %>
 <div class="return">
-      <% if @user === @current_user || @current_user.admin? %>
+      <% if @current_user.present? && (@user === @current_user || @current_user.admin?) %>
         <%= link_to 'Add Menu', new_menu_path %> |
       <% end %>
       <% if @current_user.present? %>
@@ -127,7 +120,7 @@
           <br>
           <br>
           <div class="light-orange">
-          Review by: <%= link_to review.reviewer.first_name, review.reviewer %>
+          Review by: <%= link_to review.reviewer.first_name, review.reviewer %> ||
           <%= link_to 'Delete', user_review_path(@user, review), method: :delete, data: { confirm: 'Are you sure sure you want to delete this review?' } %>
           </div>
         </div>
