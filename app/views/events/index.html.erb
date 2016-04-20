@@ -12,11 +12,15 @@
   <h4>Next</h4>
   <% @current_user.user_events.each do |event| %>
     <% if Time.now < event.time %>
-      <li><%= link_to event.description, event %></li>
+      <li><%= link_to event.description, event %>
+    <% if event.confirm? %>
+      - Confirmed!</li>
+      <%end %>
     <% end %>
   <% end %>
 
-  <h4>Past</h4>
+
+<h4>Past</h4>
   <% @current_user.user_events.each do |event| %>
     <% if Time.now > event.time %>
       <li><%= link_to event.description, event %></li>
