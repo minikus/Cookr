@@ -1,0 +1,2355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="msapplication-config" content="none"/>
+<link rel="shortcut icon" href="https://media005.flaticon.com/img/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://media005.flaticon.com/img/apple-icon-57x57-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://media005.flaticon.com/img/apple-icon-60x60-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://media005.flaticon.com/img/apple-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://media005.flaticon.com/img/apple-icon-76x76-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://media005.flaticon.com/img/apple-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://media005.flaticon.com/img/apple-icon-120x120-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://media005.flaticon.com/img/apple-icon-144x144-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://media005.flaticon.com/img/apple-icon-152x152-precomposed.png" />
+<title>Stemware - Free food icons</title>
+
+<meta name="description" content="Free vector icon. Download thousands of free icons of food in SVG, PSD, PNG, EPS format or as ICON FONT">
+<meta name="keywords" content="vector icons, free icons, free vector icons, icon font, icons">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name='twitter:site' content='@theflaticon'>
+<meta name='twitter:creator' content='@theflaticon'>
+<meta name='twitter:title' content='Stemware free vector icon'>
+<meta name='twitter:description' content='Download now this free icon in SVG, PSD, PNG, EPS format or as webfonts'>
+<meta name='twitter:image' content='http://imageog.flaticon.com/1/png/512/114/114368.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF'>
+<meta name='twitter:domain' content='www.flaticon.com'>
+
+
+<meta property='og:title' content='Stemware free vector icon' data-dynamic='true' />
+<meta property='og:site_name' content='Flaticon' data-dynamic='true' />
+<meta property='og:url' content='http://www.flaticon.com/free-icon/stemware_114368' />
+<meta property='og:description' content='Download now this free icon in SVG, PSD, PNG, EPS format or as webfonts'  data-dynamic='true' />
+<meta property='og:type' content='article'  data-dynamic='true' />
+<meta property='og:image' content='http://imageog.flaticon.com/1/png/512/114/114368.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF' />
+<meta property='og:image:type' content='image/png' data-dynamic='true'>
+<meta property='og:image:width' content='1200'  data-dynamic='true' />
+<meta property='og:image:height' content='630'  data-dynamic='true' />
+<meta property='fb:app_id' content='579360525479711'  data-dynamic='true' />
+<meta property='article:author' content='https://www.facebook.com/theflaticon'  data-dynamic='true' />
+<meta property='article:publisher' content='https://www.facebook.com/theflaticon'  data-dynamic='true' />
+<meta property='og:locale' content='en_US' />
+
+
+<link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css" />
+
+<link href='https://media005.flaticon.com/min/css/base.css?key=2016-04-12.01' rel='stylesheet' type='text/css'/>
+<!--[if lt IE 10]>
+<link rel="stylesheet" type="text/css" href="https://media005.flaticon.com/css/ie.css">
+<script>var ie = true;</script>
+<![endif]-->
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-42742855-1', 'auto', {'allowLinker': true});
+
+    // Sending ClientId to Shutterstock iframes
+    var clientId = undefined;
+    var iframeQueue = [];
+    function sendClientId() {
+        while (iframeQueue.length>0) {
+            var iframe = iframeQueue.pop();
+            // Extract domain from iframe src
+            var parser = document.createElement('a');
+            parser.href = iframe.src;
+            var target = parser.protocol+'//'+parser.hostname;
+            iframe.contentWindow.postMessage(clientId, target);
+        }
+    }
+    function askForClientId(element) {
+        iframeQueue.push(element);
+        if (clientId) {
+            sendClientId();
+        }
+    }
+    ga(function (tracker) {
+        clientId = tracker.get('clientId');
+        sendClientId();
+    });
+
+    if (window.performance && document.addEventListener) {
+        document.addEventListener('load', function () {
+            ga('send', 'timing', 'performance', 'documentLoad', performance.now() /* TODO: 'Highwinds CDN' | 'Edgecast CDN' | 'OVH' */);
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            ga('send', 'timing', 'performance', 'DOMContentLoaded', performance.now() /* TODO: 'Highwinds CDN' | 'Edgecast CDN' | 'OVH' */);
+        });
+    }
+
+    function ga_logged_in_callback(data) {
+        ga('set', 'dimension1', !data.status ? 'guest' : (data.premium ? 'premium' : 'registered'));
+        if (data.id) {
+            ga('set', 'userId', data.id);
+        }
+        ga('send', 'pageview');
+    }
+
+    function logged_in_callback(data) {
+        ga_logged_in_callback(data);
+    }
+</script>
+</head>
+<body class="">
+	<section id="viewport" class="viewport">
+		
+<header id="header" class="body-header">
+	<div class="popover popover-right main-menu">
+		<div class="popover-container">
+			<button class="popover-button nostyle" onclick="ga('send', 'event', 'Navbar', 'Click' ,'Menu')">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<ul class="popover-content">
+				<li><a title="Home" href="http://www.flaticon.com">Home</a></li>
+				<li><a title="Browse our packs to get a consistent style in your designs" href="http://www.flaticon.com/packs" title="Packs">Packs</a></li>
+				<li><a title="Know the artists who make your life easier" href="http://www.flaticon.com/authors" title="Authors">Authors</a></li>
+				<li><a title="Surf around our categories" href="http://www.flaticon.com/categories" title="Categories">Categories</a></li>
+				<li><a title="Convert between font formats with our Font-face generator" href="http://www.flaticon.com/font-face" title="Font-face">Font-face</a></li>
+				<li><a title="Flaticon Apps for Adobe and Mac OSx" href="http://www.flaticon.com/apps" title="Apps">Apps</a></li>
+				<li><a title="Flaticon Collections" href="http://www.flaticon.com/collections"><i class="flaticon-collections pull-left"></i>Flaticon Collections</a></li>
+				<li><a title="Join premium" href="https://profile.flaticon.com/plans" title="Premium plans" onclick="ga('send', 'event', 'Navbar', 'Click', 'Premium Plans')"><i class="flaticon-selection pull-left"></i>Premium plans</a></li>
+				<li><a title="Top icons last 24h" href="http://www.flaticon.com/most-downloaded"><i class="flaticon-flame pull-left"></i>Top icons</a></li>
+				<li><a title="Browser the latest icons added to our database" href="http://www.flaticon.com/latest-icons" title="Latest icons"><i class="flaticon-clock pull-left"></i>Latest icons</a></li>
+			</ul>
+		</div>
+	</div>
+	<a href="http://www.flaticon.com/" class="logo pull-left" id="logo" title="Flaticon - The largest database of free icons" onclick="ga('send', 'event', 'Navbar', 'Click', 'Home')">
+		<i class="logo-wrapper">
+			<img src="https://media005.flaticon.com/img/flaticon-logo.svg" title="Flaticon logo" width="187" height="34">
+		</i>
+	</a>
+	<section class="search-holder">
+		<form action="http://www.flaticon.com/search" method="get">
+			<input type="search" name="word" placeholder="Search icons" class="autocomplete" value="">
+			<button type="submit" class="flaticon-magnifier nostyle"></button>
+		</form>
+	</section>
+
+	
+	<button class="collections-toggle pull-right nostyle loading" id="collections-toggle">
+		<i class="flaticon-collections"></i>
+		<span class="badge badge-error"></span>
+	</button>
+	
+	<div id="gr_user_menu">
+
+		<span id="gr_not-connected" class="login-link gr_not-connected pull-right">
+			<a href="https://profile.flaticon.com/login"><i class="flaticon-user"></i></a>
+			<div class="dropdown-login gr_not-connected">
+				<p>
+					<a title="Login and enjoy all we have for you!" href="https://profile.flaticon.com/login" onclick="ga('send', 'event', 'Navbar', 'Click', 'Login')">Login</a>
+					<span>or</span>
+					<a title="Register and be part of us!" href="https://profile.flaticon.com/register" onclick="ga('send', 'event', 'Navbar', 'Click', 'Register')">register</a>
+				</p>
+			</div>
+		</span>
+
+		<div id="gr_connected" class="popover popover-user pull-right gr_connected">
+			<div class="popover-container">
+				<button class="avatar popover-button nostyle" id="gr_user_menu_avatar">
+					<img src="" alt="You look great!" onerror="set_default_avatar(this)">
+				</button>
+				<ul class="popover-content">
+					<li><a title="See and edit your profile" href="https://profile.flaticon.com/me"><i class="flaticon-user pull-right"></i>Profile</a></li>
+					<li><a title="See your download history" href="https://profile.flaticon.com/my_downloads"><i class="flaticon-download pull-right"></i>My Downloads</a></li>
+					<li><a title="See your collections" href="https://profile.flaticon.com/my_collections"><i class="flaticon-heart pull-right"></i>My collections</a></li>
+					<li><a title="Logout, we will miss you!" href="javascript:gr.auth.logout()" id="logout_link"><i class="flaticon-cancel pull-right gr_logout_button"></i>Logout</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</header>
+<script>
+	var DEFAULT_AVATAR    = 'https://media005.flaticon.com/img/default_avatar.png';
+	function set_default_avatar(elem)
+	{
+		elem.src = DEFAULT_AVATAR;
+	}
+
+	if (parseInt(localStorage.pageview || 0, 10) < 3){
+		var login_link = document.getElementById("gr_not-connected");
+		login_link.classList.add("dropdown-active");
+		localStorage.pageview = parseInt(localStorage.pageview || 0, 10) + 1;
+		setTimeout(function() {
+			var login_link = document.getElementById("gr_not-connected");
+			if (login_link) {
+				login_link.classList.remove('dropdown-active');
+			}
+		}, 4000);
+	}
+
+	</script>
+		<aside id="collections" class="collections loading">
+	<header class="collection-section-header">
+		<button onclick="Widget.toggle()" class="hide-collections nostyle"><i class="flaticon-arrow_right"></i></button>
+		<span>Collections</span>
+		<span class="badge badge-gray collections-number"></span>
+		<button disabled id="list_collections_btn" class="btn-pill btn-small show-collections simptip-position-bottom simptip-movable" onclick="Collection.list()" data-tooltip="Show collections"><i class="flaticon-list"></i></button>
+		<button disabled id="new_collection_btn" class="btn-pill btn-small add-collection simptip-position-bottom simptip-movable" onclick="Collection.new()" data-tooltip="Add a new collection"><i class="flaticon-add"></i></button>
+		<div class="dropdown-upgrade upgrade">
+			<p>You have reached your collections limit. Upgrade to get unlimited collections</p>
+			<a href="https://profile.flaticon.com/plans" class="btn fullwidth">Upgrade</a>
+		</div>
+		<div class="dropdown-upgrade register">
+			<p>You have reached your collections limit. Register and get up to 3 collections</p>
+			<a href="https://profile.flaticon.com/register" class="btn fullwidth">Register</a>
+		</div>
+	</header>
+
+	<section id="collections-holder" class="collections-holder overflow"></section>
+</aside>
+<div class="collections-overlay"></div>
+
+<section id="max-collections" class="max-collections">
+	<div class="overlay"></div>
+	<div class="max-collections-container">
+		<header>
+			<p>You have more collections than your plan allows. Click <b class='danger deleteCounter'></b> collections to delete them.</p>
+
+			<p>You can always <a href="https://profile.flaticon.com/plans">upgrade</a> to get unlimited collections and more.				<a href="https://profile.flaticon.com/plans"><i class="flaticon-info"></i> More info about Premium Plans</a>.
+			</p>
+
+		</header>
+		<div id="max-collections-content" class="max-collections-content"></div>
+	</div>
+</section>
+
+<div class="modal modal-bool">
+	<input class="modal-state" id="modal-delete-collection" type="checkbox">
+	<div class="modal-fade-screen">
+		<div class="modal-inner">
+			<label class="modal-close" for="modal-delete-collection"></label>
+			<p class="text-center">Are you sure you want to delete this collection?</p>
+			<button class="btn-danger" onclick="closeModal(this); Collection.del();">Yes, delete it</button>
+			<button onclick="closeModal(this);">No, go back</button>
+		</div>
+	</div>
+</div>
+
+<script>
+
+	if (localStorage.widget_active == '1'){
+		document.getElementById("collections").classList.add('visible');
+		document.getElementById("viewport").classList.add('collections-visible');
+	}
+	/*
+	if (localStorage.widget_state){
+		document.getElementById("collections-holder").innerHTML = localStorage.widget_state;
+		document.getElementById("collections").classList.remove('loading');
+		[].forEach.call(document.querySelectorAll(".popover-content, .popover-button"), function(popover) {
+			popover.classList.remove('show-menu','active');
+		});
+		[].forEach.call(document.querySelectorAll('.collection .collection-content, .collection .header-edit'), function(elem){
+			elem.classList.remove('edit-mode', 'visible');
+		});
+	}
+	*/
+</script>
+
+<div class="modal modal-download modal-collection">
+	<input class="modal-state" id="modal-collection" type="checkbox">
+	<div class="modal-fade-screen">
+		<div class="modal-inner">
+			<header>
+				<label class="modal-close" for="modal-collection"></label>
+				<h3>Download collection "<span class="collection_name"></span>"</h3>
+			</header>
+			<section class="modal-body">
+				<div class="column-premium">
+					<h3>Don't want to credit the author?</h3>
+					<a class="btn btn-premium" id="download-premium" href="https://profile.flaticon.com/plans" target="_blank" onclick="ga('send', 'event', 'Collection', 'Premium Download')">
+						<i class="flaticon-rocket"></i>
+						<b>Premium download</b>
+						<p>+103,500 icons from <span>$20</span> $9,99</p>
+					</a>
+					<p><a href="http://support.flaticon.com/hc/en-us/articles/202798201-How-can-I-use-Flaticon-s-resources-without-attribution-" title="Avoid atribbution on Flaticon Selection icons" target="_blank">Avoid atribbution on Flaticon Selection icons</a><br>
+						<a href="http://www.flaticon.com/apps" title="Full use of Adobe Extension and Mac OS X App" target="_blank">Adobe Extension + Mac OS X App</a><br>
+						<a href="http://support.flaticon.com/hc/en-us/articles/202798261-Can-I-cancel-my-plan-and-get-back-my-money-" title="Money back guaranteed" target="_blank">Money back guaranteed</a></p>
+						<a href="https://profile.flaticon.com/plans" target="_blank">Learn more</a>
+					</div>
+					<div class="column-free">
+						<p></p>
+						<h3><a href="http://support.flaticon.com/hc/en-us/articles/202798381-How-to-attribute-the-icons-to-their-authors" target="_blank">How to credit the author?</a></h3>
+						<button id="download-collection-free">
+							<b>Free download</b>
+							<span>You must credit the author</span>
+						</button>
+						<br>
+						<small>
+							<input type="checkbox" id="give-break_1" name="give-break_1" class="give_break" onclick="ga('send', 'event', 'licenses', 'take_break');">
+							<label for="give-break_1">Give me a break, please don't show me this screen in a while.</label>
+						</small>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+<div class="modal modal-report">
+	<input class="modal-state" id="modal-report-collection" type="checkbox">
+	<div class="modal-fade-screen">
+		<div class="modal-inner dark-scheme">
+			<header>
+				<h3 class="text-center">Report download</h3>
+				<label class="modal-close" for="modal-report-collection"></label>
+			</header>
+			<section class="modal-body<">
+				<form id="report-form-collection">
+					<p class="text-center">Please, indicate what problem has been found. Thanks!</p>
+					<div class="radio-holder">
+						<div class="col-6">
+							<span class="radio-group">
+								<input type="radio" name="reason" value="other-collection" id="other-collection" selected>
+								<label for="other-collection" class="radio fake-radio"></label>
+								<label for="other-collection">Other</label>
+							</span>
+						</div>						
+						<div class="col-6 omega">
+							<span class="radio-group">
+								<input type="radio" name="reason" value="not-working-collection" id="not-working-collection">
+								<label for="not-working-collection" class="radio fake-radio"></label>
+								<label for="not-working-collection">The download is not working</label>
+							</span>
+						</div>
+
+						<div class="col-6">
+							<span class="radio-group">
+								<input type="radio" name="reason" value="format-error" id="format-error" selected>
+								<label for="format-error" class="radio fake-radio"></label>
+								<label for="format-error">The format of some files is incorrect</label>
+							</span>
+						</div>	
+						<div class="col-6 omega">
+							<span class="radio-group">
+								<input type="radio" name="reason" value="long-time" id="long-time">
+								<label for="long-time" class="radio fake-radio"></label>
+								<label for="long-time">The download is taking too long</label>
+							</span>
+						</div>
+											
+					</div><!-- .radio-holder -->
+					<span class="textarea-group">
+						<textarea id="description-collection" class="noresize" name="description-collection"></textarea>
+						<label for="description-collection">Describe the problem</label>
+						<button href="#" class="reset-textarea">×</button>
+					</span>
+					<button type="submit" class="fullwidth">Send</button>
+				</form>
+			</section>
+		</div>
+	</div>
+</div>
+
+		<section id="detail" class="detail">
+
+	<section class="detail-header">
+
+		<ul class="share">
+			<li><a href="#" onclick="fbpopup();return false;" class="flaticon-facebook bg-facebook" title="Share in Facebook"></a></li>
+			<li><a href="#" onclick="tweet(event);return false;" class="flaticon-twitter bg-twitter" title="Share in Twitter"></a></li>
+			<li><a href="#" onclick="glpopup();return false;" class="flaticon-google bg-google" title="Share in Google"></a></li>
+			<li><a href="#" onclick="pinpopup();return false;" class="flaticon-pinterest bg-pinterest" title="Share in Pinterest"></a></li>
+		</ul>
+
+		<h1><span>Stemware</span> free icon</h1>
+
+		<div class="author">
+						<a href="http://www.flaticon.com/authors/freepik" class="avatar avatar-60 pull-left" title="Freepik">
+				<img src="http://image005.flaticon.com/teams/1-freepik.jpg" alt="Freepik">
+			</a>
+						<p>
+				<span>by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> in <a class="category-icon" href="http://www.flaticon.com/categories/food">food</a>.</span>
+								<span>Pack: <a href="http://www.flaticon.com/packs/productivity-collection" title="Productivity Collection">Productivity Collection</a></span>
+							</p>
+		</div>
+
+	</section>
+
+
+	<section class="detail-content">
+
+				<img src="http://image005.flaticon.com/1/png/512/114/114368.png" alt="Stemware free icon" style="display:none;"/>
+		
+				<div class="img-loader"></div>
+		<div class="img-loader"></div>
+
+		<a href="#" class="prev" title="Previous icon">
+			<span></span>
+			<i class="flaticon-arrow_left"></i>
+		</a>
+		
+		<div class="svg-version">
+			<div class="prev-icon prev-icon-2" data-type="svg"></div>
+			<div class="prev-icon prev-icon-1" data-type="svg"></div>
+			<div class="main-icon" data-type="svg" ></div>
+			<div class="next-icon next-icon-1" data-type="svg"></div>
+			<div class="next-icon next-icon-2" data-type="svg"></div>
+		</div>
+
+		<div class="img-version">
+
+			<div class="prev-icon prev-icon-2" data-type="img" data-slug="http://www.flaticon.com/free-icon/tactics_114371">
+				<img src="http://image005.flaticon.com/1/svg/114/114371.svg" alt="" />
+			</div>
+			<div class="prev-icon prev-icon-1" data-type="img" data-slug="http://www.flaticon.com/free-icon/clock_114355">
+				<img src="http://image005.flaticon.com/1/svg/114/114355.svg" alt="" />
+
+			</div>
+			<div class="main-icon" data-type="img">
+				<img src="http://image005.flaticon.com/1/svg/114/114368.svg" width="224" height="224" alt="Stemware free icon"  title="Stemware free icon"/>
+			</div>
+
+			<div class="next-icon next-icon-1" data-type="img" data-slug="http://www.flaticon.com/free-icon/time_114347">
+				<img src="http://image005.flaticon.com/1/svg/114/114347.svg" alt="" />
+			</div>
+			<div class="next-icon next-icon-2" data-type="img" data-slug="http://www.flaticon.com/free-icon/aim_114370">
+				<img src="http://image005.flaticon.com/1/svg/114/114370.svg" alt="" />
+
+			</div>
+		</div>
+
+		<button id="detail-icon-button" class="btn btn-gray" onclick="Widget.addIcon(114368, 'food', 1, 1)"><i class="flaticon-collections_add"></i> <span>Add to collection</span></button>
+		<img id="img-icon"  src="" class="" style="display:none;">
+
+				<a href="#" class="next" title="Next icon">
+			<i class="flaticon-arrow_right"></i>
+			<span></span>
+		</a>
+		
+	</section>
+
+	<section class="detail-footer">
+
+		<ul class="download">
+			<li><a href="#" class="btn" data-format="png" title="Download free icon in PNG format" >PNG</a></li>
+			<li><a href="#" class="btn" data-format="svg" title="Download free icon in SVG format" >SVG</a></li>
+			<li><a href="#" class="btn" data-format="eps" title="Download free icon in EPS format" >EPS</a></li>
+			<li><a href="#" class="btn" data-format="psd" title="Download free icon in PSD format" >PSD</a></li>
+			<li><a href="#" class="btn btn-outline" data-format="base64" title="Download free icon in base64 format">&lt;/&gt; BASE 64</a></li>
+		</ul>
+
+		<section class="customize">
+
+			<p>Customize your icon:</p>
+
+			<ul class="color-selector">
+										<li><button class="green color" data-color="#91DC5A"></button></li>
+						<li><button class="blue color" data-color="#006DF0"></button></li>
+						<li><button class="purple color" data-color="#933EC5"></button></li>
+						<li><button class="yellow color" data-color="#FFDA44"></button></li>
+						<li><button class="red color" data-color="#D80027"></button></li>
+						<li><button class="white color" data-color="#FFFFFF"></button></li>
+						<li><button class="black color" data-color="#000000"></button></li>
+						<li>
+							<div class="popover popover-top popover-colorpicker">
+								<div class="popover-container">
+									<button class="popover-button"><img src="https://media005.flaticon.com/img/colorwheel.png"></button>
+									<div class="popover-content">
+										<div id="detail_picker"></div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+
+					<span>Select a size (in pixels).</span>
+
+					<ul class="size">
+						<li><button class="btn btn-small" data-size="16">16</button></li>
+						<li><button class="btn btn-small" data-size="24">24</button></li>
+						<li><button class="btn btn-small" data-size="32">32</button></li>
+						<li><button class="btn btn-small" data-size="64">64</button></li>
+						<li><button class="btn btn-small" data-size="128">128</button></li>
+						<li><button class="btn btn-small" data-size="256">256</button></li>
+						<li><button class="btn btn-small" data-size="512">512</button></li>
+						<li><button class="btn btn-big hidden" data-size="512">Download</button></li>
+					</ul>
+				</section><!-- .customize -->
+
+				<ul class="stats">
+					<li class="simptip-position-top simptip-movable" data-tooltip="Downloads">
+						<i class="flaticon-download"></i>
+						<span id="stats-downloads">3,491</span>
+					</li>
+				</ul>
+
+				<label class="report btn btn-warning warning btn-small btn-outline" for="modal-report"><i class="flaticon-exclamation"></i> Report this icon</label>
+
+								<p class="license">
+					<a class="text-link" href="http://file005.flaticon.com/downloads/license/license.pdf" title="Flaticon Basic License" onclick="ga('send', 'event', 'Detail View', 'Flaticon Basic License')">
+						Flaticon Basic License.
+					</a>
+					It's necessary to credit the author.
+					<br>
+					<a class="text-link" href="http://support.flaticon.com/hc/en-us/articles/207248209-How-I-must-insert-the-attribution-" title="How to credit the authorship of the icons?" onclick="ga('send', 'event', 'Detail View', 'How to credit the authorship of the icons?')">How to credit the authorship of the icons?</a>
+				</p>
+
+				<ul class="tags">
+
+										<li><a href="http://www.flaticon.com/free-icons/food_79" title="food">food</a></li>
+										<li><a href="http://www.flaticon.com/free-icons/party_372" title="party">party</a></li>
+										<li><a href="http://www.flaticon.com/free-icons/alcohol_689" title="alcohol">alcohol</a></li>
+										<li><a href="http://www.flaticon.com/free-icons/glasses_21399" title="glasses">glasses</a></li>
+										<li><a href="http://www.flaticon.com/free-icons/celebration_41726" title="celebration">celebration</a></li>
+										<li><a href="http://www.flaticon.com/free-icons/alcoholic-drink_129768" title="alcoholic drink">alcoholic drink</a></li>
+										<li><a href="http://www.flaticon.com/free-icons/stemware_196549" title="stemware">stemware</a></li>
+					
+				</ul>
+
+
+				<div class="modal modal-report">
+					<input class="modal-state" id="modal-report" type="checkbox">
+					<div class="modal-fade-screen">
+						<div class="modal-inner dark-scheme">
+							<header>
+								<h3 class="text-center">Report this icon</h3>
+								<label class="modal-close" for="modal-report"></label>
+							</header>
+							<section class="modal-body<">
+								<form id="report-form">
+									<p class="text-center">Please indicate what problem has been found. Thanks!</p>
+									<div class="radio-holder">
+										<div class="col-6">
+											<span class="radio-group">
+												<input type="radio" name="reason" value="not-working" id="not-working">
+												<label for="not-working" class="radio fake-radio"></label>
+												<label for="not-working">The download is not working</label>
+											</span>
+										</div>
+										<div class="col-6 omega">
+											<span class="radio-group">
+												<input type="radio" name="reason" value="copyright" id="copyright">
+												<label for="copyright" class="radio fake-radio"></label>
+												<label for="copyright">I am the owner of this icon</label>
+											</span>
+										</div>
+										<div class="col-6">
+											<span class="radio-group">
+												<input type="radio" name="reason" value="download-link" id="download-link">
+												<label for="download-link" class="radio fake-radio"></label>
+												<label for="download-link">I can't find the download link</label>
+											</span>
+										</div>
+										<div class="col-6 omega">
+											<span class="radio-group">
+												<input type="radio" name="reason" value="other" id="other" selected>
+												<label for="other" class="radio fake-radio"></label>
+												<label for="other">Other</label>
+											</span>
+										</div>
+									</div><!-- .radio-holder -->
+									<span class="textarea-group">
+										<textarea id="description" class="noresize" name="description"></textarea>
+										<label for="description">Describe the problem</label>
+										<button href="#" class="reset-textarea">×</button>
+									</span>
+									<button type="submit" class="fullwidth">Send</button>
+								</form>
+							</section>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<section class="shortcuts">
+				<span>Keyboard shortcuts:</span>
+				<span class="shortcut simptip-position-top simptip-movable" data-tooltip="Previous Icon">←</span>
+				<span class="shortcut simptip-position-top simptip-movable" data-tooltip="Next Icon">→</span>
+				<span class="shortcut simptip-position-top simptip-movable" data-tooltip="Add to collection">+</span>
+				<span class="shortcut simptip-position-top simptip-movable" data-tooltip="Delete from collection">-</span>
+			</section>
+
+			<form id="download-form" method="post" action="/download-icon">
+				<input type="hidden" id="icon_id" name="icon_id" value="114368" />
+				<input type="hidden" id="author" name="author" value="1" />
+				<input type="hidden" id="team" name="team" value="1" />
+				<input type="hidden" id="keyword" name="keyword" value="food" />
+				<input type="hidden" id="pack" name="pack" value="114322" />
+				<input type="hidden" id="style" name="style" value="3" />
+				<input type="hidden" id="format" name="format" />
+				<input type="hidden" id="color" name="color" />
+				<input type="hidden" id="colored" name="colored" value="1" />
+				<input type="hidden" id="size" name="size" />
+				<input type="hidden" id="selection" name="selection" value="1" />
+				<!--<input type="hidden" id="svg_content" name="svg_content" />-->
+			</form>
+
+		</section><!-- #detail -->
+
+		<section class="related">
+			<header class="related-header"></header>
+			<iframe class="sponsor-iframe" width="100%" height="182" scrolling="no" frameborder="0" marginwidth="0" src="http://adscdn.flaticon.com/banner2/search?sponsor=freepik&searchText=food&utm=flaticon&lang=english&cache=2016042001&page=1&body_class=flaticon_v2_it&show_header=1&preload_size=110&img_size=img_small&min_size=110&max_size=112&min_margin=5&top_margin=7&num_rows=1" onload="askForClientId(this)" style="box-sizing: inherit;"></iframe>		</section>
+
+				<section class="related related-packs">
+			<header class="related-header">
+					
+	<div class="breadcrumb">
+				<a href="http://www.flaticon.com/packs" title="Packs">Packs</a>
+				<a href="http://www.flaticon.com/packs/productivity-collection" title="Productivity Collection">Productivity Collection</a>
+			</div>
+	
+	
+	
+
+				<a href="http://www.flaticon.com/packs/productivity-collection" class="badge pull-right" title="">View all - 50 icons</a>
+			</header>
+			<ul class="icons">
+	<a name="1" title="Page "></a>
+	
+<li class="icon "
+	data-id="114334"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114334.png" alt="Avatar"  title="Avatar"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/avatar_114334" class="flaticon-eye" title="Avatar"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114333"
+	data-name="technology"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114333.png" alt="Phone call"  title="Phone call"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/phone-call_114333" class="flaticon-eye" title="Phone call"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114323"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114323.png" alt="Woman"  title="Woman"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/woman_114323" class="flaticon-eye" title="Woman"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114346"
+	data-name="money"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114346.png" alt="Money"  title="Money"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/money_114346" class="flaticon-eye" title="Money"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114340"
+	data-name="check"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114340.png" alt="Task"  title="Task"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/task_114340" class="flaticon-eye" title="Task"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114338"
+	data-name="business"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114338.png" alt="List"  title="List"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/list_114338" class="flaticon-eye" title="List"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114330"
+	data-name="money"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114330.png" alt="Money bag"  title="Money bag"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/money-bag_114330" class="flaticon-eye" title="Money bag"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114341"
+	data-name="people"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114341.png" alt="Productivity"  title="Productivity"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/productivity_114341" class="flaticon-eye" title="Productivity"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114336"
+	data-name="letter"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114336.png" alt="Letter"  title="Letter"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/letter_114336" class="flaticon-eye" title="Letter"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114339"
+	data-name="check"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114339.png" alt="Reporting"  title="Reporting"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/reporting_114339" class="flaticon-eye" title="Reporting"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114344"
+	data-name="nature"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114344.png" alt="Gardening"  title="Gardening"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/gardening_114344" class="flaticon-eye" title="Gardening"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114335"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114335.png" alt="Coffee cup"  title="Coffee cup"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/coffee-cup_114335" class="flaticon-eye" title="Coffee cup"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114337"
+	data-name="business"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114337.png" alt="Document"  title="Document"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/document_114337" class="flaticon-eye" title="Document"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114348"
+	data-name="money"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114348.png" alt="Money"  title="Money"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/money_114348" class="flaticon-eye" title="Money"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114367"
+	data-name="target"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114367.png" alt="Target"  title="Target"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/target_114367" class="flaticon-eye" title="Target"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114358"
+	data-name="time"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114358.png" alt="Calendar"  title="Calendar"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/calendar_114358" class="flaticon-eye" title="Calendar"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114345"
+	data-name="technology"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114345.png" alt="Light bulb"  title="Light bulb"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/light-bulb_114345" class="flaticon-eye" title="Light bulb"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114328"
+	data-name="briefcase"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114328.png" alt="Briefcase"  title="Briefcase"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/briefcase_114328" class="flaticon-eye" title="Briefcase"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114363"
+	data-name="education"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114363.png" alt="Puzzle"  title="Puzzle"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/puzzle_114363" class="flaticon-eye" title="Puzzle"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114356"
+	data-name="justice"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114356.png" alt="Balance"  title="Balance"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/balance_114356" class="flaticon-eye" title="Balance"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114331"
+	data-name="folder"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114331.png" alt="Folder"  title="Folder"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/folder_114331" class="flaticon-eye" title="Folder"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114353"
+	data-name="arrow"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114353.png" alt="Clock"  title="Clock"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/clock_114353" class="flaticon-eye" title="Clock"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114361"
+	data-name="clock"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114361.png" alt="Hourglass"  title="Hourglass"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/hourglass_114361" class="flaticon-eye" title="Hourglass"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114351"
+	data-name="social"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114351.png" alt="Info"  title="Info"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/info_114351" class="flaticon-eye" title="Info"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114349"
+	data-name="business"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114349.png" alt="Tactics"  title="Tactics"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/tactics_114349" class="flaticon-eye" title="Tactics"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114357"
+	data-name="clock"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114357.png" alt="Calendar"  title="Calendar"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/calendar_114357" class="flaticon-eye" title="Calendar"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114326"
+	data-name="agenda"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114326.png" alt="Address book"  title="Address book"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/address-book_114326" class="flaticon-eye" title="Address book"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114369"
+	data-name="location"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114369.png" alt="Compass"  title="Compass"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/compass_114369" class="flaticon-eye" title="Compass"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+</ul>
+
+		</section>
+		
+				<section class="related related-tags">
+			<header class="related-header">
+					
+	<div class="breadcrumb">
+				<a href="http://www.flaticon.com/tags" title="Tags">Tags</a>
+				<a href="Http://www.flaticon.com/free-icons/food_79" title="food">Food</a>
+			</div>
+	
+	
+	
+				<a href="http://www.flaticon.com/free-icons/food_79" class="badge pull-right">View all - <span>5,969</span> icons</a>
+			</header>
+			<ul class="icons">
+	<a name="1" title="Page "></a>
+	
+<li class="icon "
+	data-id="123405"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/123/123405.png" alt="Coffee"  title="Coffee"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/coffee_123405" class="flaticon-eye" title="Coffee"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="123406"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/123/123406.png" alt="Coffee"  title="Coffee"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/coffee_123406" class="flaticon-eye" title="Coffee"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113039"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113039.png" alt="Birthday cake"  title="Birthday cake"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/birthday-cake_113039" class="flaticon-eye" title="Birthday cake"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113222"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113222.png" alt="Cocktail"  title="Cocktail"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/cocktail_113222" class="flaticon-eye" title="Cocktail"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113228"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113228.png" alt="Pizza"  title="Pizza"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/pizza_113228" class="flaticon-eye" title="Pizza"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113067"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113067.png" alt="Hamburger"  title="Hamburger"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/hamburger_113067" class="flaticon-eye" title="Hamburger"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113230"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113230.png" alt="Cupcake"  title="Cupcake"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/cupcake_113230" class="flaticon-eye" title="Cupcake"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="35194"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/35/35194.png" alt="Plate fork and knife"  title="Plate fork and knife"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/plate-fork-and-knife_35194" class="flaticon-eye" title="Plate fork and knife"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113061"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113061.png" alt="Beer"  title="Beer"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/beer_113061" class="flaticon-eye" title="Beer"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="124793"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/124/124793.png" alt="Coffee"  title="Coffee"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/coffee_124793" class="flaticon-eye" title="Coffee"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="124833"
+	data-name="fruit"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/124/124833.png" alt="Apple"  title="Apple"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/apple_124833" class="flaticon-eye" title="Apple"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113223"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113223.png" alt="Soft drink"  title="Soft drink"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/soft-drink_113223" class="flaticon-eye" title="Soft drink"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114809"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114809.png" alt="Coffee cup"  title="Coffee cup"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/coffee-cup_114809" class="flaticon-eye" title="Coffee cup"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="124795"
+	data-name="drink"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/124/124795.png" alt="Milk"  title="Milk"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/milk_124795" class="flaticon-eye" title="Milk"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113224"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113224.png" alt="Beer"  title="Beer"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/beer_113224" class="flaticon-eye" title="Beer"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114271"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114271.png" alt="Hot drink"  title="Hot drink"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/hot-drink_114271" class="flaticon-eye" title="Hot drink"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113088"
+	data-name="cup"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113088.png" alt="Chocolate"  title="Chocolate"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/chocolate_113088" class="flaticon-eye" title="Chocolate"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="124834"
+	data-name="fruit"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="2"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/124/124834.png" alt="Scarf"  title="Scarf"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/scarf_124834" class="flaticon-eye" title="Scarf"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113346"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113346.png" alt="Meat"  title="Meat"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/meat_113346" class="flaticon-eye" title="Meat"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113060"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113060.png" alt="Pizza"  title="Pizza"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/pizza_113060" class="flaticon-eye" title="Pizza"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113050"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113050.png" alt="Champagne"  title="Champagne"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/champagne_113050" class="flaticon-eye" title="Champagne"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113343"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113343.png" alt="Fish"  title="Fish"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/fish_113343" class="flaticon-eye" title="Fish"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="112711"
+	data-name="fruit"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/112/112711.png" alt="Apple"  title="Apple"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/apple_112711" class="flaticon-eye" title="Apple"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113072"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113072.png" alt="Candy"  title="Candy"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/candy_113072" class="flaticon-eye" title="Candy"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="114810"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/114/114810.png" alt="Coffee cup"  title="Coffee cup"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/coffee-cup_114810" class="flaticon-eye" title="Coffee cup"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113231"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113231.png" alt="Ice cream"  title="Ice cream"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/ice-cream_113231" class="flaticon-eye" title="Ice cream"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113075"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113075.png" alt="Soda"  title="Soda"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/soda_113075" class="flaticon-eye" title="Soda"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+
+<li class="icon "
+	data-id="113221"
+	data-name="food"
+	data-author=""
+	data-team="1"
+	data-search=""
+	data-color="1"
+	aria-haspopup="true">
+	<img src="http://image005.flaticon.com/1/png/128/113/113221.png" alt="Champagne"  title="Champagne"  width="64" height="64">
+	<div class="overlay" aria-hidden="true">
+		<button class="flaticon-collections_add"></button>
+		<a href="http://www.flaticon.com/free-icon/champagne_113221" class="flaticon-eye" title="Champagne"></a>
+	</div><!-- .overlay -->
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')"></a>
+	<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?')">What is this?</a>
+	</li>
+
+</ul>
+
+
+		</section>
+		
+		<section class="related">
+			<header class="related-header"></header>
+			<iframe class="sponsor-iframe sponsor-iframe-shutterstock" width="100%" height="182" scrolling="no" frameborder="0" marginwidth="0" src="http://adscdn.flaticon.com/banner2/search?searchText=food+icon&search_group=all&page=1&lang=english&cache=2016042001&body_class=flaticon_v2_it&show_header=1&preload_size=110&img_size=img_small&min_size=110&max_size=112&min_margin=5&top_margin=7&num_rows=1" onload="askForClientId(this)" style="box-sizing: inherit;"></iframe>		</section>
+
+		<div class="modal modal-base64">
+			<input class="modal-state" id="modal-base64" type="checkbox">
+			<div class="modal-fade-screen">
+				<div class="modal-inner">
+					<header>
+						<label class="modal-close" for="modal-base64"></label>
+						<h3>Base 64 encoded image</h3>
+					</header>
+					<section class="modal-body">
+						<p>HTML image</p>
+						<textarea id="b64Image" class="b64textarea" onclick="this.select()"></textarea>
+						<p>CSS background</p>
+						<textarea id="b64css" class="b64textarea" onclick="this.select()"></textarea>
+						<p class="text-center">Copy the base64 encoded data and insert it in your document.</p>
+						<small class="block text-center">
+							Need help? Maybe this link can help you ;)
+							<a href="http://css-tricks.com/data-uris/" target="_blank" title="CSS Tricks">http://css-tricks.com/data-uris/</a>
+						</small>
+					</section>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="modal modal-download modal-single-icon">
+			<input class="modal-state" id="modal-download" type="checkbox">
+			<div class="modal-fade-screen">
+				<div class="modal-inner">
+					<header>
+						<label class="modal-close" for="modal-download"></label>
+						<h3>Download options</h3>
+						<p class="filename">
+							<span class="icon-holder">
+								<img src="http://image005.flaticon.com/1/svg/114/114368.svg" alt="Stemware" class="replaced-svg" >
+							</span>
+							<span>
+								<span class="description">Stemware</span>
+							</span>
+						</p>
+						<p class="author">
+							<img src="http://image005.flaticon.com/teams/1-freepik.jpg" alt="Freepik" class="avatar">
+							<span>By Freepik</span>
+						</p>
+					</header>
+					<section class="modal-body">
+						<div class="column-premium" style="display : block">
+							<h3>Don't want to credit the author?</h3>
+							<a class="btn btn-premium" id="download-premium" href="https://profile.flaticon.com/plans" target="_blank" onclick="ga('send', 'event', 'Detail View', 'Premium Download')">
+								<i class="flaticon-rocket"></i>
+								<b>Premium download</b>
+								<p>+103,500 icons from <span>$20</span> $9,99</p>
+							</a>
+							<p><a href="http://support.flaticon.com/hc/en-us/articles/202798201-How-can-I-use-Flaticon-s-resources-without-attribution-" title="Avoid atribbution on Flaticon Selection icons" target="_blank">Avoid atribbution on Flaticon Selection icons</a><br>
+								<a href="http://www.flaticon.com/apps" title="Full use of Adobe Extension and Mac OS X App" target="_blank">Adobe Extension + Mac OS X App</a><br>
+								<a href="http://support.flaticon.com/hc/en-us/articles/202798261-Can-I-cancel-my-plan-and-get-back-my-money-" title="Money back guaranteed" target="_blank">Money back guaranteed</a></p>
+								<a href="https://profile.flaticon.com/plans" target="_blank">Learn more</a>
+							</div>
+							<div class="column-free">
+								<p><b>License</b>: Flaticon Basic License.</p>
+								<h3><a href="http://support.flaticon.com/hc/en-us/articles/207248209-How-I-must-insert-the-attribution-" target="_blank">How to credit the author?</a></h3>
+								<button id="download-free">
+									<b>Free download</b>
+									<span>You must credit the author</span>
+								</button>
+								<p class="copy">Copy this link (right-click + 'copy') on your web:</p>
+								<input onclick="this.select(); ga('send', 'event', 'Detail View', 'Select Attribution Link');" type="text" value='<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>'>
+								<small>
+									<input type="checkbox" id="give-break_2" name="give-break_2" class="give_break" onclick="ga('send', 'event', 'licenses', 'take_break');" name="give-break" id="give-break">
+									<label for="give-break_2">Give me a break, please don't show me this screen in a while.</label>
+								</small>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+			<script>
+
+				icon_id      = 114368;
+				icon_color      = 1;
+				icon_team    = 1;
+				icon_name    = '';
+				bottomPage   = 1;
+				topPage      = 1;
+				topDown      = 'down';
+				css_selector = 'section.related-tags ul.icons';
+				templateTag  = 'icon';
+
+				current      = 31;
+				total_pack   = 1,710;
+				pack         = 114322;
+
+				pack_items = [{"id":114334,"priority":2569.72998,"selection":1,"description":"Avatar","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/avatar_114334","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":9918,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/man_115","tag":"man","tag_id":115},{"slug":"http:\/\/www.flaticon.com\/free-icons\/profile_129","tag":"profile","tag_id":129},{"slug":"http:\/\/www.flaticon.com\/free-icons\/avatar_273","tag":"avatar","tag_id":273},{"slug":"http:\/\/www.flaticon.com\/free-icons\/boy_1629","tag":"boy","tag_id":1629},{"slug":"http:\/\/www.flaticon.com\/free-icons\/user_1649","tag":"user","tag_id":1649}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114334.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114334.png"},{"id":114333,"priority":2497.300049,"selection":1,"description":"Phone call","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/phone-call_114333","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":9654,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/technology_52","tag":"technology","tag_id":52},{"slug":"http:\/\/www.flaticon.com\/free-icons\/telephone_89","tag":"telephone","tag_id":89},{"slug":"http:\/\/www.flaticon.com\/free-icons\/phone_90","tag":"phone","tag_id":90},{"slug":"http:\/\/www.flaticon.com\/free-icons\/call_91","tag":"call","tag_id":91},{"slug":"http:\/\/www.flaticon.com\/free-icons\/conversation_23935","tag":"conversation","tag_id":23935},{"slug":"http:\/\/www.flaticon.com\/free-icons\/phone-call_98115","tag":"phone call","tag_id":98115},{"slug":"http:\/\/www.flaticon.com\/free-icons\/telephone-call_108585","tag":"telephone call","tag_id":108585}],"category_id":4,"category":"technology","keyword":"technology","category_url":"http:\/\/www.flaticon.com\/categories\/technology","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114333.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114333.png"},{"id":114323,"priority":1853.780029,"selection":1,"description":"Woman","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/woman_114323","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":7165,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/profile_129","tag":"profile","tag_id":129},{"slug":"http:\/\/www.flaticon.com\/free-icons\/business_243","tag":"business","tag_id":243},{"slug":"http:\/\/www.flaticon.com\/free-icons\/avatar_273","tag":"avatar","tag_id":273},{"slug":"http:\/\/www.flaticon.com\/free-icons\/woman_335","tag":"woman","tag_id":335},{"slug":"http:\/\/www.flaticon.com\/free-icons\/girl_336","tag":"girl","tag_id":336},{"slug":"http:\/\/www.flaticon.com\/free-icons\/user_1649","tag":"user","tag_id":1649}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114323.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114323.png"},{"id":114346,"priority":1542.969971,"selection":1,"description":"Money","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/money_114346","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":5992,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/money_100","tag":"money","tag_id":100},{"slug":"http:\/\/www.flaticon.com\/free-icons\/business_243","tag":"business","tag_id":243},{"slug":"http:\/\/www.flaticon.com\/free-icons\/hand_476","tag":"hand","tag_id":476},{"slug":"http:\/\/www.flaticon.com\/free-icons\/coin_839","tag":"coin","tag_id":839},{"slug":"http:\/\/www.flaticon.com\/free-icons\/bank_21065","tag":"bank","tag_id":21065},{"slug":"http:\/\/www.flaticon.com\/free-icons\/currency_23207","tag":"currency","tag_id":23207},{"slug":"http:\/\/www.flaticon.com\/free-icons\/dollar-symbol_149064","tag":"dollar symbol","tag_id":149064}],"category_id":30,"category":"business","keyword":"money","category_url":"http:\/\/www.flaticon.com\/categories\/business","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114346.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114346.png"},{"id":114340,"priority":1409.189941,"selection":1,"description":"Task","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/task_114340","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":5468,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/check_195","tag":"check","tag_id":195},{"slug":"http:\/\/www.flaticon.com\/free-icons\/lines_426","tag":"lines","tag_id":426},{"slug":"http:\/\/www.flaticon.com\/free-icons\/circles_580","tag":"circles","tag_id":580},{"slug":"http:\/\/www.flaticon.com\/free-icons\/task_21048","tag":"task","tag_id":21048},{"slug":"http:\/\/www.flaticon.com\/free-icons\/reporting_150863","tag":"reporting","tag_id":150863}],"category_id":18,"category":"other","keyword":"check","category_url":"http:\/\/www.flaticon.com\/categories\/other","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114340.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114340.png"},{"id":114338,"priority":1397.300049,"selection":1,"description":"List","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/list_114338","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":5430,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/business_243","tag":"business","tag_id":243},{"slug":"http:\/\/www.flaticon.com\/free-icons\/file_339","tag":"file","tag_id":339},{"slug":"http:\/\/www.flaticon.com\/free-icons\/document_340","tag":"document","tag_id":340},{"slug":"http:\/\/www.flaticon.com\/free-icons\/list_20077","tag":"list","tag_id":20077},{"slug":"http:\/\/www.flaticon.com\/free-icons\/archive_20930","tag":"archive","tag_id":20930},{"slug":"http:\/\/www.flaticon.com\/free-icons\/text-lines_188156","tag":"text lines","tag_id":188156}],"category_id":30,"category":"business","keyword":"business","category_url":"http:\/\/www.flaticon.com\/categories\/business","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114338.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114338.png"},{"id":114330,"priority":1387.839966,"selection":1,"description":"Money bag","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/money-bag_114330","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":5400,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/money_100","tag":"money","tag_id":100},{"slug":"http:\/\/www.flaticon.com\/free-icons\/bag_245","tag":"bag","tag_id":245},{"slug":"http:\/\/www.flaticon.com\/free-icons\/commerce_461","tag":"commerce","tag_id":461},{"slug":"http:\/\/www.flaticon.com\/free-icons\/bank_21065","tag":"bank","tag_id":21065},{"slug":"http:\/\/www.flaticon.com\/free-icons\/dollar-symbol_149064","tag":"dollar symbol","tag_id":149064},{"slug":"http:\/\/www.flaticon.com\/free-icons\/money-bag_150685","tag":"money bag","tag_id":150685}],"category_id":10,"category":"commerce","keyword":"money","category_url":"http:\/\/www.flaticon.com\/categories\/commerce","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114330.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114330.png"},{"id":114341,"priority":1324.050049,"selection":1,"description":"Productivity","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/productivity_114341","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":5158,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/head_1066","tag":"head","tag_id":1066},{"slug":"http:\/\/www.flaticon.com\/free-icons\/mind_22901","tag":"mind","tag_id":22901},{"slug":"http:\/\/www.flaticon.com\/free-icons\/brain_37857","tag":"brain","tag_id":37857},{"slug":"http:\/\/www.flaticon.com\/free-icons\/cogwheels_114630","tag":"cogwheels","tag_id":114630},{"slug":"http:\/\/www.flaticon.com\/free-icons\/productivity_192236","tag":"productivity","tag_id":192236}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114341.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114341.png"},{"id":114336,"priority":1323.780029,"selection":1,"description":"Letter","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/letter_114336","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":5180,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/letter_291","tag":"letter","tag_id":291},{"slug":"http:\/\/www.flaticon.com\/free-icons\/envelope_495","tag":"envelope","tag_id":495},{"slug":"http:\/\/www.flaticon.com\/free-icons\/email_625","tag":"email","tag_id":625},{"slug":"http:\/\/www.flaticon.com\/free-icons\/message_663","tag":"message","tag_id":663},{"slug":"http:\/\/www.flaticon.com\/free-icons\/mail_1482","tag":"mail","tag_id":1482}],"category_id":18,"category":"other","keyword":"letter","category_url":"http:\/\/www.flaticon.com\/categories\/other","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114336.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114336.png"},{"id":114339,"priority":1290.540039,"selection":1,"description":"Reporting","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/reporting_114339","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":5047,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/check_195","tag":"check","tag_id":195},{"slug":"http:\/\/www.flaticon.com\/free-icons\/reporting_150863","tag":"reporting","tag_id":150863},{"slug":"http:\/\/www.flaticon.com\/free-icons\/padnote_195838","tag":"padnote","tag_id":195838}],"category_id":18,"category":"other","keyword":"check","category_url":"http:\/\/www.flaticon.com\/categories\/other","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114339.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114339.png"},{"id":114344,"priority":1270.27002,"selection":1,"description":"Gardening","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/gardening_114344","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":4959,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/nature_222","tag":"nature","tag_id":222},{"slug":"http:\/\/www.flaticon.com\/free-icons\/hand_476","tag":"hand","tag_id":476},{"slug":"http:\/\/www.flaticon.com\/free-icons\/plant_773","tag":"plant","tag_id":773},{"slug":"http:\/\/www.flaticon.com\/free-icons\/ecological_1271","tag":"ecological","tag_id":1271},{"slug":"http:\/\/www.flaticon.com\/free-icons\/ecologic_62865","tag":"ecologic","tag_id":62865},{"slug":"http:\/\/www.flaticon.com\/free-icons\/gardening_108015","tag":"gardening","tag_id":108015},{"slug":"http:\/\/www.flaticon.com\/free-icons\/botanical_193029","tag":"botanical","tag_id":193029}],"category_id":24,"category":"nature","keyword":"nature","category_url":"http:\/\/www.flaticon.com\/categories\/nature","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114344.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114344.png"},{"id":114335,"priority":1247.569946,"selection":1,"description":"Coffee cup","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/coffee-cup_114335","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":4882,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/food_79","tag":"food","tag_id":79},{"slug":"http:\/\/www.flaticon.com\/free-icons\/mug_1295","tag":"mug","tag_id":1295},{"slug":"http:\/\/www.flaticon.com\/free-icons\/chocolate_20841","tag":"chocolate","tag_id":20841},{"slug":"http:\/\/www.flaticon.com\/free-icons\/hot-drink_30257","tag":"hot drink","tag_id":30257},{"slug":"http:\/\/www.flaticon.com\/free-icons\/coffee-cup_107465","tag":"coffee cup","tag_id":107465},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tea-cup_186263","tag":"tea cup","tag_id":186263}],"category_id":1,"category":"food","keyword":"food","category_url":"http:\/\/www.flaticon.com\/categories\/food","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114335.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114335.png"},{"id":114337,"priority":1193.51001,"selection":1,"description":"Document","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/document_114337","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":4656,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/business_243","tag":"business","tag_id":243},{"slug":"http:\/\/www.flaticon.com\/free-icons\/document_340","tag":"document","tag_id":340},{"slug":"http:\/\/www.flaticon.com\/free-icons\/agreement_22117","tag":"agreement","tag_id":22117},{"slug":"http:\/\/www.flaticon.com\/free-icons\/license_31011","tag":"license","tag_id":31011},{"slug":"http:\/\/www.flaticon.com\/free-icons\/contract_33402","tag":"contract","tag_id":33402},{"slug":"http:\/\/www.flaticon.com\/free-icons\/certification_69128","tag":"certification","tag_id":69128},{"slug":"http:\/\/www.flaticon.com\/free-icons\/arragement_195401","tag":"arragement","tag_id":195401}],"category_id":30,"category":"business","keyword":"business","category_url":"http:\/\/www.flaticon.com\/categories\/business","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114337.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114337.png"},{"id":114348,"priority":1167.569946,"selection":1,"description":"Money","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/money_114348","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":4573,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/money_100","tag":"money","tag_id":100},{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/avatar_273","tag":"avatar","tag_id":273},{"slug":"http:\/\/www.flaticon.com\/free-icons\/dollar_827","tag":"dollar","tag_id":827},{"slug":"http:\/\/www.flaticon.com\/free-icons\/financial_1387","tag":"financial","tag_id":1387},{"slug":"http:\/\/www.flaticon.com\/free-icons\/user_1649","tag":"user","tag_id":1649},{"slug":"http:\/\/www.flaticon.com\/free-icons\/finances_191468","tag":"finances","tag_id":191468}],"category_id":33,"category":"people","keyword":"money","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114348.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114348.png"},{"id":114367,"priority":1164.859985,"selection":1,"description":"Target","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/target_114367","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":4563,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/target_236","tag":"target","tag_id":236},{"slug":"http:\/\/www.flaticon.com\/free-icons\/business_243","tag":"business","tag_id":243},{"slug":"http:\/\/www.flaticon.com\/free-icons\/commerce_461","tag":"commerce","tag_id":461},{"slug":"http:\/\/www.flaticon.com\/free-icons\/sport_489","tag":"sport","tag_id":489},{"slug":"http:\/\/www.flaticon.com\/free-icons\/sports_505","tag":"sports","tag_id":505},{"slug":"http:\/\/www.flaticon.com\/free-icons\/dart_21147","tag":"dart","tag_id":21147}],"category_id":30,"category":"business","keyword":"target","category_url":"http:\/\/www.flaticon.com\/categories\/business","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114367.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114367.png"},{"id":114358,"priority":1138.920044,"selection":1,"description":"Calendar","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/calendar_114358","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":4462,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/time_41","tag":"time","tag_id":41},{"slug":"http:\/\/www.flaticon.com\/free-icons\/calendar_569","tag":"calendar","tag_id":569},{"slug":"http:\/\/www.flaticon.com\/free-icons\/task_21048","tag":"task","tag_id":21048},{"slug":"http:\/\/www.flaticon.com\/free-icons\/schedule_21388","tag":"schedule","tag_id":21388}],"category_id":18,"category":"other","keyword":"time","category_url":"http:\/\/www.flaticon.com\/categories\/other","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114358.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114358.png"},{"id":114345,"priority":1133.780029,"selection":1,"description":"Light bulb","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/light-bulb_114345","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":4434,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/technology_52","tag":"technology","tag_id":52},{"slug":"http:\/\/www.flaticon.com\/free-icons\/cogwheel_196","tag":"cogwheel","tag_id":196},{"slug":"http:\/\/www.flaticon.com\/free-icons\/gear_197","tag":"gear","tag_id":197},{"slug":"http:\/\/www.flaticon.com\/free-icons\/illumination_435","tag":"illumination","tag_id":435},{"slug":"http:\/\/www.flaticon.com\/free-icons\/light-bulb_636","tag":"light bulb","tag_id":636},{"slug":"http:\/\/www.flaticon.com\/free-icons\/idea_24498","tag":"idea","tag_id":24498},{"slug":"http:\/\/www.flaticon.com\/free-icons\/invention_193711","tag":"invention","tag_id":193711}],"category_id":4,"category":"technology","keyword":"technology","category_url":"http:\/\/www.flaticon.com\/categories\/technology","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114345.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114345.png"},{"id":114328,"priority":1116.48999,"selection":1,"description":"Briefcase","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/briefcase_114328","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":4382,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/briefcase_657","tag":"briefcase","tag_id":657},{"slug":"http:\/\/www.flaticon.com\/free-icons\/portfolio_21796","tag":"portfolio","tag_id":21796},{"slug":"http:\/\/www.flaticon.com\/free-icons\/school-material_39687","tag":"school material","tag_id":39687},{"slug":"http:\/\/www.flaticon.com\/free-icons\/office-material_39689","tag":"office material","tag_id":39689},{"slug":"http:\/\/www.flaticon.com\/free-icons\/book-bag_193338","tag":"book bag","tag_id":193338},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tools-and-utensils_196711","tag":"Tools and utensils","tag_id":196711}],"category_id":20,"category":"Tools and utensils","keyword":"briefcase","category_url":"http:\/\/www.flaticon.com\/categories\/tools-and-utensils","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114328.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114328.png"},{"id":114363,"priority":1027.300049,"selection":1,"description":"Puzzle","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/puzzle_114363","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":4043,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/education_20229","tag":"education","tag_id":20229},{"slug":"http:\/\/www.flaticon.com\/free-icons\/puzzle_24672","tag":"puzzle","tag_id":24672},{"slug":"http:\/\/www.flaticon.com\/free-icons\/puzzle-game_108504","tag":"puzzle game","tag_id":108504},{"slug":"http:\/\/www.flaticon.com\/free-icons\/puzzle-piece_150302","tag":"puzzle piece","tag_id":150302},{"slug":"http:\/\/www.flaticon.com\/free-icons\/puzzle-pieces_188305","tag":"puzzle pieces","tag_id":188305}],"category_id":18,"category":"other","keyword":"education","category_url":"http:\/\/www.flaticon.com\/categories\/other","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114363.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114363.png"},{"id":114356,"priority":1010.27002,"selection":1,"description":"Balance","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/balance_114356","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3950,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/justice_1836","tag":"justice","tag_id":1836},{"slug":"http:\/\/www.flaticon.com\/free-icons\/balance_30599","tag":"balance","tag_id":30599},{"slug":"http:\/\/www.flaticon.com\/free-icons\/law_38470","tag":"law","tag_id":38470},{"slug":"http:\/\/www.flaticon.com\/free-icons\/balanced_64350","tag":"balanced","tag_id":64350},{"slug":"http:\/\/www.flaticon.com\/free-icons\/libra_75776","tag":"libra","tag_id":75776},{"slug":"http:\/\/www.flaticon.com\/free-icons\/judge_76626","tag":"judge","tag_id":76626},{"slug":"http:\/\/www.flaticon.com\/free-icons\/zodiac_189757","tag":"zodiac","tag_id":189757},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tools-and-utensils_196711","tag":"Tools and utensils","tag_id":196711}],"category_id":20,"category":"Tools and utensils","keyword":"justice","category_url":"http:\/\/www.flaticon.com\/categories\/tools-and-utensils","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114356.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114356.png"},{"id":114331,"priority":995.13501,"selection":1,"description":"Folder","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/folder_114331","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3888,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/folder_109","tag":"folder","tag_id":109},{"slug":"http:\/\/www.flaticon.com\/free-icons\/business_243","tag":"business","tag_id":243},{"slug":"http:\/\/www.flaticon.com\/free-icons\/storage_21052","tag":"storage","tag_id":21052},{"slug":"http:\/\/www.flaticon.com\/free-icons\/office-material_39689","tag":"office material","tag_id":39689},{"slug":"http:\/\/www.flaticon.com\/free-icons\/file-storage_116430","tag":"file storage","tag_id":116430},{"slug":"http:\/\/www.flaticon.com\/free-icons\/data-storage_185467","tag":"data storage","tag_id":185467}],"category_id":30,"category":"business","keyword":"folder","category_url":"http:\/\/www.flaticon.com\/categories\/business","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114331.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114331.png"},{"id":114353,"priority":983.513,"selection":1,"description":"Clock","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/clock_114353","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3861,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/arrow_5","tag":"arrow","tag_id":5},{"slug":"http:\/\/www.flaticon.com\/free-icons\/clock_34","tag":"clock","tag_id":34},{"slug":"http:\/\/www.flaticon.com\/free-icons\/time_41","tag":"time","tag_id":41},{"slug":"http:\/\/www.flaticon.com\/free-icons\/wait_39769","tag":"wait","tag_id":39769},{"slug":"http:\/\/www.flaticon.com\/free-icons\/clockwise_43168","tag":"clockwise","tag_id":43168},{"slug":"http:\/\/www.flaticon.com\/free-icons\/passing_181593","tag":"passing","tag_id":181593},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tools-and-utensils_196711","tag":"Tools and utensils","tag_id":196711}],"category_id":20,"category":"Tools and utensils","keyword":"arrow","category_url":"http:\/\/www.flaticon.com\/categories\/tools-and-utensils","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114353.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114353.png"},{"id":114361,"priority":978.648987,"selection":1,"description":"Hourglass","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/hourglass_114361","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3833,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/clock_34","tag":"clock","tag_id":34},{"slug":"http:\/\/www.flaticon.com\/free-icons\/time_41","tag":"time","tag_id":41},{"slug":"http:\/\/www.flaticon.com\/free-icons\/hourglass_280","tag":"hourglass","tag_id":280},{"slug":"http:\/\/www.flaticon.com\/free-icons\/waiting_1324","tag":"waiting","tag_id":1324},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tools-and-utensils_196711","tag":"Tools and utensils","tag_id":196711}],"category_id":20,"category":"Tools and utensils","keyword":"clock","category_url":"http:\/\/www.flaticon.com\/categories\/tools-and-utensils","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114361.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114361.png"},{"id":114351,"priority":960.810974,"selection":1,"description":"Info","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/info_114351","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3772,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/social_20","tag":"social","tag_id":20},{"slug":"http:\/\/www.flaticon.com\/free-icons\/business_243","tag":"business","tag_id":243},{"slug":"http:\/\/www.flaticon.com\/free-icons\/avatar_273","tag":"avatar","tag_id":273},{"slug":"http:\/\/www.flaticon.com\/free-icons\/info_745","tag":"info","tag_id":745},{"slug":"http:\/\/www.flaticon.com\/free-icons\/warning_1017","tag":"warning","tag_id":1017},{"slug":"http:\/\/www.flaticon.com\/free-icons\/user_1649","tag":"user","tag_id":1649},{"slug":"http:\/\/www.flaticon.com\/free-icons\/businessman_21515","tag":"businessman","tag_id":21515},{"slug":"http:\/\/www.flaticon.com\/free-icons\/worker_22204","tag":"worker","tag_id":22204}],"category_id":3,"category":"social","keyword":"social","category_url":"http:\/\/www.flaticon.com\/categories\/social","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114351.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114351.png"},{"id":114349,"priority":949.72998,"selection":1,"description":"Tactics","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/tactics_114349","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3724,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/business_243","tag":"business","tag_id":243},{"slug":"http:\/\/www.flaticon.com\/free-icons\/businessman_21515","tag":"businessman","tag_id":21515},{"slug":"http:\/\/www.flaticon.com\/free-icons\/worker_22204","tag":"worker","tag_id":22204},{"slug":"http:\/\/www.flaticon.com\/free-icons\/strategy_75620","tag":"strategy","tag_id":75620},{"slug":"http:\/\/www.flaticon.com\/free-icons\/planning_102705","tag":"planning","tag_id":102705},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tactics_190876","tag":"tactics","tag_id":190876},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tactical_190877","tag":"tactical","tag_id":190877}],"category_id":30,"category":"business","keyword":"business","category_url":"http:\/\/www.flaticon.com\/categories\/business","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114349.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114349.png"},{"id":114357,"priority":948.107971,"selection":1,"description":"Calendar","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/calendar_114357","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3731,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/clock_34","tag":"clock","tag_id":34},{"slug":"http:\/\/www.flaticon.com\/free-icons\/time_41","tag":"time","tag_id":41},{"slug":"http:\/\/www.flaticon.com\/free-icons\/hour_549","tag":"hour","tag_id":549},{"slug":"http:\/\/www.flaticon.com\/free-icons\/calendar_569","tag":"calendar","tag_id":569},{"slug":"http:\/\/www.flaticon.com\/free-icons\/date_1470","tag":"date","tag_id":1470}],"category_id":18,"category":"other","keyword":"clock","category_url":"http:\/\/www.flaticon.com\/categories\/other","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114357.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114357.png"},{"id":114326,"priority":923.783997,"selection":1,"description":"Address book","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/address-book_114326","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3631,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/agenda_28","tag":"agenda","tag_id":28},{"slug":"http:\/\/www.flaticon.com\/free-icons\/business_243","tag":"business","tag_id":243},{"slug":"http:\/\/www.flaticon.com\/free-icons\/notebook_271","tag":"notebook","tag_id":271},{"slug":"http:\/\/www.flaticon.com\/free-icons\/bookmark_842","tag":"bookmark","tag_id":842},{"slug":"http:\/\/www.flaticon.com\/free-icons\/address-book_127323","tag":"address book","tag_id":127323}],"category_id":30,"category":"business","keyword":"agenda","category_url":"http:\/\/www.flaticon.com\/categories\/business","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114326.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114326.png"},{"id":114369,"priority":920,"selection":1,"description":"Compass","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/compass_114369","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3622,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/location_136","tag":"location","tag_id":136},{"slug":"http:\/\/www.flaticon.com\/free-icons\/direction_138","tag":"direction","tag_id":138},{"slug":"http:\/\/www.flaticon.com\/free-icons\/compass_421","tag":"compass","tag_id":421},{"slug":"http:\/\/www.flaticon.com\/free-icons\/orientation_1767","tag":"orientation","tag_id":1767},{"slug":"http:\/\/www.flaticon.com\/free-icons\/cardinal-points_100835","tag":"cardinal points","tag_id":100835},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tools-and-utensils_196711","tag":"Tools and utensils","tag_id":196711}],"category_id":20,"category":"Tools and utensils","keyword":"location","category_url":"http:\/\/www.flaticon.com\/categories\/tools-and-utensils","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114369.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114369.png"},{"id":114366,"priority":918.648987,"selection":1,"description":"Cup","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/cup_114366","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3599,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/cup_23","tag":"cup","tag_id":23},{"slug":"http:\/\/www.flaticon.com\/free-icons\/trophy_867","tag":"trophy","tag_id":867},{"slug":"http:\/\/www.flaticon.com\/free-icons\/award_868","tag":"award","tag_id":868},{"slug":"http:\/\/www.flaticon.com\/free-icons\/winner_20407","tag":"winner","tag_id":20407},{"slug":"http:\/\/www.flaticon.com\/free-icons\/champion_107188","tag":"champion","tag_id":107188}],"category_id":18,"category":"other","keyword":"cup","category_url":"http:\/\/www.flaticon.com\/categories\/other","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114366.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114366.png"},{"id":114371,"priority":913.242981,"selection":1,"description":"Tactics","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/tactics_114371","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3601,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/sport_489","tag":"sport","tag_id":489},{"slug":"http:\/\/www.flaticon.com\/free-icons\/strategy_75620","tag":"strategy","tag_id":75620},{"slug":"http:\/\/www.flaticon.com\/free-icons\/planning_102705","tag":"planning","tag_id":102705},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tactics_190876","tag":"tactics","tag_id":190876},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tactical_190877","tag":"tactical","tag_id":190877}],"category_id":18,"category":"other","keyword":"sport","category_url":"http:\/\/www.flaticon.com\/categories\/other","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114371.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114371.png"},{"id":114355,"priority":885.676025,"selection":1,"description":"Clock","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/clock_114355","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3484,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/clock_34","tag":"clock","tag_id":34},{"slug":"http:\/\/www.flaticon.com\/free-icons\/time_41","tag":"time","tag_id":41},{"slug":"http:\/\/www.flaticon.com\/free-icons\/man_115","tag":"man","tag_id":115},{"slug":"http:\/\/www.flaticon.com\/free-icons\/business_243","tag":"business","tag_id":243},{"slug":"http:\/\/www.flaticon.com\/free-icons\/businessman_21515","tag":"businessman","tag_id":21515},{"slug":"http:\/\/www.flaticon.com\/free-icons\/worker_22204","tag":"worker","tag_id":22204}],"category_id":30,"category":"business","keyword":"clock","category_url":"http:\/\/www.flaticon.com\/categories\/business","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114355.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114355.png"},{"id":114368,"priority":882.973022,"selection":1,"description":"Stemware","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/stemware_114368","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3491,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/food_79","tag":"food","tag_id":79},{"slug":"http:\/\/www.flaticon.com\/free-icons\/party_372","tag":"party","tag_id":372},{"slug":"http:\/\/www.flaticon.com\/free-icons\/alcohol_689","tag":"alcohol","tag_id":689},{"slug":"http:\/\/www.flaticon.com\/free-icons\/glasses_21399","tag":"glasses","tag_id":21399},{"slug":"http:\/\/www.flaticon.com\/free-icons\/celebration_41726","tag":"celebration","tag_id":41726},{"slug":"http:\/\/www.flaticon.com\/free-icons\/alcoholic-drink_129768","tag":"alcoholic drink","tag_id":129768},{"slug":"http:\/\/www.flaticon.com\/free-icons\/stemware_196549","tag":"stemware","tag_id":196549}],"category_id":1,"category":"food","keyword":"food","category_url":"http:\/\/www.flaticon.com\/categories\/food","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114368.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114368.png"},{"id":114347,"priority":875.405029,"selection":1,"description":"Time","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/time_114347","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3444,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/clock_34","tag":"clock","tag_id":34},{"slug":"http:\/\/www.flaticon.com\/free-icons\/time_41","tag":"time","tag_id":41},{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/avatar_273","tag":"avatar","tag_id":273},{"slug":"http:\/\/www.flaticon.com\/free-icons\/timer_281","tag":"timer","tag_id":281},{"slug":"http:\/\/www.flaticon.com\/free-icons\/waiting_1324","tag":"waiting","tag_id":1324},{"slug":"http:\/\/www.flaticon.com\/free-icons\/worker_22204","tag":"worker","tag_id":22204}],"category_id":33,"category":"people","keyword":"clock","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114347.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114347.png"},{"id":114370,"priority":855.676025,"selection":1,"description":"Aim","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/aim_114370","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3371,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/target_236","tag":"target","tag_id":236},{"slug":"http:\/\/www.flaticon.com\/free-icons\/weapons_1555","tag":"weapons","tag_id":1555},{"slug":"http:\/\/www.flaticon.com\/free-icons\/shooting_1792","tag":"shooting","tag_id":1792},{"slug":"http:\/\/www.flaticon.com\/free-icons\/sniper_32155","tag":"sniper","tag_id":32155},{"slug":"http:\/\/www.flaticon.com\/free-icons\/aim_32157","tag":"aim","tag_id":32157}],"category_id":25,"category":"weapons","keyword":"target","category_url":"http:\/\/www.flaticon.com\/categories\/weapons","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114370.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114370.png"},{"id":114325,"priority":832.432007,"selection":1,"description":"Address book","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/address-book_114325","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3285,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/agenda_28","tag":"agenda","tag_id":28},{"slug":"http:\/\/www.flaticon.com\/free-icons\/business_243","tag":"business","tag_id":243},{"slug":"http:\/\/www.flaticon.com\/free-icons\/notebook_271","tag":"notebook","tag_id":271},{"slug":"http:\/\/www.flaticon.com\/free-icons\/address-book_127323","tag":"address book","tag_id":127323}],"category_id":30,"category":"business","keyword":"agenda","category_url":"http:\/\/www.flaticon.com\/categories\/business","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114325.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114325.png"},{"id":114350,"priority":821.080994,"selection":1,"description":"Worldwide","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/worldwide_114350","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3230,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/social_20","tag":"social","tag_id":20},{"slug":"http:\/\/www.flaticon.com\/free-icons\/profile_129","tag":"profile","tag_id":129},{"slug":"http:\/\/www.flaticon.com\/free-icons\/business_243","tag":"business","tag_id":243},{"slug":"http:\/\/www.flaticon.com\/free-icons\/avatar_273","tag":"avatar","tag_id":273},{"slug":"http:\/\/www.flaticon.com\/free-icons\/worldwide_20828","tag":"worldwide","tag_id":20828},{"slug":"http:\/\/www.flaticon.com\/free-icons\/world-grid_131061","tag":"world grid","tag_id":131061},{"slug":"http:\/\/www.flaticon.com\/free-icons\/earth-grid_159712","tag":"earth grid","tag_id":159712}],"category_id":3,"category":"social","keyword":"social","category_url":"http:\/\/www.flaticon.com\/categories\/social","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114350.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114350.png"},{"id":114354,"priority":785.676025,"selection":1,"description":"Alarm clock","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/alarm-clock_114354","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3096,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/clock_34","tag":"clock","tag_id":34},{"slug":"http:\/\/www.flaticon.com\/free-icons\/time_41","tag":"time","tag_id":41},{"slug":"http:\/\/www.flaticon.com\/free-icons\/timer_281","tag":"timer","tag_id":281},{"slug":"http:\/\/www.flaticon.com\/free-icons\/alarm-clock_27402","tag":"alarm clock","tag_id":27402},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tools-and-utensils_196711","tag":"Tools and utensils","tag_id":196711}],"category_id":20,"category":"Tools and utensils","keyword":"clock","category_url":"http:\/\/www.flaticon.com\/categories\/tools-and-utensils","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114354.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114354.png"},{"id":114329,"priority":782.973022,"selection":1,"description":"Briefcase","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/briefcase_114329","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3104,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/briefcase_657","tag":"briefcase","tag_id":657},{"slug":"http:\/\/www.flaticon.com\/free-icons\/portfolio_21796","tag":"portfolio","tag_id":21796},{"slug":"http:\/\/www.flaticon.com\/free-icons\/school-material_39687","tag":"school material","tag_id":39687},{"slug":"http:\/\/www.flaticon.com\/free-icons\/office-material_39689","tag":"office material","tag_id":39689},{"slug":"http:\/\/www.flaticon.com\/free-icons\/book-bag_193338","tag":"book bag","tag_id":193338},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tools-and-utensils_196711","tag":"Tools and utensils","tag_id":196711}],"category_id":20,"category":"Tools and utensils","keyword":"briefcase","category_url":"http:\/\/www.flaticon.com\/categories\/tools-and-utensils","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114329.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114329.png"},{"id":114332,"priority":780.27002,"selection":1,"description":"Office chair","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/office-chair_114332","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3081,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/chair_21813","tag":"chair","tag_id":21813},{"slug":"http:\/\/www.flaticon.com\/free-icons\/seat_21814","tag":"seat","tag_id":21814},{"slug":"http:\/\/www.flaticon.com\/free-icons\/comfort_24163","tag":"comfort","tag_id":24163},{"slug":"http:\/\/www.flaticon.com\/free-icons\/comfortable_97330","tag":"comfortable","tag_id":97330},{"slug":"http:\/\/www.flaticon.com\/free-icons\/office-chair_180468","tag":"office chair","tag_id":180468},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tools-and-utensils_196711","tag":"Tools and utensils","tag_id":196711}],"category_id":20,"category":"Tools and utensils","keyword":"chair","category_url":"http:\/\/www.flaticon.com\/categories\/tools-and-utensils","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114332.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114332.png"},{"id":114352,"priority":772.161987,"selection":1,"description":"Podium","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/podium_114352","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3048,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/sports_505","tag":"sports","tag_id":505},{"slug":"http:\/\/www.flaticon.com\/free-icons\/best_22858","tag":"best","tag_id":22858},{"slug":"http:\/\/www.flaticon.com\/free-icons\/position_34199","tag":"position","tag_id":34199},{"slug":"http:\/\/www.flaticon.com\/free-icons\/winners_61022","tag":"winners","tag_id":61022},{"slug":"http:\/\/www.flaticon.com\/free-icons\/podium_61530","tag":"podium","tag_id":61530},{"slug":"http:\/\/www.flaticon.com\/free-icons\/olympic-games_183819","tag":"olympic games","tag_id":183819}],"category_id":9,"category":"sports","keyword":"sports","category_url":"http:\/\/www.flaticon.com\/categories\/sports","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114352.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114352.png"},{"id":114324,"priority":770,"selection":1,"description":"Rocket","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/rocket_114324","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3054,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/transport_121","tag":"transport","tag_id":121},{"slug":"http:\/\/www.flaticon.com\/free-icons\/rocket_968","tag":"rocket","tag_id":968},{"slug":"http:\/\/www.flaticon.com\/free-icons\/space-ship_95629","tag":"space ship","tag_id":95629},{"slug":"http:\/\/www.flaticon.com\/free-icons\/rocket-ship_108913","tag":"rocket ship","tag_id":108913},{"slug":"http:\/\/www.flaticon.com\/free-icons\/rocket-launch_180615","tag":"rocket launch","tag_id":180615},{"slug":"http:\/\/www.flaticon.com\/free-icons\/spacecrafts_189063","tag":"spacecrafts","tag_id":189063}],"category_id":2,"category":"transport","keyword":"transport","category_url":"http:\/\/www.flaticon.com\/categories\/transport","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114324.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114324.png"},{"id":114343,"priority":768.919006,"selection":1,"description":"Charging","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/charging_114343","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3040,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/battery_710","tag":"battery","tag_id":710},{"slug":"http:\/\/www.flaticon.com\/free-icons\/head_1066","tag":"head","tag_id":1066},{"slug":"http:\/\/www.flaticon.com\/free-icons\/mind_22901","tag":"mind","tag_id":22901},{"slug":"http:\/\/www.flaticon.com\/free-icons\/charging_32968","tag":"charging","tag_id":32968},{"slug":"http:\/\/www.flaticon.com\/free-icons\/brain_37857","tag":"brain","tag_id":37857}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114343.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114343.png"},{"id":114342,"priority":758.648987,"selection":1,"description":"Speedometer","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/speedometer_114342","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":2995,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/people_112","tag":"people","tag_id":112},{"slug":"http:\/\/www.flaticon.com\/free-icons\/speedometer_377","tag":"speedometer","tag_id":377},{"slug":"http:\/\/www.flaticon.com\/free-icons\/head_1066","tag":"head","tag_id":1066},{"slug":"http:\/\/www.flaticon.com\/free-icons\/measurement_32295","tag":"measurement","tag_id":32295},{"slug":"http:\/\/www.flaticon.com\/free-icons\/velocity_42205","tag":"velocity","tag_id":42205}],"category_id":33,"category":"people","keyword":"people","category_url":"http:\/\/www.flaticon.com\/categories\/people","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114342.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114342.png"},{"id":114372,"priority":758.107971,"selection":1,"description":"Speedometer","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/speedometer_114372","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":3000,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/speedometer_377","tag":"speedometer","tag_id":377},{"slug":"http:\/\/www.flaticon.com\/free-icons\/measuring_39765","tag":"measuring","tag_id":39765},{"slug":"http:\/\/www.flaticon.com\/free-icons\/velocity_42205","tag":"velocity","tag_id":42205},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tools-and-utensils_196711","tag":"Tools and utensils","tag_id":196711}],"category_id":20,"category":"Tools and utensils","keyword":"speedometer","category_url":"http:\/\/www.flaticon.com\/categories\/tools-and-utensils","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114372.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114372.png"},{"id":114362,"priority":756.216003,"selection":1,"description":"Shoe","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/shoe_114362","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":2993,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/fashion_852","tag":"fashion","tag_id":852},{"slug":"http:\/\/www.flaticon.com\/free-icons\/shoe_1155","tag":"shoe","tag_id":1155},{"slug":"http:\/\/www.flaticon.com\/free-icons\/clothing_37886","tag":"clothing","tag_id":37886},{"slug":"http:\/\/www.flaticon.com\/free-icons\/sportive_42237","tag":"sportive","tag_id":42237},{"slug":"http:\/\/www.flaticon.com\/free-icons\/footwear_111011","tag":"footwear","tag_id":111011}],"category_id":23,"category":"fashion","keyword":"fashion","category_url":"http:\/\/www.flaticon.com\/categories\/fashion","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114362.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114362.png"},{"id":114365,"priority":755.13501,"selection":1,"description":"Flag","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/flag_114365","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":2993,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/symbol_259","tag":"symbol","tag_id":259},{"slug":"http:\/\/www.flaticon.com\/free-icons\/peace_360","tag":"peace","tag_id":360},{"slug":"http:\/\/www.flaticon.com\/free-icons\/flag_469","tag":"flag","tag_id":469},{"slug":"http:\/\/www.flaticon.com\/free-icons\/nation_21094","tag":"nation","tag_id":21094},{"slug":"http:\/\/www.flaticon.com\/free-icons\/country_39504","tag":"country","tag_id":39504},{"slug":"http:\/\/www.flaticon.com\/free-icons\/maps-and-flags_196710","tag":"Maps and Flags","tag_id":196710}],"category_id":5,"category":"Maps and Flags","keyword":"symbol","category_url":"http:\/\/www.flaticon.com\/categories\/maps-and-flags","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114365.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114365.png"},{"id":114364,"priority":752.973022,"selection":1,"description":"Tag","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/tag_114364","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":2970,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/business_243","tag":"business","tag_id":243},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tag_459","tag":"tag","tag_id":459},{"slug":"http:\/\/www.flaticon.com\/free-icons\/commerce_461","tag":"commerce","tag_id":461},{"slug":"http:\/\/www.flaticon.com\/free-icons\/price_1701","tag":"price","tag_id":1701},{"slug":"http:\/\/www.flaticon.com\/free-icons\/label_34244","tag":"label","tag_id":34244}],"category_id":30,"category":"business","keyword":"business","category_url":"http:\/\/www.flaticon.com\/categories\/business","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114364.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114364.png"},{"id":114359,"priority":722.703003,"selection":1,"description":"Distribution","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/distribution_114359","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":2861,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/clock_34","tag":"clock","tag_id":34},{"slug":"http:\/\/www.flaticon.com\/free-icons\/time_41","tag":"time","tag_id":41},{"slug":"http:\/\/www.flaticon.com\/free-icons\/network_21583","tag":"network","tag_id":21583},{"slug":"http:\/\/www.flaticon.com\/free-icons\/scheme_24008","tag":"scheme","tag_id":24008},{"slug":"http:\/\/www.flaticon.com\/free-icons\/distribution_31770","tag":"distribution","tag_id":31770}],"category_id":18,"category":"other","keyword":"clock","category_url":"http:\/\/www.flaticon.com\/categories\/other","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114359.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114359.png"},{"id":114327,"priority":699.189026,"selection":1,"description":"File","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/file_114327","added":"1457956534","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":2771,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/folder_109","tag":"folder","tag_id":109},{"slug":"http:\/\/www.flaticon.com\/free-icons\/business_243","tag":"business","tag_id":243},{"slug":"http:\/\/www.flaticon.com\/free-icons\/file_339","tag":"file","tag_id":339},{"slug":"http:\/\/www.flaticon.com\/free-icons\/archive_20930","tag":"archive","tag_id":20930},{"slug":"http:\/\/www.flaticon.com\/free-icons\/office-material_39689","tag":"office material","tag_id":39689},{"slug":"http:\/\/www.flaticon.com\/free-icons\/file-folder_162738","tag":"file folder","tag_id":162738}],"category_id":30,"category":"business","keyword":"folder","category_url":"http:\/\/www.flaticon.com\/categories\/business","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114327.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114327.png"},{"id":114360,"priority":685.13501,"selection":1,"description":"Loupe","colors":"000000","color":"1","slug":"http:\/\/www.flaticon.com\/free-icon\/loupe_114360","added":"1457956535","pack_id":114322,"pack_name":"Productivity Collection","pack_slug":"packs\/productivity-collection","pack_background":"emerland","pack_priority":"1065.199951","pack_items":50,"team_id":1,"team_name":"Freepik","team_website":"http:\/\/www.freepik.com","downloads":2716,"views":0,"tags":[{"slug":"http:\/\/www.flaticon.com\/free-icons\/clock_34","tag":"clock","tag_id":34},{"slug":"http:\/\/www.flaticon.com\/free-icons\/magnifying-glass_801","tag":"magnifying glass","tag_id":801},{"slug":"http:\/\/www.flaticon.com\/free-icons\/loupe_196205","tag":"loupe","tag_id":196205},{"slug":"http:\/\/www.flaticon.com\/free-icons\/tools-and-utensils_196711","tag":"Tools and utensils","tag_id":196711}],"category_id":20,"category":"Tools and utensils","keyword":"clock","category_url":"http:\/\/www.flaticon.com\/categories\/tools-and-utensils","src":"http:\/\/image005.flaticon.com\/1\/svg\/114\/114360.svg","png":"http:\/\/image005.flaticon.com\/1\/png\/128\/114\/114360.png"}];
+
+									var arrIds = [ 114368 ];
+					
+					/* DESCARGA POR IFRAME PARA PODER DETECTAR EL FIN DE LA DESCARGA Y QUITAR EL SPINNER */
+					function download(){
+						var url = 'http://example.com/dload.py';
+						var htm = '<iframe id="iframe-download-icon" src="' + url +'" onload="downloadComplete()"></iframe>';
+						document.getElementById('frameDiv').innerHTML = htm;
+					}
+				</script>
+
+		
+<footer id="footer" class="body-footer" style="width: 100%;">
+	<div class="wrapper">
+		<div class="col-12 omega">
+			<a href="http://www.flaticon.com" class="logo" title="Flaticon - The largest database of free icons"><img src="https://media005.flaticon.com/img/flaticon-logo-footer.svg" title="Flaticon logo"></a>
+
+			<div class="links-terms">
+				<a href="http://www.flaticon.com/terms-of-use" title="Terms & conditions">Terms &amp; conditions</a>
+				<a href="http://www.flaticon.com/privacy-policy" title="Privacy policy">Privacy policy</a>
+				<a href="http://www.flaticon.com/copyright" title="Copyrights Notification">Copyrights Notification</a>
+			</div>
+			<ul class="share">
+				<li><a href="https://www.facebook.com/theflaticon" class="flaticon-facebook bg-facebook" title="Facebook" target="_blank"></a></li>
+				<li><a href="https://twitter.com/theflaticon" class="flaticon-twitter bg-twitter" title="Twitter" target="_blank"></a></li>
+				<li><a href="https://plus.google.com/+Flaticon" class="flaticon-google bg-google" title="Google+" target="_blank"></a></li>
+				<li><a href="http://www.pinterest.com/flaticon" class="flaticon-pinterest bg-pinterest" title="Pinterest" target="_blank"></a></li>
+			</ul>
+		</div><!-- .col-12 -->
+		<nav>
+			<div class="col-4">
+				<ul>
+					<li><span>Help</span></li>
+					<li><a href="http://www.flaticon.com/collections" title="Flaticon Collections">Flaticon Collections</a></li>
+					<li><a href="http://support.flaticon.com/hc/en-us/categories/200466151-General-questions" title="Support">Support</a></li>
+					<li><a href="https://profile.flaticon.com/support" title="Contact">Contact</a></li>
+					<li><a href="http://www.flaticon.com/about" title="About us">About us</a></li>
+					<li><a href="http://www.flaticon.com/join-the-team" title="Become a creator">Become a creator</a></li>
+					<li><a href="https://profile.flaticon.com/plans" title="Premium plans">Premium plans</a></li>
+										<li><a href="javascript:tour.show(null, true)" title="Collections tour">Collections tour</a></li>
+									</ul>
+			</div><!-- .col-4 -->
+
+			<div class="col-4">
+				<ul>
+					<li><span>APPs</span></li>
+					<li><a title="Mac OS X app" href="http://www.flaticon.com/apps/mac-osx-app">Mac OS X</a></li>
+					<li><a title="Adobe Photoshop, Illustrator and After Effects extension" href="http://www.flaticon.com/apps/adobe-extension">Adobe extension</a></li>
+					<li><a title="Font-face generator" href="http://www.flaticon.com/font-face">@font-face generator</a></li>
+				</ul>
+			</div><!-- .col-4 -->
+
+			<div class="col-4 omega">
+				<ul>
+					<li><span>Content</span></li>
+					<li><a href="http://www.flaticon.com/categories" title="Categories">Categories</a></li>
+					<li><a href="http://www.flaticon.com/packs" title="Packs">Packs</a></li>
+					<li><a href="http://www.flaticon.com/authors" title="Authors">Authors</a></li>
+					<li><a href="http://www.flaticon.com/most-downloaded" title="Top icons">Top icons</a></li>
+					<li><a href="http://www.flaticon.com/latest-icons" title="Latest icons">Latest icons</a></li>
+					<li><a href="http://www.flaticon.com/tags" title="Most searched tags">Tags</a></li>
+				</ul>
+			</div><!-- .col-4 -->
+		</nav>
+
+		<p class="copyright">
+			Flaticon is a project by <a href="http://www.freepik.com/" target="_blank">Freepik</a><br>
+			&copy; 2013-2016 Graphic Resources S.L. All rights reserved.
+		</p>
+
+	</div><!-- .wrapper -->
+	</footer>
+		<script id="tpl-icon" type="text/x-handlebars-template">
+	<li class="icon{{#if page}} init page-handler{{/if}}" {{#if page}} data-page="{{page}}"{{/if}} data-id="{{id}}" data-name="{{keyword}}" data-team="{{team_id}}" data-search="{{dataSearch}}" data-color="{{color}}" aria-haspopup="true">
+		<img src="{{png}}">
+		<div class="overlay" aria-hidden="true">
+			<button class="flaticon-collections_add"></button>
+			<a href="{{slug}}" class="flaticon-eye" title="{{description}}"></a>
+		</div>
+		{{#if selection}}
+		<a href="#" class="modal-trigger flaticon-selection" data-modal="modal-selection" target="_blank"></a>
+		<a href="#" class="modal-trigger what-is" data-modal="modal-selection" target="_blank">What is this?</a>
+		{{/if}}
+	</li>
+</script>
+<script id="tpl-collection" type="text/x-handlebars-template">
+	<section class="collection{{#if active}} expanded {{setHeight}}{{/if}}" data-order="{{order}}" data-id="{{ID}}" data-color="{{color}}" data-bookmark="{{bookmark_id}}">
+		<header class="collection-header">
+			<span class="collection-name">{{name}}</span>
+			<span class="badge badge-gray">{{icons}}</span>
+			<button class="flaticon-pencil nostyle"></button>
+			<div class="edit-name">
+				<input type="text" class="collection-name-input" value="{{name}}" data-original="{{name}}" maxlength="100">
+				<button class="flaticon-disk nostyle"></button>
+			</div>
+		</header>
+		<div class="collection-content">
+			<nav class="collection-options">
+				<ul>
+					<li>
+						<div class="popover">
+							<div class="popover-container">
+								<button class="collection_color_button popover-button">
+									<i class="flaticon-paint"></i>
+								</button>
+								<div class="popover-content">
+									<span class="checkbox-group simptip-position-top simptip-movable" data-tooltip="If checked, all icons color,&#10;including the customized ones, will change.">
+										<input type="checkbox" id="color-lock">
+										<label for="color-lock" class="fake-checkbox"></label>
+										<label for="color-lock" class="text">Recolor all the icons</label>
+									</span>
+									<ul class="color-selector">
+										<li><button class="green" data-color="91DC5A"></button></li>
+										<li><button class="blue" data-color="006DF0"></button></li>
+										<li><button class="purple" data-color="933EC5"></button></li>
+										<li><button class="yellow" data-color="FFDA44"></button></li>
+										<li><button class="red" data-color="D80027"></button></li>
+										<li><button class="white" data-color="FFFFFF"></button></li>
+										<li><button class="black" data-color="000000"></button></li>
+									</ul>
+									<div class="col-cpicker" onload="Widget.createCollectionCPicker"></div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li><button class="flaticon-pencil"></button></li>
+					<li><button class="flaticon-bin"></button></li>
+					
+				</ul>
+			</nav>
+			<header class="header-edit">
+				<b>Edit mode</b>
+				<button class="btn-small btn-pill pull-right btn-back"><i class="flaticon-arrow_left"></i> Back</button>
+			</header>
+
+			<span class="icons-limit icons-collection-noregister"><a href="https://profile.flaticon.com/register">Register to get up to 256 icons</a></span>
+			<span class="icons-limit max-icons-collection" data-message="You have reach the limit of 256 icons, get premium and get unlimited collections">Max limit reached: 256 icon per collection</span>
+
+			<ul class="collection_icons_list icons"></ul>
+			<div class="empty-collection">
+				<img src="https://media005.flaticon.com/img/cactus.svg" class="cactus" alt="Empty collection">
+				<div class="bola-container">
+					<img src="https://media005.flaticon.com/img/tumble.svg" class="bola">
+				</div>
+				<p>Hey cowboy! This looks like a desert. Add some icons to start using this collection.</p>
+
+			</div>
+			<div class="download-holder">
+				<button class="fullwidth" disabled>Download collection <i class="flaticon-download"></i></button>
+			</div>
+			<div class="collection-download">
+				<header class="header-download">
+					<b>Download:<br>Choose a format</b>
+					<button class="nostyle">×</button>
+				</header>
+				<div class="download-files">
+					<ul class="download">
+						<li class="simptip-position-top simptip-movable" data-tooltip="Download in PNG and use the icons
+in websites, Powerpoint, Word,
+Keynote and all commons apps.">
+							<a class="btn fullwidth">PNG</a>
+						</li>
+						<li class="customize">
+							<span>Select a size (in pixels).</span>
+							<ul class="size">
+								<li><button class="btn btn-small download-button" data-format="png" data-size="16">16</button></li>
+								<li><button class="btn btn-small download-button" data-format="png" data-size="24">24</button></li>
+								<li><button class="btn btn-small download-button" data-format="png" data-size="32">32</button></li>
+								<li><button class="btn btn-small download-button" data-format="png" data-size="64">64</button></li>
+								<li><button class="btn btn-small download-button" data-format="png" data-size="128">128</button></li>
+								<li><button class="btn btn-small download-button" data-format="png" data-size="256">256</button></li>
+								<li><button class="btn btn-small download-button" data-format="png" data-size="512">512</button></li>
+							</ul>
+						</li>
+						<li class="simptip-position-top simptip-movable" data-tooltip="Download in SVG and use the icons
+in websites, Adobe Illustrator, Sketch,
+Corel draw and all Vector design apps.">
+							<button class="btn fullwidth download-button" data-format="svg">SVG</button>
+						</li>
+						<li class="simptip-position-top simptip-movable" data-tooltip="Download in EPS and use the icons
+in websites, Adobe Illustrator, Sketch,
+Corel draw and all Vector design apps.">
+							<button class="btn fullwidth download-button" data-format="eps">EPS</button>
+						</li>
+						<li class="simptip-position-top simptip-movable" data-tooltip="Download in PSD and use the icons
+with Adobe Photoshop.">
+							<button class="btn fullwidth download-button" data-format="psd">PSD</button>
+						</li>
+						<li class="simptip-position-top simptip-movable" data-tooltip="Download as Iconfont and use
+the icons in your web,
+which is fully customizable with only CSS.">
+							<button class="btn fullwidth btn-outline download-button" data-format="iconfont">Iconfont</button>
+						</li>
+						<li class="simptip-position-top simptip-movable" data-tooltip="Download your collection
+in all available formats
+PNG, EPS, SVG, PSD and Iconfont.">
+							<button class="btn fullwidth btn-gray download-button" data-format="all">All formats</button>
+						</li>
+						<li>
+							<label class="report btn btn-warning warning btn-small btn-outline" for="modal-report-collection"><i class="flaticon-exclamation"></i> Problems downloading?</label>
+						</li>
+					</ul>
+					<form id="download-collection-form" name="download-collection-form" method="post" >
+						<input type="hidden" name="downC_type" id="downC_type" />
+						<input type="hidden" name="downC_bookmark_id" id="downC_bookmark_id" />
+						<input type="hidden" name="downC_bookmark_name" id="downC_bookmark_name" />
+						<input type="hidden" name="downC_user_id" id="downC_user_id" />
+						<input type="hidden" name="downC_format" id="downC_format" />
+						<input type="hidden" name="downC_size" id="downC_size" />
+						<input type="hidden" name="downC_color" id="downC_color" />
+						<input type="hidden" name="downC_icons" id="downC_icons" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+</script>
+<script id="tpl-collection-icon" type="text/x-handlebars-template">
+	<li class="icon collectionIcon selected" data-id="{{id}}" data-name="{{name}}" data-color="{{color}}" aria-haspopup="true">
+		<img src="https://media005.flaticon.com/img/loader.gif" data-src="{{icoImg}}" class="collectionIconImage" onload="Widget.renderSVG(this)">
+		<div class="overlay" aria-hidden="true">
+			<button class="flaticon-collections_remove"></button>
+			<a href="http://www.flaticon.com/icon/{{id}}" class="flaticon-eye" title="{{name}}"></a>
+		</div>
+		<div class="edit">
+			<input class="collection-icon-rename" type="text" value="{{name}}" data-original="{{name}}">
+			{{#isColor color}}
+			<button class="popover-button nostyle icon-color-button"><i class="flaticon-paint"></i></button>
+			{{/isColor}}
+			<button class="nostyle danger flaticon-bin collection-icon-delete"></button>
+			{{#isColor color}}
+			<div class="popover">
+				<div class="popover-container">
+					<div class="popover-content">
+						<ul class="color-selector">
+							<li><button class="green" data-color="91DC5A"></button></li>
+							<li><button class="blue" data-color="006DF0"></button></li>
+							<li><button class="purple" data-color="933EC5"></button></li>
+							<li><button class="yellow" data-color="FFDA44"></button></li>
+							<li><button class="red" data-color="D80027"></button></li>
+							<li><button class="white" data-color="FFFFFF"></button></li>
+							<li><button class="black" data-color="000000"></button></li>
+						</ul>
+						<div class="icon-cpicker"></div>
+					</div>
+				</div>
+			</div>
+			{{/isColor}}
+		</div>
+	</li>
+</script>
+<script id="tpl-author-box" type="text/x-handlebars-template">
+	<article class="box{{#if page}} init page-handler{{/if}}" {{#if page}} data-page="{{page}}"{{/if}} data-id="{{id}}" data-name="{{name}}">
+		<div class="popover popover-top author-links">
+			<div class="popover-container">
+				<button class="popover-button nostyle"><i class="flaticon-link"></i></button>
+				<ul class="popover-content">
+					{{#if website}} <li><a href="{{website}}" target="_blank"><i class="flaticon-link"></i></a></li>{{/if}}
+					{{#if facebook}} <li><a href="{{facebook}}" target="_blank"><i class="flaticon-facebook facebook"></i></a></li>{{/if}}
+					{{#if twitter}} <li><a href="{{twitter}}" target="_blank"><i class="flaticon-twitter twitter"></i></a></li>{{/if}}
+					{{#if gplus}} <li><a href="{{gplus}}" target="_blank"><i class="flaticon-google google"></i></a></li>{{/if}}
+				</ul>
+			</div>
+		</div>
+		<a href="{{link}}">
+			<div class="img-holder">
+				<img src="{{background}}" alt="{{name}}" title="{{name}}" class="img-bg" width="298" height="182">
+				<img src="{{image}}" alt="{{name}}" title="{{name}}" class="img-author" width="100" height="100">
+			</div>
+			<footer>
+				<span class="name">{{name}}</span>
+				<span class="badge pull-right">{{icons}} icons</span>
+			</footer>
+		</a>
+	</article>
+</script>
+<script id="tpl-pack-box" type="text/x-handlebars-template">
+	<article class="box{{#if page}} init page-handler{{/if}}" {{#if page}} data-page="{{page}}"{{/if}}data-id="{{id}}" data-name="{{description}}">
+		<a href="{{link}}" title="{{description}}">
+			<div class="img-holder">
+				<img src="{{image}}" alt="{{description}}" class="img-bg" width="298" height="255">
+			</div>
+
+			<footer class="bg-{{colors}}">
+				{{#if selection}}
+				<span class="simptip-position-top simptip-movable" data-tooltip="Flaticon Selection">
+					<i class="flaticon-selection"></i>
+				</span>
+				{{/if}}
+				<span class="name">{{description}}</span>
+				<span class="badge pull-right">{{pack_items}} icons</span>
+			</footer>
+		</a>
+	</article>
+</script>
+<script id="tpl-collection-limit-box" type="text/x-handlebars-template">
+	<article class="box" data-bookmark="{{bookmark_id}}">
+		<span>
+			<i class="flaticon-bin"></i>
+		</span>
+		<div class="img-holder">
+			{{{collectionLimitIcons}}}
+		</div>
+		<footer>
+			<span class="name">{{name}}</span>
+			<span class="badge pull-right">{{count}} icons</span>
+		</footer>
+	</article>
+</script>
+		
+<script type="text/javascript">
+
+	var STATIC_URL        = 'http://image005.flaticon.com/';
+	var ACCOUNTS_BASE_URL = 'https://profile.flaticon.com/';
+	var ACCOUNTS_API_KEY  = 'aHR0cDovL3d3dy5mbGF0aWNvbi5jb20=';
+	var FACEBOOK_APP_ID   = '579360525479711';
+	var GOOGLE_CLIENT_ID  = '544984668822-l66ipmg9o5lpalcntjckr651vbo72tcv.apps.googleusercontent.com';
+	var GOOGLE_API_KEY    = 'AIzaSyCkyUw3UxCwg618Bknm9vdoWnYWji4lQSM';
+	var LANGUAGE          = 'english';
+	var language          = 'english';
+	var LANGUAGE_SHORT    = 'en';
+	var URL_LOG           = 'URL_LOG';
+	var RE_CAPTCHA_KEY    = '6LdrxggTAAAAAEsVEMxap24sSkGS1nI3SsOigFyF';
+	var RE_CAPTCHA_SECRET = '6LdrxggTAAAAANBFArNBHFs8wDnZL5q51hkRPpls';
+	var SPONSOR_BASE_URL  = 'http://go.flaticon.com/';
+	var APP_URL			  = 'http://www.flaticon.com/';
+
+	
+	</script>
+
+<script id="tpl-notification" type="text/x-handlebars-template">
+	<div class="user-alert {{type}}" id="notify-{{time}}"{{#if sticky}} style="z-index: 500"{{/if}}>
+		<i class="flaticon-{{type}}"></i>
+		<p><b>{{title}}: </b>{{{body}}}.{{#if sticky}} <button class="nostyle" onclick="Notifier.close(this)" data-time="{{time}}">×</button>{{/if}}</p>
+	</div>
+</script>
+
+	<script type="text/javascript" src="https://media005.flaticon.com/js/jquery-2.2.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+	<script type="text/javascript" src="https://media005.flaticon.com/js/handlebars.min.js"></script>
+
+<!--[if lte IE 9]>
+<script src="https://media005.flaticon.com/js/jquery.placeholder.min.js" charset="utf-8"></script>
+<script>
+	$(function(){
+		$('input, textarea').placeholder();
+	});
+</script>
+<![endif]-->
+
+<script type='text/javascript' src='http://media.freepik.com/min/?g=auth_js&key=2016-04-12.01'></script>
+<script type='text/javascript' src='http://media.freepik.com/sponsor/js/gr.sponsor.js?key=2016-04-12.01'></script>
+<script type='text/javascript' src='https://media005.flaticon.com/min/js/polyfill.min.js,common.js,localstoragedb.js,Auth.js,colpick.min.js,collections.js,awesomplete.js,fi_download.js,functions.js,autocomplete.js,social_share.js,tour.js,sponsor.js,svg.js,slider_icons.js,waypoints.js,infinity.js?key=2016-04-12.01'></script>
+<script>
+// Start of StatCounter Code for Default Guide -->
+
+var sc_project=9275887;
+var sc_invisible=1;
+var sc_security="3b1b1bb7";
+var sc_https=1;
+var scJsHost = (("https:" == document.location.protocol) ?
+	"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+	scJsHost+
+	"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript>
+	<div class="statcounter">
+		<a title="web analytics" href="http://statcounter.com/" target="_blank">
+			<img class="statcounter" src="http://c.statcounter.com/9275887/0/3b1b1bb7/1/" alt="web analytics">
+		</a>
+	</div>
+</noscript>
+		<section class="tour" id="tour">
+
+	<span class="tour-marker"></span>
+
+	<div class="tour-box">
+		<button class="nostyle close-tour">&times;</button>
+		<ul class="steps">
+			<li class="step active">
+				<h2>Introducing collections</h2>
+				<p>Collections are the core of our web app, do you want to know how to use them? Press next to watch the guide.</p>
+				<span class="total">
+					<b>1</b> of 9
+				</span>
+			</li><!-- .step -->
+
+			<li class="step">
+				<img src="https://media005.flaticon.com/img/tour/step2@2x.jpg" alt="Collections list">
+				<h2>Collections list</h2>
+				<p>This is a list of your collections. You can change their names and they are sorted by use. Click on one of them to start using it.</p>
+				<span class="total">
+					<b>2</b> of 9
+				</span>
+			</li><!-- .step -->
+
+			<li class="step">
+				<img src="https://media005.flaticon.com/img/tour/step3@2x.jpg" alt="Create a collection">
+				<h2>Create a collection</h2>
+				<p>Click on this button to create a collection.</p>
+				<span class="total">
+					<b>3</b> of 9
+				</span>
+			</li><!-- .step -->
+
+			<li class="step">
+				<img src="https://media005.flaticon.com/img/tour/step4@2x.jpg" alt="Change name">
+				<h2>Change name</h2>
+				<p>Click here to change the name of the collection </p>
+				<span class="total">
+					<b>4</b> of 9
+				</span>
+			</li><!-- .step -->
+
+			<li class="step">
+				<img src="https://media005.flaticon.com/img/tour/step5@2x.jpg" alt="Active collection">
+				<h2>Active collection</h2>
+				<p>This is your active collection. One collection can have up to 256 icons if you are a registered user or 50 if you are not registered.</p>
+				<span class="total">
+					<b>5</b> of 9
+				</span>
+			</li><!-- .step -->
+
+			<li class="step">
+				<img src="https://media005.flaticon.com/img/tour/step6@2x.jpg" alt="Color">
+				<h2>Color</h2>
+				<p>Add color to all the icons in your collection.</p>
+				<span class="total">
+					<b>6</b> of 9
+				</span>
+			</li><!-- .step -->
+
+			<li class="step">
+				<img src="https://media005.flaticon.com/img/tour/step7@2x.jpg" alt="Edit mode">
+				<h2>Edit mode</h2>
+				<p>Enter the edit mode by clicking the pencil icon to edit the name and color of each icon separately.</p>
+				<span class="total">
+					<b>7</b> of 9
+				</span>
+			</li><!-- .step -->
+			<li class="step">
+				<img src="https://media005.flaticon.com/img/tour/step8@2x.jpg" alt="Delete">
+				<h2>Delete</h2>
+				<p>Have you finished with this collection? Delete it and create a new one here.</p>
+				<span class="total">
+					<b>8</b> of 9
+				</span>
+			</li><!-- .step -->
+
+			<li class="step">
+				<h2>Enjoy!</h2>
+				<p>And that is all, if you have any question you can contact our support team <a href="http://support.flaticon.com/hc/en-us/categories/200466151-General-questions" target="_blank" class="text-link">here</a>.</p>
+				<p><br>Thank you for using Flaticon, we hope you enjoy our service</p>
+								<span class="total">
+					<b>9</b> of 9
+				</span>
+			</li><!-- .step -->
+
+		</ul>
+		<div class="tour-nav">
+			<button class="nostyle prev" disabled>&lt; Prev</button>
+			<button class="nostyle next">Next &gt;</button>
+		</div>
+	</div><!-- .tour-box -->
+
+</section><!-- .tour -->
+
+<div class="tour-overlay"></div>	</section>
+
+	<form id="form_valuation" class="form_valuation_cl bg-light-gray" style="left: -200px">
+	<div id="open_panel" class="open_panel_cl bg-light-gray">
+		<span id="button_panel">-</span>
+	</div>
+	<div id="valuation_panel" class="valuation_panel_cl">
+		<span class="fllft">Have you found what you want?</span>
+		<input id="valuation_question_id" type="hidden" value="3">
+		<br>
+		<div id="calification_panel">
+			<a id="val_check_2" class="valuation_response flaticon-happy btn-small btn-pill" data-value="2" title="Flaticon rocks!"></a>
+			<a id="val_check_0" class="valuation_response flaticon-neutral btn-small btn-pill" data-value="0" title="Flaticon is a good service!"></a>
+			<a id="val_check_1" class="valuation_response flaticon-sad btn-small btn-pill" data-value="1" title="Flaticon is awful!"></a>
+		</div>
+
+	</div>
+	<div id="valuation_comment_panel" class="valuation_panel_cl" style="display: none;">
+		<div id="valuation_panel_txt" class="valuation_panel_cl">
+			<textarea id="valuation_text" cols="40" rows="3" class="valuation_text_cl" placeholder="Thank you very much! Would you improve something?" maxlength="255"></textarea>
+
+			<input type="hidden" id="id_last_valuation" value="">
+			<div class="cmd_clear">
+				<input type="submit" value="Send" class="bton_valuation_cl">
+				<a href="#" class="text-link" id="no_thanks">No thanks</a>
+			</div>
+			<div id="valuation_message" class="valuation_message_cl" style="display:none">* Write us a comment</div>
+		</div>
+	</div>
+	<div id="valuation_congrat" class="valuation_congrat_cl" style="display:none;">
+		<span>Thank you so much for helping us!</span>
+	</div>
+</form>
+
+<section class="cookies-alert" id="cookies-alert" style="display: none;">
+	<p>
+		<i class="flaticon-cookies"></i> We use own and third party cookies to improve our services and show ads related to your preferences by analyzing your browser habits . If you continue browsing , we consider you accept its use. You can switch the configuration or learn more <a href="/privacy-policy" title="Privacy policy">here</a>
+	</p>
+	<button class="close-cookies nostyle" id="close-cookies">×</button>
+</section>
+
+<div class="modal modal-selection">
+	<input class="modal-state" id="modal-selection" type="checkbox">
+	<div class="modal-fade-screen">
+		<div class="modal-inner modal-inner-big text-center">
+			<header>
+				<label class="modal-close" for="modal-selection"></label>
+				<p>
+					With your <span>Premium Plan</span> you can use more than 103,500 icons from <i class="flaticon-selection"></i> Flaticon Selection without crediting the author.				</p>
+				<a class="btn btn-premium" id="download-premium" href="https://profile.flaticon.com/plans" target="_blank" onclick="ga('send', 'event', 'Plans', 'What is this?', 'Join Premium')">
+					<i class="flaticon-rocket"></i>
+					<b>Join Premium</b>
+					<p>+103,500 icons from <span>$20</span> $9,99</p>
+				</a>
+			</header>
+			<section class="modal-body text-center">
+				<h5>What is <i class="flaticon-selection"></i> Flaticon Selection?</h5>
+				<p>
+					<i class="flaticon-selection"></i> Flaticon Selection are all those icons which are designed exclusively by us.				</p>
+				<h5>How can I find those icons?</h5>
+
+				<div class="modal-split">
+					<div class="modal-left">
+						<img src="https://media005.flaticon.com/img/selection/selection.svg" alt="Flaticon Selection" width="320" height="126"/>
+						<p>
+							Look for the <a class="text-link" target="_blank" href="http://support.flaticon.com/hc/en-us/articles/202724132-What-is-Flaticon-Selection-" target="_blank"><i class="flaticon-selection"></i> Flaticon Selection</a> symbol and take full advantage of our Premium plan. 
+						</p>
+					</div>
+					<div class="modal-right">
+						<img src="https://media005.flaticon.com/img/selection/filter.svg" alt="Flaticon Selection" width="380" height="106"/>
+
+						<p>
+							Filter your results to only show our <a class="text-link" target="_blank" href="http://support.flaticon.com/hc/en-us/articles/202724132-What-is-Flaticon-Selection-" target="_blank"><i class="flaticon-selection"></i> Flaticon Selection</a> icons, you can find the <strong>filters bar</strong> above the icon results.						</p>
+					</div>
+				</div>
+
+			</section>
+			<footer>
+				<h5>Any more questions?</h5>
+				<span>Contact our </span>
+				<a href="http://support.flaticon.com/hc/en-us/categories/200466151-General-questions" class="btn" target="_blank" title="Support team"><i class="flaticon-help"></i> Support team</a>
+			</footer>
+		</div>
+	</div>
+</div>
+<button id="toTop" class="toTop-arrow"></button>
+	<script type="text/javascript">
+
+var messages = {
+	limit : {
+		registered : 'You have reach the icons limit <a href="https://profile.flaticon.com/plans" title="Get unlimited collections!">Become premium</a> and get unlimited collections',
+		guest : 'You have reach your limit of icons. <a href="https://profile.flaticon.com/register" title="Register and get up to 256 icons">Register</a> and get up to 256 icons'
+	},
+    external_icon : {
+    	title: 'Icon added',
+		message: 'This icon is not part of Flaticon Selection. Please add the attribution of the author in order to use it'
+	},
+	report : {
+		message: 'This icon is not part of Flaticon Selection. Please add the attribution of the author in order to use it.'
+	},
+	search : {
+		search : 'Search',
+		minimal_characters : 'Please type a minimum of two characters in order to search for a icon'
+	},
+	filters : {
+		order_by : 	'Order by',
+		style : 	'Style',
+		stroke : 	'Stroke',
+		detail : 	'Detail level',
+		date:		'Latest',
+		popularity:	'Popularity',
+		downloads:	'Most Downloaded',
+		all:		'All',
+		detailed:	'Detailed',
+		simple:		'Simple',
+		mixed:		'Mixed',
+		rounded:	'Rounded',
+		handmade:	'Handmade',
+		filled:		'Filled',
+		linear:		'Linear',
+		angular:	'Angular',
+		'3d':		'3D',
+	},
+	errors : {
+		connectivity : 'We cannot establish connection with flaticon servers, please check your network settings.'
+	},
+	collection: {
+		add_icon: 		'Add to collection',
+		delete_icon: 'Remove from collection',
+		aware: 'Be aware',
+		iconfont_colors: 'For technical reasons, the multicoloured icons wont be included in Iconfont'
+	},
+	fonts: {
+		error_svg : 'This SVG file isn\'t a font file',
+	}
+};
+
+</script>
+	<div class="loader" id="loader" style="display: none;">
+		<div class="circle-spinner"><img src="https://media005.flaticon.com/img/loader-logo.svg" title="Flaticon logo"></div>
+	</div>
+</body>
+</html>
+<!-- 36ms <==> 20-04-2016 15:17:56 -->
