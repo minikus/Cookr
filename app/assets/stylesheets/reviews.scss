@@ -8,12 +8,28 @@
 //   margin: 0 auto;
 //   text-align: left;
 // }
-.reviewsContainer {
+
+.reviews{
   background-color: #beeeef;
-  padding: 5%;
+  padding: 2% 10% 2% 10%;
   text-align: left;
-  padding: 5% 20% 5% 20%;
 }
+
+.reviewsContainer {
+  display: inline-block;
+}
+
+.overflowScrool{
+  max-height: 300px;
+  max-width: 400px;
+  overflow: scroll;
+
+}
+.showReviews{
+  display: inline-block;
+  vertical-align: top;
+}
+
 
 fieldset.label{
   color: black;
@@ -43,4 +59,5 @@ h4 {
   border: 1px solid white;
   padding: 3%;
   margin: 2%;
+  border-radius: 2%;
 }

@@ -6,8 +6,4 @@ $(document).ready(function() {
      $(".new_review").append("<p>ERROR</p>");
   });
 
-
-
-
-
 });
