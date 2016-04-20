@@ -35,7 +35,7 @@
       <% end %>
       <% if @current_user.present? && @current_user.id != @menu.user.id %>
       <hr>
-      <%= link_to ('Book this Menu'), new_event_path, :class => 'linkButton' %>
+      <%= link_to ('Book this Menu'), new_event_path({:chef_id => @menu.user}), :class => 'linkButton' %>
       <% end %>
     </div>
 

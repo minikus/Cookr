@@ -5,7 +5,6 @@
 
   <h1>My Events</h1>
   <div class="events">
-
     <% if @current_user.events.present? %>
     <h3>Next Events</h3>
     <% @current_user.events.each do |event| %>

@@ -25,4 +25,17 @@ class User < ActiveRecord::Base
   has_many :menus, :dependent => :destroy
   has_many :reviews, :dependent => :destroy
   has_many :messages, :dependent => :destroy
+
+  has_many :user_events, :class_name => 'Event', :foreign_key => 'user_id'
+  has_many :chef_events, :class_name => 'Event', :foreign_key => 'chef_id'
+
+  def name
+    "#{self.first_name} #{self.last_name}"
+  end
+
+  def average_rating
+    ratings = self.reviews.pluck(:rating)
+    return nil if ratings.empty?
+    ratings.inject(:+) / ratings.size.to_d # Figure out the average
+  end
 end

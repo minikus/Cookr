@@ -13,6 +13,14 @@
     </div>
     <div class="userInfo col col-lg-6 col-md-6 col-sm-12 cf">
       <h2>Contact <%= @user.first_name %></h2>
+      <% if @user.chef? %>
+        <% if @user.average_rating.nil? %>
+          <h4>No reviews yet</h4>
+        <% else %>
+          <h4>Rating:  <%= @user.average_rating %> / 10 </h4>
+        <% end %>
+      <% end %>
+      <br>
         <p>
           <strong>Email:</strong>
           <%= @user.email %>
@@ -83,7 +91,7 @@
   <div class="row">
     <div class="col-lg-2 col-md-2"></div>
     <div class="reviewsContainer row col-lg-8 col-md-8 cold-sm-12">
-      
+
       <h2><%= @user.first_name %>'s Reviews</h2>
       <h4>Create a new review for <%= @user.first_name %> </h4>
       <div class="chefReviews">
@@ -113,7 +121,7 @@
           <br>
           <div class="light-orange">
           Review by: <%= link_to review.reviewer.first_name, review.reviewer %>
-          <%= link_to 'Destroy', user_review_path(@user, review), method: :delete, data: { confirm: 'Are you sure sure you want to delete this review?' } %>
+          <%= link_to 'Delete', user_review_path(@user, review), method: :delete, data: { confirm: 'Are you sure sure you want to delete this review?' } %>
           </div>
         </div>
       <% end %>
