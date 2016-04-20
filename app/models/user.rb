@@ -30,4 +30,13 @@ class User < ActiveRecord::Base
   has_many :messages, :dependent => :destroy
 
 
+  def name
+    "#{self.first_name} #{self.last_name}"
+  end
+
+  def average_rating
+    ratings = self.reviews.pluck(:rating)
+    return nil if ratings.empty?
+    ratings.inject(:+) / ratings.size.to_d # Figure out the average
+  end
 end

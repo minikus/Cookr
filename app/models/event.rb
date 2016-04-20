@@ -21,4 +21,5 @@ class Event < ActiveRecord::Base
   belongs_to :user
   belongs_to :chef, :class_name => 'User', :foreign_key => 'chef_id'
   belongs_to :menu, :class_name => 'Menu', :foreign_key => 'menu_id'
+
 end

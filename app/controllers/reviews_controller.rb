@@ -20,7 +20,7 @@ class ReviewsController < ApplicationController
   end
 
   def create
-    
+
       @review = Review.create review_params
       @review.update :user_id => params[:user_id]
       # Who we're reviewing
@@ -56,7 +56,7 @@ class ReviewsController < ApplicationController
   def destroy
     @review.destroy
     respond_to do |format|
-      format.html { redirect_to reviews_url, notice: 'Review was successfully destroyed.' }
+      format.html { redirect_to :back }
       format.json { head :no_content }
     end
   end
