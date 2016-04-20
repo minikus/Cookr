@@ -3,6 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+
+
 .chefMenuField{
   display: none;
 }
@@ -33,22 +35,18 @@
   min-width: 300px;
   max-width: 50%;
   text-align: left;
-}
-
-.events a{
-  font-size: 18px;
-}
-
-.events li {
-  text-align: left;
-  margin-bottom: 20px;
-  margin-left: 30px;
-}
-
-h5{
-  color: black;
-  size: 30px;
-  font-size: 20px;
+  a {
+    font-size: 18px;
+  }
+  li {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  h5{
+    color: black;
+    font-size: 20px;
+  }
 }
 
 .eventDescription{
@@ -58,21 +56,25 @@ h5{
 
 .eventResults{
   display: inline-block;
-}
-
-.eventResults h5{
-  text-align: center;
-  color: gray;
-}
-
-.eventResults a{
-  text-align: center;
-  color: gainsboro;
-  font-size: 20px;
-  &:visited{
+  h5{
+    text-align: center;
+    color: gray;
+  }
+  a{
+    text-align: center;
     color: gainsboro;
+    font-size: 20px;
+    &:visited{
+      color: gainsboro;
+    }
+    &:hover{
+      color: #BEEEEF;
+    }
   }
-  &:hover{
-    color: #BEEEEF;
-  }
+}
+
+.textConfirmation{
+  color: #BEEEEF;
+  font-size: 20px;
+  text-shadow: 1px 1px 5px black;
 }

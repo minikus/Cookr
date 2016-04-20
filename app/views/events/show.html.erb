@@ -14,7 +14,6 @@
   <h5>Menu?</h5>
   <h5>Guests?</h5>
   <h5>Price?</h5>
-  <h5>Confirm?</h5>
 </div>
 
 <div class="eventResults">
@@ -26,23 +25,26 @@
   <h5><%= @event.guests %></h5>
   <h5><%= number_to_currency(@event.price) %></h5>
 
-
-  <% if @event.confirm === false && @current_user.id != @event.chef_id%>
-    <h5><%= "Waiting for Chef"%></h5>
-    <% elsif  @event.confirm === false && @current_user.id == @event.chef_id %>
-      <button type="button" id="eventConfirm" data="<%= @event.id %>"> Confirm Event</button>
-      <% elsif  @event.confirm === true && @current_user.id == @event.chef_id %>
-        <button type="button" id="eventCancel" data="<%= @event.id %>"> Cancel Event</button>
-  <% elsif @event.confirm === true && @current_user.id != @event.chef_id  %>
-    <h5><%= "Good to go" %></h5>
-  <% end %>
-
-
-
 </div>
+<br>
+<% #Hosts view %>
+  <% if @event.confirm === false && @current_user.id != @event.chef_id%>
+    <h5 class="textConfirmation"><%= "Waiting for Chef"%></h5>
+  <% elsif @event.confirm === true && @current_user.id != @event.chef_id  %>
+    <h5 class="textConfirmation"><%= "Event is Confirmed!" %></h5>
 
+<% #Chefs view %>
+    <% elsif @current_user.id == @event.chef_id %>
+      <button type="button" id="eventConfirm" data="<%= @event.id %>"> Confirm Event</button>
+      <h5 class="confirmationEvent"> This event is confirmed! </h5>
+      <button type="button" id="eventCancel" data="<%= @event.id %>"> Cancel Event</button>
+    <% end %>
+
+
+<% if @current_user.id === @event.user_id %>
 <hr>
 <%= link_to 'Delete', @event, method: :delete, data: { confirm: 'Are you sure?' } %> |
 <%= link_to 'Edit', edit_event_path(@event) %> |
 <%= link_to 'Back', events_path %>
+<% end %>
 </div>
