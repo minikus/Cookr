@@ -14,41 +14,38 @@ tr {
   margin-bottom: 10px;
 }
 
-.profileImage{
+.userProfilePic{
   display: inline-block;
-  max-width: 20%;
-  vertical-align: center;
+  margin: 40px;
 }
 
-.profileImage img{
-  display: inline-block;
-  max-height: 300px;
-  border-radius: 50%;
-  box-shadow: 2px 2px 10px black;
+.profilePic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px black;
+    border: 8px solid #beeeef;
 }
 
-.profileInfo{
-  display: inline-block;
-  max-width: 60%;
-  text-align: left;
-  vertical-align: bottom;
-  margin-left: 150px
-}
-
-.usersProfile {
-    color: black;
-    background-color: gainsboro;
-    max-width: 10000px;
-    padding: 30px;
-}
-
-.usersProfile h3{
+.chefBio{
+  max-width: 70%;
+  margin: 0 auto;
+  font-style: italic;
   text-align: center;
-  text-shadow: 2px 2px 2px white;
-
 }
 
-.reviewsShow{
-  background: white;
-  padding: 30px;
+.usersInfo{
+  display: inline-block;
+  max-width: 80%;
+  vertical-align: -webkit-baseline-middle;
+  padding: 10px 50px 10px 50px;
+  border-radius: 5%;
+}
+
+.mainUsers{
+  background-color: whitesmoke;
+}
+
+.userInfo h4{
+ color: rgb(8, 184, 168);
 }

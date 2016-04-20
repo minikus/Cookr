@@ -34,11 +34,13 @@
 </div>
 <div class="field" id="menuField">
   <%= f.label :menu_availables %>
+
   <% if @event.persisted? %>
   <%= f.select :menu_id, @event.chef.menus.pluck(:title, :id), :include_blank => true %>
   <% else %>
   <%= f.select :menu_id, Menu.pluck(:title,:id), :include_blank => true, :required => true %>
   <% end %>
+  
 </div>
 <div class="chefMenuField">
   <p>

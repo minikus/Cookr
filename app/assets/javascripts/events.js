@@ -1,5 +1,7 @@
 $(document).ready(function (){
 
+  $('#eventCancel').hide();
+  $(".confirmationEvent").hide();
   $("#eventConfirm").on("click", function(){
     var eventID = $(this).attr("data");
     console.log(eventID);
@@ -10,6 +12,10 @@ $(document).ready(function (){
         confirm: true
       }
     });
+    $('#eventConfirm').hide();
+    $(".confirmationEvent").show();
+    $('#eventCancel').show();
+
   });
 
     $("#eventCancel").on("click", function(){
@@ -22,6 +28,9 @@ $(document).ready(function (){
           confirm: false
         }
       });
+      $('#eventConfirm').show();
+      $(".confirmationEvent").hide();
+      $('#eventCancel').hide();
     });
 
 });
