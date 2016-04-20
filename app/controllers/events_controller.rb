@@ -18,6 +18,11 @@ class EventsController < ApplicationController
   # GET /events/new
   def new
     @event = Event.new
+    if params[:menu_id].present?
+      @menu = Menu.find params[:menu_id]
+    else
+      @menu = Menu.new
+    end
   end
 
   # GET /events/1/edit
