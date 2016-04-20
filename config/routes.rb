@@ -22,7 +22,10 @@ Rails.application.routes.draw do
   resources :menus
 
   resources :messages
-  resources :events
+  resources :events do
+    put '/confirm' => 'events#confirm'
+    delete '/confirm' => 'events#cancel'
+  end
   resources :users
 
 end

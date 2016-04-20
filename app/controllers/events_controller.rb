@@ -1,7 +1,8 @@
 class EventsController < ApplicationController
   before_action :set_event, only: [:show, :edit, :update, :destroy]
-  before_action :authorise, :only => [:index, :show, :new, :create, :edit, :update, :destroy]
   before_action :authorisePerson, :only => [:show, :edit, :update, :destroy]
+  before_action :authorise, :only => [:index, :show, :new, :create, :edit, :update, :destroy]
+
 
   # GET /events
   # GET /events.json
@@ -44,15 +45,31 @@ class EventsController < ApplicationController
   # PATCH/PUT /events/1
   # PATCH/PUT /events/1.json
   def update
-    respond_to do |format|
-      if @event.update(event_params)
-        format.html { redirect_to @event, notice: 'Event was successfully updated.' }
-        format.json { render :show, status: :ok, location: @event }
-      else
-        format.html { render :edit }
-        format.json { render json: @event.errors, status: :unprocessable_entity }
-      end
-    end
+    @event = Event.find params[:id]
+    # @event.update event_params
+    @event.save
+    render :json => {:status => 'ok'}
+    # respond_to do |format|
+    #   if @event.update(event_params)
+    #     format.html { redirect_to @event, notice: 'Event was successfully updated.' }
+    #     format.json { render :show, status: :ok, location: @event }
+    #   else
+    #     format.html { render :edit }
+    #     format.json { render json: @event.errors, status: :unprocessable_entity }
+    #   end
+    # end
+  end
+
+  def confirm
+    @event = Event.find params[:event_id]
+    @event.update :confirm => true
+    render :json => {:status => 'ok'}
+  end
+
+  def cancel
+    @event = Event.find params[:event_id]
+    @event.update :confirm => false
+    render :json => {:status => 'ok'}
   end
 
   # DELETE /events/1
@@ -88,6 +105,7 @@ class EventsController < ApplicationController
     end
 
     def authorisePerson
-      redirect_to root_path unless (@current_user.id === @event.user_id)
+      redirect_to root_path unless (@current_user.id === @event.user_id || @event.chef_id)
     end
+
 end

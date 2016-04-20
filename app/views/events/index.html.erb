@@ -6,21 +6,31 @@
   <h1>My Events</h1>
   <div class="events">
 
-    <% if @current_user.events.present? %>
-    <h3>Next Events</h3>
-    <% @current_user.events.each do |event| %>
+<% if @current_user.user_events.present? %>
+  <h3>Next Events</h3>
+  <% @current_user.user_events.each do |event| %>
     <% if Time.now < event.time %>
-  <li><%= link_to event.description, event %></li>
+      <li><%= link_to event.description, event %></li>
+    <% end %>
   <% end %>
-<% end %>
 
   <h3>Past</h3>
-  <% @current_user.events.each do |event| %>
+  <% @current_user.user_events.each do |event| %>
     <% if Time.now > event.time %>
       <li><%= link_to event.description, event %></li>
     <% end %>
   <% end %>
 <% end %>
+
+<% if @current_user.chef?  %>
+<h3>Next Events as Chef</h3>
+  <% if @current_user.chef_events.present? %>
+    <% @current_user.chef_events.each do |event| %>
+    <li><%= link_to event.description, event %></li>
+    <% end %>
+  <% end %>
+<% end %>
+
 
   <br><br>
   <%= link_to 'New Event', new_event_path, :class => "btn btn-default" %>
