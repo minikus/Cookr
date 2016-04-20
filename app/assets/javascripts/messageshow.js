@@ -97,13 +97,13 @@ $(document).ready(function () {
       });
       $userSelect.appendTo('#create-message-box');
       createMessageInput();
-
     });
   };
 
   //adds the click listener to the chat heads once they have been loaded
   var addChatHeadClicker = function () {
     $('.chat-head').on('click', function () {
+      $('.userSelect').remove();
       var person = Number($(this).attr('data'));
       messageFocus = person;
       displayMessages(person, messages);
@@ -151,7 +151,6 @@ $(document).ready(function () {
     $messageInput.appendTo('#create-message-box');
     var $submitMessage = $('<button/>').attr({'id': 'create-message', 'value': messageFocus}).text('Send message');
     $submitMessage.appendTo('#create-message-box');
-
 
     $($submitMessage).on('click', function () {
       if ($('.userSelect').length > 0 && $('#message-content').val() !== '') {
@@ -203,8 +202,6 @@ $(document).ready(function () {
     };
   };
 
-
-
   //calling getUserId to kick off the chain of functions
   getUserId();
 
@@ -213,5 +210,4 @@ $(document).ready(function () {
       getAllUsers();
     }
   }, 3000);
-
 });
