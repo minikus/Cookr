@@ -30,16 +30,17 @@
       <h2>Host <%= @user.last_name %></h2>
     <% end %>
 
-<% #Email %>
+<% #Ratings %>
 
 <% if @user.chef? %>
   <% if @user.average_rating.nil? %>
     <h4>No reviews yet</h4>
   <% else %>
-    <h4>Rating:  <%= @user.average_rating %> / 10 </h4>
+    <h4>Rating:<%= @user.average_rating %> / 10 </h4>
   <% end %>
 <% end %>
 
+<% #Email %>
     <p> <%= @user.email %></p>
 
 <% #only show the admin status if the current user is an admin %>
@@ -54,12 +55,11 @@
 
 <% #only show the phone number if @user is a chef or current user is admin %>
     <% if @user.chef? || @current_user.admin? %>
-      <p><strong>Phone:</strong><%= @user.phone %></p>
+      <p><strong>Phone : </strong><%= number_to_phone(@user.phone) %></p>
     <% end %>
 
 <% #only show the chef bio, rate, and menus if they are a chef %>
       <% if @user.chef? %>
-        <p><strong>Rate:</strong><%= number_to_currency(@user.rate) %> per people</p>
         <strong><%= link_to "Menus", menus_path %></strong>
         <% @user.menus.each do |menu| %>
           <li><%= link_to menu.title, menu %></li>
