@@ -60,7 +60,7 @@
 
 
   <% #add message button %>
-  <% if @current_user.id != @user.id %>
+  <% if @current_user.present? && @current_user.id != @user.id %>
   <div id="profile-message">
     <input type="button" value="Send me a message" id="message-from-profile" data="<%= @user.id %>">
   </div>
@@ -131,7 +131,7 @@
             <h4 id="prevReviews">Currently No reviews</h4>
         <% else %>
           <div class="overflowScrool">
-            <h2 id="prevReviews">Previous Reviews</h2>
+            <h2 id="prevReviews"></h2>
             <% @user.reviews.reverse.each do |review| %>
               <div class="individual_reviews">
                 <span class="rating"><%= review.rating %> / 10 :</span>
