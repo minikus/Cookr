@@ -13,13 +13,18 @@
   <% @current_user.user_events.each do |event| %>
     <% if Time.now < event.time %>
       <li><%= link_to event.description, event %>
-    <% if event.confirm? %>
-      - Confirmed!</li>
-      <% elsif event.confirm == false %>
+      <% if event.confirm.nil? %>
+        -Waiting for Chef </li>
+      <% elsif event.confirm === true %>
+        - Confirmed!</li>
+      <% elsif event.confirm === false %>
         - Canceled!</li>
       <%end %>
-    <% end %>
-  <% end %>
+   <%end %>
+<% end %>
+
+
+
 
 
 <h4>Past</h4>
@@ -34,6 +39,7 @@
 <h3>Events as Chef</h3>
     <% @current_user.chef_events.each do |event| %>
     <li><%= link_to event.description, event %></li>
+
   <% end %>
 <% end %>
 
