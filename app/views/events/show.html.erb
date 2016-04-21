@@ -24,22 +24,36 @@
   <h5><%= link_to @event.menu.title, menu_path(@event.menu_id) %></h5>
   <h5><%= @event.guests %></h5>
   <h5><%= number_to_currency(@event.price) %></h5>
-
 </div>
 <br>
-<% #Hosts view %>
 
-  <% if @event.confirm === false && @current_user.id != @event.chef_id%>
+<% #Hosts view %>
+  <% if @event.confirm.nil? && @current_user.id != @event.chef_id%>
     <h5 class="textConfirmation"><%= "Waiting for Chef"%></h5>
   <% elsif @event.confirm === true && @current_user.id != @event.chef_id  %>
     <h5 class="textConfirmation"><%= "Event is Confirmed!" %></h5>
+  <% elsif @event.confirm === false  && @current_user.id != @event.chef_id  %>
+    <h5 class="textConfirmation"><%= "Event is Canceled!" %></h5>
+    <% end %>
+
 
 <% #Chefs view %>
-    <% elsif @current_user.id == @event.chef_id %>
-      <button type="button" id="eventConfirm" data="<%= @event.id %>"> Confirm Event</button>
-      <h5 class="confirmationEvent"> This event is confirmed! </h5>
-      <button type="button" id="eventCancel" data="<%= @event.id %>"> Cancel Event</button>
-    <% end %>
+<div class="eventconfirmations">
+  <% if @current_user.id == @event.chef_id %>
+      <% if @event.confirm === false %>
+        <p class="eventCancelled">Event is cancelled!</p>
+        <button type="button" id="eventConfirm" data-id="<%= @event.id %>"> Confirm Event</button>
+      <% elsif @event.confirm === true %>
+        <p class="eventConfirmed">Event is confirmed!</p>
+        <button type="button" id="eventCancel" data-id="<%= @event.id %>"> Cancel Event</button>
+        <% else %>
+        <button type="button" id="eventConfirm" data-id="<%= @event.id %>"> Confirm Event</button>
+        <button type="button" id="eventCancel" data-id="<%= @event.id %>"> Cancel Event</button>
+
+      <% end %>
+  <% end %>
+</div>
+
 
 
 <% if @current_user.id === @event.user_id %>
