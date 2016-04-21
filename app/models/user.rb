@@ -36,7 +36,7 @@ class User < ActiveRecord::Base
 
   def average_rating
     ratings = self.reviews.pluck(:rating)
-    return nil if ratings.empty?
+    return "no reviews yet" if ratings.empty?
     ratings.inject(:+) / ratings.size.to_d # Figure out the average
   end
 end

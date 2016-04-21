@@ -2,16 +2,24 @@ class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   def get_user
-    render json: {
-      :user => @current_user
-    }
+    if @current_user.present?
+      render json: {
+        :user => @current_user
+      }
+    else
+      redirect_to root_path
+    end
   end
 
   def get_users
-    users = User.all
-    render :json => {
-      :users => users
-    }
+    if @current_user.present?
+      users = User.all
+      render :json => {
+        :users => users
+      }
+    else
+      redirect_to root_path
+    end
   end
 
   # GET /users
@@ -37,9 +45,15 @@ class UsersController < ApplicationController
   # POST /users
   # POST /users.json
   def create
-    req = Cloudinary::Uploader.upload(params[:user]["image"])
-    @user = User.new(user_params)
-    @user.update :image => req["url"]
+    if params[:user]['image'].present?
+      req = Cloudinary::Uploader.upload(params[:user]["image"])
+      @user = User.new(user_params)
+      @user.update :image => req["url"]
+    else
+      @user = User.new(user_params)
+      @user.update :image => 'https://tracker.moodle.org/secure/attachment/30912/f3.png'
+    end
+
 
     if @user.save
       session[:user_id] = @user.id

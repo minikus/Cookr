@@ -11,7 +11,7 @@
 #messages {
   background-color: #beeeef;
   padding: 5%;
-  text-align: left;
+  text-align: center;
   padding: 5% 10% 5% 10%;
 }
 
@@ -35,17 +35,46 @@
 
 #conversations {
   width: 100%;
-  text-align: center;
   margin-bottom: 1em;
+  text-align: center;
 }
 
-.chat-head, .new-message {
+#messages-display {
+  border: 1px solid black;
+  border-radius: 1em;
+  padding: 1em;
+  display: none;
+}
+
+#create-message-box {
+  margin: 1em auto;
+}
+
+.chat-head {
   display: inline-block;
   background-color: gainsboro;
   text-align: center;
-  border: 1px solid salmon;
+  // border: 1px solid salmon;
+  border-radius: .35em;
+  margin: 1.5%;
+}
+
+.new-message{
+  display: inline-block;
+  background-color: hotpink;
+  text-align: center;
+  // border: 1px solid salmon;
+  border-radius: .35em;
+  margin: 1.5%;
 }
 
 .chat-head, .new-message:hover {
   cursor: pointer;
+}
+
+.userIcon {
+  // max-width: 3em;
+  max-height: 3em;
+  border-radius: 50%;
+  margin: .25em;
 }

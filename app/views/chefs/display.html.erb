@@ -4,7 +4,8 @@
   <div class="displayChefs">
       <div class="thumb">
       <%=link_to (image_tag user.image), user %>
-      <h2><%= link_to (user.first_name), user%>
+      <h2><%= link_to (user.name), user%></h2>
+      <%= user.average_rating %>
     </div>
   </div>
 

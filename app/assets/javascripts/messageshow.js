@@ -5,7 +5,7 @@ $(document).ready(function () {
   var newMessages = [];
   var conversations = [];
   var messageFocus = 0;
-  var pageLoaded = 0;
+  // var pageLoaded = 0;
 
   //get current user id, call this function to kick it off
   var getUserId = function () {
@@ -63,17 +63,22 @@ $(document).ready(function () {
   //creates chat heads for your conversations and appends them to the #conversations div
   var createChatHeads = function () {
     $('#conversations').html('');
-    var width = 100/conversations.length;
+    if (conversations.length !== 0) {
+      var header = $('<h2/>').text('Your conversations:').appendTo($('#conversations'));
+    }
+    var width = 90/conversations.length;
+    if (width < 30 ) { width = 30 };
     for (var i = 0; i< conversations.length; i++) {
       var user = _.find(users, function (user) {
         return user.id === conversations[i];
       });
-      $chatHead = $('<div/>').width(width + '%').addClass('chat-head').attr('data', user.id);
-      $chatHead.html('<p>' + user.first_name + '</p>');
+      var $chatHead = $('<div/>').width(width + '%').addClass('chat-head').attr('data', user.id);
+      var $userIcon = $('<img/>').addClass('userIcon');
+      $chatHead.html('<img src="' + user.image + '" class="userIcon"><span>' + user.first_name + '</span>');
       $chatHead.appendTo($('#conversations'));
     };
     //create chathead for new message
-    $chatHead = $('<div/>').width('100%').addClass('new-message');
+    $chatHead = $('<div/>').width('97%').addClass('new-message');
     $chatHead.html('<p>Create New Message</p>').appendTo($('#conversations'));
     addChatHeadClicker();
     addNewMessageListener();
@@ -81,23 +86,29 @@ $(document).ready(function () {
 
   var addNewMessageListener = function () {
     $('.new-message').on('click', function () {
-      //create array of users and IDs
-      var usersAndIDs = [];
-      _.each(users, function (user) {
-        usersAndIDs.push([user.first_name, user.id])
-      })
-      //create a select tag with each user as an option with their id as the value
-      if ($('.userSelect').length > 0) {
-        $('.userSelect').remove();
-      };
-      var $userSelect = $('<select/>').addClass('userSelect');
-      _.each(usersAndIDs, function (user) {
-        var $userOption = $('<option/>').val(user[1]).text(user[0]);
-        $userOption.appendTo($userSelect);
-      });
-      $userSelect.appendTo('#create-message-box');
+      $('#messages-display').html('').hide();
+      createUserSelect();
       createMessageInput();
     });
+  };
+
+  var createUserSelect = function () {
+    //create array of users and IDs
+    var usersAndIDs = [];
+    _.each(users, function (user) {
+      usersAndIDs.push([user.first_name, user.id])
+    })
+    //create a select tag with each user as an option with their id as the value
+    if ($('.userSelect').length > 0) {
+      $('.userSelect').remove();
+    };
+    var $userSelect = $('<select/>').addClass('userSelect');
+    $userSelect.html('<option selected disabled>Choose recipient</option>');
+    _.each(usersAndIDs, function (user) {
+      var $userOption = $('<option/>').val(user[1]).text(user[0]);
+      $userOption.appendTo($userSelect);
+    });
+    $userSelect.appendTo('#create-message-box');
   };
 
   //adds the click listener to the chat heads once they have been loaded
@@ -115,7 +126,12 @@ $(document).ready(function () {
 
   //when you click on a chat head it displays the messages you have with that person
   var displayMessages = function (messageFocus, messages) {
-    $('#messages-display').html('');
+    $('#messages-display').html('').show();
+    var convoTarget = _.find(users, function (user) {
+      return user.id === messageFocus;
+    });
+    var $convoHeader = $('<h2/>').text('Your conversation with ' + convoTarget.first_name + ':');
+    $convoHeader.appendTo($('#messages-display'));
     _.each(messages, function (message) {
       //gets the id of the user who sent/received the message
       var messageFrom = _.find(users, function (user){
@@ -164,17 +180,32 @@ $(document).ready(function () {
     });
   };
 
-  //when you click send message it will send a message (duh)
+  //when you click send message it will send a message
   var sendMessage = function (recipient) {
     var errors = 0;
     var messageGetter = recipient;
     var message = $('#message-content').val();
 
+
+    //error if target is blank
+    if (messageGetter === 0) {
+      errors += 1;
+      var $recipientError = $('<p/>').text('Please select a recipient');
+      $('#messages').append($recipientError);
+      createUserSelect();
+      createMessageInput();
+      $('.userSelect').focus();
+      $('#message-content').text(message);
+      setTimeout(function () {
+        $recipientError.remove();
+      },2000);
+    };
+
     //error message if the message is blank
     if (message === '') {
       errors += 1;
       var $messageError = $('<p/>').text('Please enter some message text');
-      $('#create-message-box').append($messageError);
+      $('#messages').append($messageError);
       $('#message-content').focus();
       setTimeout(function () {
         $messageError.remove();
@@ -206,8 +237,8 @@ $(document).ready(function () {
   getUserId();
 
   setInterval(function () {
-    if (messageFocus !== 0) {
+    // if (messageFocus !== 0) {
       getAllUsers();
-    }
+    // }
   }, 3000);
 });

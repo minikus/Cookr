@@ -13,10 +13,14 @@ class MessagesController < ApplicationController
   end
 
   def get_messages
-    messages = Message.all
-    render :json => {
-      :messages => messages
-    }
+    if @current_user.present?
+      messages = Message.all
+      render :json => {
+        :messages => messages
+      }
+    else
+      redirect_to root_path
+    end
   end
 
   # GET /messages/1

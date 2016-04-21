@@ -20,7 +20,6 @@ class ReviewsController < ApplicationController
   end
 
   def create
-
       @review = Review.create review_params
       @review.update :user_id => params[:user_id]
       # Who we're reviewing
