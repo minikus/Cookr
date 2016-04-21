@@ -5,7 +5,7 @@ class ReviewsController < ApplicationController
   # GET /reviews.json
   def index
     @reviews = Review.find params[:id]
-
+    
     @user = User.find(params[user:id])
     @review = Review.new
   end
