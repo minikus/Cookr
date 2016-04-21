@@ -60,9 +60,11 @@
 
 
   <% #add message button %>
+  <% if @current_user.id != @user.id %>
   <div id="profile-message">
     <input type="button" value="Send me a message" id="message-from-profile" data="<%= @user.id %>">
   </div>
+  <% end %>
 
 <% #only show the chef bio, rate, and menus if they are a chef %>
       <% if @user.chef? %>
