@@ -76,9 +76,9 @@
 
 <% #Add Menu Button %>
 <div class="return">
-      <% if @user === @current_user || @current_user.admin? %>
-        <%= link_to 'Add Menu', new_menu_path %> |
-      <% end %>
+  <% if @current_user.present? && (@current_user.admin? || @current_user.id === @user.id) %>
+    <%= link_to 'Add Menu', new_menu_path %> |
+  <% end %>
       <% if @current_user.present? %>
   <% #only show the edit button if the current user is @user or admin %>
         <% if @current_user.admin? || @current_user.id === @user.id %>
