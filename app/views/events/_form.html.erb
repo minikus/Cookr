@@ -1,72 +1,70 @@
 <%= form_for(@event) do |f| %>
-<% if @event.errors.any? %>
-<div id="error_explanation">
-  <h2><%= pluralize(@event.errors.count, "error") %>
-    prohibited this event from being saved:</h2>
-  <ul>
-    <% @event.errors.full_messages.each do |message| %>
-    <li><%= message %></li>
-    <% end %>
-  </ul>
-</div>
-<% end %>
-
-
-<div class="field">
-  <%= f.label :description %>
-  <%= f.text_field :description, :required => true%>
-</div>
-
-<div class="field">
-  <%= f.label :time %>
-  <%= f.datetime_select :time, :required => true %>
-</div>
-
-<div class="field">
-  <%= f.label :suburb %>
-  <%= f.text_field :suburb, :required => true %>
-</div>
-
-<div class="field">
-  <%= f.label :address %>
-  <%= f.text_field :address, :required => true %>
-</div>
-
-<div class="field" id="chefField">
-  <%= f.label :chef_id %>
-  <%= f.select :chef_id, (User.where(:chef => true)).pluck(:first_name,:id), :prompt => 'Choose Chef', :required => true, :selected => @menu.user_id %>
-</div>
-
-<div class="field" id="menuField">
-  <%= f.label :menu_availables %>
-  <% if @event.persisted? %>
-  <%= f.select :menu_id, @event.chef.menus.pluck(:title, :id), :include_blank => true %>
-  <% else %>
-  <%= f.select :menu_id, Menu.pluck(:title,:id), :include_blank => true, :required => true, :selected => params[:menu_id] %>
+  <% if @event.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@event.errors.count, "error") %>
+      prohibited this event from being saved:</h2>
+    <ul>
+      <% @event.errors.full_messages.each do |message| %>
+      <li><%= message %></li>
+      <% end %>
+    </ul>
+  </div>
   <% end %>
-</div>
 
-<div class="chefMenuField">
-  <p>This chef has no menus!</p>
-</div>
 
-<div class="field">
-  <%= f.label :guests %>
-  <%= f.number_field :guests, :required => true%>
-</div>
+  <div class="field">
+    <%= f.label :description %>
+    <%= f.text_field :description, :required => true%>
+  </div>
+  <div class="field">
+    <%= f.label :time %>
+    <%= f.datetime_select :time, :required => true %>
+  </div>
+  <div class="field">
+    <%= f.label :suburb %>
+    <%= f.text_field :suburb, :required => true %>
+  </div>
+  <div class="field">
+    <%= f.label :address %>
+    <%= f.text_field :address, :required => true %>
+  </div>
+  <div class="field" id="chefField">
+    <%= f.label :chef_id %>
+    <%= f.select :chef_id, (User.where(:chef => true)).pluck(:first_name,:id), :prompt => 'Choose Chef', :required => true, :selected => @menu.user_id %>
+  </div>
+  <div class="field" id="menuField">
+    <%= f.label :menu_availables %>
 
-<div class="field" id="chefConfirm">
-  <%= f.label :confirm %>
-  <%= f.check_box :confirm %>
-</div>
+    <% if @event.persisted? %>
+    <%= f.select :menu_id, @event.chef.menus.pluck(:title, :id), :include_blank => true %>
+    <% else %>
+    <%= f.select :menu_id, Menu.pluck(:title,:id), :include_blank => true, :required => true, :selected => params[:menu_id] %>
+    <% end %>
 
-<div class="field" id="priceField">
-  <%= f.label :total_price %>
-  <%= f.text_field :price, :readonly => true, :required => true %>
-</div>
+  </div>
+  <div class="chefMenuField">
+    <p>
+      This chef has no menus
+    </p>
+  </div>
 
-<div id="createEventButton" class="actions">
-  <%= f.submit %>
-</div>
+  <div class="field">
+    <%= f.label :guests %>
+    <%= f.number_field :guests, :required => true%>
+  </div>
+
+  <div class="field" id="chefConfirm">
+    <%= f.label :confirm %>
+    <%= f.check_box :confirm %>
+  </div>
+
+  <div class="field" id="priceField">
+    <%= f.label :total_price %>
+    <%= f.text_field :price, :readonly => true, :required => true %>
+  </div>
+
+  <div id="createEventButton" class="actions">
+    <%= f.submit %>
+  </div>
 
 <% end %>
