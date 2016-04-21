@@ -5,7 +5,7 @@ $(document).ready(function () {
   var newMessages = [];
   var conversations = [];
   var messageFocus = 0;
-  var pageLoaded = 0;
+  // var pageLoaded = 0;
 
   //get current user id, call this function to kick it off
   var getUserId = function () {
@@ -35,8 +35,9 @@ $(document).ready(function () {
         messages = newMessages;
         getConversations(messages);
       } else {
-        if (newMessages !== messages) {
+        if (newMessages.length !== messages.length) {
           messages = newMessages;
+          getConversations(messages);
           displayMessages(messageFocus, messages);
         };
       };
@@ -45,6 +46,7 @@ $(document).ready(function () {
 
   //get an array of conversations counterparts
   var getConversations = function (messages) {
+    var existingChatHeads = conversations.length;
     _.each(messages, function (message) {
       if (message.user_id === current_user) {
         conversations.push(message.target);
@@ -53,11 +55,14 @@ $(document).ready(function () {
       };
     });
     conversations = _.uniq(conversations).sort();
-    createChatHeads();
+    if (conversations.length !== existingChatHeads || conversations.length === 0) {
+      createChatHeads();
+    };
   };
 
   //creates chat heads for your conversations and appends them to the #conversations div
   var createChatHeads = function () {
+    $('#conversations').html('');
     var width = 100/conversations.length;
     for (var i = 0; i< conversations.length; i++) {
       var user = _.find(users, function (user) {
@@ -67,22 +72,50 @@ $(document).ready(function () {
       $chatHead.html('<p>' + user.first_name + '</p>');
       $chatHead.appendTo($('#conversations'));
     };
+    //create chathead for new message
+    $chatHead = $('<div/>').width('100%').addClass('new-message');
+    $chatHead.html('<p>Create New Message</p>').appendTo($('#conversations'));
     addChatHeadClicker();
+    addNewMessageListener();
+  };
+
+  var addNewMessageListener = function () {
+    $('.new-message').on('click', function () {
+      $('#messages-display').html('');
+      //create array of users and IDs
+      var usersAndIDs = [];
+      _.each(users, function (user) {
+        usersAndIDs.push([user.first_name, user.id])
+      })
+      //create a select tag with each user as an option with their id as the value
+      if ($('.userSelect').length > 0) {
+        $('.userSelect').remove();
+      };
+      var $userSelect = $('<select/>').addClass('userSelect');
+      _.each(usersAndIDs, function (user) {
+        var $userOption = $('<option/>').val(user[1]).text(user[0]);
+        $userOption.appendTo($userSelect);
+      });
+      $userSelect.appendTo('#create-message-box');
+      createMessageInput();
+    });
   };
 
   //adds the click listener to the chat heads once they have been loaded
   var addChatHeadClicker = function () {
     $('.chat-head').on('click', function () {
+      $('.userSelect').remove();
       var person = Number($(this).attr('data'));
       messageFocus = person;
       displayMessages(person, messages);
-      createMessageInput();
+      if ($('#message-content').length < 1) {
+        createMessageInput();
+      };
     });
   };
 
   //when you click on a chat head it displays the messages you have with that person
   var displayMessages = function (messageFocus, messages) {
-    console.log('this far');
     $('#messages-display').html('');
     _.each(messages, function (message) {
       //gets the id of the user who sent/received the message
@@ -92,7 +125,6 @@ $(document).ready(function () {
       var messageTo = _.find(users, function (user) {
         return user.id === message.target;
       });
-
       //if the message is either to or from the chat head you clicked it will display
       if (messageFrom.id === messageFocus || messageTo.id === messageFocus) {
         var $newMessage = $('<div/>');
@@ -113,13 +145,23 @@ $(document).ready(function () {
   };
 
   var createMessageInput = function () {
+    $('#message-content').remove();
+    $('#create-message').remove();
+
     var $messageInput = $('<textarea/>').attr({'id': 'message-content', 'placeholder': 'Enter new message here'});
     $messageInput.appendTo('#create-message-box');
     var $submitMessage = $('<button/>').attr({'id': 'create-message', 'value': messageFocus}).text('Send message');
     $submitMessage.appendTo('#create-message-box');
 
     $($submitMessage).on('click', function () {
-      sendMessage(messageFocus);
+      if ($('.userSelect').length > 0 && $('#message-content').val() !== '') {
+        messageFocus = Number($('.userSelect').val());
+        $('.userSelect').remove();
+        sendMessage(messageFocus);
+        getAllUsers();
+      } else {
+        sendMessage(messageFocus);
+      };
     });
   };
 
@@ -161,16 +203,12 @@ $(document).ready(function () {
     };
   };
 
-
-
   //calling getUserId to kick off the chain of functions
   getUserId();
 
   setInterval(function () {
-    if (messageFocus !== 0) {
-      getMessages();
-    }
-    console.log('ding');
-  }, 2000);
-
+    // if (messageFocus !== 0) {
+      getAllUsers();
+    // }
+  }, 3000);
 });
