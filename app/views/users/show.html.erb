@@ -76,7 +76,7 @@
 
 <% #Add Menu Button %>
 <div class="return">
-      <% if @current_user.present? && (@user.id == @current_user.id || @current_user.admin?) %>
+      <% if @current_user.present? && @current_user.chef? && (@user.id == @current_user.id || @current_user.admin?) %>
         <%= link_to 'Add Menu', new_menu_path %> |
       <% end %>
       <% if @current_user.present? %>
