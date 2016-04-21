@@ -97,7 +97,6 @@ $(document).ready(function () {
       });
 
       var $chatHead = $('<div/>').width(width + '%').addClass('chat-head').attr('data', user.id);
-      console.log(isConversation, isUnreadConvos);
       if (isUnreadConvos !== undefined && isConversation !== undefined) {
         $chatHead.addClass('unread');
       };
@@ -172,7 +171,6 @@ $(document).ready(function () {
       });
       //if the message is either to or from the chat head you clicked it will display
       if (messageFrom.id === messageFocus || messageTo.id === messageFocus) {
-        console.log(message.seen);
         if (messageFrom.id === messageFocus && message.seen !== true) {
           $.ajax ({
             method: 'PUT',
