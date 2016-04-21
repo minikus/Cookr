@@ -30,7 +30,11 @@
   margin-left: 40%;
 }
 
-#message-content {
+.redder {
+  color: red !important;
+}
+
+#message-content, #profile-message-content {
   height: 6em;
   width: 100%;
 }
