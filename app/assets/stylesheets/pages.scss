@@ -8,6 +8,23 @@
 //  background: white;
 // }
 
+.titlePage h1{
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+.about h3{
+  color: white;
+}
+
+.titlePage h2{
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+  text-align: center;
+}
+
 .logo{
   width: 80px;
   margin: 0 0 16px 37%;
@@ -103,9 +120,9 @@
  position: relative;
  background-position: center;
  padding-top: 10%;
- padding-bottom: 50%;
+ padding-bottom: 25%;
  margin: 0 auto;
- opacity: 0.6;
+ opacity: 0.8;
 }
 
 .col-lg-12, .col-md-10 {
@@ -156,4 +173,25 @@ color: black;
 
 .pages_thumbDiv:hover img{
   opacity: 0.4;
+}
+
+
+.imageFooter{
+  // width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 300px;
+}
+
+.textFooter{
+  display: inline-block;
+}
+
+.footer p, a{
+  color: white
+}
+
+.footer a:visited{
+  color: white;
 }
