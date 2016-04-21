@@ -217,23 +217,22 @@ $(document).ready(function () {
     $submitMessage.appendTo('#create-message-box');
 
     $($submitMessage).on('click', function () {
+      var message = $('#message-content').val();
       if ($('.userSelect').length > 0 && $('#message-content').val() !== '') {
         messageFocus = Number($('.userSelect').val());
         $('.userSelect').remove();
-        sendMessage(messageFocus);
+        sendMessage(messageFocus, message);
         getAllUsers();
       } else {
-        sendMessage(messageFocus);
+        sendMessage(messageFocus, message);
       };
     });
   };
 
   //when you click send message it will send a message
-  var sendMessage = function (recipient) {
+  var sendMessage = function (recipient, message) {
     var errors = 0;
     var messageGetter = recipient;
-    var message = $('#message-content').val();
-
 
     //error if target is blank
     if (messageGetter === 0) {
@@ -280,6 +279,40 @@ $(document).ready(function () {
       });
     };
   };
+
+  // add click listener to user show page message Button
+  $('#message-from-profile').on('click', function () {
+    //saves the message recipient as profileToMessage
+    var profileToMessage = Number($(this).attr('data'));
+
+    //adds the message input field and submit button, and hides the message button
+    var $messageInput = $('<textarea/>').attr({'id': 'profile-message-content', 'placeholder': 'Enter new message here'});
+    $messageInput.appendTo($('#profile-message'));
+    var $submitMessage = $('<button/>').attr({'id': 'create-message-from-profile', 'value': profileToMessage}).text('Send message');
+    $submitMessage.appendTo($('#profile-message'));
+    $('#message-from-profile').hide();
+
+    // click listener on the submit message button
+    $('#create-message-from-profile').on('click', function () {
+      //if there is something in the message field it will continue
+      if ($('#profile-message-content').val() !== '') {
+        console.log('here');
+        sendMessage(profileToMessage, $('#profile-message-content').val());
+        $submitMessage.remove();
+        $messageInput.remove();
+        $('#message-from-profile').show();
+      };
+    });
+  });
+
+  //add click listener for when event is created and send boilerplate to chef
+  $('#createEventButton').find('input').on('click', function (event){
+    var chef = Number($('#event_chef_id').val());
+    if (chef !== 0) {
+      var message = "You have been requested for a new event."
+      sendMessage(chef, message);
+    };
+  });
 
   //calling getUserId to kick off the chain of functions
   getUserId();

@@ -65,6 +65,11 @@
         <p><strong>User type: </strong> Host </p>
       <% end %>
 
+  <% #add message button %>
+  <div id="profile-message">
+    <input type="button" value="Send me a message" id="message-from-profile" data="<%= @user.id %>">
+  </div>
+
 <% #only show the chef bio, rate, and menus if they are a chef %>
       <% if @user.chef? %>
         <p><strong>Rate:</strong><%= number_to_currency(@user.rate) %> per people</p>
@@ -73,6 +78,8 @@
           <li><%= link_to menu.title, menu %></li>
         <% end %>
       <% end %>
+
+
 
 <% #Add Menu Button %>
 <div class="return">
