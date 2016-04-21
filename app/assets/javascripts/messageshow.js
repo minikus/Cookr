@@ -5,7 +5,7 @@ $(document).ready(function () {
   var newMessages = [];
   var conversations = [];
   var messageFocus = 0;
-  // var pageLoaded = 0;
+  var unreadConvos = [];
 
   //get current user id, call this function to kick it off
   var getUserId = function () {
@@ -31,6 +31,18 @@ $(document).ready(function () {
       newMessages = _.filter(result.messages, function (message) {
         return (message.user_id === current_user || message.target === current_user)
       });
+
+      var incomingMessages = _.filter(newMessages, function (message) {
+        return message.target === current_user;
+      });
+      _.each(incomingMessages, function (message) {
+        if (!message.seen) {
+          unreadConvos.push(message.user_id);
+        };
+      });
+      unreadConvos = _.uniq(unreadConvos).sort();
+
+
       if (messageFocus === 0) {
         messages = newMessages;
         getConversations(messages);
@@ -55,13 +67,14 @@ $(document).ready(function () {
       };
     });
     conversations = _.uniq(conversations).sort();
-    if (conversations.length !== existingChatHeads || conversations.length === 0) {
+    if (conversations.length !== existingChatHeads || conversations.length === 0 || unreadConvos !== 0) {
       createChatHeads();
     };
   };
 
   //creates chat heads for your conversations and appends them to the #conversations div
   var createChatHeads = function () {
+
     $('#conversations').html('');
     if (conversations.length !== 0) {
       var header = $('<h2/>').text('Your conversations:').appendTo($('#conversations'));
@@ -69,10 +82,26 @@ $(document).ready(function () {
     var width = 90/conversations.length;
     if (width < 30 ) { width = 30 };
     for (var i = 0; i< conversations.length; i++) {
+      var isConversation = undefined;
+      var isUnreadConvos = undefined;
       var user = _.find(users, function (user) {
         return user.id === conversations[i];
       });
+
+      //if user.id is in the conversations array and also in the unreadConvos array it will add the class unread to the chat head
+      isConversation = _.find(conversations, function (num) {
+        return num === user.id;
+      });
+      isUnreadConvos = _.find(unreadConvos, function (num) {
+        return num === user.id;
+      });
+
       var $chatHead = $('<div/>').width(width + '%').addClass('chat-head').attr('data', user.id);
+      console.log(isConversation, isUnreadConvos);
+      if (isUnreadConvos !== undefined && isConversation !== undefined) {
+        $chatHead.addClass('unread');
+      };
+
       var $userIcon = $('<img/>').addClass('userIcon');
       $chatHead.html('<img src="' + user.image + '" class="userIcon"><span>' + user.first_name + '</span>');
       $chatHead.appendTo($('#conversations'));
@@ -114,6 +143,7 @@ $(document).ready(function () {
   //adds the click listener to the chat heads once they have been loaded
   var addChatHeadClicker = function () {
     $('.chat-head').on('click', function () {
+      $(this).removeClass('unread');
       $('.userSelect').remove();
       var person = Number($(this).attr('data'));
       messageFocus = person;
@@ -142,6 +172,18 @@ $(document).ready(function () {
       });
       //if the message is either to or from the chat head you clicked it will display
       if (messageFrom.id === messageFocus || messageTo.id === messageFocus) {
+        console.log(message.seen);
+        if (messageFrom.id === messageFocus && message.seen !== true) {
+          $.ajax ({
+            method: 'PUT',
+            url: '/messages/' + message.id,
+            data: {
+              message: {
+                seen: true
+              }
+            }
+          });
+        }
         var $newMessage = $('<div/>');
         var $messageHeader = $('<p/>');
         if (message.user_id === current_user) {
