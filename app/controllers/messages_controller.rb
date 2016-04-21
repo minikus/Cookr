@@ -45,22 +45,15 @@ class MessagesController < ApplicationController
     @message = Message.new(message_params)
     @message.save
     render :json => {:status => 'ok'}
-    # redirect_to root_path
 
   end
 
   # PATCH/PUT /messages/1
   # PATCH/PUT /messages/1.json
   def update
-    respond_to do |format|
-      if @message.update(message_params)
-        format.html { redirect_to @message, notice: 'Message was successfully updated.' }
-        format.json { render :show, status: :ok, location: @message }
-      else
-        format.html { render :edit }
-        format.json { render json: @message.errors, status: :unprocessable_entity }
-      end
-    end
+    message = Message.find params[:id]
+    message.update message_params
+    render :json => {:status => 'ok'}
   end
 
   # DELETE /messages/1

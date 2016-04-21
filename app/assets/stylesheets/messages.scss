@@ -9,13 +9,12 @@
 //   text-align: left;
 // }
 #messages {
-  background-color: #beeeef;
-  padding: 5%;
   text-align: center;
   padding: 5% 10% 5% 10%;
 }
 
 .incoming-message {
+  border-radius: .5em;
   background-color: papayawhip;
   width: 60%;
   align: left;
@@ -23,6 +22,8 @@
 }
 
 .outgoing-message {
+  border-radius: .5em;
+
   background-color: salmon;
   width: 60%;
   align: right;
@@ -30,6 +31,7 @@
 }
 
 #message-content {
+  height: 6em;
   width: 100%;
 }
 
@@ -44,6 +46,10 @@
   border-radius: 1em;
   padding: 1em;
   display: none;
+
+  h2 {
+    margin: 0 0 10px 0;
+  }
 }
 
 #create-message-box {
@@ -61,6 +67,10 @@
   // border: 1px solid salmon;
   border-radius: .35em;
   margin: 1.5%;
+}
+
+.unread {
+  background-color: red;
 }
 
 .new-message{
