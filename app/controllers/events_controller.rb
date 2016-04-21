@@ -34,6 +34,7 @@ class EventsController < ApplicationController
   def create
     @event = Event.new(event_params)
     @current_user.events << @event
+    @event.confirm = nil
     @event.save
 
     respond_to do |format|

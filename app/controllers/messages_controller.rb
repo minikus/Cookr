@@ -18,6 +18,8 @@ class MessagesController < ApplicationController
       render :json => {
         :messages => messages
       }
+    else
+      redirect_to root_path
     end
   end
 

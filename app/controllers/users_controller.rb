@@ -6,6 +6,8 @@ class UsersController < ApplicationController
       render json: {
         :user => @current_user
       }
+    else
+      redirect_to root_path
     end
   end
 
@@ -15,6 +17,8 @@ class UsersController < ApplicationController
       render :json => {
         :users => users
       }
+    else
+      redirect_to root_path
     end
   end
 
