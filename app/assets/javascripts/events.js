@@ -2,8 +2,8 @@ $(document).ready(function (){
 
   var id = $("#eventConfirm").data("id");
   console.log(id);
-  var $confirmedText = $("<p></p>").text("Event Is Confirmed").addClass("eventConfirmed");
-  var $cancelledText = $("<p></p>").text("Event Is Cancelled").addClass("eventCancelled");
+  var $confirmedText = $("<p></p>").text("Event is Confirmed!").addClass("eventConfirmed");
+  var $cancelledText = $("<p></p>").text("Event is Cancelled!").addClass("eventCancelled");
   var $eventCancelButton = $("<button></button>").text("Cancel event").attr("id", "eventCancel");
   var $eventConfirmButton = $("<button></button>").text("Confirm event").attr("id", "eventConfirm");
   $eventCancelButton.attr('data-id', id);
@@ -12,6 +12,7 @@ $(document).ready(function (){
 
   $('body').on('click', "#eventConfirm", function(){
     $("#eventConfirm").remove();
+    $("#eventCancel").remove();
     $(".eventCancelled").remove();
     $(".eventconfirmations").append($confirmedText);
     $(".eventconfirmations").append($eventCancelButton);
@@ -28,6 +29,7 @@ $(document).ready(function (){
 
     $('body').on('click', "#eventCancel", function(){
       $("#eventCancel").remove();
+      $("#eventConfirm").remove();
       $(".eventConfirmed").remove();
       $(".eventconfirmations").append($cancelledText);
       $(".eventconfirmations").append($eventConfirmButton);

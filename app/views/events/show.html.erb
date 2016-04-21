@@ -41,10 +41,10 @@
 <div class="eventconfirmations">
   <% if @current_user.id == @event.chef_id %>
       <% if @event.confirm === false %>
-        <p class="eventCancelled">Event is cancelled!</p>
+        <p class="eventCancelled">Event is Cancelled!</p>
         <button type="button" id="eventConfirm" data-id="<%= @event.id %>"> Confirm Event</button>
       <% elsif @event.confirm === true %>
-        <p class="eventConfirmed">Event is confirmed!</p>
+        <p class="eventConfirmed">Event is Confirmed!</p>
         <button type="button" id="eventCancel" data-id="<%= @event.id %>"> Cancel Event</button>
         <% else %>
         <button type="button" id="eventConfirm" data-id="<%= @event.id %>"> Confirm Event</button>
