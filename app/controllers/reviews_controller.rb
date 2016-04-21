@@ -5,7 +5,7 @@ class ReviewsController < ApplicationController
   # GET /reviews.json
   def index
     @reviews = Review.find params[:id]
-    
+
     @user = User.find(params[user:id])
     @review = Review.new
   end
@@ -20,7 +20,6 @@ class ReviewsController < ApplicationController
   end
 
   def create
-
       @review = Review.create review_params
       @review.update :user_id => params[:user_id]
       # Who we're reviewing
