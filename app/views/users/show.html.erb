@@ -8,8 +8,8 @@
     <h1><%= @user.first_name %> <%= @user.last_name %></h1>
   <% end %>
 
+  <% if @user.chef? && @user.bio? %>
 <div class="chefBio">
-    <% if @user.chef? %>
     <h3>" <%= @user.bio %> "</h3>
   <% end %>
 </div>
@@ -58,21 +58,16 @@
       <p><strong>Phone:</strong><%= @user.phone %></p>
     <% end %>
 
-<% #show host or chef depending on @user.chef status %>
-      <% if @user.chef? %>
-        <p> <strong>User type: </strong> Chef </p>
-      <% elsif !@user.chef? %>
-        <p><strong>User type: </strong> Host </p>
-      <% end %>
 
   <% #add message button %>
+  <% if @current_user.id != @user.id %>
   <div id="profile-message">
     <input type="button" value="Send me a message" id="message-from-profile" data="<%= @user.id %>">
   </div>
+  <% end %>
 
 <% #only show the chef bio, rate, and menus if they are a chef %>
       <% if @user.chef? %>
-        <p><strong>Rate:</strong><%= number_to_currency(@user.rate) %> per people</p>
         <strong><%= link_to "Menus", menus_path %></strong>
         <% @user.menus.each do |menu| %>
           <li><%= link_to menu.title, menu %></li>
