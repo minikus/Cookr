@@ -28,18 +28,24 @@ $(document).ready(function () {
   // get all messages where user is target or creator
   var getMessages = function () {
     $.ajax('/getmessages').done(function (result) {
-      newMessages = _.filter(result.messages, function (message) {
-        return (message.user_id === current_user || message.target === current_user)
-      });
+      newMessages = result.messages;
 
       var incomingMessages = _.filter(newMessages, function (message) {
         return message.target === current_user;
       });
+
+      var unreadMessages = 0;
       _.each(incomingMessages, function (message) {
         if (!message.seen) {
+          unreadMessages += 1;
           unreadConvos.push(message.user_id);
         };
       });
+      if (unreadMessages === 0) {
+        $('.message_link').removeClass('redder').text('Messages');
+      } else {
+        $('.message_link').addClass('redder').text('Messages ('+unreadMessages+')');
+      };
       unreadConvos = _.uniq(unreadConvos).sort();
 
 
@@ -58,6 +64,7 @@ $(document).ready(function () {
 
   //get an array of conversations counterparts
   var getConversations = function (messages) {
+
     var existingChatHeads = conversations.length;
     _.each(messages, function (message) {
       if (message.user_id === current_user) {
@@ -143,6 +150,7 @@ $(document).ready(function () {
   var addChatHeadClicker = function () {
     $('.chat-head').on('click', function () {
       $(this).removeClass('unread');
+      unreadConvos = _.without(unreadConvos, Number($(this).attr('data')));
       $('.userSelect').remove();
       var person = Number($(this).attr('data'));
       messageFocus = person;
@@ -282,4 +290,3 @@ $(document).ready(function () {
     // }
   }, 3000);
 });
->>>>>>> 87840cf9decf18f42d40c957c83f0a0dc6583a45
