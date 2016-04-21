@@ -126,10 +126,10 @@
           <h2><%= @user.first_name %>'s Reviews</h2>
         <% end %>
         <% if !@user.reviews.present? %>
-            <h4>Currently No reviews</h4>
+            <h4 id="prevReviews">Currently No reviews</h4>
         <% else %>
           <div class="overflowScrool">
-            <h2 id="prevReviews"></h2>
+            <h2 id="prevReviews">Previous Reviews</h2>
             <% @user.reviews.reverse.each do |review| %>
               <div class="individual_reviews">
                 <span class="rating"><%= review.rating %> / 10 :</span>
