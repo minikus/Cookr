@@ -38,8 +38,10 @@
 <% if @current_user.chef? && @current_user.chef_events.present?  %>
 <h3>Events as Chef</h3>
     <% @current_user.chef_events.each do |event| %>
+    <% if event.confirm != false %>
     <li><%= link_to event.description, event %></li>
-
+  
+    <% end %>
   <% end %>
 <% end %>
 
