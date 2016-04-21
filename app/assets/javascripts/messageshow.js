@@ -5,7 +5,7 @@ $(document).ready(function () {
   var newMessages = [];
   var conversations = [];
   var messageFocus = 0;
-  var pageLoaded = 0;
+  // var pageLoaded = 0;
 
   //get current user id, call this function to kick it off
   var getUserId = function () {
@@ -81,6 +81,7 @@ $(document).ready(function () {
 
   var addNewMessageListener = function () {
     $('.new-message').on('click', function () {
+      $('#messages-display').html('');
       //create array of users and IDs
       var usersAndIDs = [];
       _.each(users, function (user) {
@@ -206,8 +207,8 @@ $(document).ready(function () {
   getUserId();
 
   setInterval(function () {
-    if (messageFocus !== 0) {
+    // if (messageFocus !== 0) {
       getAllUsers();
-    }
+    // }
   }, 3000);
 });
