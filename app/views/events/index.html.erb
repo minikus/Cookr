@@ -15,6 +15,8 @@
       <li><%= link_to event.description, event %>
     <% if event.confirm? %>
       - Confirmed!</li>
+      <% elsif event.confirm == false %>
+        - Canceled!</li>
       <%end %>
     <% end %>
   <% end %>
