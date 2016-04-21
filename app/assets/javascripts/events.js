@@ -1,5 +1,17 @@
 $(document).ready(function (){
 
+<<<<<<< HEAD
+
+  // $(function () {
+  //     $('#datetimepicker1').datetimepicker();
+  // });
+
+  $('#eventCancel').hide();
+  $(".confirmationEvent").hide();
+  $("#eventConfirm").on("click", function(){
+    var eventID = $(this).attr("data");
+    console.log(eventID);
+=======
   var id = $("#eventConfirm").data("id");
   console.log(id);
   var $confirmedText = $("<p></p>").text("Event is Confirmed!").addClass("eventConfirmed");
@@ -18,6 +30,7 @@ $(document).ready(function (){
     $(".eventconfirmations").append($eventCancelButton);
     var eventID = $(this).data("id");
     // console.log(eventID);
+>>>>>>> ed8f89f0e2fe5fe6c80f6fcb82b207eb48e627ff
     $.ajax({
       method: 'PUT',
       url: '/events/' + eventID + '/confirm',
