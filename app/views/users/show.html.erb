@@ -1,13 +1,14 @@
 <br><br>
   <p id="notice"><%= notice %></p>
 
+  <div class="chefBio">
+
   <% if @current_user == @user %>
     <h1>Hello <%= @user.first_name %></h1>
   <% elsif @user.chef?%>
     <h1><%= @user.first_name %> <%= @user.last_name %></h1>
   <% end %>
 
-<div class="chefBio">
     <% if @user.chef? %>
     <h3>" <%= @user.bio %> "</h3>
   <% end %>
