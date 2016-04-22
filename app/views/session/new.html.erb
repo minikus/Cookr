@@ -1,16 +1,18 @@
+<div class="main newUser">
 
   <h1>Login</h1>
 
   <%= flash[:error] %>
   <div>
     <%= form_tag login_path do %>
-      <%= label_tag :email %>
-      <%= text_field_tag :email, '', :autofocus => true %>
+      <%= label_tag :email %><br>
+      <%= text_field_tag :email, '', :autofocus => true %><br><br>
 
-      <%= label_tag :password %>
-      <%= password_field_tag :password %>
+      <%= label_tag :password %><br>
+      <%= password_field_tag :password %><br><br>
 
       <%= submit_tag 'Login' %>
 
     <% end %>
   </div>
+</div>

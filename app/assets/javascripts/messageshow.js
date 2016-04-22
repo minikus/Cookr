@@ -28,18 +28,24 @@ $(document).ready(function () {
   // get all messages where user is target or creator
   var getMessages = function () {
     $.ajax('/getmessages').done(function (result) {
-      newMessages = _.filter(result.messages, function (message) {
-        return (message.user_id === current_user || message.target === current_user)
-      });
+      newMessages = result.messages;
 
       var incomingMessages = _.filter(newMessages, function (message) {
         return message.target === current_user;
       });
+
+      var unreadMessages = 0;
       _.each(incomingMessages, function (message) {
         if (!message.seen) {
+          unreadMessages += 1;
           unreadConvos.push(message.user_id);
         };
       });
+      if (unreadMessages === 0) {
+        $('.message_link').removeClass('redder').text('Messages');
+      } else {
+        $('.message_link').addClass('redder').text('Messages ('+unreadMessages+')');
+      };
       unreadConvos = _.uniq(unreadConvos).sort();
 
 
@@ -58,6 +64,7 @@ $(document).ready(function () {
 
   //get an array of conversations counterparts
   var getConversations = function (messages) {
+
     var existingChatHeads = conversations.length;
     _.each(messages, function (message) {
       if (message.user_id === current_user) {
@@ -97,7 +104,6 @@ $(document).ready(function () {
       });
 
       var $chatHead = $('<div/>').width(width + '%').addClass('chat-head').attr('data', user.id);
-      console.log(isConversation, isUnreadConvos);
       if (isUnreadConvos !== undefined && isConversation !== undefined) {
         $chatHead.addClass('unread');
       };
@@ -144,6 +150,7 @@ $(document).ready(function () {
   var addChatHeadClicker = function () {
     $('.chat-head').on('click', function () {
       $(this).removeClass('unread');
+      unreadConvos = _.without(unreadConvos, Number($(this).attr('data')));
       $('.userSelect').remove();
       var person = Number($(this).attr('data'));
       messageFocus = person;
@@ -172,7 +179,6 @@ $(document).ready(function () {
       });
       //if the message is either to or from the chat head you clicked it will display
       if (messageFrom.id === messageFocus || messageTo.id === messageFocus) {
-        console.log(message.seen);
         if (messageFrom.id === messageFocus && message.seen !== true) {
           $.ajax ({
             method: 'PUT',
@@ -184,7 +190,7 @@ $(document).ready(function () {
             }
           });
         }
-        var $newMessage = $('<div/>');
+        var $newMessage = $('<div/>').addClass('messageOnScreen');
         var $messageHeader = $('<p/>');
         if (message.user_id === current_user) {
           $newMessage.addClass('outgoing-message');
@@ -199,6 +205,7 @@ $(document).ready(function () {
         $('#messages-display').append($newMessage);
       };
     });
+    $("#messages-display").scrollTop($('#messages-display')[0].scrollHeight);
   };
 
   var createMessageInput = function () {
@@ -211,23 +218,22 @@ $(document).ready(function () {
     $submitMessage.appendTo('#create-message-box');
 
     $($submitMessage).on('click', function () {
+      var message = $('#message-content').val();
       if ($('.userSelect').length > 0 && $('#message-content').val() !== '') {
         messageFocus = Number($('.userSelect').val());
         $('.userSelect').remove();
-        sendMessage(messageFocus);
+        sendMessage(messageFocus, message);
         getAllUsers();
       } else {
-        sendMessage(messageFocus);
+        sendMessage(messageFocus, message);
       };
     });
   };
 
   //when you click send message it will send a message
-  var sendMessage = function (recipient) {
+  var sendMessage = function (recipient, message) {
     var errors = 0;
     var messageGetter = recipient;
-    var message = $('#message-content').val();
-
 
     //error if target is blank
     if (messageGetter === 0) {
@@ -274,6 +280,55 @@ $(document).ready(function () {
       });
     };
   };
+
+  // add click listener to user show page message Button
+  $('#message-from-profile').on('click', function () {
+    //saves the message recipient as profileToMessage
+    var profileToMessage = Number($(this).attr('data'));
+
+    //adds the message input field and submit button, and hides the message button
+    var $messageInput = $('<textarea/>').attr({'id': 'profile-message-content', 'placeholder': 'Enter new message here'});
+    $messageInput.appendTo($('#profile-message'));
+    var $submitMessage = $('<button/>').attr({'id': 'create-message-from-profile', 'value': profileToMessage}).text('Send message');
+    $submitMessage.appendTo($('#profile-message'));
+    $('#message-from-profile').hide();
+
+    // click listener on the submit message button
+    $('#create-message-from-profile').on('click', function () {
+      //if there is something in the message field it will continue
+      if ($('#profile-message-content').val() !== '') {
+        console.log('here');
+        sendMessage(profileToMessage, $('#profile-message-content').val());
+        $submitMessage.remove();
+        $messageInput.remove();
+        $('#message-from-profile').show();
+      };
+    });
+  });
+
+  //add click listener for when event is created and send boilerplate to chef
+  $('#createEventButton').find('input').on('click', function (event){
+    var chef = Number($('#event_chef_id').val());
+    if (chef !== 0) {
+      var message = "You have been requested for a new event."
+      sendMessage(chef, message);
+    };
+  });
+
+  //add click listener to events confirm by chef
+  $('.chefConfirm').on('click', function () {
+    var messageTarget = $(this).attr('data-host');
+    var message = "The chef has confirmed the event!";
+    sendMessage(messageTarget, message);
+  });
+
+  //add click listener to events cancel by chef
+  $('.chefCancel').on('click', function () {
+    var messageTarget = $(this).attr('data-host');
+    var message = "The chef has cancelled the event";
+    sendMessge(messageTarget, message);
+  })
+
 
   //calling getUserId to kick off the chain of functions
   getUserId();

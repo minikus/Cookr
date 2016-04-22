@@ -42,13 +42,13 @@
   <% if @current_user.id == @event.chef_id %>
       <% if @event.confirm === false %>
         <p class="eventCancelled">Event is Cancelled!</p>
-        <button type="button" id="eventConfirm" data-id="<%= @event.id %>"> Confirm Event</button>
+        <button type="button" id="eventConfirm" class="chefConfirm" data-id="<%= @event.id %>"> Confirm Event</button>
       <% elsif @event.confirm === true %>
         <p class="eventConfirmed">Event is Confirmed!</p>
-        <button type="button" id="eventCancel" data-id="<%= @event.id %>"> Cancel Event</button>
+        <button type="button" id="eventCancel" class="chefCancel" data-id="<%= @event.id %>" data-host="<%= @event.user_id %>"> Cancel Event</button>
         <% else %>
-        <button type="button" id="eventConfirm" data-id="<%= @event.id %>"> Confirm Event</button>
-        <button type="button" id="eventCancel" data-id="<%= @event.id %>"> Cancel Event</button>
+        <button type="button" id="eventConfirm" class="chefConfirm" data-id="<%= @event.id %>" data-host="<%= @event.user_id %>"> Confirm Event</button>
+        <button type="button" id="eventCancel" class="chefCancel" data-id="<%= @event.id %>" data-host="<%= @event.user_id %>"> Cancel Event</button>
 
       <% end %>
   <% end %>
@@ -58,8 +58,14 @@
 
 <% if @current_user.id === @event.user_id %>
 <hr>
+  <% if @event.confirm === true %>
+  <%= link_to 'Back', events_path %>
+<% elsif @event.confirm === false %>
+<%= link_to 'Delete', @event, method: :delete, data: { confirm: 'Are you sure?' } %>
+<% elsif @event.confirm === nil %>
 <%= link_to 'Delete', @event, method: :delete, data: { confirm: 'Are you sure?' } %> |
 <%= link_to 'Edit', edit_event_path(@event) %> |
 <%= link_to 'Back', events_path %>
+<% end %>
 <% end %>
 </div>

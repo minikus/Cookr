@@ -14,7 +14,7 @@ class MessagesController < ApplicationController
 
   def get_messages
     if @current_user.present?
-      messages = Message.all
+      messages = Message.where("target = ? OR user_id = ?", @current_user.id, @current_user.id)
       render :json => {
         :messages => messages
       }
