@@ -190,7 +190,7 @@ $(document).ready(function () {
             }
           });
         }
-        var $newMessage = $('<div/>');
+        var $newMessage = $('<div/>').addClass('messageOnScreen');
         var $messageHeader = $('<p/>');
         if (message.user_id === current_user) {
           $newMessage.addClass('outgoing-message');
@@ -205,6 +205,7 @@ $(document).ready(function () {
         $('#messages-display').append($newMessage);
       };
     });
+    $('.messageOnScreen:last').get(0).scrollIntoView();
   };
 
   var createMessageInput = function () {
@@ -313,6 +314,21 @@ $(document).ready(function () {
       sendMessage(chef, message);
     };
   });
+
+  //add click listener to events confirm by chef
+  $('.chefConfirm').on('click', function () {
+    var messageTarget = $(this).attr('data-host');
+    var message = "The chef has confirmed the event!";
+    sendMessage(messageTarget, message);
+  });
+
+  //add click listener to events cancel by chef
+  $('.chefCancel').on('click', function () {
+    var messageTarget = $(this).attr('data-host');
+    var message = "The chef has cancelled the event";
+    sendMessge(messageTarget, message);
+  })
+
 
   //calling getUserId to kick off the chain of functions
   getUserId();
