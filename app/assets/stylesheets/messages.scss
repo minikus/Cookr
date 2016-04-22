@@ -50,6 +50,9 @@
   border-radius: 1em;
   padding: 1em;
   display: none;
+  max-height: 400px;
+  min-height: 400px;
+  overflow: scroll;
 
   h2 {
     margin: 0 0 10px 0;
@@ -79,7 +82,7 @@
 
 .new-message{
   display: inline-block;
-  background-color: hotpink;
+  background-color: #beeeef;
   text-align: center;
   // border: 1px solid salmon;
   border-radius: .35em;
