@@ -84,7 +84,7 @@ $(document).ready(function () {
 
     $('#conversations').html('');
     if (conversations.length !== 0) {
-      var header = $('<h2/>').text('Your conversations:').appendTo($('#conversations'));
+      var header = $('<h1/>').text('Your conversations:').appendTo($('#conversations'));
     }
     var width = 90/conversations.length;
     if (width < 30 ) { width = 30 };
