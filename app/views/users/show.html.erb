@@ -94,31 +94,35 @@
 
 
 <div class="reviews">
+  You can only write reviews if you have<br>successfully booked <%= @user.first_name %> before. </p>
     <div class="reviewsContainer">
     <% if @current_user.present?%>
-      <% if @current_user != @user %>
-        <h2><%= @user.first_name %>'s Reviews</h2>
-        <h4>Create a new review for <%= @user.first_name %> </h4>
-        <div class="chefReviews">
-          <%= form_for ([@user, Review.new]), remote: true, html: {multipart: true} do |f| %>
-          <div><strong>Ratings from 1 - 10:</strong>
-            <br> 1 = Bad Cooking, 10 = Masterchef!!</div>
-            <fieldset class="label reviewRating">
-              <h4><%= f.label :rating %> </h4>
-              <%= f.number_field :rating, :min => 1, :max => 10 %>
-            </fieldset>
-            <fieldset class="label reviewComments" >
-              <h4><%= f.label :comments %></h4>
-              <%= f.text_area :review, size: "60x12" %>
-            </fieldset>
-            <fieldset id="submitReview">
-              <%= f.submit %>
-            </fieldset>
+      <% if (@current_user.events.find_by(chef_id: @user.id, confirm: true).present?) %>
+            <% if @current_user != @user %>
+              <h2><%= @user.first_name %>'s Reviews</h2>
+              <p>Create a new review for <%= @user.first_name %>. <br>
+                <div class="chefReviews">
+                      <%= form_for ([@user, Review.new]), remote: true, html: {multipart: true} do |f| %>
+                      <div><strong>Ratings from 1 - 10:</strong>
+                        <br> 1 = Bad Cooking, 10 = Masterchef!!</div>
+                        <fieldset class="label reviewRating">
+                          <h4><%= f.label :rating %> </h4>
+                          <%= f.number_field :rating, :min => 1, :max => 10 %>
+                        </fieldset>
+                        <fieldset class="label reviewComments" >
+                          <h4><%= f.label :comments %></h4>
+                          <%= f.text_area :review, size: "60x12" %>
+                        </fieldset>
+                        <fieldset id="submitReview">
+                          <%= f.submit %>
+                        </fieldset>
+                      <% end %>
+                </div>
           <% end %>
-        </div>
+        <% end %>
       <% end %>
-    <% end %>
     </div>
+
 
 
       <div class="showReviews">
