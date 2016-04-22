@@ -10,7 +10,7 @@
 // }
 #messages {
   text-align: center;
-  padding: 5% 10% 5% 10%;
+  padding: 0 10% 5% 10%;
 }
 
 .incoming-message {
@@ -37,6 +37,7 @@
 #message-content, #profile-message-content {
   height: 6em;
   width: 100%;
+  margin: 10px;
 }
 
 #conversations {
@@ -50,6 +51,9 @@
   border-radius: 1em;
   padding: 1em;
   display: none;
+  max-height: 200px;
+  min-height: 200px;
+  overflow: scroll;
 
   h2 {
     margin: 0 0 10px 0;
@@ -62,6 +66,7 @@
 
 .userSelect {
   width: 40%;
+  margin-bottom: 20px;
 }
 
 .chat-head {
@@ -79,7 +84,7 @@
 
 .new-message{
   display: inline-block;
-  background-color: hotpink;
+  background-color: #beeeef;
   text-align: center;
   // border: 1px solid salmon;
   border-radius: .35em;

@@ -54,18 +54,18 @@
       <% end %>
 
 <% #only show the phone number if @user is a chef or current user is admin %>
-    <% if @user.chef? || @current_user.admin? %>
+    <% if @current_user.present? && (@current_user.chef? || @current_user.admin?) %>
       <p><strong>Phone:</strong><%= @user.phone %></p>
     <% end %>
 
 
   <% #add message button %>
-  <% if @current_user.id != @user.id %>
+  <% if @current_user.present? && @current_user.id != @user.id %>
   <div id="profile-message">
-    <input type="button" value="Send me a message" id="message-from-profile" data="<%= @user.id %>">
+    <input class="btn btn-default" type="button" value="Send me a message" id="message-from-profile" data="<%= @user.id %>">
   </div>
   <% end %>
-
+<br><br>
 <% #only show the chef bio, rate, and menus if they are a chef %>
       <% if @user.chef? %>
         <strong><%= link_to "Menus", menus_path %></strong>
@@ -78,7 +78,7 @@
 
 <% #Add Menu Button %>
 <div class="return">
-      <% if @current_user.present? && (@user.id == @current_user.id || @current_user.admin?) %>
+      <% if @current_user.present? && @current_user.chef? && (@user.id == @current_user.id || @current_user.admin?) %>
         <%= link_to 'Add Menu', new_menu_path %> |
       <% end %>
       <% if @current_user.present? %>
@@ -97,12 +97,11 @@
     <div class="reviewsContainer">
     <% if @current_user.present?%>
       <% if @current_user != @user %>
-        <h2><%= @user.first_name %>'s Reviews</h2>
-        <h4>Create a new review for <%= @user.first_name %> </h4>
+        <h2>Create a Review</h2>
         <div class="chefReviews">
           <%= form_for ([@user, Review.new]), remote: true, html: {multipart: true} do |f| %>
           <div><strong>Ratings from 1 - 10:</strong>
-            <br> 1 = Bad Cooking, 10 = Masterchef!!</div>
+            <br> 1 = Bad Cooking,<br> 10 = Masterchef</div>
             <fieldset class="label reviewRating">
               <h4><%= f.label :rating %> </h4>
               <%= f.number_field :rating, :min => 1, :max => 10 %>
@@ -111,7 +110,7 @@
               <h4><%= f.label :comments %></h4>
               <%= f.text_area :review, size: "60x12" %>
             </fieldset>
-            <fieldset id="submitReview">
+            <fieldset id="submitReview"><br>
               <%= f.submit %>
             </fieldset>
           <% end %>
@@ -131,7 +130,7 @@
             <h4 id="prevReviews">Currently No reviews</h4>
         <% else %>
           <div class="overflowScrool">
-            <h2 id="prevReviews">Previous Reviews</h2>
+            <h2 id="prevReviews"></h2>
             <% @user.reviews.reverse.each do |review| %>
               <div class="individual_reviews">
                 <span class="rating"><%= review.rating %> / 10 :</span>
