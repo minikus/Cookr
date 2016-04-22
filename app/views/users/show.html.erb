@@ -94,7 +94,7 @@
 
 
 <div class="reviews">
-  You can only write reviews if you have<br>successfully booked <%= @user.first_name %> before. </p>
+  You can only write Reviews if you have<br>successfully booked <%= @user.first_name %> before. </p>
     <div class="reviewsContainer">
     <% if @current_user.present?%>
       <% if (@current_user.events.find_by(chef_id: @user.id, confirm: true).present?) %>

@@ -10,7 +10,7 @@
 // }
 #messages {
   text-align: center;
-  padding: 5% 10% 5% 10%;
+  padding: 0 10% 5% 10%;
 }
 
 .incoming-message {
@@ -37,6 +37,7 @@
 #message-content, #profile-message-content {
   height: 6em;
   width: 100%;
+  margin: 10px;
 }
 
 #conversations {
@@ -65,6 +66,7 @@
 
 .userSelect {
   width: 40%;
+  margin-bottom: 20px;
 }
 
 .chat-head {
