@@ -13,7 +13,7 @@ class UsersController < ApplicationController
 
   def get_users
     if @current_user.present?
-      users = User.all
+      users = User.all.select('id', 'first_name', 'image');
       render :json => {
         :users => users
       }
