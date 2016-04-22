@@ -199,7 +199,7 @@ $(document).ready(function () {
           $newMessage.addClass('incoming-message');
           $messageHeader.text('From ' + messageFrom.first_name + ':');
         };
-        var $messageText = $('<p/>').text(message.message);
+        var $messageText = $('<p/>').html(message.message);
         $newMessage.append($messageHeader);
         $newMessage.append($messageText);
         $('#messages-display').append($newMessage);
@@ -318,16 +318,20 @@ $(document).ready(function () {
   //add click listener to events confirm by chef
   $('.chefConfirm').on('click', function () {
     var messageTarget = $(this).attr('data-host');
-    var message = "The chef has confirmed the event!";
+    var eventID = $(this).attr('data-id');
+    var link = '<a href="/events/'+ eventID + '">event</a>';
+    var message = "The chef has confirmed the " + link;
     sendMessage(messageTarget, message);
   });
 
   //add click listener to events cancel by chef
-  $('.chefCancel').on('click', function () {
+  $('.chefCancel').on('click', function (e) {
     var messageTarget = $(this).attr('data-host');
-    var message = "The chef has cancelled the event";
-    sendMessge(messageTarget, message);
-  })
+    var eventID = $(this).attr('data-id');
+    var link = '<a href="/events/'+ eventID + '">event</a>';
+    var message = "The chef has rejected your  " + link;
+    sendMessage(messageTarget, message);
+  });
 
 
   //calling getUserId to kick off the chain of functions
