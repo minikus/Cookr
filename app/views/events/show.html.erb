@@ -42,7 +42,7 @@
   <% if @current_user.id == @event.chef_id %>
       <% if @event.confirm === false %>
         <p class="eventCancelled">Event is Cancelled!</p>
-        <button type="button" id="eventConfirm" class="chefConfirm" data-id="<%= @event.id %>"> Confirm Event</button>
+        <button type="button" id="eventConfirm" class="chefConfirm" data-id="<%= @event.id %>" data-host="<%= @event.user_id %>"> Confirm Event</button>
       <% elsif @event.confirm === true %>
         <p class="eventConfirmed">Event is Confirmed!</p>
         <button type="button" id="eventCancel" class="chefCancel" data-id="<%= @event.id %>" data-host="<%= @event.user_id %>"> Cancel Event</button>
