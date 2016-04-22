@@ -205,7 +205,7 @@ $(document).ready(function () {
         $('#messages-display').append($newMessage);
       };
     });
-    $('.messageOnScreen:last').get(0).scrollIntoView();
+    $("#messages-display").scrollTop($('#messages-display')[0].scrollHeight);
   };
 
   var createMessageInput = function () {
