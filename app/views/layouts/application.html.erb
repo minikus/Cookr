@@ -28,7 +28,6 @@
             <ul class="nav navbar-nav navbar-left">
               <li><%= link_to "Chefs", chefs_path%></li>
               <li><%= link_to "Menus", menus_path%></li>
-              <li> <a href="#about">How it works?</a></li>
               <% if @current_user.present? %>
               <li><%= link_to "Events", events_path%></li>
               <li><%= link_to "Messages", messages_path, :class => 'message_link'%></li>
@@ -65,11 +64,11 @@
         </div>
 
         <div class="textFooter">
-          <p> <%= link_to "About Cookr", root_path %></p>
-          <p><a href="#about">How it works?</a><p>
-          <p>Terms & Privacy</p>
-          <p> <%= link_to "Chefs", chefs_path%></p>
-          <p> <%= link_to "Menus", menus_path%></p>
+          <p> <%= link_to "About Cookr", root_path %> </p>
+          <p> <%= link_to "How it works?", root_path %> <p>
+          <p> <%= link_to "All Chefs", chefs_path%> </p>
+          <p> <%= link_to "All Menus", menus_path%> </p>
+          <p> <%= link_to "Terms & Privacy", root_path %> </p>
       </div>
 
       </div>

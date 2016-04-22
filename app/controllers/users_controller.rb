@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :authoriseUser, only: [:edit, :update, :destroy]
+  before_action :authorise, only: [:index]
 
   def get_user
     if @current_user.present?
@@ -98,5 +100,13 @@ class UsersController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
       params.require(:user).permit(:first_name, :last_name, :password, :email, :chef, :phone, :image, :bio, :rate)
+    end
+
+    def authorise
+      redirect_to root_path unless @current_user.present? && @current_user.admin?
+    end
+
+    def authoriseUser
+      redirect_to root_path unless @current_user.present? && (@current_user.admin? || @current_user.id === @user.id)
     end
 end
