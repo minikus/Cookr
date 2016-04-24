@@ -20,18 +20,18 @@ class ReviewsController < ApplicationController
   end
 
   def create
-      @review = Review.create review_params
-      @review.update :user_id => params[:user_id]
-      # Who we're reviewing
-      @review.update :reviewer_id => @current_user.id
-   respond_to do |format|
-      if @review.save
-        format.html { render :review, :layout => false } #layout false will not render the entire layouts page, we onyl want the reviews here.
-        #format.json { render :show, status: :created, location: @review }
-      else
-        format.html { render :new }
-        format.json { render json: @review.errors, status: :unprocessable_entity }
-      end
+        @review = Review.create review_params
+        @review.update :user_id => params[:user_id]
+        # Who we're reviewing
+        @review.update :reviewer_id => @current_user.id
+     respond_to do |format|
+        if @review.save
+          format.html { render :review, :layout => false } #layout false will not render the entire layouts page, we onyl want the reviews here.
+          #format.json { render :show, status: :created, location: @review }
+        else
+          format.html { render :new }
+          format.json { render json: @review.errors, status: :unprocessable_entity }
+        end
   end
 
   end
