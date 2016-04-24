@@ -1,7 +1,6 @@
 $(document).ready(function (){
 
   var id = $("#eventConfirm").data("id");
-  console.log(id);
   var $confirmedText = $("<p></p>").text("Event is Confirmed!").addClass("eventConfirmed");
   var $cancelledText = $("<p></p>").text("Event is Cancelled!").addClass("eventCancelled");
   var $eventCancelButton = $("<button></button>").text("Cancel event").attr("id", "eventCancel");
