@@ -23,3 +23,25 @@ Inside the Messages function, users can direct message multiple users. Using aja
 
 
 > Ruby version 2.3.0
+
+
+Messageshow.js breakdown
+========================
+
+retrieve
+--------
+##getUserId:
+fires an ajax request to return the id of the current user
+##getAllUsers:
+fires an ajax request which returns the id, first_name and image url for all users, and then calls the getAllMessages function.
+##getAllMessages:
+fires an ajax request which returns all of the messages to or from the current user. It saves all the incoming messages as incomingMessages, and then calls checkUnreadMessages.
+
+filterMessages
+--------------
+##checkUnreadMessages:
+iterates through incomingMessages and puts the id of any unread messages in a variable unreadConvos. If there are unread messages it changes the messages link in the nav bar accordingly. It then calls checkIfRefresh.
+##checkIfRefresh:
+It checks to see if you are already looking at a conversation, and if not it will call getConversations. If you are looking at a conversation history it will check to see if the number of conversations has changed since the last time it checked, and if it has it will call getConversations and displayMessages for whoever the messageFocus is.
+##getConversations:
+This function goes through all of the messages relating to the current user, works out who the message counterpart is (ie, who a message is from or who a message was to). If the length of conversations has changed since 
